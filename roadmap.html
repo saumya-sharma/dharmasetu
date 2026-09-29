@@ -22,8 +22,9 @@
 
   <main id="main" class="form-page">
     <div class="form-inner">
+      <img class="form-hero-img" src="assets/roadmap-soft.jpg" width="1000" height="750" alt="" role="presentation">
       <h1 class="page-title">Personalised roadmap</h1>
-      <p class="lede" style="color: var(--ink-muted); margin-top: 0;">
+      <p class="lede" style="color: var(--muted); margin-top: 0;">
         Five questions about your situation. On submit, WhatsApp opens with
         your answers prefilled so we can draft a next-steps outline and
         discuss a verified priest referral.
@@ -91,9 +92,9 @@
           <textarea id="tradition_text" name="tradition_text" placeholder="e.g. Smarta, Shaiva, Vaishnava, specific community…"></textarea>
         </div>
 
-        <hr style="border:none;border-top:1px solid var(--border);margin:1.75rem 0;">
+        <hr style="border:none;border-top:1px solid var(--line);margin:1.75rem 0;">
 
-        <p style="font-size:0.95rem;color:var(--ink-muted);margin-top:0;">Optional — for follow-up</p>
+        <p style="font-size:0.95rem;color:var(--muted);margin-top:0;">Optional — for follow-up</p>
 
         <div class="form-group">
           <label for="contact_name">Your name <span class="optional-label">(optional)</span></label>
@@ -106,7 +107,7 @@
         </div>
 
         <button type="submit" class="btn" id="submit-btn">Send via WhatsApp</button>
-        <p id="form-status" role="status" aria-live="polite" style="margin-top:1rem;font-size:0.95rem;color:var(--ink-muted);"></p>
+        <p id="form-status" role="status" aria-live="polite" style="margin-top:1rem;font-size:0.95rem;color:var(--muted);"></p>
       </form>
     </div>
   </main>
@@ -114,11 +115,14 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <p><strong>DharmaSetu</strong> — guided Hindu ritual &amp; ancestral services.</p>
-      <p>Contact via WhatsApp after you configure the number in <code>config.js</code>.</p>
       <p class="footer-disclaimer">
         Practices vary by community and family. Guidance here is educational;
         confirm all rites with an appropriate priest. We make no claims about
         spiritual outcomes.
+      </p>
+      <p class="footer-credits">
+        Photography via <a href="https://unsplash.com" rel="noopener noreferrer" target="_blank">Unsplash</a>
+        — see <a href="assets/CREDITS.txt">asset credits</a>.
       </p>
     </div>
   </footer>
