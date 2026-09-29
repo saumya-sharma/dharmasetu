@@ -126,10 +126,9 @@
   <script src="config.js"></script>
   <script>
 (function () {
-  var PLACEHOLDER = "REPLACE_WITH_WHATSAPP";
   var cfg = window.DHARMASETU_CONFIG || {};
   var number = (cfg.WHATSAPP_E164 || "").toString().trim();
-  var unset = !number || number === PLACEHOLDER || !/^\d{8,15}$/.test(number);
+  var unset = !number || !/^\d{8,15}$/.test(number);
 
   var note = document.getElementById("whatsapp-unset-note");
   if (unset && note) note.hidden = false;
