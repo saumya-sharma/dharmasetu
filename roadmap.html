@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personalised roadmap — DharmaSetu</title>
+  <meta name="description" content="Answer five questions. We'll prepare a draft ritual roadmap and continue on WhatsApp.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">Dharma<span>Setu</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="guides/index.html">Guides</a>
+        <a href="roadmap.html" aria-current="page">Roadmap</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="form-page">
+    <div class="form-inner">
+      <h1 class="page-title">Personalised roadmap</h1>
+      <p class="lede" style="color: var(--ink-muted); margin-top: 0;">
+        Five questions about your situation. On submit, WhatsApp opens with
+        your answers prefilled so we can draft a next-steps outline and
+        discuss a verified priest referral.
+      </p>
+
+      <div class="note">
+        <strong>Reminder:</strong> Rituals vary by family and tradition.
+        Anything we outline must be confirmed with an appropriate priest.
+      </div>
+
+      <div id="whatsapp-unset-note" class="warn-banner" hidden role="status">
+        <strong>WhatsApp number not configured.</strong>
+        Set <code>WHATSAPP_E164</code> in <code>config.js</code> (digits only,
+        with country code) before this form can open a chat. You can still
+        fill the form; submit will show a clear message until the number is set.
+      </div>
+
+      <form id="roadmap-form" novalidate>
+        <div class="form-group">
+          <label id="q1-label">1. Who is this for?</label>
+          <div class="radio-group" role="group" aria-labelledby="q1-label">
+            <label><input type="radio" name="for_whom" value="Father" required> Father</label>
+            <label><input type="radio" name="for_whom" value="Mother"> Mother</label>
+            <label><input type="radio" name="for_whom" value="Grandparent"> Grandparent</label>
+            <label><input type="radio" name="for_whom" value="Spouse"> Spouse</label>
+            <label><input type="radio" name="for_whom" value="Other"> Other</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="passed_when">2. When did they pass away?</label>
+          <span class="hint">Date or approximate (e.g. March 2024, ~2 weeks ago)</span>
+          <input type="text" id="passed_when" name="passed_when" required autocomplete="off" placeholder="Date or approximate">
+        </div>
+
+        <div class="form-group">
+          <label for="where_now">3. Where are you now?</label>
+          <select id="where_now" name="where_now" required>
+            <option value="">Select…</option>
+            <option value="India city">India (city — specify below if you like)</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="UAE">UAE</option>
+            <option value="Australia">Australia</option>
+            <option value="Other">Other</option>
+          </select>
+          <span class="hint" style="margin-top:0.5rem;display:block;">Optional detail (city / country)</span>
+          <input type="text" id="where_now_detail" name="where_now_detail" autocomplete="address-level2" placeholder="e.g. Bengaluru, or California">
+        </div>
+
+        <div class="form-group">
+          <label for="family_from">4. Where was the person / family from?</label>
+          <span class="hint">State or region (e.g. Tamil Nadu, Gujarat, Mithila)</span>
+          <input type="text" id="family_from" name="family_from" required autocomplete="off" placeholder="State / region">
+        </div>
+
+        <div class="form-group">
+          <label id="q5-label">5. Do you know the family tradition / sampradaya?</label>
+          <div class="radio-group" role="group" aria-labelledby="q5-label" style="margin-bottom:0.75rem;">
+            <label><input type="radio" name="tradition_known" value="known" required> Known — I'll describe it</label>
+            <label><input type="radio" name="tradition_known" value="dont_know"> Don't know</label>
+          </div>
+          <label for="tradition_text" class="optional-label">If known, briefly describe</label>
+          <textarea id="tradition_text" name="tradition_text" placeholder="e.g. Smarta, Shaiva, Vaishnava, specific community…"></textarea>
+        </div>
+
+        <hr style="border:none;border-top:1px solid var(--border);margin:1.75rem 0;">
+
+        <p style="font-size:0.95rem;color:var(--ink-muted);margin-top:0;">Optional — for follow-up</p>
+
+        <div class="form-group">
+          <label for="contact_name">Your name <span class="optional-label">(optional)</span></label>
+          <input type="text" id="contact_name" name="contact_name" autocomplete="name">
+        </div>
+
+        <div class="form-group">
+          <label for="contact_phone">Phone <span class="optional-label">(optional)</span></label>
+          <input type="tel" id="contact_phone" name="contact_phone" autocomplete="tel" placeholder="With country code if possible">
+        </div>
+
+        <button type="submit" class="btn" id="submit-btn">Send via WhatsApp</button>
+        <p id="form-status" role="status" aria-live="polite" style="margin-top:1rem;font-size:0.95rem;color:var(--ink-muted);"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>DharmaSetu</strong> — guided Hindu ritual &amp; ancestral services.</p>
+      <p>Contact via WhatsApp after you configure the number in <code>config.js</code>.</p>
+      <p class="footer-disclaimer">
+        Practices vary by community and family. Guidance here is educational;
+        confirm all rites with an appropriate priest. We make no claims about
+        spiritual outcomes.
+      </p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script>
+(function () {
+  var PLACEHOLDER = "REPLACE_WITH_WHATSAPP";
+  var cfg = window.DHARMASETU_CONFIG || {};
+  var number = (cfg.WHATSAPP_E164 || "").toString().trim();
+  var unset = !number || number === PLACEHOLDER || !/^\d{8,15}$/.test(number);
+
+  var note = document.getElementById("whatsapp-unset-note");
+  if (unset && note) note.hidden = false;
+
+  var form = document.getElementById("roadmap-form");
+  var statusEl = document.getElementById("form-status");
+
+  function val(name) {
+    var el = form.elements.namedItem(name);
+    if (!el) return "";
+    if (el.length && el[0] && el[0].type === "radio") {
+      for (var i = 0; i < el.length; i++) if (el[i].checked) return el[i].value;
+      return "";
+    }
+    return (el.value || "").trim();
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    statusEl.textContent = "";
+
+    if (!form.reportValidity()) return;
+
+    var forWhom = val("for_whom");
+    var passed = val("passed_when");
+    var where = val("where_now");
+    var whereDetail = val("where_now_detail");
+    var familyFrom = val("family_from");
+    var tradKnown = val("tradition_known");
+    var tradText = val("tradition_text");
+    var name = val("contact_name");
+    var phone = val("contact_phone");
+
+    var traditionLine =
+      tradKnown === "dont_know"
+        ? "Don't know"
+        : (tradText || "(known — details not provided)");
+
+    var lines = [
+      "DharmaSetu roadmap request",
+      "",
+      "1. Who is this for? " + forWhom,
+      "2. When did they pass away? " + passed,
+      "3. Where are you now? " + where + (whereDetail ? " (" + whereDetail + ")" : ""),
+      "4. Where was the person / family from? " + familyFrom,
+      "5. Family tradition / sampradaya? " + traditionLine
+    ];
+    if (name) lines.push("Name: " + name);
+    if (phone) lines.push("Phone: " + phone);
+    lines.push("", "Please help with a draft roadmap and priest referral.");
+
+    var text = lines.join("\n");
+
+    if (unset) {
+      statusEl.textContent =
+        "WhatsApp number is not set yet. Update WHATSAPP_E164 in config.js (digits only, country code), then try again. Your answers were: " +
+        forWhom + "; " + passed + "; " + where + "; " + familyFrom + "; " + traditionLine + ".";
+      return;
+    }
+
+    var url = "https://wa.me/" + number + "?text=" + encodeURIComponent(text);
+    window.open(url, "_blank", "noopener,noreferrer");
+    statusEl.textContent = "Opening WhatsApp with your answers…";
+  });
+})();
+  </script>
+</body>
+</html>
