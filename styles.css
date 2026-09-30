@@ -62,24 +62,33 @@ body.page-depth::before {
   background-repeat: repeat;
   background-size: 180px 180px;
 }
-body.page-depth > * {
+/* Keep page chrome in a stacking context above fixed decor */
+body.page-depth > *:not(.page-watermark) {
   position: relative;
   z-index: 1;
 }
-.page-watermark {
+/* Barely-there mandala texture — must stay fixed/out of flow.
+   (body.page-depth > * used to override position:fixed and push a giant
+   motif above the nav.) Never compete with the sticky header. */
+body.page-depth > .page-watermark {
   position: fixed;
-  inset: 0;
+  inset: auto;
+  top: 30vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
   pointer-events: none;
   z-index: 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  opacity: 0.035;
+  padding-top: 8vh;
+  opacity: 0.06;
 }
-.page-watermark img {
-  width: min(72vw, 640px);
+body.page-depth > .page-watermark img {
+  width: min(36vw, 280px);
   height: auto;
-  filter: sepia(0.35);
+  filter: sepia(0.3);
 }
 
 img {
@@ -119,6 +128,9 @@ a:focus-visible {
   position: sticky;
   top: 0;
   z-index: 50;
+}
+body.page-depth > .site-header {
+  z-index: 50; /* beat body.page-depth > *:not(.page-watermark) */
 }
 
 .header-inner {
