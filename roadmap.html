@@ -20,20 +20,19 @@
     </div>
   </header>
 
-  <main id="main" class="form-page">
-    <div class="form-inner">
-      <img class="form-hero-img" src="assets/roadmap-soft.jpg" width="1000" height="750" alt="" role="presentation">
-      <h1 class="page-title">Heritage roadmap</h1>
-      <p class="lede" style="color: var(--muted); margin-top: 0;">
-        Four quiet steps: say what you need → for whom &amp; from where →
-        continue on WhatsApp → priest confirmation.
-        On submit, WhatsApp opens with your answers so we can draft an outline.
-      </p>
-      <p style="font-size:0.9rem;color:var(--muted);margin-top:-0.5rem;">
-        Prefer the picture first? See the <a href="index.html#roadmap-visual">visual roadmap on the homepage</a>.
-      </p>
+  <main id="main" class="form-page wizard-page">
+    <div class="form-inner wizard-inner">
+      <div class="wizard-hero">
+        <img class="form-hero-img" src="assets/roadmap-soft.jpg" width="1000" height="750" alt="" role="presentation">
+        <p class="wizard-eyebrow">Heritage roadmap · वार्षिक सेवा</p>
+        <h1 class="page-title">Begin with one quiet question</h1>
+        <p class="wizard-lede">
+          A short thread of answers — need, for whom, region, gotra if known, where you are.
+          Then WhatsApp opens with a draft so we can outline next steps with a priest.
+        </p>
+      </div>
 
-      <div class="note">
+      <div class="note wizard-note">
         <strong>Reminder:</strong> Practices vary by family and tradition.
         Anything we outline must be confirmed with an appropriate priest.
       </div>
@@ -44,82 +43,155 @@
         with country code) before this form can open a chat.
       </div>
 
-      <form id="roadmap-form" novalidate>
-        <div class="form-group">
-          <label id="q1-label">1. What do you need?</label>
-          <span class="hint">Choose the closest fit — we can refine on WhatsApp</span>
-          <div class="radio-group" role="group" aria-labelledby="q1-label">
-            <label><input type="radio" name="need" value="Annual Shraddha" required> Annual Shraddha</label>
-            <label><input type="radio" name="need" value="Pitra Paksha"> Pitra Paksha</label>
-            <label><input type="radio" name="need" value="Pind Daan / yatra"> Pind Daan – yatra</label>
-            <label><input type="radio" name="need" value="Record gotra & lineage"> Record gotra &amp; lineage</label>
-            <label><input type="radio" name="need" value="Family story & reminders"> Family story &amp; reminders</label>
-            <label><input type="radio" name="need" value="Other"> Other</label>
+      <div class="wizard-progress" role="group" aria-label="Roadmap progress">
+        <div class="sutra-track" aria-hidden="true">
+          <svg class="sutra-progress-svg" viewBox="0 0 320 28" fill="none" preserveAspectRatio="none">
+            <path class="sutra-base" d="M12 14 C52 4, 76 24, 112 14 S176 4, 208 14 S264 24, 308 14"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path class="sutra-fill" d="M12 14 C52 4, 76 24, 112 14 S176 4, 208 14 S264 24, 308 14"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                  pathLength="100"/>
+          </svg>
+          <ol class="sutra-beads">
+            <li class="sutra-bead is-active" data-bead="0" title="Need"><span></span></li>
+            <li class="sutra-bead" data-bead="1" title="For whom"><span></span></li>
+            <li class="sutra-bead" data-bead="2" title="Region"><span></span></li>
+            <li class="sutra-bead" data-bead="3" title="Gotra"><span></span></li>
+            <li class="sutra-bead" data-bead="4" title="Based"><span></span></li>
+            <li class="sutra-bead" data-bead="5" title="Continue"><span></span></li>
+          </ol>
+        </div>
+        <p class="wizard-step-label" id="wizard-step-label">Step 1 of 6 · What you need</p>
+      </div>
+
+      <form id="roadmap-form" class="wizard-form" novalidate>
+        <section class="wizard-step is-active" data-step="0" aria-labelledby="q-need">
+          <h2 id="q-need" class="wizard-q">What do you need?</h2>
+          <p class="wizard-hint">Choose the closest fit — we can refine on WhatsApp.</p>
+          <div class="chip-grid" role="radiogroup" aria-labelledby="q-need">
+            <label class="chip">
+              <input type="radio" name="need" value="Annual Shraddha" required>
+              <span class="chip-face"><span class="chip-text"><span class="chip-title">Annual Śrāddha</span><span class="chip-sub">Yearly remembrance</span></span></span>
+            </label>
+            <label class="chip">
+              <input type="radio" name="need" value="Pitra Paksha">
+              <span class="chip-face"><span class="chip-text"><span class="chip-title">Pitṛ Pakṣa</span><span class="chip-sub">Fortnight of the ancestors</span></span></span>
+            </label>
+            <label class="chip">
+              <input type="radio" name="need" value="Pind Daan / yatra">
+              <span class="chip-face"><span class="chip-text"><span class="chip-title">Pind Daan · yātrā</span><span class="chip-sub">Pilgrimage rites</span></span></span>
+            </label>
+            <label class="chip">
+              <input type="radio" name="need" value="Record gotra & lineage">
+              <span class="chip-face"><span class="chip-text"><span class="chip-title">Gotra &amp; lineage</span><span class="chip-sub">Record what the house knows</span></span></span>
+            </label>
+            <label class="chip">
+              <input type="radio" name="need" value="Family story & reminders">
+              <span class="chip-face"><span class="chip-text"><span class="chip-title">Family story</span><span class="chip-sub">Reminders &amp; memory</span></span></span>
+            </label>
+            <label class="chip">
+              <input type="radio" name="need" value="Other">
+              <span class="chip-face"><span class="chip-text"><span class="chip-title">Other</span><span class="chip-sub">Something else</span></span></span>
+            </label>
           </div>
-        </div>
+        </section>
 
-        <div class="form-group">
-          <label id="q2-label">2. For whom? (ancestor relation)</label>
-          <span class="hint">Whose memory or lineage this care is for</span>
-          <div class="radio-group radio-wrap" role="group" aria-labelledby="q2-label">
-            <label><input type="radio" name="for_whom" value="Father" required> Father</label>
-            <label><input type="radio" name="for_whom" value="Mother"> Mother</label>
-            <label><input type="radio" name="for_whom" value="Grandparent"> Grandparent</label>
-            <label><input type="radio" name="for_whom" value="Both parents"> Both parents</label>
-            <label><input type="radio" name="for_whom" value="Multiple ancestors"> Multiple ancestors</label>
-            <label><input type="radio" name="for_whom" value="Other / family line"> Other / family line</label>
+        <section class="wizard-step" data-step="1" hidden aria-labelledby="q-whom">
+          <h2 id="q-whom" class="wizard-q">For whom?</h2>
+          <p class="wizard-hint">Whose memory or lineage this care is for.</p>
+          <div class="chip-grid chip-grid-compact" role="radiogroup" aria-labelledby="q-whom">
+            <label class="chip chip-compact"><input type="radio" name="for_whom" value="Father" required><span class="chip-face"><span class="chip-text"><span class="chip-title">Father</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="for_whom" value="Mother"><span class="chip-face"><span class="chip-text"><span class="chip-title">Mother</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="for_whom" value="Grandparent"><span class="chip-face"><span class="chip-text"><span class="chip-title">Grandparent</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="for_whom" value="Both parents"><span class="chip-face"><span class="chip-text"><span class="chip-title">Both parents</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="for_whom" value="Multiple ancestors"><span class="chip-face"><span class="chip-text"><span class="chip-title">Multiple ancestors</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="for_whom" value="Other / family line"><span class="chip-face"><span class="chip-text"><span class="chip-title">Other / family line</span></span></span></label>
           </div>
-        </div>
+        </section>
 
-        <div class="form-group">
-          <label for="family_region">3. Family region / state</label>
-          <span class="hint">Where the family’s custom is rooted (e.g. Tamil Nadu, Gujarat, Mithila)</span>
-          <input type="text" id="family_region" name="family_region" required autocomplete="off" placeholder="State / region">
-        </div>
-
-        <div class="form-group">
-          <label id="q4-label">4. Gotra or sampradaya?</label>
-          <div class="radio-group radio-wrap" role="group" aria-labelledby="q4-label" style="margin-bottom:0.75rem;">
-            <label><input type="radio" name="gotra_known" value="known" required> Known — I’ll describe it</label>
-            <label><input type="radio" name="gotra_known" value="dont_know"> Don’t know</label>
+        <section class="wizard-step" data-step="2" hidden aria-labelledby="q-region">
+          <h2 id="q-region" class="wizard-q">Family region / state</h2>
+          <p class="wizard-hint">Where the family’s custom is rooted — tap a suggestion or type your own.</p>
+          <div class="chip-grid chip-grid-compact region-suggest" role="group" aria-label="Common regions">
+            <button type="button" class="chip-btn" data-region="Tamil Nadu">Tamil Nadu</button>
+            <button type="button" class="chip-btn" data-region="Karnataka">Karnataka</button>
+            <button type="button" class="chip-btn" data-region="Maharashtra">Maharashtra</button>
+            <button type="button" class="chip-btn" data-region="Gujarat">Gujarat</button>
+            <button type="button" class="chip-btn" data-region="Rajasthan">Rajasthan</button>
+            <button type="button" class="chip-btn" data-region="Punjab">Punjab</button>
+            <button type="button" class="chip-btn" data-region="Uttar Pradesh">Uttar Pradesh</button>
+            <button type="button" class="chip-btn" data-region="Bihar / Mithila">Bihar / Mithila</button>
+            <button type="button" class="chip-btn" data-region="West Bengal">West Bengal</button>
+            <button type="button" class="chip-btn" data-region="Kerala">Kerala</button>
+            <button type="button" class="chip-btn" data-region="Andhra / Telangana">Andhra / Telangana</button>
+            <button type="button" class="chip-btn" data-region="Odisha">Odisha</button>
           </div>
-          <label for="gotra_text" class="optional-label">If known, briefly note gotra / sampradaya / community</label>
-          <textarea id="gotra_text" name="gotra_text" placeholder="e.g. Bharadwaj gotra; Smarta; Iyer; specific community…"></textarea>
+          <div class="form-group wizard-field">
+            <label for="family_region" class="sr-only">Family region or state</label>
+            <input type="text" id="family_region" name="family_region" required autocomplete="off"
+                   placeholder="State / region (e.g. Tamil Nadu, Mithila)">
+          </div>
+        </section>
+
+        <section class="wizard-step" data-step="3" hidden aria-labelledby="q-gotra">
+          <h2 id="q-gotra" class="wizard-q">Gotra or sampradaya?</h2>
+          <p class="wizard-hint">Known is enough to start; “don’t know” is fine too.</p>
+          <div class="chip-grid chip-grid-compact" role="radiogroup" aria-labelledby="q-gotra">
+            <label class="chip chip-compact"><input type="radio" name="gotra_known" value="known" required><span class="chip-face"><span class="chip-text"><span class="chip-title">Known — I’ll describe it</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="gotra_known" value="dont_know"><span class="chip-face"><span class="chip-text"><span class="chip-title">Don’t know</span></span></span></label>
+          </div>
+          <div class="form-group wizard-field" id="gotra-detail-wrap" hidden>
+            <label for="gotra_text">Briefly note gotra / sampradaya / community</label>
+            <textarea id="gotra_text" name="gotra_text" rows="3"
+                      placeholder="e.g. Bharadwaj gotra; Smarta; Iyer; specific community…"></textarea>
+          </div>
+        </section>
+
+        <section class="wizard-step" data-step="4" hidden aria-labelledby="q-based">
+          <h2 id="q-based" class="wizard-q">Where are you based?</h2>
+          <p class="wizard-hint">Helps us match timing, priests, and practical next steps.</p>
+          <div class="chip-grid chip-grid-compact" role="radiogroup" aria-labelledby="q-based">
+            <label class="chip chip-compact"><input type="radio" name="where_based" value="India" required><span class="chip-face"><span class="chip-text"><span class="chip-title">India</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="where_based" value="USA"><span class="chip-face"><span class="chip-text"><span class="chip-title">USA</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="where_based" value="UK"><span class="chip-face"><span class="chip-text"><span class="chip-title">UK</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="where_based" value="Canada"><span class="chip-face"><span class="chip-text"><span class="chip-title">Canada</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="where_based" value="UAE"><span class="chip-face"><span class="chip-text"><span class="chip-title">UAE</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="where_based" value="Australia"><span class="chip-face"><span class="chip-text"><span class="chip-title">Australia</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="where_based" value="Singapore"><span class="chip-face"><span class="chip-text"><span class="chip-title">Singapore</span></span></span></label>
+            <label class="chip chip-compact"><input type="radio" name="where_based" value="Other"><span class="chip-face"><span class="chip-text"><span class="chip-title">Other</span></span></span></label>
+          </div>
+          <div class="form-group wizard-field">
+            <label for="where_detail">City / area <span class="optional-label">(optional)</span></label>
+            <input type="text" id="where_detail" name="where_detail" autocomplete="address-level2"
+                   placeholder="e.g. Bengaluru, or New Jersey">
+          </div>
+        </section>
+
+        <section class="wizard-step" data-step="5" hidden aria-labelledby="q-continue">
+          <h2 id="q-continue" class="wizard-q">Continue on WhatsApp</h2>
+          <p class="wizard-hint">Optional name and phone help us follow up. Your answers travel with the chat.</p>
+          <div class="wizard-summary" id="wizard-summary" aria-live="polite"></div>
+          <div class="form-group wizard-field">
+            <label for="contact_name">Your name <span class="optional-label">(optional)</span></label>
+            <input type="text" id="contact_name" name="contact_name" autocomplete="name">
+          </div>
+          <div class="form-group wizard-field">
+            <label for="contact_phone">Phone <span class="optional-label">(optional)</span></label>
+            <input type="tel" id="contact_phone" name="contact_phone" autocomplete="tel"
+                   placeholder="With country code if possible">
+          </div>
+        </section>
+
+        <div class="wizard-nav">
+          <button type="button" class="btn btn-secondary wizard-back" id="wizard-back" hidden>Back</button>
+          <button type="button" class="btn wizard-next" id="wizard-next">Continue</button>
+          <button type="submit" class="btn wizard-submit" id="submit-btn" hidden>Open WhatsApp</button>
         </div>
-
-        <div class="form-group">
-          <label for="where_based">5. Where are you based?</label>
-          <select id="where_based" name="where_based" required>
-            <option value="">Select…</option>
-            <option value="India">India</option>
-            <option value="USA">USA</option>
-            <option value="UK">UK</option>
-            <option value="Canada">Canada</option>
-            <option value="UAE">UAE</option>
-            <option value="Australia">Australia</option>
-            <option value="Singapore">Singapore</option>
-            <option value="Other">Other</option>
-          </select>
-          <span class="hint" style="margin-top:0.55rem;display:block;">Optional detail (city / area)</span>
-          <input type="text" id="where_detail" name="where_detail" autocomplete="address-level2" placeholder="e.g. Bengaluru, or New Jersey">
-        </div>
-
-        <hr class="form-divider">
-
-        <p style="font-size:0.95rem;color:var(--muted);margin-top:0;">Optional — for follow-up</p>
-
-        <div class="form-group">
-          <label for="contact_name">Your name <span class="optional-label">(optional)</span></label>
-          <input type="text" id="contact_name" name="contact_name" autocomplete="name">
-        </div>
-
-        <div class="form-group">
-          <label for="contact_phone">Phone <span class="optional-label">(optional)</span></label>
-          <input type="tel" id="contact_phone" name="contact_phone" autocomplete="tel" placeholder="With country code if possible">
-        </div>
-
-        <button type="submit" class="btn" id="submit-btn">Continue on WhatsApp</button>
-        <p id="form-status" role="status" aria-live="polite" style="margin-top:1rem;font-size:0.95rem;color:var(--muted);"></p>
+        <p id="form-status" class="wizard-status" role="status" aria-live="polite"></p>
+        <p class="wizard-home-link">
+          Prefer the picture first? See the
+          <a href="index.html#roadmap-visual">visual roadmap on the homepage</a>.
+        </p>
       </form>
     </div>
   </main>
@@ -151,22 +223,195 @@
 
   var form = document.getElementById("roadmap-form");
   var statusEl = document.getElementById("form-status");
+  var steps = Array.prototype.slice.call(form.querySelectorAll(".wizard-step"));
+  var beads = Array.prototype.slice.call(document.querySelectorAll(".sutra-bead"));
+  var fill = document.querySelector(".sutra-fill");
+  var stepLabel = document.getElementById("wizard-step-label");
+  var btnBack = document.getElementById("wizard-back");
+  var btnNext = document.getElementById("wizard-next");
+  var btnSubmit = document.getElementById("submit-btn");
+  var gotraWrap = document.getElementById("gotra-detail-wrap");
+  var summaryEl = document.getElementById("wizard-summary");
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  var STEP_META = [
+    "What you need",
+    "For whom",
+    "Family region",
+    "Gotra",
+    "Where based",
+    "Continue on WhatsApp"
+  ];
+  var total = steps.length;
+  var current = 0;
 
   function val(name) {
     var el = form.elements.namedItem(name);
     if (!el) return "";
-    if (el.length && el[0] && el[0].type === "radio") {
+    if (typeof el.length === "number" && el[0] && el[0].type === "radio") {
       for (var i = 0; i < el.length; i++) if (el[i].checked) return el[i].value;
       return "";
     }
     return (el.value || "").trim();
   }
 
+  function setProgress(i) {
+    var pct = total <= 1 ? 100 : (i / (total - 1)) * 100;
+    if (fill) {
+      fill.style.strokeDasharray = "100";
+      fill.style.strokeDashoffset = String(100 - pct);
+    }
+    beads.forEach(function (b, idx) {
+      b.classList.toggle("is-done", idx < i);
+      b.classList.toggle("is-active", idx === i);
+    });
+    if (stepLabel) {
+      stepLabel.textContent = "Step " + (i + 1) + " of " + total + " · " + STEP_META[i];
+    }
+  }
+
+  function showStep(i) {
+    current = Math.max(0, Math.min(total - 1, i));
+    steps.forEach(function (s, idx) {
+      var on = idx === current;
+      s.hidden = !on;
+      s.classList.toggle("is-active", on);
+    });
+    btnBack.hidden = current === 0;
+    btnNext.hidden = current === total - 1;
+    btnSubmit.hidden = current !== total - 1;
+    setProgress(current);
+    if (current === total - 1) renderSummary();
+    if (!reduce) {
+      var q = steps[current].querySelector(".wizard-q");
+      if (q) {
+        try { q.focus({ preventScroll: true }); } catch (e) {}
+      }
+      steps[current].scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }
+
+  function validateStep(i) {
+    statusEl.textContent = "";
+    if (i === 0 && !val("need")) {
+      statusEl.textContent = "Please choose what you need.";
+      return false;
+    }
+    if (i === 1 && !val("for_whom")) {
+      statusEl.textContent = "Please say for whom this care is.";
+      return false;
+    }
+    if (i === 2) {
+      if (!val("family_region")) {
+        statusEl.textContent = "Please enter a family region or state.";
+        document.getElementById("family_region").focus();
+        return false;
+      }
+    }
+    if (i === 3 && !val("gotra_known")) {
+      statusEl.textContent = "Please choose whether gotra is known.";
+      return false;
+    }
+    if (i === 4 && !val("where_based")) {
+      statusEl.textContent = "Please choose where you are based.";
+      return false;
+    }
+    return true;
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function renderSummary() {
+    var gotraKnown = val("gotra_known");
+    var gotraText = val("gotra_text");
+    var gotraLine =
+      gotraKnown === "dont_know"
+        ? "Don't know"
+        : (gotraText || "Known — details on WhatsApp");
+    var where = val("where_based");
+    var whereDetail = val("where_detail");
+    var rows = [
+      ["Need", val("need")],
+      ["For whom", val("for_whom")],
+      ["Region", val("family_region")],
+      ["Gotra", gotraLine],
+      ["Based", where + (whereDetail ? " · " + whereDetail : "")]
+    ];
+    summaryEl.innerHTML =
+      '<p class="summary-label">Your thread so far</p><ul class="summary-list">' +
+      rows
+        .map(function (r) {
+          return "<li><strong>" + r[0] + "</strong> " + escapeHtml(r[1] || "—") + "</li>";
+        })
+        .join("") +
+      "</ul>";
+  }
+
+  form.addEventListener("change", function (e) {
+    var t = e.target;
+    if (!t || t.type !== "radio") return;
+
+    if (t.name === "gotra_known") {
+      var known = t.value === "known";
+      gotraWrap.hidden = !known;
+      if (!known) document.getElementById("gotra_text").value = "";
+    }
+
+    var chipOnly = { need: 0, for_whom: 1, where_based: 4 };
+    if (Object.prototype.hasOwnProperty.call(chipOnly, t.name) && current === chipOnly[t.name]) {
+      window.setTimeout(function () {
+        if (current === chipOnly[t.name] && validateStep(current)) showStep(current + 1);
+      }, reduce ? 0 : 220);
+    }
+    if (t.name === "gotra_known" && t.value === "dont_know" && current === 3) {
+      window.setTimeout(function () {
+        if (current === 3 && validateStep(3)) showStep(4);
+      }, reduce ? 0 : 220);
+    }
+  });
+
+  form.querySelectorAll(".chip-btn[data-region]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var input = document.getElementById("family_region");
+      input.value = btn.getAttribute("data-region") || "";
+      form.querySelectorAll(".chip-btn[data-region]").forEach(function (b) {
+        b.classList.toggle("is-selected", b === btn);
+      });
+      input.focus();
+    });
+  });
+
+  btnNext.addEventListener("click", function () {
+    if (!validateStep(current)) return;
+    showStep(current + 1);
+  });
+
+  btnBack.addEventListener("click", function () {
+    statusEl.textContent = "";
+    showStep(current - 1);
+  });
+
+  steps.forEach(function (s) {
+    var q = s.querySelector(".wizard-q");
+    if (q) q.setAttribute("tabindex", "-1");
+  });
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     statusEl.textContent = "";
 
-    if (!form.reportValidity()) return;
+    for (var i = 0; i < total - 1; i++) {
+      if (!validateStep(i)) {
+        showStep(i);
+        return;
+      }
+    }
 
     var need = val("need");
     var forWhom = val("for_whom");
@@ -208,6 +453,12 @@
     window.open(url, "_blank", "noopener,noreferrer");
     statusEl.textContent = "Opening WhatsApp with your answers…";
   });
+
+  if (fill) {
+    fill.style.strokeDasharray = "100";
+    fill.style.strokeDashoffset = "100";
+  }
+  showStep(0);
 })();
   </script>
 </body>
