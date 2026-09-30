@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 48" fill="none" aria-hidden="true">
+  <path class="sutra-path" d="M8 24 C48 8, 72 40, 112 24 S176 8, 208 24 S272 40, 312 24"
+        stroke="#a85f24" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="8" cy="24" r="3" fill="#c9a06a"/>
+  <circle cx="112" cy="24" r="2.5" fill="#c9a06a"/>
+  <circle cx="208" cy="24" r="2.5" fill="#c9a06a"/>
+  <circle cx="312" cy="24" r="3" fill="#a85f24"/>
+</svg>

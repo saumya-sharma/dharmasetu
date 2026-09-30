@@ -1,45 +1,62 @@
-Photography credits (Unsplash License unless noted — free to use; attribution appreciated)
+Photography credits (Unsplash License — free to use; attribution appreciated)
+Custom motifs: yantra / sutra / mandala / bridge line art (DharmaSetu, original SVG)
 
-hero-diya.jpg / hero-diya-sm.jpg
-  Anjana Nair — https://unsplash.com/photos/XmInJnbzCOU
-  Lit brass diya with soft shrine light
+hero-continuity.jpg
+  Unsplash — photo-1548013146-72479768bada
+  Temple stone corridor / carved architecture (continuity mood)
 
-strip-diya.jpg
-  gurpreet singh — https://unsplash.com/photos/h09EOC09V4Q
-  Terracotta oil lamps with soft bokeh (Amritsar)
+continuity-detail.jpg
+  Unsplash — photo-1605649487212-47bdab064df7
+  Temple stone carving detail
 
-accent-diya.jpg
-  Unsplash — https://unsplash.com/photos/xpbtYpwKaUo
-  Row of lit diyas
+drift-records.jpg
+  Unsplash — photo-1457369804613-52c61a468e7d
+  Old manuscript / fragmented records mood
+
+persona-nj.jpg
+  Unsplash — photo-1560518883-ce09059eeffa
+  Quiet suburban house (New Jersey / diaspora mood)
+
+persona-delhi.jpg
+  Unsplash — photo-1570168007204-dfb528c6958f
+  Soft Indian city street light (Delhi mood)
+
+persona-blr.jpg
+  Unsplash — photo-1441974231531-c6227db76b6e
+  Tree canopy / green light (Bengaluru garden-city mood)
+
+persona-kashi.jpg
+  Unsplash — photo-1768121170062-1e278c905277 (Swati Kedia)
+  Dawn on the Ganga, Varanasi / Banaras
+
+kashi-mood.jpg / kashi-ghat.jpg
+  Unsplash — photo-1561359313-0639aad49ca6 / photo-1768123668769
+  Quiet Varanasi ghat / river mood
+
+marigold-soft.jpg
+  Unsplash — photo-1578662996442-48f60103fc96
+  Soft marigold / offering colour (accent)
+
+diaspora-desk.jpg
+  Unsplash — photo-1486312338219-ce68d2c6f44d
+  Quiet desk / remote continuity
 
 then-courtyard.jpg / ghat-soft.jpg
-  Unsplash — https://unsplash.com/photos/tZCrFpSNiIQ (photo-1506461883276)
-  Quiet Kerala backwaters — traditional boat and houseboat
+  Unsplash — photo-1506461883276 (tZCrFpSNiIQ)
+  Quiet Kerala backwaters
 
 now-home.jpg
   Unsplash — photo-1600210492486
-  Calm modern living room with family photograph wall
-
-persona-nri.jpg
-  Unsplash — photo-1616486338812
-  Soft contemporary living room (diaspora / city life)
-
-persona-offer.jpg
-  Unsplash — https://unsplash.com/photos/i2hoD-C2RUA
-  Hands holding a flower offering
-
-persona-urban.jpg
-  Unsplash — photo-1493809842364
-  Soft interior light by a city window
+  Calm modern living room with photograph wall
 
 guides-teaser.jpg
   Unsplash — photo-1481627834876
   Books / quiet reading
 
-roadmap-soft.jpg / writing desk imagery
+roadmap-soft.jpg
   Unsplash — photo-1455390582262
   Paper and writing desk
 
-pilgrimage-soft.jpg
-  Unsplash — photo-1590050752117
-  Boat bow on a quiet tropical waterway at golden hour
+Legacy diya assets (hero-diya*, strip-diya, accent-diya, persona-offer) retained in
+assets/ but no longer featured on the homepage — replaced by temple stone, place
+moods, and custom SVG motifs per founder feedback.

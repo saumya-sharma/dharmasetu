@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DharmaSetu — Heritage care for gotra, lineage &amp; annual observances</title>
-  <meta name="description" content="Premium annual care for Hindu family heritage: record gotra and lineage, keep Shraddha and Pitra Paksha, plan Pind Daan yatra, and preserve family stories. Practices vary.">
+  <meta name="description" content="Premium annual care for Hindu family heritage: record gotra and lineage, keep Śrāddha and Pitṛ Pakṣa, plan yātrā, and preserve family stories. Practices vary.">
   <link rel="stylesheet" href="styles.css">
-  <link rel="preload" as="image" href="assets/hero-diya-sm.jpg" imagesrcset="assets/hero-diya-sm.jpg 800w, assets/hero-diya.jpg 1400w" imagesizes="(max-width: 799px) 100vw, 50vw">
+  <link rel="preload" as="image" href="assets/hero-continuity.jpg">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -21,241 +21,356 @@
     </div>
   </header>
 
+  <!-- Decorative motif defs for tiles -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+    <symbol id="ic-gotra" viewBox="0 0 40 40"><circle cx="20" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 32 C8 24, 32 24, 32 32" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M20 17 V28" stroke="currentColor" stroke-width="1.2"/></symbol>
+    <symbol id="ic-pitr" viewBox="0 0 40 40"><path d="M20 6 L20 28" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M12 14 H28" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="20" cy="33" r="3" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+    <symbol id="ic-shraddha" viewBox="0 0 40 40"><path d="M20 8 C14 16, 12 22, 12 26 C12 31, 15.5 34, 20 34 C24.5 34, 28 31, 28 26 C28 22, 26 16, 20 8 Z" fill="none" stroke="currentColor" stroke-width="1.4"/></symbol>
+    <symbol id="ic-yatra" viewBox="0 0 40 40"><path d="M8 28 C14 18, 26 18, 32 28" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M8 28 H32" stroke="currentColor" stroke-width="1.2"/><circle cx="20" cy="14" r="4" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+    <symbol id="ic-vamsa" viewBox="0 0 40 40"><path d="M20 6 V34 M20 14 L10 26 M20 14 L30 26" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="ic-nri" viewBox="0 0 40 40"><circle cx="20" cy="20" r="14" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M6 20 H34 M20 6 C26 12, 26 28, 20 34 C14 28, 14 12, 20 6 Z" fill="none" stroke="currentColor" stroke-width="1.2"/></symbol>
+  </svg>
+
   <main id="main">
-    <!-- 1. Hero — continuity -->
-    <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <p class="hero-eyebrow">Heritage care · वार्षिक सेवा</p>
-          <h1 id="hero-heading">Keep the thread<br>between generations.</h1>
-          <p class="tagline">
-            DharmaSetu helps families hold <em>gotra</em>, lineage, and the stories
-            elders carried — and plan annual care for <em>pitṛ</em>: Shraddha,
-            Pitra Paksha, and remembrance yatra — with a priest who knows
-            <em>your</em> tradition. Practices vary by family.
+    <!-- ABOVE FOLD — sparse: motif + short line -->
+    <section class="hero hero-story" aria-labelledby="hero-heading">
+      <div class="hero-story-inner">
+        <div class="hero-motif" aria-hidden="true">
+          <svg class="yantra-draw" viewBox="0 0 200 200" fill="none">
+            <g stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+              <circle class="yd yd1" cx="100" cy="100" r="88"/>
+              <circle class="yd yd2" cx="100" cy="100" r="68"/>
+              <path class="yd yd3" d="M100 28 L152 148 L48 148 Z"/>
+              <path class="yd yd4" d="M100 172 L48 52 L152 52 Z"/>
+              <circle class="yd yd5" cx="100" cy="100" r="28"/>
+              <path class="yd yd6" d="M36 100 H164 M100 36 V164"/>
+            </g>
+            <circle cx="100" cy="100" r="3.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <p class="hero-eyebrow">Heritage care · वार्षिक सेवा</p>
+        <h1 id="hero-heading">The thread between generations.</h1>
+        <p class="hero-whisper">Scroll the story.</p>
+        <div class="hero-cta hero-cta-minimal">
+          <a class="btn" href="roadmap.html">Begin your heritage roadmap</a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- STORY 1 — Ancient continuity -->
+    <section class="story-panel story-continuity" aria-labelledby="continuity-heading">
+      <div class="story-split reveal">
+        <div class="story-visual">
+          <img src="assets/hero-continuity.jpg" width="1400" height="933" alt="Carved stone temple corridor in quiet light" loading="lazy">
+          <img class="story-visual-accent" src="assets/continuity-detail.jpg" width="1200" height="800" alt="" role="presentation" loading="lazy">
+        </div>
+        <div class="story-copy">
+          <p class="section-label">Then · निरंतरता</p>
+          <h2 id="continuity-heading">Ancient continuity</h2>
+          <p class="lede">
+            Gotra spoken aloud. A priest who knew the house.
+            Pitṛ Pakṣa marked on the wall calendar. Stories told
+            in the same courtyard, year after year.
           </p>
-          <div class="hero-cta">
-            <a class="btn" href="roadmap.html">Begin your heritage roadmap</a>
-            <a class="btn btn-secondary" href="guides/index.html">Read the guides</a>
-          </div>
-        </div>
-        <div class="hero-media">
-          <picture>
-            <source media="(max-width: 799px)" srcset="assets/hero-diya-sm.jpg">
-            <img src="assets/hero-diya.jpg" width="1400" height="2100" alt="A lit brass diya glowing softly among white flowers" fetchpriority="high">
-          </picture>
-          <a class="hero-credit" href="https://unsplash.com/photos/XmInJnbzCOU" rel="noopener noreferrer" target="_blank">Photo: Anjana Nair</a>
+          <p>
+            Ancestral care lived close to place — water, temple, hometown.
+            The year’s observances were not apps; they were rhythm.
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- 2. Problem -->
-    <section class="section" aria-labelledby="problem-heading">
+    <!-- STORY 2 — Modern drift -->
+    <section class="story-panel story-drift alt" aria-labelledby="drift-heading">
+      <div class="story-split reverse reveal">
+        <div class="story-visual">
+          <img src="assets/drift-records.jpg" width="1000" height="667" alt="Old manuscript pages suggesting fragmented family records" loading="lazy">
+        </div>
+        <div class="story-copy">
+          <p class="section-label">Now · विस्मृति</p>
+          <h2 id="drift-heading">Modern drift</h2>
+          <p class="lede">
+            The calendar continues. The memory thins.
+          </p>
+          <ul class="drift-list">
+            <li>Gotra half-remembered — or only with an elder you cannot reach.</li>
+            <li>Śrāddha tithi and Pitṛ Pakṣa slip past work calendars and time zones.</li>
+            <li>Family stories live in one voice — until they don’t.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY 3 — The bridge -->
+    <section class="story-panel story-bridge" aria-labelledby="bridge-heading">
+      <div class="section-inner reveal bridge-block">
+        <div class="bridge-motif" aria-hidden="true">
+          <svg viewBox="0 0 280 80" fill="none" class="bridge-draw">
+            <path class="bd bd1" d="M20 55 C70 15, 210 15, 260 55" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path class="bd bd2" d="M20 55 H260" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+            <path class="bd bd3" d="M55 55 V38 M95 55 V28 M140 55 V24 M185 55 V28 M225 55 V38" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+            <circle cx="20" cy="55" r="3.5" fill="currentColor"/>
+            <circle cx="260" cy="55" r="3.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <p class="section-label">Setu · सेतु</p>
+        <h2 id="bridge-heading">DharmaSetu is the bridge</h2>
+        <p class="lede">
+          Premium annual heritage care — for families who want gotra, lineage,
+          and yearly observances held with clarity. Temple-quiet. Hindi and English.
+          A verified priest who knows <em>your</em> tradition confirms what applies.
+        </p>
+        <p class="bridge-note">Practices vary by family. No funeral or acute rites — post-rites stewardship.</p>
+      </div>
+    </section>
+
+    <!-- KEYWORD TILES -->
+    <section class="section tiles-section" aria-labelledby="tiles-heading">
+      <div class="section-wide reveal">
+        <p class="section-label">Explore · विषय</p>
+        <h2 id="tiles-heading">What do you need to hold?</h2>
+        <p class="lede tile-lede">Tap a word. Short stories open here — guides wait if you want depth.</p>
+        <div class="tile-grid" id="tile-grid">
+          <button type="button" class="tile" data-tile="gotra" aria-expanded="false" aria-controls="tile-panel-gotra">
+            <svg class="tile-ic" aria-hidden="true"><use href="#ic-gotra"/></svg>
+            <span class="tile-hi">Gotra</span>
+            <span class="tile-en">Lineage marker</span>
+          </button>
+          <button type="button" class="tile" data-tile="pitr" aria-expanded="false" aria-controls="tile-panel-pitr">
+            <svg class="tile-ic" aria-hidden="true"><use href="#ic-pitr"/></svg>
+            <span class="tile-hi">Pitṛ Pakṣa</span>
+            <span class="tile-en">Ancestral fortnight</span>
+          </button>
+          <button type="button" class="tile" data-tile="shraddha" aria-expanded="false" aria-controls="tile-panel-shraddha">
+            <svg class="tile-ic" aria-hidden="true"><use href="#ic-shraddha"/></svg>
+            <span class="tile-hi">Śrāddha</span>
+            <span class="tile-en">Annual remembrance</span>
+          </button>
+          <button type="button" class="tile" data-tile="yatra" aria-expanded="false" aria-controls="tile-panel-yatra">
+            <svg class="tile-ic" aria-hidden="true"><use href="#ic-yatra"/></svg>
+            <span class="tile-hi">Yātrā</span>
+            <span class="tile-en">Pilgrimage care</span>
+          </button>
+          <button type="button" class="tile" data-tile="vamsa" aria-expanded="false" aria-controls="tile-panel-vamsa">
+            <svg class="tile-ic" aria-hidden="true"><use href="#ic-vamsa"/></svg>
+            <span class="tile-hi">Vaṃśa</span>
+            <span class="tile-en">Family line &amp; stories</span>
+          </button>
+          <button type="button" class="tile" data-tile="nri" aria-expanded="false" aria-controls="tile-panel-nri">
+            <svg class="tile-ic" aria-hidden="true"><use href="#ic-nri"/></svg>
+            <span class="tile-hi">NRI</span>
+            <span class="tile-en">Across borders</span>
+          </button>
+        </div>
+
+        <div class="tile-panels">
+          <div id="tile-panel-gotra" class="tile-panel" hidden role="region" aria-label="Gotra">
+            <h3>Gotra</h3>
+            <p>A lineage marker many priests ask for when framing annual rites. Write what you know — fragments still help. Sampradaya and hometown custom sit beside it.</p>
+            <a href="guides/gotra-lineage.html">Read the gotra &amp; lineage guide →</a>
+          </div>
+          <div id="tile-panel-pitr" class="tile-panel" hidden role="region" aria-label="Pitri Paksha">
+            <h3>Pitṛ Pakṣa</h3>
+            <p>The ancestral fortnight in many North Indian calendars — when families renew remembrance. Dates shift with the lunar year; preparation beats last-minute scramble.</p>
+            <a href="guides/shraddha.html">Read Śrāddha &amp; Pitṛ Pakṣa →</a>
+          </div>
+          <div id="tile-panel-shraddha" class="tile-panel" hidden role="region" aria-label="Shraddha">
+            <h3>Śrāddha</h3>
+            <p>Yearly remembrance — often on a death-anniversary tithi. Who leads, what is offered, and where it is done vary. Orientation first; your priest confirms form.</p>
+            <a href="guides/shraddha.html">Read the Śrāddha guide →</a>
+          </div>
+          <div id="tile-panel-yatra" class="tile-panel" hidden role="region" aria-label="Yatra">
+            <h3>Yātrā</h3>
+            <p>Pilgrimage remembrance — including Pind Daan journeys some families undertake. Not every year; not every house. When travel is right, plan with region and priest in mind.</p>
+            <a href="guides/pind-daan.html">Read Pind Daan as pilgrimage →</a>
+          </div>
+          <div id="tile-panel-vamsa" class="tile-panel" hidden role="region" aria-label="Vamsa">
+            <h3>Vaṃśa / lineage</h3>
+            <p>The quiet inheritance: who used to lead, which stories made ancestors feel known, what the next generation should not have to guess.</p>
+            <a href="guides/gotra-lineage.html">Record lineage &amp; stories →</a>
+          </div>
+          <div id="tile-panel-nri" class="tile-panel" hidden role="region" aria-label="NRI">
+            <h3>NRI continuity</h3>
+            <p>Observances due in India while you are abroad — or the reverse. Dates, a priest who understands your region, and written gotra so children inherit more than a vague sense.</p>
+            <a href="guides/nri-families.html">Read NRI continuity →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANIMATED FLOW: Orient → Record → Observe -->
+    <section class="section alt flow-section" aria-labelledby="flow-heading">
+      <div class="section-wide reveal">
+        <p class="section-label">How care moves</p>
+        <h2 id="flow-heading">Orient · Record · Observe</h2>
+        <p class="lede">A calm path — not a video, not noise. Subtle motion if your device allows.</p>
+
+        <div class="flow-track" id="flow-track">
+          <svg class="flow-connector" viewBox="0 0 600 24" preserveAspectRatio="none" aria-hidden="true">
+            <path class="flow-line" d="M20 12 H580" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6 8"/>
+            <circle class="flow-bead" cx="20" cy="12" r="4" fill="currentColor"/>
+          </svg>
+          <div class="flow-steps">
+            <article class="flow-step" data-step="1">
+              <div class="flow-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" fill="none">
+                  <circle cx="32" cy="32" r="26" stroke="currentColor" stroke-width="1.4"/>
+                  <path class="flow-check" d="M22 34 L30 42 L44 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span class="flow-num">01</span>
+              <h3>Orient</h3>
+              <p>Guides for Śrāddha, Pitṛ Pakṣa, gotra &amp; yātrā — labelled where custom differs.</p>
+            </article>
+            <article class="flow-step" data-step="2">
+              <div class="flow-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" fill="none">
+                  <rect x="16" y="12" width="32" height="40" rx="2" stroke="currentColor" stroke-width="1.4"/>
+                  <path class="flow-pen" d="M24 24 H40 M24 32 H36 M24 40 H32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <span class="flow-num">02</span>
+              <h3>Record</h3>
+              <p>Your roadmap — need, region, gotra if known, where you are. We draft an outline.</p>
+            </article>
+            <article class="flow-step" data-step="3">
+              <div class="flow-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" fill="none">
+                  <path d="M32 10 C20 22, 16 32, 16 40 C16 50, 23 54, 32 54 C41 54, 48 50, 48 40 C48 32, 44 22, 32 10 Z" stroke="currentColor" stroke-width="1.4"/>
+                  <circle class="flow-flame" cx="32" cy="38" r="5" fill="currentColor" opacity="0.35"/>
+                </svg>
+              </div>
+              <span class="flow-num">03</span>
+              <h3>Observe</h3>
+              <p>A verified priest confirms dates and form with your tradition — then you keep the year.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONAS with places -->
+    <section class="section personas-section" aria-labelledby="persona-heading">
+      <div class="section-wide reveal">
+        <p class="section-label">Lives · स्थान</p>
+        <h2 id="persona-heading">Four quiet stories</h2>
+        <p class="lede">Different cities. Same need to keep the thread.</p>
+        <div class="persona-cards">
+          <article class="persona-card">
+            <img src="assets/persona-nj.jpg" width="1000" height="667" alt="Quiet suburban house exterior in soft daylight" loading="lazy">
+            <div class="persona-body">
+              <p class="persona-place">New Jersey · NRI</p>
+              <h3>Meera keeps the calendar from abroad</h3>
+              <p>
+                Pitṛ Pakṣa and her father’s tithi arrive mid-quarter.
+                Some years she travels; some years she cannot.
+                She needs dates, a priest who knows the family’s region,
+                and gotra written down so her children inherit more than a feeling.
+              </p>
+            </div>
+          </article>
+          <article class="persona-card">
+            <img src="assets/persona-delhi.jpg" width="1000" height="667" alt="Soft monsoon light over an Indian city street" loading="lazy">
+            <div class="persona-body">
+              <p class="persona-place">Delhi · Post-rites family</p>
+              <h3>Arjun’s first year after the acute days</h3>
+              <p>
+                The first rites have settled. What remains is the first annual
+                Śrāddha, a wish to record gotra and hometown custom, and cousins
+                who should know what “we always did” actually means.
+              </p>
+            </div>
+          </article>
+          <article class="persona-card">
+            <img src="assets/persona-blr.jpg" width="1000" height="667" alt="Tree canopy and soft green light suggesting Bengaluru" loading="lazy">
+            <div class="persona-body">
+              <p class="persona-place">Bengaluru · Urban house</p>
+              <h3>Priya holds vaṃśa between sprints</h3>
+              <p>
+                Work weeks swallow weekends. She wants a short outline —
+                who to call, which tithi, what to write for the next generation —
+                without another frantic WhatsApp chain the night before.
+              </p>
+            </div>
+          </article>
+          <article class="persona-card">
+            <img src="assets/persona-kashi.jpg" width="1200" height="800" alt="Dawn light on the Ganga at Varanasi with quiet boats" loading="lazy">
+            <div class="persona-body">
+              <p class="persona-place">Banaras / Kashi · Partner priest</p>
+              <h3>Panditji serves families who arrive prepared</h3>
+              <p>
+                A priest serves best when a family already knows region,
+                approximate gotra or sampradaya, and what they hope to observe.
+                A draft roadmap means better questions — rites that match the
+                lineage, not a generic script.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUTCOMES -->
+    <section class="section alt outcomes-section" aria-labelledby="outcomes-heading">
       <div class="section-inner reveal">
-        <p class="section-label">What drifts away</p>
-        <h2 id="problem-heading">The calendar continues. The memory thins.</h2>
-        <p class="lede">
-          Annual observances return whether or not anyone wrote them down.
-          Gotra, hometown custom, and the stories that made a lineage feel
-          whole often live in one elder’s voice — until they don’t.
-        </p>
-        <dl class="problem-essay">
-          <dt>Forgotten annual observances</dt>
-          <dd>
-            Shraddha dates, Pitra Paksha windows, and family tithi slip past
-            work calendars and time zones. The year turns; no one is sure
-            what “we always did” actually means this year.
-          </dd>
-          <dt>Lost <span class="term-hi">gotra</span> &amp; family stories</dt>
-          <dd>
-            Lineage names, sampradaya, and the small narratives that bind
-            generations sit half-remembered — or only with relatives you
-            cannot easily reach.
-          </dd>
-          <dt>No quiet time for care</dt>
-          <dd>
-            Planning Shraddha, a Pitra Paksha offering, or a Pind Daan yatra
-            needs bandwidth families rarely have mid-week. Orientation first;
-            then a priest who can confirm what fits your house.
-          </dd>
-        </dl>
+        <p class="section-label">Outcomes · फल</p>
+        <h2 id="outcomes-heading">What steadiness looks like</h2>
+        <ul class="outcome-list">
+          <li><strong>Gotra &amp; stories on record</strong> — so the next generation does not start from zero.</li>
+          <li><strong>Annual dates held</strong> — Śrāddha and Pitṛ Pakṣa planned before they slip.</li>
+          <li><strong>Priest-confirmed practice</strong> — form that fits your house, not a template.</li>
+          <li><strong>Quiet continuity</strong> — from New Jersey or Delhi to Kashi, the thread stays.</li>
+        </ul>
       </div>
     </section>
 
-    <!-- 3. How it works — heritage care -->
-    <section class="section alt" aria-labelledby="how-heading">
+    <!-- VISUAL ROADMAP on homepage -->
+    <section class="section roadmap-visual" id="roadmap-visual" aria-labelledby="roadmap-visual-heading">
       <div class="section-wide reveal">
-        <p class="section-label">How heritage care works</p>
-        <h2 id="how-heading">Orient · Record · Observe</h2>
-        <p class="lede">
-          A calm path for annual stewardship — orientation, records, and priestly
-          confirmation. Conversation continues on WhatsApp.
-        </p>
-        <div class="steps">
-          <article class="step">
-            <span class="step-num" aria-hidden="true">01 — Orient</span>
-            <h3>Guides &amp; context</h3>
-            <p>
-              Read clear overviews of Shraddha, Pitra Paksha, gotra &amp; lineage,
-              and pilgrimage remembrance — labelled where custom differs.
-            </p>
-          </article>
-          <article class="step">
-            <span class="step-num" aria-hidden="true">02 — Record</span>
-            <h3>Your roadmap</h3>
-            <p>
-              Tell us what you need — annual care, yatra, gotra notes, or
-              family stories. We draft a personalised outline for your lineage.
-            </p>
-          </article>
-          <article class="step">
-            <span class="step-num" aria-hidden="true">03 — Observe</span>
-            <h3>Priest &amp; practice</h3>
-            <p>
-              We refer you to a verified priest who can confirm dates and form
-              with your tradition — then you keep the year’s observances with clarity.
-            </p>
-          </article>
-        </div>
-        <p class="step-later">
-          Annual reminders and deeper family archives are part of the care path ahead —
-          the roadmap on WhatsApp is where we begin.
-        </p>
-      </div>
-    </section>
-
-    <!-- 4. Persona stories -->
-    <section class="section" aria-labelledby="persona-heading">
-      <div class="section-wide reveal">
-        <p class="section-label">Who reaches out</p>
-        <h2 id="persona-heading">Three quiet stories</h2>
-        <p class="lede">
-          After the first rites settle, life goes on — and so does the year’s care.
-        </p>
-        <div class="persona-grid">
-          <article class="persona">
-            <img src="assets/persona-offer.jpg" width="900" height="900" alt="Hands holding a dignified flower offering" loading="lazy">
-            <div class="persona-body">
-              <p class="persona-role">Post-rites family</p>
-              <h3>After the first year turns</h3>
-              <p>
-                The acute days are behind them. What remains is the first
-                annual Shraddha, a wish to write down gotra and hometown custom,
-                and a hope that younger cousins will know what to keep.
-                They want a steady outline — not another scramble.
-              </p>
+        <p class="section-label">Roadmap · मार्ग</p>
+        <h2 id="roadmap-visual-heading">Your heritage roadmap</h2>
+        <p class="lede">See the path here — then open WhatsApp with a short form.</p>
+        <ol class="roadmap-steps">
+          <li>
+            <span class="rs-num">1</span>
+            <div>
+              <h3>Say what you need</h3>
+              <p>Śrāddha, Pitṛ Pakṣa, yātrā, gotra notes, or family stories.</p>
             </div>
-          </article>
-          <article class="persona">
-            <img src="assets/persona-nri.jpg" width="900" height="675" alt="Quiet contemporary living room with soft daylight" loading="lazy">
-            <div class="persona-body">
-              <p class="persona-role">NRI annual care</p>
-              <h3>Meera, abroad — calendar in India</h3>
-              <p>
-                Pitra Paksha and her father’s tithi arrive while she is mid-quarter.
-                She can travel some years, not others. She needs dates, a priest
-                who understands the family’s region, and a written note of gotra
-                so her children inherit more than a vague sense of “what we do.”
-              </p>
+          </li>
+          <li>
+            <span class="rs-num">2</span>
+            <div>
+              <h3>For whom &amp; from where</h3>
+              <p>Ancestor relation, family region, gotra if known, where you are based.</p>
             </div>
-          </article>
-          <article class="persona">
-            <img src="assets/persona-urban.jpg" width="900" height="600" alt="Soft daylight in a quiet apartment" loading="lazy">
-            <div class="persona-body">
-              <p class="persona-role">Partner priest</p>
-              <h3>Families who arrive prepared</h3>
-              <p>
-                A priest serves best when a family already knows their region,
-                approximate gotra or sampradaya, and what they hope to observe
-                this year. A draft roadmap means better questions — and rites
-                that match the lineage he serves, not a generic script.
-              </p>
+          </li>
+          <li>
+            <span class="rs-num">3</span>
+            <div>
+              <h3>Continue on WhatsApp</h3>
+              <p>Your answers open a chat. We draft an outline and discuss next steps.</p>
             </div>
-          </article>
+          </li>
+          <li>
+            <span class="rs-num">4</span>
+            <div>
+              <h3>Priest confirmation</h3>
+              <p>A verified priest confirms what applies to your lineage before you act.</p>
+            </div>
+          </li>
+        </ol>
+        <div class="roadmap-cta-row">
+          <a class="btn" href="roadmap.html">Open the WhatsApp roadmap form</a>
+          <a class="btn btn-secondary" href="guides/index.html">Browse guides first</a>
         </div>
       </div>
     </section>
 
-    <!-- 5. Then / Now -->
-    <section class="section alt" aria-labelledby="then-now-heading">
-      <div class="section-wide reveal">
-        <p class="section-label">Continuity</p>
-        <h2 id="then-now-heading">Ancient practice. Present life.</h2>
-        <p class="lede">
-          Ancestral care was shaped close to place — elders nearby, a known
-          priest, a calendar the household shared. Many families now hold the
-          same care from other cities or abroad. The rite is the bridge;
-          the setting changes.
-        </p>
-        <div class="then-now">
-          <figure class="then-now-card">
-            <img src="assets/then-courtyard.jpg" width="1200" height="800" alt="Traditional wooden boat on quiet Kerala backwaters under palm trees" loading="lazy">
-            <figcaption class="caption">
-              <h3>Then — rooted place</h3>
-              <p>
-                Custom lived near water, temple, and hometown: gotra spoken aloud,
-                Pitra Paksha marked on the wall calendar, stories told at the same courtyard.
-              </p>
-            </figcaption>
-          </figure>
-          <figure class="then-now-card">
-            <img src="assets/now-home.jpg" width="1200" height="900" alt="Calm modern home with a wall of family photographs in soft daylight" loading="lazy">
-            <figcaption class="caption">
-              <h3>Now — city &amp; abroad</h3>
-              <p>
-                Same stewardship, different logistics: photo walls instead of courtyards,
-                WhatsApp instead of the next-door uncle — and a need to write lineage down
-                before it thins.
-              </p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. Guides -->
-    <section class="section" aria-labelledby="guides-heading">
-      <div class="section-wide reveal">
-        <div class="guides-teaser">
-          <div>
-            <img src="assets/guides-teaser.jpg" width="1000" height="924" alt="Quiet stack of books suggesting careful reading" loading="lazy">
-          </div>
-          <div>
-            <p class="section-label">Guides</p>
-            <h2 id="guides-heading">Start with orientation</h2>
-            <p class="lede">
-              Short educational essays — not prescriptions. Hindi ritual terms
-              with plain English. Labels note where tradition and region change the picture.
-            </p>
-            <ul class="guide-links">
-              <li>
-                <a href="guides/shraddha.html">Shraddha &amp; Pitra Paksha
-                  <span>Annual remembrance and the ancestral fortnight</span>
-                </a>
-              </li>
-              <li>
-                <a href="guides/gotra-lineage.html">Gotra, lineage &amp; family stories
-                  <span>What to record so the next generation inherits clarity</span>
-                </a>
-              </li>
-              <li>
-                <a href="guides/pind-daan.html">Pind Daan as pilgrimage remembrance
-                  <span>When families travel for ancestral offerings</span>
-                </a>
-              </li>
-              <li>
-                <a href="guides/nri-families.html">NRI continuity
-                  <span>Keeping annual care across borders and time zones</span>
-                </a>
-              </li>
-            </ul>
-            <a class="btn" href="roadmap.html">Get your heritage roadmap</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 7. Stewardship trust (positive) -->
+    <!-- Stewardship -->
     <section class="steward-strip" aria-labelledby="steward-heading">
       <div class="section-wide reveal">
         <p class="section-label" style="color:#d4a574;">Stewardship</p>
@@ -263,22 +378,23 @@
         <p class="lede-dark">
           DharmaSetu is premium annual heritage care — a quiet bridge between
           your family’s memory and a priest who can confirm what applies.
-          Practices vary by family, region, and sampradaya.
         </p>
         <ul class="steward-list">
-          <li><strong>We honour variation.</strong> No single script fits every house; we orient, then defer to your lineage and priest.</li>
-          <li><strong>We make no spiritual-outcome claims.</strong> Observances are family practice — not guaranteed results.</li>
-          <li><strong>We begin on WhatsApp.</strong> Your roadmap starts a conversation about care, records, and referral — not a self-serve checkout.</li>
-          <li><strong>We stand beside elders and community.</strong> We do not replace them; we help you arrive prepared.</li>
+          <li><strong>We honour variation.</strong> No single script fits every house.</li>
+          <li><strong>We make no spiritual-outcome claims.</strong> Observances are family practice.</li>
+          <li><strong>We begin on WhatsApp.</strong> Roadmap first — not self-serve checkout.</li>
+          <li><strong>We stand beside elders and community.</strong> We help you arrive prepared.</li>
         </ul>
-        <p class="steward-note">
-          Any roadmap from DharmaSetu is a draft for conversation. A verified
-          priest confirms what applies to your lineage before you act on it.
-        </p>
       </div>
     </section>
 
     <section class="cta-band" aria-labelledby="cta-heading">
+      <div class="cta-motif" aria-hidden="true">
+        <svg viewBox="0 0 320 48" fill="none" class="sutra-draw">
+          <path class="sutra-path" d="M8 24 C48 8, 72 40, 112 24 S176 8, 208 24 S272 40, 312 24"
+                stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </div>
       <h2 id="cta-heading">Ready to keep this year’s thread?</h2>
       <p>
         A short heritage roadmap — what you need, for whom, region, gotra if known,
@@ -295,9 +411,10 @@
       <p class="footer-disclaimer">
         Practices vary by community and family. Guidance here is educational;
         confirm all observances with an appropriate priest. We make no claims about
-        spiritual outcomes.
+        spiritual outcomes. Focus is post-rites annual care — not funeral or cremation rites.
       </p>
       <p class="footer-credits">
+        Motifs: custom yantra / sutra / mandala line art.
         Photography via <a href="https://unsplash.com" rel="noopener noreferrer" target="_blank">Unsplash</a>
         — see <a href="assets/CREDITS.txt">asset credits</a>.
       </p>

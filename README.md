@@ -2,9 +2,7 @@
 
 Static marketing site for **DharmaSetu** — premium heritage care for Hindu families.
 
-**Positioning:** Annual care for gotra, lineage, family stories, and observances (Shraddha, Pitra Paksha, Pind Daan yatra) with verified priest referral via WhatsApp. Premium annual care via WhatsApp — not free-content SaaS.
-
-Practices vary by community and family. No spiritual-outcome claims.
+**Positioning:** Post-rites annual care for gotra, lineage, family stories, and observances (Śrāddha, Pitṛ Pakṣa, Pind Daan yātrā) with verified priest referral via WhatsApp. Temple-quiet premium. Hindi + English. No funeral / 13-day / cremation focus.
 
 ## Configure WhatsApp
 
@@ -18,7 +16,8 @@ python3 -m http.server 8080 --directory .
 
 ## Design
 
-Temple-quiet editorial: Fraunces + Source Sans 3, warm paper palette, typography-led layouts, curated Unsplash photography (`assets/CREDITS.txt`). Subtle scroll reveals; respects `prefers-reduced-motion`.
+Scroll-story homepage: ancient continuity → modern drift → DharmaSetu bridge → outcomes.
+Custom SVG motifs (yantra / sutra / mandala / bridge). Keyword tiles (Gotra, Pitṛ Pakṣa, Śrāddha, Yātrā, Vaṃśa, NRI). Animated Orient → Record → Observe (CSS/SVG; respects `prefers-reduced-motion`). Place personas: New Jersey, Delhi, Bengaluru, Banaras/Kashi. Visual roadmap on homepage + WhatsApp form.
 
 ## Deploy
 
