@@ -14,20 +14,21 @@ drift-records.jpg
   Old manuscript / fragmented records mood
 
 persona-nj.jpg
-  Unsplash — photo-1560518883-ce09059eeffa
-  Quiet suburban house (New Jersey / diaspora mood)
+  Unsplash — photo-1570129477492-45c003edd2be
+  US Northeast shingle-style suburban house with wraparound porch
+  (New Jersey / NYC-area diaspora mood — clearly US)
 
 persona-delhi.jpg
-  Unsplash — photo-1570168007204-dfb528c6958f
-  Soft Indian city street light (Delhi mood)
+  Pexels — photo 789750
+  India Gate, New Delhi (Lutyens Delhi landmark — clearly Delhi)
 
 persona-blr.jpg
-  Unsplash — photo-1441974231531-c6227db76b6e
-  Tree canopy / green light (Bengaluru garden-city mood)
+  Wikimedia Commons — Vidhana_Soudha_Bangalore.jpg
+  Vidhana Soudha, Bengaluru (clearly Bengaluru urban landmark)
 
 persona-kashi.jpg
-  Unsplash — photo-1768121170062-1e278c905277 (Swati Kedia)
-  Dawn on the Ganga, Varanasi / Banaras
+  Unsplash — photo-1561359313-0639aad49ca6
+  Ganga ghat temple steps with saffron flags, Varanasi / Banaras
 
 kashi-mood.jpg / kashi-ghat.jpg
   Unsplash — photo-1561359313-0639aad49ca6 / photo-1768123668769
