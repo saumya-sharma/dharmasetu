@@ -280,6 +280,9 @@
     btnBack.hidden = current === 0;
     btnNext.hidden = current === total - 1;
     btnSubmit.hidden = current !== total - 1;
+    btnBack.toggleAttribute("hidden", current === 0);
+    btnNext.toggleAttribute("hidden", current === total - 1);
+    btnSubmit.toggleAttribute("hidden", current !== total - 1);
     setProgress(current);
     if (current === total - 1) renderSummary();
     if (!reduce) {

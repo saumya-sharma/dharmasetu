@@ -1770,6 +1770,12 @@ a:focus-visible {
   font-weight: 600;
 }
 
+.btn[hidden],
+.wizard-back[hidden],
+.wizard-next[hidden],
+.wizard-submit[hidden] {
+  display: none !important;
+}
 .wizard-nav {
   display: flex;
   flex-wrap: wrap;
