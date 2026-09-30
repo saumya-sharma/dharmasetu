@@ -1,8 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" fill="none" aria-hidden="true">
-  <path d="M20 55 C70 15, 210 15, 260 55" stroke="#c9a06a" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M20 55 H260" stroke="#a85f24" stroke-width="1.2" stroke-linecap="round"/>
-  <path d="M55 55 V38 M95 55 V28 M140 55 V24 M185 55 V28 M225 55 V38"
-        stroke="#c9a06a" stroke-width="1" stroke-linecap="round"/>
-  <circle cx="20" cy="55" r="3.5" fill="#a85f24"/>
-  <circle cx="260" cy="55" r="3.5" fill="#a85f24"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" fill="none" aria-hidden="true">
+  <!-- subtle yantra geometry behind -->
+  <g stroke="#c9a06a" stroke-width="0.9" opacity="0.35">
+    <circle cx="160" cy="52" r="38"/>
+    <path d="M160 22 L186 72 L134 72 Z"/>
+    <path d="M160 82 L134 32 L186 32 Z"/>
+  </g>
+  <!-- deck / base weight -->
+  <path d="M28 78 H292" stroke="#7f4516" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M28 78 H292" stroke="#a85f24" stroke-width="1.4" stroke-linecap="round" opacity="0.55"/>
+  <!-- outer arch (heavy) -->
+  <path d="M36 78 C88 18, 232 18, 284 78" stroke="#a85f24" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- inner arch (layer) -->
+  <path d="M52 78 C96 34, 224 34, 268 78" stroke="#c9a06a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- suspenders -->
+  <g stroke="#a85f24" stroke-width="1.35" stroke-linecap="round">
+    <path d="M72 78 V52"/>
+    <path d="M104 78 V40"/>
+    <path d="M136 78 V34"/>
+    <path d="M160 78 V32"/>
+    <path d="M184 78 V34"/>
+    <path d="M216 78 V40"/>
+    <path d="M248 78 V52"/>
+  </g>
+  <!-- sutra thread weaving -->
+  <path d="M40 62 C80 48, 120 74, 160 58 S240 48, 280 62"
+        stroke="#c9a06a" stroke-width="1.15" stroke-linecap="round" stroke-dasharray="2.5 3.5" opacity="0.9"/>
+  <!-- abutment pillars -->
+  <rect x="22" y="68" width="14" height="18" rx="1.5" fill="#a85f24" opacity="0.92"/>
+  <rect x="284" y="68" width="14" height="18" rx="1.5" fill="#a85f24" opacity="0.92"/>
+  <!-- end jewels -->
+  <circle cx="29" cy="66" r="4.5" fill="#7f4516"/>
+  <circle cx="29" cy="66" r="2.2" fill="#c9a06a"/>
+  <circle cx="291" cy="66" r="4.5" fill="#7f4516"/>
+  <circle cx="291" cy="66" r="2.2" fill="#c9a06a"/>
+  <!-- center bindu -->
+  <circle cx="160" cy="52" r="3.2" fill="#a85f24"/>
 </svg>

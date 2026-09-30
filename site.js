@@ -71,4 +71,18 @@
       track.classList.add("is-active");
     }
   }
+
+  /* Scroll-reactive paper tone (subtle) */
+  var root = document.body;
+  if (root && !reduce) {
+    var onScrollTone = function () {
+      var y = window.scrollY || 0;
+      var mid = document.documentElement.scrollHeight * 0.28;
+      if (y > mid) root.classList.add("tone-deep");
+      else root.classList.remove("tone-deep");
+    };
+    onScrollTone();
+    window.addEventListener("scroll", onScrollTone, { passive: true });
+  }
+
 })();

@@ -1,63 +1,50 @@
-Photography credits (Unsplash License — free to use; attribution appreciated)
-Custom motifs: yantra / sutra / mandala / bridge line art (DharmaSetu, original SVG)
+Photography credits (Unsplash / Pexels License — free to use; attribution appreciated)
+Custom motifs: yantra / sutra / mandala / bridge / flow icons / watermark (DharmaSetu, original SVG)
 
-hero-continuity.jpg
-  Unsplash — photo-1548013146-72479768bada
-  Temple stone corridor / carved architecture (continuity mood)
+hero-continuity.jpg / continuity-ritual.jpg
+  Local legacy diya ritual photo (quiet home shrine flame)
+  Ancestral continuity — NOT tourist monument
 
 continuity-detail.jpg
-  Unsplash — photo-1605649487212-47bdab064df7
-  Temple stone carving detail
+  Local legacy accent-diya (row of ritual lamps)
+  Cohesive ancestral light accent (replaces mountain tourist mood)
 
-drift-records.jpg
-  Unsplash — photo-1457369804613-52c61a468e7d
-  Old manuscript / fragmented records mood
+drift-records.jpg / drift-modern.jpg
+  Pexels — photo 4065876
+  Overhead laptop / work-from-home desk (modern drift)
 
 persona-nj.jpg
-  Unsplash — photo-1570129477492-45c003edd2be
-  US Northeast shingle-style suburban house with wraparound porch
-  (New Jersey / NYC-area diaspora mood — clearly US)
+  Pexels — photo 466685
+  NYC metro skyline / skyscraper density (Meera NRI hustle)
 
 persona-delhi.jpg
-  Pexels — photo 789750
-  India Gate, New Delhi (Lutyens Delhi landmark — clearly Delhi)
+  Pexels — photo 28556110
+  Aerial night Delhi streets with metro light trails (Arjun city hustle)
 
 persona-blr.jpg
-  Wikimedia Commons — Vidhana_Soudha_Bangalore.jpg
-  Vidhana Soudha, Bengaluru (clearly Bengaluru urban landmark)
+  Unsplash — photo-1596176530529-78163a4f7af2
+  Tech-city urban sprawl at dusk (Priya Bengaluru hustle)
 
 persona-kashi.jpg
   Unsplash — photo-1561359313-0639aad49ca6
   Ganga ghat temple steps with saffron flags, Varanasi / Banaras
+  (kept as quiet sacred contrast)
 
 kashi-mood.jpg / kashi-ghat.jpg
   Unsplash — photo-1561359313-0639aad49ca6 / photo-1768123668769
   Quiet Varanasi ghat / river mood
 
-marigold-soft.jpg
-  Unsplash — photo-1578662996442-48f60103fc96
-  Soft marigold / offering colour (accent)
-
 diaspora-desk.jpg
   Unsplash — photo-1486312338219-ce68d2c6f44d
-  Quiet desk / remote continuity
-
-then-courtyard.jpg / ghat-soft.jpg
-  Unsplash — photo-1506461883276 (tZCrFpSNiIQ)
-  Quiet Kerala backwaters
+  Quiet desk / remote continuity (retained asset)
 
 now-home.jpg
   Unsplash — photo-1600210492486
   Calm modern living room with photograph wall
 
-guides-teaser.jpg
-  Unsplash — photo-1481627834876
-  Books / quiet reading
+guides-teaser.jpg / roadmap-soft.jpg
+  Unsplash library / desk assets for guide pages
 
-roadmap-soft.jpg
-  Unsplash — photo-1455390582262
-  Paper and writing desk
-
-Legacy diya assets (hero-diya*, strip-diya, accent-diya, persona-offer) retained in
-assets/ but no longer featured on the homepage — replaced by temple stone, place
-moods, and custom SVG motifs per founder feedback.
+Legacy diya assets (hero-diya*, strip-diya, accent-diya, persona-offer) retained;
+hero-continuity now uses ritual diya; Taj / wall-of-books / tourist monuments removed
+from Then / Now / persona place tiles per founder feedback.

@@ -8,8 +8,11 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="preload" as="image" href="assets/hero-continuity.jpg">
 </head>
-<body>
+<body class="page-depth">
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-watermark" aria-hidden="true">
+    <img src="assets/motifs/watermark-mandala.svg" alt="" width="400" height="400">
+  </div>
   <header class="site-header">
     <div class="header-inner">
       <a class="logo" href="index.html">Dharma<span>Setu</span></a>
@@ -64,7 +67,7 @@
     <section class="story-panel story-continuity" aria-labelledby="continuity-heading">
       <div class="story-split reveal">
         <div class="story-visual">
-          <img src="assets/hero-continuity.jpg" width="1400" height="933" alt="Carved stone temple corridor in quiet light" loading="lazy">
+          <img src="assets/hero-continuity.jpg" width="1400" height="2100" alt="Brass diya flame in a quiet home shrine — ancestral ritual light" loading="lazy">
           <img class="story-visual-accent" src="assets/continuity-detail.jpg" width="1200" height="800" alt="" role="presentation" loading="lazy">
         </div>
         <div class="story-copy">
@@ -87,7 +90,7 @@
     <section class="story-panel story-drift alt" aria-labelledby="drift-heading">
       <div class="story-split reverse reveal">
         <div class="story-visual">
-          <img src="assets/drift-records.jpg" width="1000" height="667" alt="Old manuscript pages suggesting fragmented family records" loading="lazy">
+          <img src="assets/drift-records.jpg" width="1400" height="935" alt="Hands on a laptop at a modern desk — busy work, memory thinning" loading="lazy">
         </div>
         <div class="story-copy">
           <p class="section-label">Now · विस्मृति</p>
@@ -108,12 +111,27 @@
     <section class="story-panel story-bridge" aria-labelledby="bridge-heading">
       <div class="section-inner reveal bridge-block">
         <div class="bridge-motif" aria-hidden="true">
-          <svg viewBox="0 0 280 80" fill="none" class="bridge-draw">
-            <path class="bd bd1" d="M20 55 C70 15, 210 15, 260 55" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <path class="bd bd2" d="M20 55 H260" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-            <path class="bd bd3" d="M55 55 V38 M95 55 V28 M140 55 V24 M185 55 V28 M225 55 V38" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
-            <circle cx="20" cy="55" r="3.5" fill="currentColor"/>
-            <circle cx="260" cy="55" r="3.5" fill="currentColor"/>
+          <svg viewBox="0 0 320 120" fill="none" class="bridge-draw" aria-hidden="true">
+            <g class="bd bd-yantra" stroke="currentColor" stroke-width="0.9" opacity="0.28" fill="none">
+              <circle cx="160" cy="52" r="38"/>
+              <path d="M160 22 L186 72 L134 72 Z"/>
+              <path d="M160 82 L134 32 L186 32 Z"/>
+            </g>
+            <path class="bd bd1" d="M28 78 H292" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+            <path class="bd bd2" d="M36 78 C88 18, 232 18, 284 78" stroke="currentColor" stroke-width="2.55" stroke-linecap="round" fill="none"/>
+            <path class="bd bd3" d="M52 78 C96 34, 224 34, 268 78" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" fill="none" opacity="0.7"/>
+            <g class="bd bd4" stroke="currentColor" stroke-width="1.35" stroke-linecap="round">
+              <path d="M72 78 V52 M104 78 V40 M136 78 V34 M160 78 V32 M184 78 V34 M216 78 V40 M248 78 V52"/>
+            </g>
+            <path class="bd bd5" d="M40 62 C80 48, 120 74, 160 58 S240 48, 280 62"
+                  stroke="currentColor" stroke-width="1.15" stroke-linecap="round" fill="none" stroke-dasharray="2.5 3.5" opacity="0.85"/>
+            <rect class="bd bd6" x="22" y="68" width="14" height="18" rx="1.5" fill="currentColor" opacity="0.9"/>
+            <rect class="bd bd6" x="284" y="68" width="14" height="18" rx="1.5" fill="currentColor" opacity="0.9"/>
+            <circle class="bd bd7" cx="29" cy="66" r="4.5" fill="currentColor"/>
+            <circle cx="29" cy="66" r="2" fill="#c9a06a"/>
+            <circle class="bd bd7" cx="291" cy="66" r="4.5" fill="currentColor"/>
+            <circle cx="291" cy="66" r="2" fill="#c9a06a"/>
+            <circle class="bd bd8" cx="160" cy="52" r="3.2" fill="currentColor"/>
           </svg>
         </div>
         <p class="section-label">Setu · सेतु</p>
@@ -217,8 +235,11 @@
             <article class="flow-step" data-step="1">
               <div class="flow-icon" aria-hidden="true">
                 <svg viewBox="0 0 64 64" fill="none">
-                  <circle cx="32" cy="32" r="26" stroke="currentColor" stroke-width="1.4"/>
-                  <path class="flow-check" d="M22 34 L30 42 L44 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="32" cy="32" r="27" stroke="currentColor" stroke-width="1.6"/>
+                  <circle cx="32" cy="32" r="21" stroke="currentColor" stroke-width="1.1" opacity="0.55"/>
+                  <path d="M32 14 L34 22.2 L32 21 L30 22.2 Z M32 50 L34 41.8 L32 43 L30 41.8 Z M14 32 L22.2 30 L21 32 L22.2 34 Z M50 32 L41.8 30 L43 32 L41.8 34 Z" fill="currentColor" opacity="0.45"/>
+                  <path class="flow-check" d="M22 34.5 L29.5 41.5 L44 24" stroke="currentColor" stroke-width="2.05" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="32" cy="32" r="2.1" fill="currentColor"/>
                 </svg>
               </div>
               <span class="flow-num">01</span>
@@ -228,8 +249,12 @@
             <article class="flow-step" data-step="2">
               <div class="flow-icon" aria-hidden="true">
                 <svg viewBox="0 0 64 64" fill="none">
-                  <rect x="16" y="12" width="32" height="40" rx="2" stroke="currentColor" stroke-width="1.4"/>
-                  <path class="flow-pen" d="M24 24 H40 M24 32 H36 M24 40 H32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  <rect x="15" y="10" width="34" height="44" rx="3" stroke="currentColor" stroke-width="1.6"/>
+                  <path d="M37 10 V22 H49" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+                  <path d="M37 10 L49 22" stroke="currentColor" stroke-width="1.1" opacity="0.7"/>
+                  <path class="flow-pen" d="M23 28 H41 M23 36 H38 M23 44 H33" stroke="currentColor" stroke-width="1.55" stroke-linecap="round"/>
+                  <circle cx="41" cy="44" r="4.5" stroke="currentColor" stroke-width="1.3"/>
+                  <circle cx="41" cy="44" r="1.6" fill="currentColor"/>
                 </svg>
               </div>
               <span class="flow-num">02</span>
@@ -239,8 +264,12 @@
             <article class="flow-step" data-step="3">
               <div class="flow-icon" aria-hidden="true">
                 <svg viewBox="0 0 64 64" fill="none">
-                  <path d="M32 10 C20 22, 16 32, 16 40 C16 50, 23 54, 32 54 C41 54, 48 50, 48 40 C48 32, 44 22, 32 10 Z" stroke="currentColor" stroke-width="1.4"/>
-                  <circle class="flow-flame" cx="32" cy="38" r="5" fill="currentColor" opacity="0.35"/>
+                  <circle cx="32" cy="32" r="27" stroke="currentColor" stroke-width="1.15" opacity="0.5"/>
+                  <path d="M20 40 C20 46, 25 50, 32 50 C39 50, 44 46, 44 40" stroke="currentColor" stroke-width="1.65" stroke-linecap="round"/>
+                  <path d="M18 40 H46" stroke="currentColor" stroke-width="1.65" stroke-linecap="round"/>
+                  <path d="M32 14 C24 26, 22 34, 22 38 C22 44, 26.5 47.5, 32 47.5 C37.5 47.5, 42 44, 42 38 C42 34, 40 26, 32 14 Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                  <circle class="flow-flame" cx="32" cy="36" r="4" fill="currentColor" opacity="0.4"/>
+                  <circle cx="32" cy="35" r="1.7" fill="currentColor"/>
                 </svg>
               </div>
               <span class="flow-num">03</span>
@@ -260,7 +289,7 @@
         <p class="lede">Different cities. Same need to keep the thread.</p>
         <div class="persona-cards">
           <article class="persona-card">
-            <img src="assets/persona-nj.jpg" width="1200" height="800" alt="Quiet US Northeast suburban shingle house with wraparound porch" loading="lazy">
+            <img src="assets/persona-nj.jpg" width="1200" height="800" alt="Dense New York City skyline of skyscrapers under bright sky — metro hustle" loading="lazy">
             <div class="persona-body">
               <p class="persona-place">New Jersey · NRI</p>
               <h3>Meera keeps the calendar from abroad</h3>
@@ -273,7 +302,7 @@
             </div>
           </article>
           <article class="persona-card">
-            <img src="assets/persona-delhi.jpg" width="1200" height="800" alt="India Gate war memorial arch in New Delhi against open sky" loading="lazy">
+            <img src="assets/persona-delhi.jpg" width="1200" height="800" alt="Aerial night view of dense Delhi streets with metro light trails — city hustle" loading="lazy">
             <div class="persona-body">
               <p class="persona-place">Delhi · Post-rites family</p>
               <h3>Arjun’s first year after the acute days</h3>
@@ -285,7 +314,7 @@
             </div>
           </article>
           <article class="persona-card">
-            <img src="assets/persona-blr.jpg" width="1200" height="800" alt="Vidhana Soudha legislature building on a Bengaluru street" loading="lazy">
+            <img src="assets/persona-blr.jpg" width="1200" height="800" alt="Bengaluru tech-city sprawl at dusk with lit towers and urban density" loading="lazy">
             <div class="persona-body">
               <p class="persona-place">Bengaluru · Urban house</p>
               <h3>Priya holds vaṃśa between sprints</h3>
