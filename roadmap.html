@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Personalised roadmap — DharmaSetu</title>
-  <meta name="description" content="Answer five questions. We'll prepare a draft ritual roadmap and continue on WhatsApp.">
+  <title>Heritage roadmap — DharmaSetu</title>
+  <meta name="description" content="Tell us what annual care you need — Shraddha, Pitra Paksha, Pind Daan yatra, gotra & lineage, or family stories. Continue on WhatsApp.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,76 +23,85 @@
   <main id="main" class="form-page">
     <div class="form-inner">
       <img class="form-hero-img" src="assets/roadmap-soft.jpg" width="1000" height="750" alt="" role="presentation">
-      <h1 class="page-title">Personalised roadmap</h1>
+      <h1 class="page-title">Heritage roadmap</h1>
       <p class="lede" style="color: var(--muted); margin-top: 0;">
-        Five questions about your situation. On submit, WhatsApp opens with
-        your answers prefilled so we can draft a next-steps outline and
-        discuss a verified priest referral.
+        A few questions about the care you want to keep — annual observances,
+        lineage notes, or pilgrimage remembrance. On submit, WhatsApp opens
+        with your answers so we can draft an outline and discuss next steps.
       </p>
 
       <div class="note">
-        <strong>Reminder:</strong> Rituals vary by family and tradition.
+        <strong>Reminder:</strong> Practices vary by family and tradition.
         Anything we outline must be confirmed with an appropriate priest.
       </div>
 
       <div id="whatsapp-unset-note" class="warn-banner" hidden role="status">
         <strong>WhatsApp number not configured.</strong>
         Set <code>WHATSAPP_E164</code> in <code>config.js</code> (digits only,
-        with country code) before this form can open a chat. You can still
-        fill the form; submit will show a clear message until the number is set.
+        with country code) before this form can open a chat.
       </div>
 
       <form id="roadmap-form" novalidate>
         <div class="form-group">
-          <label id="q1-label">1. Who is this for?</label>
+          <label id="q1-label">1. What do you need?</label>
+          <span class="hint">Choose the closest fit — we can refine on WhatsApp</span>
           <div class="radio-group" role="group" aria-labelledby="q1-label">
-            <label><input type="radio" name="for_whom" value="Father" required> Father</label>
-            <label><input type="radio" name="for_whom" value="Mother"> Mother</label>
-            <label><input type="radio" name="for_whom" value="Grandparent"> Grandparent</label>
-            <label><input type="radio" name="for_whom" value="Spouse"> Spouse</label>
-            <label><input type="radio" name="for_whom" value="Other"> Other</label>
+            <label><input type="radio" name="need" value="Annual Shraddha" required> Annual Shraddha</label>
+            <label><input type="radio" name="need" value="Pitra Paksha"> Pitra Paksha</label>
+            <label><input type="radio" name="need" value="Pind Daan / yatra"> Pind Daan – yatra</label>
+            <label><input type="radio" name="need" value="Record gotra & lineage"> Record gotra &amp; lineage</label>
+            <label><input type="radio" name="need" value="Family story & reminders"> Family story &amp; reminders</label>
+            <label><input type="radio" name="need" value="Other"> Other</label>
           </div>
         </div>
 
         <div class="form-group">
-          <label for="passed_when">2. When did they pass away?</label>
-          <span class="hint">Date or approximate (e.g. March 2024, ~2 weeks ago)</span>
-          <input type="text" id="passed_when" name="passed_when" required autocomplete="off" placeholder="Date or approximate">
+          <label id="q2-label">2. For whom? (ancestor relation)</label>
+          <span class="hint">Whose memory or lineage this care is for</span>
+          <div class="radio-group radio-wrap" role="group" aria-labelledby="q2-label">
+            <label><input type="radio" name="for_whom" value="Father" required> Father</label>
+            <label><input type="radio" name="for_whom" value="Mother"> Mother</label>
+            <label><input type="radio" name="for_whom" value="Grandparent"> Grandparent</label>
+            <label><input type="radio" name="for_whom" value="Both parents"> Both parents</label>
+            <label><input type="radio" name="for_whom" value="Multiple ancestors"> Multiple ancestors</label>
+            <label><input type="radio" name="for_whom" value="Other / family line"> Other / family line</label>
+          </div>
         </div>
 
         <div class="form-group">
-          <label for="where_now">3. Where are you now?</label>
-          <select id="where_now" name="where_now" required>
+          <label for="family_region">3. Family region / state</label>
+          <span class="hint">Where the family’s custom is rooted (e.g. Tamil Nadu, Gujarat, Mithila)</span>
+          <input type="text" id="family_region" name="family_region" required autocomplete="off" placeholder="State / region">
+        </div>
+
+        <div class="form-group">
+          <label id="q4-label">4. Gotra or sampradaya?</label>
+          <div class="radio-group radio-wrap" role="group" aria-labelledby="q4-label" style="margin-bottom:0.75rem;">
+            <label><input type="radio" name="gotra_known" value="known" required> Known — I’ll describe it</label>
+            <label><input type="radio" name="gotra_known" value="dont_know"> Don’t know</label>
+          </div>
+          <label for="gotra_text" class="optional-label">If known, briefly note gotra / sampradaya / community</label>
+          <textarea id="gotra_text" name="gotra_text" placeholder="e.g. Bharadwaj gotra; Smarta; Iyer; specific community…"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="where_based">5. Where are you based?</label>
+          <select id="where_based" name="where_based" required>
             <option value="">Select…</option>
-            <option value="India city">India (city — specify below if you like)</option>
+            <option value="India">India</option>
             <option value="USA">USA</option>
             <option value="UK">UK</option>
             <option value="Canada">Canada</option>
             <option value="UAE">UAE</option>
             <option value="Australia">Australia</option>
+            <option value="Singapore">Singapore</option>
             <option value="Other">Other</option>
           </select>
-          <span class="hint" style="margin-top:0.5rem;display:block;">Optional detail (city / country)</span>
-          <input type="text" id="where_now_detail" name="where_now_detail" autocomplete="address-level2" placeholder="e.g. Bengaluru, or California">
+          <span class="hint" style="margin-top:0.55rem;display:block;">Optional detail (city / area)</span>
+          <input type="text" id="where_detail" name="where_detail" autocomplete="address-level2" placeholder="e.g. Bengaluru, or New Jersey">
         </div>
 
-        <div class="form-group">
-          <label for="family_from">4. Where was the person / family from?</label>
-          <span class="hint">State or region (e.g. Tamil Nadu, Gujarat, Mithila)</span>
-          <input type="text" id="family_from" name="family_from" required autocomplete="off" placeholder="State / region">
-        </div>
-
-        <div class="form-group">
-          <label id="q5-label">5. Do you know the family tradition / sampradaya?</label>
-          <div class="radio-group" role="group" aria-labelledby="q5-label" style="margin-bottom:0.75rem;">
-            <label><input type="radio" name="tradition_known" value="known" required> Known — I'll describe it</label>
-            <label><input type="radio" name="tradition_known" value="dont_know"> Don't know</label>
-          </div>
-          <label for="tradition_text" class="optional-label">If known, briefly describe</label>
-          <textarea id="tradition_text" name="tradition_text" placeholder="e.g. Smarta, Shaiva, Vaishnava, specific community…"></textarea>
-        </div>
-
-        <hr style="border:none;border-top:1px solid var(--line);margin:1.75rem 0;">
+        <hr class="form-divider">
 
         <p style="font-size:0.95rem;color:var(--muted);margin-top:0;">Optional — for follow-up</p>
 
@@ -106,7 +115,7 @@
           <input type="tel" id="contact_phone" name="contact_phone" autocomplete="tel" placeholder="With country code if possible">
         </div>
 
-        <button type="submit" class="btn" id="submit-btn">Send via WhatsApp</button>
+        <button type="submit" class="btn" id="submit-btn">Continue on WhatsApp</button>
         <p id="form-status" role="status" aria-live="polite" style="margin-top:1rem;font-size:0.95rem;color:var(--muted);"></p>
       </form>
     </div>
@@ -114,10 +123,10 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <p><strong>DharmaSetu</strong> — guided Hindu ritual &amp; ancestral services.</p>
+      <p><strong>DharmaSetu</strong> — heritage care for gotra, lineage &amp; annual observances.</p>
       <p class="footer-disclaimer">
         Practices vary by community and family. Guidance here is educational;
-        confirm all rites with an appropriate priest. We make no claims about
+        confirm all observances with an appropriate priest. We make no claims about
         spiritual outcomes.
       </p>
       <p class="footer-credits">
@@ -156,40 +165,39 @@
 
     if (!form.reportValidity()) return;
 
+    var need = val("need");
     var forWhom = val("for_whom");
-    var passed = val("passed_when");
-    var where = val("where_now");
-    var whereDetail = val("where_now_detail");
-    var familyFrom = val("family_from");
-    var tradKnown = val("tradition_known");
-    var tradText = val("tradition_text");
+    var region = val("family_region");
+    var gotraKnown = val("gotra_known");
+    var gotraText = val("gotra_text");
+    var where = val("where_based");
+    var whereDetail = val("where_detail");
     var name = val("contact_name");
     var phone = val("contact_phone");
 
-    var traditionLine =
-      tradKnown === "dont_know"
+    var gotraLine =
+      gotraKnown === "dont_know"
         ? "Don't know"
-        : (tradText || "(known — details not provided)");
+        : (gotraText || "(known — details not provided)");
 
     var lines = [
-      "DharmaSetu roadmap request",
+      "DharmaSetu heritage roadmap",
       "",
-      "1. Who is this for? " + forWhom,
-      "2. When did they pass away? " + passed,
-      "3. Where are you now? " + where + (whereDetail ? " (" + whereDetail + ")" : ""),
-      "4. Where was the person / family from? " + familyFrom,
-      "5. Family tradition / sampradaya? " + traditionLine
+      "1. What do you need? " + need,
+      "2. For whom? " + forWhom,
+      "3. Family region / state: " + region,
+      "4. Gotra or sampradaya? " + gotraLine,
+      "5. Where are you based? " + where + (whereDetail ? " (" + whereDetail + ")" : "")
     ];
     if (name) lines.push("Name: " + name);
     if (phone) lines.push("Phone: " + phone);
-    lines.push("", "Please help with a draft roadmap and priest referral.");
+    lines.push("", "Please help with a draft heritage roadmap and next steps.");
 
     var text = lines.join("\n");
 
     if (unset) {
       statusEl.textContent =
-        "WhatsApp number is not set yet. Update WHATSAPP_E164 in config.js (digits only, country code), then try again. Your answers were: " +
-        forWhom + "; " + passed + "; " + where + "; " + familyFrom + "; " + traditionLine + ".";
+        "WhatsApp number is not set yet. Update WHATSAPP_E164 in config.js, then try again.";
       return;
     }
 

@@ -1,20 +1,14 @@
 # DharmaSetu
 
-Static marketing site for **DharmaSetu** — guided Hindu ritual & ancestral services.
+Static marketing site for **DharmaSetu** — premium heritage care for Hindu families.
 
-**Positioning:** Guided ritual understanding + personalised roadmap + verified priest referral. Traditions vary.
-
-## Scope (Week-2 wedge)
-
-- Digital ritual guidance + personalised roadmap (form → WhatsApp)
-- Verified priest referral (handoff, not booking checkout)
-- Annual reminders — mentioned, not built
+**Positioning:** Annual care for gotra, lineage, family stories, and observances (Shraddha, Pitra Paksha, Pind Daan yatra) with verified priest referral via WhatsApp. Premium annual care via WhatsApp — not free-content SaaS.
 
 Practices vary by community and family. No spiritual-outcome claims.
 
 ## Configure WhatsApp
 
-Edit `config.js` and set `WHATSAPP_E164` to digits only with country code (e.g. `9198XXXXXXXX`).
+`config.js` → `WHATSAPP_E164` (digits only, country code). Current: `917239062622`.
 
 ## Local preview
 
@@ -22,10 +16,10 @@ Edit `config.js` and set `WHATSAPP_E164` to digits only with country code (e.g. 
 python3 -m http.server 8080 --directory .
 ```
 
-## Design notes
+## Design
 
-Calm premium editorial: Fraunces + Source Sans 3, warm paper/cream palette, Unsplash photography in `/assets/` (see `assets/CREDITS.txt`). Subtle scroll fades only.
+Temple-quiet editorial: Fraunces + Source Sans 3, warm paper palette, typography-led layouts, curated Unsplash photography (`assets/CREDITS.txt`). Subtle scroll reveals; respects `prefers-reduced-motion`.
 
 ## Deploy
 
-GitHub Pages from the `main` branch root — https://saumya-sharma.github.io/dharmasetu/
+GitHub Pages from `main` — https://saumya-sharma.github.io/dharmasetu/
