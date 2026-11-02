@@ -3,206 +3,95 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DharmaSetu — UI Prototype v1 (for team review)</title>
+<title>DharmaSetu — UI Prototype v2 (team review)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="common.css"/>
 <style>
-  :root {
-    --cream: #fef8f4;
-    --cream-2: #f3ede9;
-    --ink: #1d1b19;
-    --muted: #56423c;
-    --terracotta: #873415;
-    --terracotta-soft: #a64b2a;
-    --gold: #775a00;
-    --green: #19583f;
-    --card: #ffffff;
-    --line: #dcc1b8;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
-    background: var(--cream);
-    color: var(--ink);
-    line-height: 1.55;
-  }
-  a { color: var(--terracotta); }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 1.25rem 1.25rem 3rem; }
-  header.hero {
-    padding: 2rem 0 1.5rem;
-    border-bottom: 1px solid rgba(119,90,0,.18);
-    margin-bottom: 1.75rem;
-  }
-  .eyebrow {
-    font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
-    color: var(--gold); font-weight: 600; margin: 0 0 .5rem;
-  }
-  h1 {
-    font-family: "Playfair Display", Georgia, serif;
-    font-weight: 600; font-size: clamp(1.6rem, 4.5vw, 2.35rem);
-    line-height: 1.2; margin: 0 0 .6rem; color: var(--terracotta);
-  }
-  .meta { color: var(--muted); font-size: .95rem; margin: 0; }
-  .links {
-    display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.1rem;
-  }
-  .chip {
-    display: inline-flex; align-items: center; gap: .4rem;
-    padding: .55rem .9rem; border-radius: 999px;
-    background: var(--cream-2); color: var(--ink); text-decoration: none;
-    font-size: .85rem; font-weight: 600; border: 1px solid var(--line);
-  }
-  .chip.primary { background: var(--terracotta); color: #fff; border-color: transparent; }
-  h2 {
-    font-family: "Playfair Display", Georgia, serif;
-    font-size: 1.35rem; color: var(--terracotta); margin: 2rem 0 .9rem;
-  }
-  .grid {
-    display: grid; grid-template-columns: 1fr; gap: 1rem;
-  }
-  @media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
-  @media (min-width: 960px) { .grid { grid-template-columns: 1fr 1fr 1fr; } }
-  .card {
-    background: var(--card); border: 1px solid rgba(220,193,184,.7);
-    border-radius: 14px; overflow: hidden;
-    box-shadow: 0 2px 12px rgba(119,90,0,.05);
-    display: flex; flex-direction: column;
-  }
-  .card img {
-    width: 100%; aspect-ratio: 4/3; object-fit: cover; object-position: top;
-    background: var(--cream-2); display: block;
-  }
-  .card .body { padding: .95rem 1rem 1.1rem; display: flex; flex-direction: column; gap: .45rem; flex: 1; }
-  .card h3 {
-    font-family: "Playfair Display", Georgia, serif;
-    font-size: 1.1rem; margin: 0; color: var(--ink);
-  }
-  .card p { margin: 0; font-size: .88rem; color: var(--muted); }
-  .card .cta {
-    margin-top: auto; align-self: flex-start;
-    display: inline-flex; padding: .5rem .85rem; border-radius: 8px;
-    background: var(--terracotta); color: #fff; text-decoration: none;
-    font-size: .82rem; font-weight: 600;
-  }
-  .gallery {
-    display: grid; grid-template-columns: 1fr; gap: .85rem;
-  }
-  @media (min-width: 640px) { .gallery { grid-template-columns: 1fr 1fr; } }
-  .gallery a {
-    display: block; border-radius: 12px; overflow: hidden;
-    border: 1px solid var(--line); background: #fff; text-decoration: none; color: inherit;
-  }
-  .gallery img { width: 100%; display: block; }
-  .gallery figcaption { padding: .65rem .8rem; font-size: .82rem; color: var(--muted); }
-  .panel {
-    background: #fff; border: 1px solid var(--line); border-radius: 14px;
-    padding: 1rem 1.1rem; margin-top: .4rem;
-  }
-  .panel ul { margin: .4rem 0 0; padding-left: 1.15rem; color: var(--muted); }
-  .panel li { margin: .35rem 0; }
-  .note {
-    margin-top: 1.5rem; padding: 1rem 1.1rem; border-radius: 12px;
-    background: #b1f0ce33; border: 1px solid #95d4b3;
-    color: var(--green); font-size: .92rem;
-  }
-  footer {
-    margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid rgba(119,90,0,.15);
-    font-size: .8rem; color: var(--muted);
-  }
+  .hub-hero { padding: 2rem 0 1.5rem; border-bottom: 1px solid rgba(119,90,0,.18); margin-bottom: 1.5rem; }
+  .hub-grid { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+  @media (min-width: 640px) { .hub-grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 960px) { .hub-grid { grid-template-columns: 1fr 1fr 1fr; } }
+  .hub-card { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+  .hub-card .body { padding: 1rem 1.05rem 1.15rem; display: flex; flex-direction: column; gap: .4rem; flex: 1; }
+  .hub-card h3 { font-size: 1.1rem; margin: 0; }
+  .hub-card p { margin: 0; font-size: .88rem; color: var(--muted); }
+  .hub-card .cta { margin-top: auto; align-self: flex-start; }
+  .change { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 1rem 1.15rem; }
+  .change ul { margin: .4rem 0 0; padding-left: 1.15rem; color: var(--muted); }
+  .change li { margin: .35rem 0; }
+  .ver { display: inline-block; background: var(--terracotta); color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .08em; padding: .25rem .55rem; border-radius: 999px; }
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <header class="hero">
+  <div class="wrap" style="padding-top:1.25rem;padding-bottom:3rem;">
+    <header class="hub-hero">
       <p class="eyebrow">Team review · Internal</p>
-      <h1>DharmaSetu — UI Prototype v1<br/><span style="font-weight:500;font-size:.72em;color:var(--gold)">(for team review)</span></h1>
-      <p class="meta">Date: 2 Nov 2026 · Celebrating lives &amp; serving souls · Stitch screens wired for click-through review</p>
-      <div class="links">
-        <a class="chip primary" href="#screens">Open screens</a>
-        <a class="chip" href="https://cursor.com/canvas/store-ea9d2fa7-1a7d-4497-848d-9b2228071fb7/65941384-3f6a-4942-8519-eaedecfd33f4" target="_blank" rel="noopener">Planning Page</a>
-        <a class="chip" href="https://stitch.withgoogle.com/projects/13246696692050756096" target="_blank" rel="noopener">Stitch project</a>
-        <a class="chip" href="#gallery">Hi-res gallery</a>
+      <p><span class="ver">v2 · 3 Nov 2026</span></p>
+      <h1 style="color:var(--terracotta);font-size:clamp(1.6rem,4vw,2.3rem);margin-top:.6rem;">DharmaSetu — UI Prototype v2</h1>
+      <p class="muted">Celebrating lives &amp; serving souls · EN + हिं · Six screens from the 2 Nov team meeting</p>
+      <div class="cta-row" style="margin-top:1rem;">
+        <a class="btn btn-primary btn-sm" href="#screens">Open screens</a>
+        <a class="btn btn-ghost btn-sm" href="https://cursor.com/canvas/store-ea9d2fa7-1a7d-4497-848d-9b2228071fb7/65941384-3f6a-4942-8519-eaedecfd33f4" target="_blank" rel="noopener">Planning Page</a>
+        <a class="btn btn-ghost btn-sm" href="https://stitch.withgoogle.com/projects/13246696692050756096" target="_blank" rel="noopener">Stitch project</a>
       </div>
     </header>
 
-    <h2 id="screens">Five screens</h2>
-    <div class="grid">
-      <article class="card">
-        <img src="thumbs/home.jpg" alt="Home screen thumbnail"/>
-        <div class="body">
-          <h3>1. Home</h3>
-          <p>Hero, life-arc strip, tools, tirthas, WhatsApp CTA.</p>
-          <a class="cta" href="home.html">Open live HTML →</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="thumbs/life-arc.jpg" alt="Life Arc thumbnail"/>
-        <div class="body">
-          <h3>2. Life Arc (Sanskars)</h3>
-          <p>Sixteen sanskar explorer with stage filters and detail panel.</p>
-          <a class="cta" href="life-arc.html">Open live HTML →</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="thumbs/calendar.jpg" alt="Sacred Calendar thumbnail"/>
-        <div class="body">
-          <h3>3. Sacred Calendar</h3>
-          <p>Panchang month view with tithi highlights and muhurat windows.</p>
-          <a class="cta" href="calendar.html">Open live HTML →</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="thumbs/muhurat.jpg" alt="Muhurat Finder thumbnail"/>
-        <div class="body">
-          <h3>4. Muhurat Finder</h3>
-          <p>Event picker and sample muhurat results (see known issues).</p>
-          <a class="cta" href="muhurat.html">Open live HTML →</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="thumbs/rite.jpg" alt="Annual Shraddha guide thumbnail"/>
-        <div class="body">
-          <h3>5. Annual Shraddha guide</h3>
-          <p>Rite process, phases, samagri, FAQ, WhatsApp consult.</p>
-          <a class="cta" href="rite.html">Open live HTML →</a>
-        </div>
-      </article>
+    <h2 id="screens" style="color:var(--terracotta);font-size:1.35rem;">Six screens</h2>
+    <div class="hub-grid">
+      <article class="card hub-card"><div class="body">
+        <h3>1. Home</h3>
+        <p>Tagline, belief line, four service areas, WhatsApp CTA, EN|हिं.</p>
+        <a class="btn btn-primary btn-sm cta" href="home.html">Open →</a>
+      </div></article>
+      <article class="card hub-card"><div class="body">
+        <h3>2. Life Arc</h3>
+        <p>Flowing vertical journey from pre-birth to ancestral care, with reasoning.</p>
+        <a class="btn btn-primary btn-sm cta" href="life-arc.html">Open →</a>
+      </div></article>
+      <article class="card hub-card"><div class="body">
+        <h3>3. Sacred Calendar</h3>
+        <p>Nov 2026 – Feb 2027 samples, why-this-day, Google Calendar / .ics.</p>
+        <a class="btn btn-primary btn-sm cta" href="calendar.html">Open →</a>
+      </div></article>
+      <article class="card hub-card"><div class="body">
+        <h3>4. Muhurat</h3>
+        <p>Life-decision picker + form + sample roadmap. No fake scores.</p>
+        <a class="btn btn-primary btn-sm cta" href="muhurat.html">Open →</a>
+      </div></article>
+      <article class="card hub-card"><div class="body">
+        <h3>5. Annual Shraddha</h3>
+        <p>Calm ancestral-care guide. No funeral imagery.</p>
+        <a class="btn btn-primary btn-sm cta" href="rite.html">Open →</a>
+      </div></article>
+      <article class="card hub-card"><div class="body">
+        <h3>6. Sangam (new)</h3>
+        <p>Share tradition form, resource person, acharya placeholders with consent note.</p>
+        <a class="btn btn-primary btn-sm cta" href="community.html">Open →</a>
+      </div></article>
     </div>
 
-    <h2 id="gallery">High-resolution screenshots</h2>
-    <div class="gallery">
-      <a href="hd/home.png" target="_blank"><img src="thumbs/home.jpg" alt=""/><figcaption>Home — full PNG</figcaption></a>
-      <a href="hd/life-arc.png" target="_blank"><img src="thumbs/life-arc.jpg" alt=""/><figcaption>Life Arc — full PNG</figcaption></a>
-      <a href="hd/calendar.png" target="_blank"><img src="thumbs/calendar.jpg" alt=""/><figcaption>Sacred Calendar — full PNG</figcaption></a>
-      <a href="hd/muhurat.png" target="_blank"><img src="thumbs/muhurat.jpg" alt=""/><figcaption>Muhurat Finder — full PNG</figcaption></a>
-      <a href="hd/rite.png" target="_blank"><img src="thumbs/rite.jpg" alt=""/><figcaption>Annual Shraddha — full PNG</figcaption></a>
-    </div>
-
-    <h2>Planning &amp; design source</h2>
-    <div class="panel">
+    <h2 style="color:var(--terracotta);font-size:1.35rem;margin-top:2rem;">Changelog — v2 (3 Nov 2026)</h2>
+    <div class="change">
       <ul>
-        <li><a href="https://cursor.com/canvas/store-ea9d2fa7-1a7d-4497-848d-9b2228071fb7/65941384-3f6a-4942-8519-eaedecfd33f4" target="_blank" rel="noopener">Planning Page</a> — features, flows, architecture, go-to-market notes</li>
-        <li><a href="https://stitch.withgoogle.com/projects/13246696692050756096" target="_blank" rel="noopener">Stitch project 13246696692050756096</a> — editable UI source (sign-in may be required in Stitch)</li>
+        <li>English + Hindi toggle on every screen (localStorage preference).</li>
+        <li>Four service areas on Home: Birth · Death &amp; ancestral care · Vedic calendar · Daily-life timing.</li>
+        <li>Tagline + belief line: “Every time is right for you — but some times are better.”</li>
+        <li>Muhurat reworked: life-decision picker, details form, sample results Nov 2026+, “Why this time”, Google Calendar + .ics, WhatsApp acharya CTA. Removed Vedic Purity / alignment scores and outcome claims.</li>
+        <li>Calendar updated to Nov 2026 – Feb 2027 with why-this-day + sync/download.</li>
+        <li>Life Arc redesigned as a flowing vertical timeline (not a card grid).</li>
+        <li>New Sangam / community screen: share form → WhatsApp, resource person, consent-only acharya placeholders.</li>
+        <li>Known-issues list from v1 removed (addressed above).</li>
       </ul>
     </div>
 
-    <h2>Known issues to fix</h2>
-    <div class="panel">
-      <ul>
-        <li>Muhurat screen currently shows placeholder “Vedic Purity” / alignment scores and outcome-claim lines — these will be removed.</li>
-        <li>Sample dates on some screens are from 2024; they will be updated to current (Nov 2026 onward).</li>
-        <li>Life Arc is still a card grid; it should become a flowing journey layout.</li>
-      </ul>
+    <div class="note-banner" style="margin-top:1.5rem;">
+      <strong>Feedback:</strong> reply in the team WhatsApp group. Live homepage at /dharmasetu/ is unchanged — this is only /prototype/.
     </div>
 
-    <div class="note">
-      <strong>How to give feedback:</strong> reply in the team WhatsApp group. No decisions are recorded on this page.
-    </div>
-
-    <footer>
-      DharmaSetu UI Prototype v1 · 2 Nov 2026 · For Saumya, Rahul Kumar, Rishabh Singh · Not a production site
+    <footer style="margin-top:2rem;padding-top:1rem;border-top:1px solid rgba(119,90,0,.15);font-size:.8rem;color:var(--muted);">
+      DharmaSetu UI Prototype v2 · 3 Nov 2026 · Saumya, Rahul Kumar, Rishabh Singh · Not production
     </footer>
   </div>
 </body>

@@ -1,638 +1,253 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DharmaSetu — Muhurat / शुभ मुहूर्त</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="common.css"/>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>DharmaSetu — Muhurat Finder</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed":"#b1f0ce","on-secondary-fixed-variant":"#5a4300","primary-fixed-dim":"#ffb59c","outline-variant":"#dcc1b8","error":"#ba1a1a","on-primary":"#ffffff","inverse-on-surface":"#f6f0ec","surface-variant":"#e7e1de","on-secondary-container":"#735700","on-surface":"#1d1b19","inverse-surface":"#32302e","primary-container":"#a64b2a","primary-fixed":"#ffdbcf","surface-container-high":"#ede7e3","surface-container-lowest":"#ffffff","secondary":"#775a00","error-container":"#ffdad6","on-error":"#ffffff","surface-tint":"#9c4323","on-surface-variant":"#56423c","on-primary-fixed":"#390c00","on-background":"#1d1b19","secondary-fixed":"#ffdf98","on-primary-fixed-variant":"#7d2d0e","surface-bright":"#fef8f4","surface":"#fef8f4","on-tertiary-fixed":"#002114","on-secondary":"#ffffff","primary":"#873415","on-tertiary-fixed-variant":"#0e5138","outline":"#89726b","inverse-primary":"#ffb59c","secondary-fixed-dim":"#eec14b","on-secondary-fixed":"#251a00","background":"#fef8f4","surface-container-highest":"#e7e1de","secondary-container":"#fece57","tertiary-fixed-dim":"#95d4b3","surface-dim":"#dfd9d5","tertiary-container":"#347156","on-tertiary":"#ffffff","surface-container":"#f3ede9","on-error-container":"#93000a","surface-container-low":"#f9f2ef","on-tertiary-container":"#b3f3d0","on-primary-container":"#ffded4","tertiary":"#19583f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","space-lg":"1.5rem","space-xl":"2.5rem","space-md":"1rem","margin":"3rem","space-sm":"0.5rem","gutter":"1.5rem","space-xs":"0.25rem","margin-mobile":"1.25rem"},"fontFamily":{"display-lg":["Playfair Display"],"body-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Playfair Display"],"headline-sm":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"]},"fontSize":{"display-lg":["48px",{"lineHeight":"56px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-md":["26px",{"lineHeight":"34px","fontWeight":"500"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"display-lg-mobile":["34px",{"lineHeight":"42px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"500"}],"label-lg":["14px",{"lineHeight":"20px","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl border-b border-secondary/20 shadow-[0_1px_12px_rgba(119,90,0,0.04)]"><div class="max-w-[1240px] mx-auto px-gutter h-20 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary flex items-center justify-center shadow-[0_2px_8px_rgba(135,52,21,0.2)]"><span class="material-symbols-outlined text-[24px]">temple_hindu</span></div><div class="flex flex-col"><div class="flex items-center gap-1.5"><a href="home.html" style="text-decoration:none;color:inherit" class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">DharmaSetu</a><span class="text-label-sm font-label-sm text-secondary tracking-widest uppercase">धर्मसेतु</span></div><span class="font-label-sm text-label-sm text-on-surface-variant italic">Celebrating lives, serving souls</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-bold bg-primary-fixed/50 rounded-lg px-2.5 py-1.5"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="dharmasetu---life-arc-sanskar-explorer" href="life-arc.html">Life Arc (Sanskaras)</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="dharmasetu---tirtha-yatra" href="#">Tirtha Yatra</a><a aria-current="page" class="transition-colors text-primary font-bold bg-primary-fixed/50 rounded-lg px-2.5 py-1.5" data-path="dharmasetu---sacred-calendar" href="calendar.html">Sacred Calendar</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="dharmasetu---texts-and-wisdom" href="#">Texts &amp; Wisdom</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="dharmasetu---verified-acharyas" href="#">Verified Acharyas</a></nav><div class="flex items-center gap-space-sm"><button aria-label="Search" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">search</span></button><div class="hidden sm:flex items-center px-space-sm py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm"><button class="hover:text-primary transition-colors font-semibold">English</button><span class="mx-1 text-outline-variant">|</span><button class="hover:text-primary transition-colors">हिन्दी</button></div><a class="hidden md:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#25D366] text-white hover:bg-[#20ba59] transition-all font-label-lg text-label-lg shadow-[0_2px_8px_rgba(37,211,102,0.25)]" data-path="dharmasetu---family-roadmap" href="https://wa.me/917239062622"><span class="material-symbols-outlined text-[18px]">chat</span><span>Family Roadmap</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
-<!-- Subtle Ornamental Aura Background Elements -->
-<div class="relative w-full overflow-hidden">
-<!-- Atmospheric Ambient Glows -->
-<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[900px] h-[350px] bg-gradient-to-b from-secondary/10 via-primary/5 to-transparent rounded-full blur-3xl pointer-events-none -z-10"></div>
-<div class="absolute top-80 right-0 w-[420px] h-[420px] bg-secondary-fixed/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
-<div class="max-w-[1240px] mx-auto px-gutter pt-space-md pb-space-xl">
-<!-- Breadcrumb / Lineage Tracker -->
-<nav class="flex items-center gap-2 mb-space-sm font-label-sm text-label-sm text-on-surface-variant">
-<a class="hover:text-primary transition-colors flex items-center gap-1" href="home.html">
-<span class="material-symbols-outlined text-[15px]">home</span>
-<span>Sanctuary</span>
-</a>
-<span class="text-outline-variant">/</span>
-<a class="hover:text-primary transition-colors" href="calendar.html">Sacred Calendar (पञ्चाङ्ग)</a>
-<span class="text-outline-variant">/</span>
-<span class="text-primary font-semibold">Shubh Muhurat Finder (शुभ मुहूर्त)</span>
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="home.html">
+      <div class="brand-mark" aria-hidden="true">ॐ</div>
+      <div class="brand-text">
+        <span class="brand-name">DharmaSetu <span style="font-size:.7em;color:var(--gold);font-weight:600">धर्मसेतु</span></span>
+        <span class="brand-sub"><span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span></span>
+      </div>
+    </a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+      <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+      <a href="muhurat.html" class="active"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+      <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+      <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="hi">हिं</button>
+      </div>
+      <button class="burger" id="burger" type="button" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav">
+  <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+  <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+  <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+  <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+  <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+  <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
 </nav>
-<!-- Page Header: Editorial & Dignified -->
-<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md pb-space-lg">
-<div class="max-w-3xl flex flex-col gap-2">
-<!-- Eyebrow Pill -->
-<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high w-fit">
-<span class="material-symbols-outlined text-secondary text-[16px]">wb_sunny</span>
-<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold">ज्योतिष एवं काल गणना • AUSPICIOUS CELESTIAL TIMINGS &amp; ASTROLOGICAL ALIGNMENT</span>
-</div>
-<h1 class="font-headline-lg text-headline-lg lg:text-[40px] lg:leading-[48px] text-on-surface font-semibold tracking-tight">
-            Shubh Muhurat Finder <span class="text-primary font-normal italic font-headline-md text-headline-md">(शुभ मुहूर्त अन्वेषक)</span>
-</h1>
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed max-w-2xl">
-            Discover auspicious cosmic windows calculated through authentic Surya Siddhantic traditions, planetary yogas, and Panchang limbs to anchor your family's sacred milestones in enduring grace.
-          </p>
-</div>
-<!-- Trust Hallmark Pill -->
-<div class="shrink-0 flex items-center gap-3 p-3 rounded-xl bg-surface-container-low shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-[24px]">verified_user</span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-sm text-label-sm font-semibold text-on-surface">Surya Siddhanta Parampara</span>
-<span class="font-label-sm text-label-sm text-on-surface-variant">Validated with Kashi Vishwanath Ephemeris</span>
-</div>
-</div>
-</div>
-<!-- SHORT CHIP WIZARD & FILTER BAR -->
-<section class="bg-surface-container-lowest rounded-xl shadow-md p-space-md lg:p-space-lg mb-space-xl relative overflow-hidden">
-<!-- Subtle decorative top hairline -->
-<div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-secondary/40 to-transparent"></div>
-<div class="flex flex-col gap-space-md">
-<!-- Step 1: Event Type Chips -->
-<div class="flex flex-col gap-2">
-<div class="flex items-center justify-between">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-bold flex items-center gap-1.5">
-<span class="w-5 h-5 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center text-[10px] font-bold">1</span>
-                Select Sacred Rite (संस्कार / अनुष्ठान)
-              </span>
-<span class="text-label-sm font-label-sm text-secondary italic">Showing 7 Traditional Sanskars</span>
-</div>
-<div class="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none" id="event-type-chips">
-<button class="group shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-primary text-on-primary shadow-sm font-label-md text-label-md font-semibold transition-all" type="button">
-<span class="material-symbols-outlined text-[18px]">roofing</span>
-<span>Griha Pravesh (गृह प्रवेश)</span>
-<span class="w-2 h-2 rounded-full bg-secondary-fixed"></span>
-</button>
-<button class="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" type="button">
-<span class="material-symbols-outlined text-secondary text-[18px]">child_friendly</span>
-<span>Namkaran (नामकरण)</span>
-</button>
-<button class="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" type="button">
-<span class="material-symbols-outlined text-secondary text-[18px]">face_retouching_natural</span>
-<span>Mundan / Chudakarana (चूड़ाकरण)</span>
-</button>
-<button class="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" type="button">
-<span class="material-symbols-outlined text-secondary text-[18px]">favorite</span>
-<span>Vivaha (विवाह)</span>
-</button>
-<button class="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" type="button">
-<span class="material-symbols-outlined text-secondary text-[18px]">spa</span>
-<span>Shraddha &amp; Tarpan (श्राद्ध एवं तर्पण)</span>
-</button>
-<button class="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" type="button">
-<span class="material-symbols-outlined text-secondary text-[18px]">school</span>
-<span>Upanayan (उपनयन)</span>
-</button>
-<button class="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" type="button">
-<span class="material-symbols-outlined text-secondary text-[18px]">menu_book</span>
-<span>Vidyarambha (विद्यारम्भ)</span>
-</button>
-</div>
-</div>
-<!-- Secondary Filters Row: Step 2, 3, 4 -->
-<div class="grid grid-cols-1 md:grid-cols-12 gap-space-sm pt-space-xs items-center">
-<!-- Step 2: Location Dropdown Pill (4 cols) -->
-<div class="md:col-span-4 flex flex-col gap-1.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-bold flex items-center gap-1.5">
-<span class="w-5 h-5 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center text-[10px] font-bold">2</span>
-                Astrological Coordinates (स्थान)
-              </span>
-<div class="relative group">
-<button class="w-full flex items-center justify-between px-3.5 py-2.5 bg-surface-container-low rounded-lg hover:bg-surface-container transition-colors text-left" type="button">
-<div class="flex items-center gap-2 overflow-hidden">
-<span class="material-symbols-outlined text-primary text-[18px] shrink-0">location_on</span>
-<div class="flex flex-col truncate">
-<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Kashi (Varanasi), India</span>
-<span class="font-label-sm text-label-sm text-on-surface-variant text-[10px]">25.3176° N, 82.9739° E • IST (+5:30)</span>
-</div>
-</div>
-<span class="material-symbols-outlined text-outline text-[18px] shrink-0 ml-1">expand_more</span>
-</button>
-</div>
-</div>
-<!-- Step 3: Date Range Picker Chips (5 cols) -->
-<div class="md:col-span-5 flex flex-col gap-1.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-bold flex items-center gap-1.5">
-<span class="w-5 h-5 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center text-[10px] font-bold">3</span>
-                Auspicious Epoch / Range (समय सीमा)
-              </span>
-<div class="flex items-center gap-1.5 flex-wrap">
-<button class="px-3 py-2 rounded-lg bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold transition-colors" type="button">
-                  Next 30 Days
-                </button>
-<button class="px-3 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-sm text-label-sm transition-colors" type="button">
-                  Oct 2024
-                </button>
-<button class="px-3 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-sm text-label-sm transition-colors" type="button">
-                  Nov 2024
-                </button>
-<button class="px-3 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-sm text-label-sm transition-colors" type="button">
-                  Kartik Maas (कार्तिक)
-                </button>
-<button class="px-2.5 py-2 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors flex items-center gap-1" type="button">
-<span class="material-symbols-outlined text-[15px]">calendar_today</span>
-<span>Custom</span>
-</button>
-</div>
-</div>
-<!-- Step 4: Optional Birth Nakshatra Filter (3 cols) -->
-<div class="md:col-span-3 flex flex-col gap-1.5">
-<div class="flex items-center justify-between">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-bold flex items-center gap-1.5">
-<span class="w-5 h-5 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center text-[10px] font-bold">4</span>
-                  Tara Bala Filter
-                </span>
-<span class="material-symbols-outlined text-secondary text-[15px] cursor-pointer" title="Checks lunar constellation harmony (Tara Bala &amp; Chandra Bala) for the head of family">help</span>
-</div>
-<div class="relative">
-<select class="w-full appearance-none px-3.5 py-2.5 bg-surface-container-low rounded-lg font-label-md text-label-md text-on-surface font-medium focus:outline-none focus:bg-surface-container cursor-pointer pr-8">
-<option selected="">Any Janma Nakshatra</option>
-<option>Pushya (पुष्य) - Ideal</option>
-<option>Rohini (रोहिणी)</option>
-<option>Uttara Phalguni (उत्तराफाल्गुनी)</option>
-<option>Ashwini (अश्विनी)</option>
-<option>Hasta (हस्त)</option>
-<option>Swati (स्वाति)</option>
-</select>
-<span class="material-symbols-outlined text-outline text-[18px] absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none">unfold_more</span>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- RESULTS HEADER & METADATA BAR -->
-<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
-<div class="flex items-center gap-2.5">
-<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-[18px]">search_spark</span>
-</div>
-<div class="flex flex-col">
-<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">
-              3 Highly Auspicious Windows Found
-            </h2>
-<span class="font-label-sm text-label-sm text-on-surface-variant">
-              For Griha Pravesh • Kashi Ephemeris • Oct 24, 2024 to Nov 24, 2024 • Surya Siddhanta
-            </span>
-</div>
-</div>
-<!-- Ephemeris Toggle & Share -->
-<div class="flex items-center gap-2 self-start sm:self-auto">
-<span class="px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm flex items-center gap-1 font-semibold">
-<span class="material-symbols-outlined text-[14px]">check_circle</span>
-<span>Shastric Doshas Zeroed</span>
-</span>
-<button class="p-2 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant transition-colors" title="Print Auspicious Patrika" type="button">
-<span class="material-symbols-outlined text-[18px]">print</span>
-</button>
-</div>
-</div>
-<!-- MAIN BODY: 2 COLUMNS (RESULTS LIST + RIGHT ADVISORY DOSSIER) -->
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
-<!-- LEFT COLUMN: CURATED AUSPICIOUS WINDOWS (8 COLUMNS) -->
-<div class="lg:col-span-8 flex flex-col gap-space-lg">
-<!-- CARD 1: PRIME AUSPICIOUS WINDOW (FEATURED) -->
-<article class="bg-surface-container-lowest rounded-xl shadow-md p-space-md lg:p-space-lg relative overflow-hidden transition-all duration-300 hover:shadow-lg">
-<!-- Top auspicious amber filigree bar -->
-<div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-secondary via-primary to-secondary"></div>
-<div class="flex flex-col gap-space-md">
-<!-- Header Row of Card 1 -->
-<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-sm border-b border-surface-container">
-<div class="flex flex-col gap-1">
-<div class="flex items-center gap-2">
-<span class="px-2.5 py-0.5 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm font-bold uppercase tracking-wider">
-                      उत्तम • Prime Auspicious Window
-                    </span>
-<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-1">
-<span class="material-symbols-outlined text-[16px]">stars</span> Guru-Pushya Yoga
-                    </span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">
-                    Thursday, 24 October 2024
-                  </h3>
-<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
-<span class="material-symbols-outlined text-primary text-[17px]">schedule</span>
-<span class="font-semibold text-primary">06:28 AM – 10:42 AM IST</span>
-<span>•</span>
-<span>Dur: 4 hrs 14 mins</span>
-</div>
-</div>
-<!-- Auspicious Score Gauge (Inline Visual Element) -->
-<div class="shrink-0 flex items-center gap-3 p-2.5 rounded-xl bg-surface-container-low self-start sm:self-auto">
-<div class="relative w-12 h-12 flex items-center justify-center">
-<svg class="w-12 h-12 -rotate-90" viewbox="0 0 36 36">
-<path class="text-surface-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3"></path>
-<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="96, 100" stroke-linecap="round" stroke-width="3"></path>
-</svg>
-<span class="absolute text-[12px] font-bold text-on-surface font-label-sm">96%</span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-sm text-label-sm text-on-surface font-bold">Vedic Purity</span>
-<span class="font-label-sm text-label-sm text-secondary font-medium">A+ Shastric Grade</span>
-</div>
-</div>
-</div>
-<!-- Auspicious Limbs Bento Grid (Panchanga Angas) -->
-<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm">
-<!-- Tithi -->
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-1">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Tithi (तिथि)</span>
-<span class="font-label-md text-label-md font-bold text-on-surface">Shukla Ashtami</span>
-<span class="text-[11px] text-on-surface-variant font-body-sm leading-tight">Shifts to Navami at 10:45 AM</span>
-</div>
-<!-- Nakshatra -->
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-1">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Nakshatra (नक्षत्र)</span>
-<span class="font-label-md text-label-md font-bold text-primary">Pushya (पुष्य)</span>
-<span class="text-[11px] text-on-surface-variant font-body-sm leading-tight">King of Constellations</span>
-</div>
-<!-- Lagna -->
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-1">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Lagna (लग्न)</span>
-<span class="font-label-md text-label-md font-bold text-on-surface">Vrishabha (वृषभ)</span>
-<span class="text-[11px] text-on-surface-variant font-body-sm leading-tight">Sthira (Fixed) Ascendant</span>
-</div>
-<!-- Choghadiya -->
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-1">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Choghadiya</span>
-<span class="font-label-md text-label-md font-bold text-tertiary">Shubh &amp; Amrit</span>
-<span class="text-[11px] text-on-surface-variant font-body-sm leading-tight">06:28 to 09:18 AM</span>
-</div>
-</div>
-<!-- Planetary Protections & Dosha Nullification -->
-<div class="p-3.5 rounded-lg bg-tertiary-fixed/30 flex items-start gap-3">
-<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5">shield_with_heart</span>
-<div class="flex flex-col gap-0.5">
-<span class="font-label-md text-label-md font-bold text-on-surface">Shastric Protections Verified</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                    Rahu Kaal safely avoided (occurs 01:30 PM – 03:00 PM). Bhadra Dosha strictly absent. Guru-Pushya Yoga renders perpetual stability for newly consecrated dwellings.
-                  </p>
-</div>
-</div>
-<!-- Recommended Vidhi Elements -->
-<div class="flex flex-col gap-2">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold flex items-center gap-1.5">
-<span class="material-symbols-outlined text-secondary text-[16px]">menu_book</span>
-                  Prescribed Vedic Vidhi Sequence:
-                </span>
-<div class="flex flex-wrap gap-2">
-<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Dwar Puja &amp; Torana</span>
-<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Vastu Shanti Havan</span>
-<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Navagraha Aradhana</span>
-<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Boiling milk till eastern overflow</span>
-</div>
-</div>
-<!-- Card Action Bar -->
-<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pt-space-xs border-t border-surface-container">
-<div class="flex items-center gap-2">
-<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors shadow-sm" type="button">
-<span class="material-symbols-outlined text-[17px]">event</span>
-<span>Add to Family Calendar</span>
-</button>
-<button class="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors" type="button">
-<span class="material-symbols-outlined text-[17px]">share</span>
-<span>Share Patrika</span>
-</button>
-</div>
-<a class="inline-flex items-center gap-1.5 text-secondary hover:text-on-secondary-container font-label-md text-label-md font-semibold transition-colors" href="#whatsapp-consult">
-<span>Match with Janma Kundali</span>
-<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
-</a>
-</div>
-</div>
-</article>
-<!-- CARD 2: AUSPICIOUS WINDOW (NOV 01) -->
-<article class="bg-surface-container-lowest rounded-xl shadow-md p-space-md lg:p-space-lg relative overflow-hidden transition-all duration-300 hover:shadow-lg">
-<div class="flex flex-col gap-space-md">
-<!-- Header Row of Card 2 -->
-<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-sm border-b border-surface-container">
-<div class="flex flex-col gap-1">
-<div class="flex items-center gap-2">
-<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-semibold uppercase tracking-wider">
-                      शुभ • Auspicious Festival Window
-                    </span>
-<span class="font-label-sm text-label-sm text-secondary font-medium">Govardhan Parva Timing</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">
-                    Friday, 01 November 2024
-                  </h3>
-<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
-<span class="material-symbols-outlined text-primary text-[17px]">schedule</span>
-<span class="font-semibold text-on-surface">06:40 AM – 08:50 AM IST</span>
-<span>•</span>
-<span>Dur: 2 hrs 10 mins</span>
-</div>
-</div>
-<!-- Metric Badge -->
-<div class="shrink-0 flex items-center gap-3 p-2 rounded-xl bg-surface-container-low self-start sm:self-auto">
-<span class="text-label-md font-label-md font-bold text-primary px-2 py-1 bg-surface-container rounded">91% Alignment</span>
-</div>
-</div>
-<!-- Panchanga Angas -->
-<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm">
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-0.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Tithi</span>
-<span class="font-label-md text-label-md font-bold text-on-surface">Kartik Pratipada</span>
-<span class="text-[11px] text-on-surface-variant">Diwali Balipratipada</span>
-</div>
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-0.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Nakshatra</span>
-<span class="font-label-md text-label-md font-bold text-on-surface">Anuradha (अनुराधा)</span>
-<span class="text-[11px] text-on-surface-variant">Mitra Devata (Harmony)</span>
-</div>
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-0.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Lagna</span>
-<span class="font-label-md text-label-md font-bold text-on-surface">Mithuna (मिथुन)</span>
-<span class="text-[11px] text-on-surface-variant">Dvisvabhava Lagna</span>
-</div>
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-0.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Choghadiya</span>
-<span class="font-label-md text-label-md font-bold text-secondary">Char &amp; Labh</span>
-<span class="text-[11px] text-on-surface-variant">Growth &amp; Abundance</span>
-</div>
-</div>
-<!-- Planetary Protections -->
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                Rahu Kaal (10:30 AM – 12:00 PM) fully avoided. Zero Panchak dosha during threshold passage. Revered timing especially suited for joint families entering newly purchased family homes.
-              </p>
-<!-- Actions -->
-<div class="flex items-center justify-between pt-space-xs border-t border-surface-container">
-<button class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors" type="button">
-<span class="material-symbols-outlined text-[17px]">bookmark_add</span>
-<span>Save Window</span>
-</button>
-<a class="text-primary hover:text-primary-container font-label-md text-label-md font-semibold transition-colors" href="#whatsapp-consult">
-                  Consult Acharya for Nov 1 →
-                </a>
-</div>
-</div>
-</article>
-<!-- CARD 3: AUSPICIOUS WINDOW (NOV 07) -->
-<article class="bg-surface-container-lowest rounded-xl shadow-md p-space-md lg:p-space-lg relative overflow-hidden transition-all duration-300 hover:shadow-lg">
-<div class="flex flex-col gap-space-md">
-<!-- Header Row of Card 3 -->
-<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-sm border-b border-surface-container">
-<div class="flex flex-col gap-1">
-<div class="flex items-center gap-2">
-<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-semibold uppercase tracking-wider">
-                      शुभ • Auspicious Standard
-                    </span>
-<span class="font-label-sm text-label-sm text-tertiary font-medium">Chhath Parva Shasthi</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">
-                    Thursday, 07 November 2024
-                  </h3>
-<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
-<span class="material-symbols-outlined text-primary text-[17px]">schedule</span>
-<span class="font-semibold text-on-surface">07:15 AM – 11:30 AM IST</span>
-<span>•</span>
-<span>Dur: 4 hrs 15 mins</span>
-</div>
-</div>
-<div class="shrink-0 flex items-center gap-3 p-2 rounded-xl bg-surface-container-low self-start sm:self-auto">
-<span class="text-label-md font-label-md font-bold text-on-surface px-2 py-1 bg-surface-container rounded">88% Alignment</span>
-</div>
-</div>
-<!-- Panchanga Angas -->
-<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm">
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-0.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Tithi</span>
-<span class="font-label-md text-label-md font-bold text-on-surface">Kartik Shasthi</span>
-<span class="text-[11px] text-on-surface-variant">Surya Shasthi</span>
-</div>
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-0.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Nakshatra</span>
-<span class="font-label-md text-label-md font-bold text-on-surface">Uttara Ashadha</span>
-<span class="text-[11px] text-on-surface-variant">Victory &amp; Enduring Fame</span>
-</div>
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-0.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Lagna</span>
-<span class="font-label-md text-label-md font-bold text-on-surface">Karka (कर्क)</span>
-<span class="text-[11px] text-on-surface-variant">Chandra Rashi Lord</span>
-</div>
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-0.5">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Choghadiya</span>
-<span class="font-label-md text-label-md font-bold text-tertiary">Shubh &amp; Amrit</span>
-<span class="text-[11px] text-on-surface-variant">Auspicious Current</span>
-</div>
-</div>
-<!-- Planetary Protections -->
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                Rahu Kaal (01:25 PM – 02:48 PM) safely avoided. Positive Chandra Bala established across Mithuna, Karka, Vrishchika, and Meena rashi family members.
-              </p>
-<!-- Actions -->
-<div class="flex items-center justify-between pt-space-xs border-t border-surface-container">
-<button class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors" type="button">
-<span class="material-symbols-outlined text-[17px]">bookmark_add</span>
-<span>Save Window</span>
-</button>
-<a class="text-primary hover:text-primary-container font-label-md text-label-md font-semibold transition-colors" href="#whatsapp-consult">
-                  Consult Acharya for Nov 7 →
-                </a>
-</div>
-</div>
-</article>
-</div>
-<!-- RIGHT COLUMN: SHASTRA ADVISORY & PRIEST CONFIRMATION DOSSIER (4 COLUMNS) -->
-<div class="lg:col-span-4 flex flex-col gap-space-md sticky top-24">
-<!-- Advisory Dossier Card -->
-<div class="bg-surface-container-lowest rounded-xl shadow-md p-space-md relative overflow-hidden">
-<div class="flex items-center gap-2.5 pb-3 border-b border-surface-container">
-<div class="w-8 h-8 rounded-lg bg-secondary/15 text-secondary flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">auto_stories</span>
-</div>
-<div>
-<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-bold">Shastric Principle</span>
-<h4 class="font-headline-sm text-[18px] leading-tight text-on-surface font-bold">Why Acharya Validation Matters</h4>
-</div>
-</div>
-<div class="pt-space-sm flex flex-col gap-space-sm">
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                While ephemeris algorithms provide cosmic windows, true Vedic muhurat requires harmonizing the <strong class="text-on-surface font-semibold">Karta’s Janma Kundali</strong>, Gotra parampara, and Kuladevata tithis to avoid occult flaws like <em class="italic">Dagdha Tithi</em>, <em class="italic">Kakashala</em>, or <em class="italic">Vishti Karana</em>.
-              </p>
-<!-- Verified Scholar Metric Block -->
-<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-1.5">
-<div class="flex items-center gap-2 text-tertiary">
-<span class="material-symbols-outlined text-[18px]">verified</span>
-<span class="font-label-sm text-label-sm font-bold">100% Traditional Gurukul Lineage</span>
-</div>
-<p class="text-[12px] leading-relaxed text-on-surface-variant font-body-sm">
-                  Scholars credentialed in Kashi Vishwanath, Kanchi Kamakoti Peetham, and Ujjain Jyotish Parisamvada traditions.
-                </p>
-</div>
-<!-- Diya Ambient Ritual Note -->
-<div class="p-3 rounded-lg bg-surface-container flex items-center gap-3">
-<div class="w-7 h-7 rounded-full bg-secondary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-on-secondary-fixed text-[16px]">light_mode</span>
-</div>
-<span class="font-label-sm text-label-sm text-on-surface">
-                  Zero guesswork. Peace of mind for elder generations.
-                </span>
-</div>
-</div>
-</div>
-<!-- PRIMARY WHATSAPP DIRECT ACTION BANNER -->
-<div class="bg-gradient-to-br from-surface-container-lowest via-surface-container to-surface-container-low rounded-xl shadow-md p-space-md relative overflow-hidden" id="whatsapp-consult">
-<!-- Decorative Accent line -->
-<div class="absolute top-0 right-0 w-24 h-24 bg-[#25D366]/10 rounded-full blur-2xl pointer-events-none"></div>
-<div class="flex flex-col gap-space-sm">
-<div class="flex items-center gap-2">
-<span class="px-2 py-0.5 rounded bg-[#25D366]/20 text-[#128C7E] font-label-sm text-label-sm font-bold uppercase tracking-wider">
-                  Direct Assistance
-                </span>
-</div>
-<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug">
-                Get a Personalised Muhurat Consult on WhatsApp
-              </h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                Connect directly with a verified Jyotish Shastri to cross-verify family birth charts and obtain a bespoke vidhi checklist.
-              </p>
-<!-- Main WhatsApp CTA Button -->
-<a class="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-lg bg-[#25D366] text-white hover:bg-[#20ba59] transition-all font-label-md text-label-md font-bold shadow-[0_4px_14px_rgba(37,211,102,0.3)]" href="#">
-<span class="material-symbols-outlined text-[20px]">chat</span>
-<span>Consult on WhatsApp</span>
-</a>
-<!-- Secondary WhatsApp PDF Share -->
-<button class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors font-label-sm text-label-sm font-semibold" type="button">
-<span class="material-symbols-outlined text-[17px] text-[#25D366]">share</span>
-<span>Share Muhurat Patrika PDF with Family</span>
-</button>
-<!-- Language & Trust Microcopy -->
-<div class="pt-1 flex flex-col gap-1 text-[11px] text-on-surface-variant font-body-sm text-center">
-<span>Free initial shastric review • Elder-friendly one-tap guidance</span>
-<span class="text-outline">Available in Hindi, English, Tamil, Telugu, Marathi &amp; Bengali</span>
-</div>
-</div>
-</div>
-<!-- Quick Panchang Snapshot of the Day -->
-<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-2">
-<div class="flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-bold">Today's Kashi Ephemeris</span>
-<span class="font-label-sm text-label-sm text-secondary font-semibold">Live</span>
-</div>
-<div class="grid grid-cols-2 gap-2 text-[12px] font-label-sm">
-<div class="flex flex-col">
-<span class="text-on-surface-variant">Sunrise:</span>
-<span class="font-bold text-on-surface">06:04 AM IST</span>
-</div>
-<div class="flex flex-col">
-<span class="text-on-surface-variant">Sunset:</span>
-<span class="font-bold text-on-surface">05:32 PM IST</span>
-</div>
-<div class="flex flex-col">
-<span class="text-on-surface-variant">Rahu Kaal Today:</span>
-<span class="font-bold text-error">10:28 – 11:54 AM</span>
-</div>
-<div class="flex flex-col">
-<span class="text-on-surface-variant">Abhijit Muhurat:</span>
-<span class="font-bold text-tertiary">11:36 AM – 12:22 PM</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- EDUCATIONAL SHASTRIC WISDOM STRIP -->
-<section class="mt-space-xl pt-space-xl border-t border-surface-container flex flex-col gap-space-lg">
-<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
-<div class="flex flex-col gap-1">
-<div class="inline-flex items-center gap-1.5 text-secondary font-label-sm text-label-sm font-bold uppercase tracking-wider">
-<span class="material-symbols-outlined text-[16px]">menu_book</span>
-<span>मुहूर्त विज्ञान • Sacred Celestial Principles</span>
-</div>
-<h3 class="font-headline-md text-headline-md text-on-surface font-bold">
-              Understanding Vedic Time Calculation
-            </h3>
-</div>
-<span class="font-body-sm text-body-sm text-on-surface-variant max-w-md">
-            The Atharva Jyotish teaches that auspicious timing synchronizes human endeavour with macrocosmic harmony.
-          </span>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
-<!-- Card 1: Sthira Lagna -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-xs transition-all hover:shadow-md">
-<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-1">
-<span class="material-symbols-outlined text-[20px]">file_copy</span>
-</div>
-<h4 class="font-headline-sm text-[18px] text-on-surface font-bold">
-              What is Sthira Lagna? (स्थिर लग्न)
-            </h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              Ascendants of Taurus (Vrishabha), Leo (Simha), Scorpio (Vrishchika), and Aquarius (Kumbha) provide fixed, unwavering foundations. They are strictly sought for Griha Pravesh and marriage to anchor lifelong peace and rooted prosperity.
-            </p>
-</div>
-<!-- Card 2: Choghadiya vs Shubh Muhurat -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-xs transition-all hover:shadow-md">
-<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-1">
-<span class="material-symbols-outlined text-[20px]">timelapse</span>
-</div>
-<h4 class="font-headline-sm text-[18px] text-on-surface font-bold">
-              Choghadiya vs Shastric Muhurat
-            </h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              While Choghadiya divides daylight into eight parts for immediate day-to-day journeys, authentic Shubh Muhurat relies on all five limbs (Tithi, Vara, Nakshatra, Yoga, Karana) alongside Lagna Shuddhi for life-defining milestones.
-            </p>
-</div>
-<!-- Card 3: Rahu Kaal & Yamaganda -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-xs transition-all hover:shadow-md">
-<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary-container mb-1">
-<span class="material-symbols-outlined text-[20px]">timer_off</span>
-</div>
-<h4 class="font-headline-sm text-[18px] text-on-surface font-bold">
-              Rahu Kaal &amp; Inauspicious Gaps
-            </h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              Rahu Kaal represents the daily period ruled by the northern lunar node, causing confusion and obstacle. Our finder automatically filters out Rahu Kaal, Yamaganda, and Gulika Kaal so every calculated window is fully protected.
-            </p>
-</div>
-</div>
-</section>
-<!-- REASSURANCE BOTTOM BANNER -->
-<section class="mt-space-xl p-space-lg rounded-xl bg-surface-container flex flex-col md:flex-row items-center justify-between gap-space-md relative overflow-hidden">
-<div class="flex items-center gap-space-md">
-<div class="w-12 h-12 rounded-xl bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
-<span class="material-symbols-outlined text-[28px]">family_restroom</span>
-</div>
-<div class="flex flex-col">
-<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">
-              Need custom muhurat calculations for multiple family horoscopes?
-            </h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant">
-              Submit birth charts of both partners or family elders for a harmonized, discord-free date.
-            </p>
-</div>
-</div>
-<div class="flex items-center gap-3 shrink-0 w-full md:w-auto">
-<a class="w-full md:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#25D366] text-white hover:bg-[#20ba59] transition-all font-label-md text-label-md font-bold shadow-md" href="#whatsapp-consult">
-<span class="material-symbols-outlined text-[19px]">chat</span>
-<span>Request Kundali Matching</span>
-</a>
-</div>
-</section>
-</div>
-</div>
-</div>
+
+<main>
+  <section class="section" style="padding-top:1.75rem;">
+    <div class="wrap">
+      <p class="eyebrow"><span data-i18n-en>Daily-life timing</span><span data-i18n-hi>दैनिक जीवन का समय</span></p>
+      <h1 style="font-size:clamp(1.6rem,3.5vw,2.2rem);color:var(--terracotta);">
+        <span data-i18n-en>Find a better time</span><span data-i18n-hi>बेहतर समय खोजें</span>
+        <span style="display:block;font-size:.55em;color:var(--gold);font-weight:500;margin-top:.25rem;">शुभ मुहूर्त</span>
+      </h1>
+      <p class="belief" style="margin-top:.75rem;">
+        <span data-i18n-en>“Every time is right for you — but some times are better.”</span>
+        <span data-i18n-hi>“हर समय आपके लिए ठीक है — पर कुछ समय और बेहतर होते हैं।”</span>
+      </p>
+      <p class="muted" style="max-width:40rem;">
+        <span data-i18n-en>Pick a life decision, share a few details, and see sample windows with the reasoning from tradition. Real ephemeris calculations come next — for now, explore the flow. We never replace your kul-purohit.</span>
+        <span data-i18n-hi>जीवन का निर्णय चुनें, कुछ विवरण दें, और परंपरा के तर्क के साथ नमूना समय-खिड़कियाँ देखें। वास्तविक गणना आगे आएगी — अभी प्रवाह समझें। हम आपके कुल-पुरोहित का स्थान नहीं लेते।</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="card" style="padding:1.25rem 1.3rem;">
+        <p class="eyebrow"><span data-i18n-en>1 · What are you timing?</span><span data-i18n-hi>१ · किसका समय देखना है?</span></p>
+        <div class="chips" id="event-chips" style="margin-bottom:1.1rem;">
+          <button type="button" class="chip active" data-event="job"><span data-i18n-en>Job / career</span><span data-i18n-hi>नौकरी</span></button>
+          <button type="button" class="chip" data-event="marriage"><span data-i18n-en>Marriage</span><span data-i18n-hi>विवाह</span></button>
+          <button type="button" class="chip" data-event="house"><span data-i18n-en>House purchase</span><span data-i18n-hi>घर खरीदना</span></button>
+          <button type="button" class="chip" data-event="visa"><span data-i18n-en>Visa appointment</span><span data-i18n-hi>वीज़ा</span></button>
+          <button type="button" class="chip" data-event="travel"><span data-i18n-en>Travel</span><span data-i18n-hi>यात्रा</span></button>
+          <button type="button" class="chip" data-event="naming"><span data-i18n-en>Naming</span><span data-i18n-hi>नामकरण</span></button>
+          <button type="button" class="chip" data-event="griha"><span data-i18n-en>Griha Pravesh</span><span data-i18n-hi>गृह प्रवेश</span></button>
+        </div>
+
+        <p class="eyebrow"><span data-i18n-en>2 · Your details</span><span data-i18n-hi>२ · आपके विवरण</span></p>
+        <form id="muhurat-form" class="form-grid cols-2">
+          <label class="field"><span data-i18n-en>Full name</span><span data-i18n-hi>पूरा नाम</span>
+            <input name="name" type="text" placeholder="Ananya Sharma" required/>
+          </label>
+          <label class="field"><span data-i18n-en>City (for local sunrise)</span><span data-i18n-hi>शहर (स्थानीय सूर्योदय हेतु)</span>
+            <input name="city" type="text" placeholder="Lucknow" required/>
+          </label>
+          <label class="field"><span data-i18n-en>Date of birth</span><span data-i18n-hi>जन्म तिथि</span>
+            <input name="dob" type="date" required/>
+          </label>
+          <label class="field"><span data-i18n-en>Time of birth (if known)</span><span data-i18n-hi>जन्म समय (यदि ज्ञात हो)</span>
+            <input name="tob" type="time"/>
+          </label>
+          <label class="field"><span data-i18n-en>Place of birth</span><span data-i18n-hi>जन्म स्थान</span>
+            <input name="pob" type="text" placeholder="Varanasi"/>
+          </label>
+          <label class="field"><span data-i18n-en>Date range to search</span><span data-i18n-hi>खोज की अवधि</span>
+            <select name="range">
+              <option value="30"><span>Next 30 days · अगले ३० दिन</span></option>
+              <option value="60">Next 60 days · अगले ६० दिन</option>
+              <option value="90">Nov 2026 – Feb 2027</option>
+            </select>
+          </label>
+          <div style="grid-column:1/-1;display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;">
+            <button class="btn btn-primary" type="submit"><span data-i18n-en>Show sample roadmap</span><span data-i18n-hi>नमूना रोडमैप दिखाएँ</span></button>
+            <span class="muted" style="font-size:.8rem;"><span data-i18n-en>Samples only — not a live kundali match yet.</span><span data-i18n-hi>केवल नमूने — अभी जीवंत कुंडली मिलान नहीं।</span></span>
+          </div>
+        </form>
+      </div>
+
+      <div id="results-panel" style="margin-top:1.75rem;">
+        <div style="display:flex;flex-wrap:wrap;gap:.75rem;align-items:end;justify-content:space-between;margin-bottom:.9rem;">
+          <div>
+            <p class="eyebrow" style="margin:0;"><span data-i18n-en>3 · Roadmap</span><span data-i18n-hi>३ · रोडमैप</span></p>
+            <h2 id="results-title" style="color:var(--ink);font-size:1.25rem;margin:0;">Sample results</h2>
+          </div>
+          <a class="btn btn-wa btn-sm" href="https://wa.me/917239062622?text=Namaste%2C%20I%20tried%20the%20DharmaSetu%20muhurat%20tool%20and%20would%20like%20to%20talk%20to%20an%20acharya." target="_blank" rel="noopener">
+            <span data-i18n-en>Talk to an acharya on WhatsApp</span><span data-i18n-hi>व्हाट्सऐप पर आचार्य से बात करें</span>
+          </a>
+        </div>
+        <div class="alert-soft">
+          <span data-i18n-en>These dates are <strong>samples for UI review</strong> (Nov 2026 onward). Reasoning lines reflect how the tradition talks about tithi/nakshatra — not proven science. Always confirm with your family’s kul-purohit.</span>
+          <span data-i18n-hi>ये तिथियाँ <strong>UI समीक्षा हेतु नमूने</strong> हैं (नवम्बर २०२६ से)। तर्क-पंक्तियाँ परंपरा की भाषा दर्शाती हैं — सिद्ध विज्ञान नहीं। सदैव अपने कुल-पुरोहित से पुष्टि करें।</span>
+        </div>
+        <div id="results"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap inner">
+    <div>
+      <strong>DharmaSetu</strong> · <span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span><br/>
+      <span data-i18n-en>We never replace your family’s kul-purohit. Prototype v2 · 3 Nov 2026</span>
+      <span data-i18n-hi>हम आपके कुल-पुरोहित का स्थान नहीं लेते। प्रोटोटाइप v2 · 3 नवम्बर 2026</span>
+    </div>
+    <div>
+      <a href="https://wa.me/917239062622" target="_blank" rel="noopener">WhatsApp +91 72390 62622</a>
+      · <a href="index.html"><span data-i18n-en>Team hub</span><span data-i18n-hi>टीम हब</span></a>
+    </div>
+  </div>
+</footer>
+<script src="i18n.js"></script>
+<script src="cal.js"></script>
+
 <script>
-  // Interactive Micro-interactions for Filter Chips
-  document.addEventListener('DOMContentLoaded', function () {
-    const chipContainer = document.getElementById('event-type-chips');
-    if (chipContainer) {
-      const chips = chipContainer.querySelectorAll('button');
-      chips.forEach(chip => {
-        chip.addEventListener('click', function () {
-          chips.forEach(c => {
-            c.className = 'shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md';
-            const pip = c.querySelector('span.w-2.h-2');
-            if (pip) pip.remove();
-          });
-          this.className = 'group shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-primary text-on-primary shadow-sm font-label-md text-label-md font-semibold transition-all';
-          const pip = document.createElement('span');
-          pip.className = 'w-2 h-2 rounded-full bg-secondary-fixed';
-          this.appendChild(pip);
-        });
-      });
-    }
+(function(){
+  var selected = "job";
+  var labels = {
+    job: {en:"New job / career move", hi:"नई नौकरी / करियर"},
+    marriage: {en:"Marriage (विवाह)", hi:"विवाह"},
+    house: {en:"House purchase", hi:"घर खरीदना"},
+    visa: {en:"Visa appointment", hi:"वीज़ा अपॉइंटमेंट"},
+    travel: {en:"Travel / yātrā", hi:"यात्रा"},
+    naming: {en:"Naming (नामकरण)", hi:"नामकरण"},
+    griha: {en:"Griha Pravesh (गृह प्रवेश)", hi:"गृह प्रवेश"}
+  };
+  var samples = {
+    job: [
+      {title:"Better window for interviews & joining", start:"2026-11-12T10:00:00", end:"2026-11-12T12:30:00", tithi:"Kartika Shukla Saptami", nak:"Rohini", yoga:"Siddha", why_en:"Rohini is traditionally linked with growth and steady beginnings in the texts — often preferred when starting work that should last.", why_hi:"रोहिणी नक्षत्र पारंपरिक रूप से वृद्धि और स्थिर आरंभ से जुड़ा माना जाता है — लंबे समय तक चलने वाले काम के आरंभ में अक्सर चुना जाता है।"},
+      {title:"Second window — afternoon consults", start:"2026-11-19T14:00:00", end:"2026-11-19T16:00:00", tithi:"Kartika Shukla Chaturdashi", nak:"Pushya", yoga:"Shubha", why_en:"Pushya is called the ‘nourisher’ in classical lists — families often pick it for steps meant to support livelihood.", why_hi:"पुष्य को शास्त्रीय सूचियों में ‘पोषक’ कहा गया है — आजीविका से जुड़े कदमों के लिए परिवार अक्सर इसे चुनते हैं।"},
+      {title:"Month-end review window", start:"2026-12-03T09:30:00", end:"2026-12-03T11:30:00", tithi:"Margashirsha Shukla Tritiya", nak:"Uttara Phalguni", yoga:"Vyaghata avoided morning", why_en:"Uttara Phalguni is associated in tradition with contracts and lasting bonds — useful framing for offer letters and joining dates.", why_hi:"उत्तरा फाल्गुनी परंपरा में अनुबंध और स्थायी संबंधों से जुड़ी मानी जाती है — ऑफर लेटर और जॉइनिंग तिथि के लिए उपयुक्त संदर्भ।"}
+    ],
+    marriage: [
+      {title:"Morning vivaha window (sample)", start:"2026-11-26T07:15:00", end:"2026-11-26T10:45:00", tithi:"Kartika Shukla Ekadashi", nak:"Anuradha", yoga:"Sobhana", why_en:"Anuradha is linked with friendship and alliance in the nakshatra lore — often cited for weddings that seek harmony between families.", why_hi:"अनुराधा नक्षत्र मैत्री और संबंध से जुड़ा माना जाता है — पारिवारिक सामंजस्य चाहने वाले विवाहों में अक्सर इसका उल्लेख होता है।"},
+      {title:"Weekend window (sample)", start:"2026-12-11T08:00:00", end:"2026-12-11T11:00:00", tithi:"Margashirsha Shukla Dashami", nak:"Rohini", yoga:"Siddhi", why_en:"A fixed (sthira) lagna period in the morning is traditionally preferred for ceremonies meant to endure.", why_hi:"सुबह का स्थिर लग्न उन संस्कारों के लिए परंपरा में पसंद किया जाता है जो दीर्घकाल तक रहें।"}
+    ],
+    house: [
+      {title:"Property papers / booking window", start:"2026-11-14T09:00:00", end:"2026-11-14T11:00:00", tithi:"Kartika Shukla Navami", nak:"Hasta", yoga:"Shubha", why_en:"Hasta is associated with skilled, careful acts in the texts — often chosen when signing or settling something tangible.", why_hi:"हस्त नक्षत्र शास्त्रों में कुशल, सावधानीपूर्ण कर्मों से जुड़ा है — कुछ ठोस तय या हस्ताक्षर करते समय अक्सर चुना जाता है।"},
+      {title:"Griha-related follow-up", start:"2026-12-05T10:00:00", end:"2026-12-05T12:00:00", tithi:"Margashirsha Shukla Panchami", nak:"Pushya", yoga:"Dhriti", why_en:"Pushya + a calm morning is a classic pairing for home-related beginnings in many regional calendars.", why_hi:"पुष्य और शांत सुबह — कई क्षेत्रीय पंचांगों में घर से जुड़े आरंभ के लिए क्लासिक जोड़ी मानी जाती है।"}
+    ],
+    visa: [
+      {title:"Appointment booking window", start:"2026-11-18T11:00:00", end:"2026-11-18T12:30:00", tithi:"Kartika Shukla Trayodashi", nak:"Swati", yoga:"Variyan", why_en:"Swati is described as independent and movement-friendly in classical notes — often picked for travel papers and journeys.", why_hi:"स्वाति को शास्त्रीय टिप्पणियों में स्वतंत्र और गति-अनुकूल कहा गया है — यात्रा-पत्रों और सफ़र के लिए अक्सर चुना जाता है।"},
+      {title:"Interview / biometrics window", start:"2026-12-08T09:30:00", end:"2026-12-08T11:00:00", tithi:"Margashirsha Shukla Ashtami", nak:"Ashwini", yoga:"Siddha", why_en:"Ashwini is the swift healer twin — tradition treats it as favourable for beginnings that need quick, clean motion.", why_hi:"अश्विनी तेज़ और आरंभ से जुड़ा नक्षत्र माना जाता है — शीघ्र, स्वच्छ गति वाले आरंभ के लिए अनुकूल माना जाता है।"}
+    ],
+    travel: [
+      {title:"Departure morning", start:"2026-11-21T06:45:00", end:"2026-11-21T08:30:00", tithi:"Kartika Krishna Pratipada", nak:"Ashwini", yoga:"Shubha", why_en:"Early Ashwini hours are traditionally used for setting out — the texts speak of auspicious motion at day’s start.", why_hi:"प्रातः अश्विनी में प्रस्थान की परंपरा पुरानी है — ग्रंथ दिन के आरंभ में शुभ गति की बात करते हैं।"}
+    ],
+    naming: [
+      {title:"Namkaran morning window", start:"2026-11-28T09:00:00", end:"2026-11-28T11:00:00", tithi:"Kartika Shukla Poornima", nak:"Mriga", yoga:"Siddha", why_en:"Naming is tied to nakshatra-pada sound in the grihya sutras — this sample aligns a calm morning with a soft syllable tradition.", why_hi:"नामकरण गृह्य सूत्रों में नक्षत्र-पद ध्वनि से जुड़ा है — यह नमूना शांत सुबह को कोमल अक्षर परंपरा से मिलाता है।"}
+    ],
+    griha: [
+      {title:"Griha Pravesh morning", start:"2026-12-04T07:30:00", end:"2026-12-04T10:30:00", tithi:"Margashirsha Shukla Chaturthi", nak:"Pushya", yoga:"Guru-Pushya style pairing (sample)", why_en:"A stable morning with Pushya is widely cited for entering a new home — the reasoning in the texts is steadiness of the dwelling.", why_hi:"पुष्य युक्त स्थिर सुबह नए घर में प्रवेश के लिए व्यापक रूप से उल्लिखित है — ग्रंथों में तर्क निवास की स्थिरता का है।"}
+    ]
+  };
+  // alias griha key
+  samples.griha = samples.griha;
+
+  function fmtDate(iso){
+    var d = new Date(iso);
+    return d.toLocaleString(document.documentElement.lang==="hi"?"hi-IN":"en-IN",{weekday:"long",year:"numeric",month:"long",day:"numeric",hour:"2-digit",minute:"2-digit"});
+  }
+  function render(){
+    var box = document.getElementById("results");
+    var list = samples[selected] || samples.job;
+    var lang = document.documentElement.lang === "hi" ? "hi" : "en";
+    var lab = labels[selected];
+    document.getElementById("results-title").textContent = lang==="hi"
+      ? ("नमूना परिणाम — " + lab.hi)
+      : ("Sample results — " + lab.en);
+    box.innerHTML = "";
+    list.forEach(function(item, i){
+      var el = document.createElement("article");
+      el.className = "card result-card";
+      var why = lang==="hi" ? item.why_hi : item.why_en;
+      el.innerHTML =
+        '<div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;justify-content:space-between;margin-bottom:.35rem;">'+
+          '<span class="sample-badge">Sample — real calculations coming soon</span>'+
+          '<span class="pill">'+(i===0?(lang==="hi"?"प्राथमिक खिड़की":"Primary window"):(lang==="hi"?"वैकल्पिक":"Alternative"))+'</span>'+
+        '</div>'+
+        '<h3 style="font-size:1.15rem;margin:.35rem 0;">'+item.title+'</h3>'+
+        '<div class="meta-row"><span>🕒 '+fmtDate(item.start)+'</span></div>'+
+        '<div class="angas">'+
+          '<div class="anga"><div class="k">Tithi · तिथि</div><div class="v">'+item.tithi+'</div></div>'+
+          '<div class="anga"><div class="k">Nakshatra · नक्षत्र</div><div class="v">'+item.nak+'</div></div>'+
+          '<div class="anga"><div class="k">Yoga · योग</div><div class="v">'+item.yoga+'</div></div>'+
+          '<div class="anga"><div class="k">Note</div><div class="v">'+(lang==="hi"?"सत्यापन बाकी":"To be verified")+'</div></div>'+
+        '</div>'+
+        '<div class="why-line"><strong>'+(lang==="hi"?"यह समय क्यों · ":"Why this time · ")+'</strong>'+why+'</div>'+
+        '<div class="action-row">'+
+          '<button type="button" class="btn btn-primary btn-sm" data-gcal data-title="'+item.title.replace(/"/g,'&quot;')+'" data-start="'+item.start+'" data-end="'+item.end+'" data-details="DharmaSetu sample muhurat. Confirm with your kul-purohit. Why: '+why.replace(/"/g,'&quot;')+'" data-location="">Add to Google Calendar</button>'+
+          '<button type="button" class="btn btn-ghost btn-sm" data-ics data-title="'+item.title.replace(/"/g,'&quot;')+'" data-start="'+item.start+'" data-end="'+item.end+'" data-details="DharmaSetu sample muhurat. Confirm with your kul-purohit." data-filename="dharmasetu-'+selected+'-'+(i+1)+'">Download .ics</button>'+
+        '</div>';
+      box.appendChild(el);
+    });
+    if (window.DSCal) DSCal.bind(box);
+  }
+  document.querySelectorAll("#event-chips .chip").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      document.querySelectorAll("#event-chips .chip").forEach(function(b){b.classList.remove("active");});
+      btn.classList.add("active");
+      selected = btn.getAttribute("data-event");
+      render();
+    });
   });
-</script></main><footer class="w-full bg-surface-container-low border-t border-secondary/20 pt-space-xl pb-space-lg"><div class="max-w-[1240px] mx-auto px-gutter"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-xl border-b border-outline-variant/40"><div class="lg:col-span-4 flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-primary-container text-on-primary flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">temple_hindu</span></div><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">DharmaSetu</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-sm">Dedicated to preserving and guiding through the 16 sacred Vedic Sanskars, ancestral tirthas, and righteous wisdom. We bridge timeless dharma with discerning, graceful life companionship for global Hindu families.</p><div class="flex items-center gap-space-sm pt-space-xs"><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px]">verified</span><span>Authentic Vedic Lineage</span></div></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Sacred Journeys</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="dharmasetu---life-arc-sanskar-explorer" href="life-arc.html">16 Sanskar Guides</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---tirtha-yatra" href="#">Tirtha Pilgrimages</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---sacred-calendar" href="muhurat.html">Panchang &amp; Muhurat</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---texts-and-wisdom" href="#">Vedic Scriptures</a></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Trust &amp; Sanctorum</span><div class="p-space-sm rounded-xl bg-surface-container border border-secondary/15 flex flex-col gap-space-xs"><div class="flex items-center gap-1.5 text-secondary"><span class="material-symbols-outlined text-[18px]">shield</span><span class="font-label-sm text-label-sm font-bold">Verified Acharyas</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Every ritual conductor and purohit is thoroughly credentialed in traditional gurukuls and local sampradayas.</p></div><div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-[18px] text-tertiary">support_agent</span><span>Helpline: +91 1800-DHARMA</span></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Vedic Newsletter</span><p class="font-body-sm text-body-sm text-on-surface-variant">Receive auspicious tithis, ekadashi alerts, and spiritual commentary directly in your sanctuary.</p><div class="flex flex-col sm:flex-row gap-2"><input class="px-3 py-2 rounded-lg bg-surface-container-lowest border border-outline-variant text-on-surface font-body-sm text-body-sm focus:outline-none focus:border-primary flex-1" placeholder="Your email address" type="email"/><button class="px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors shrink-0">Subscribe</button></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><p>© 2024 DharmaSetu Foundation. Celebrating lives, serving souls. All rights reserved.</p><div class="flex items-center gap-space-md"><a class="hover:text-primary transition-colors" data-path="dharmasetu---privacy-policy" href="#">Privacy &amp; Seva Code</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---terms-of-heritage" href="#">Terms of Heritage</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---verified-acharyas" href="#">Acharya Enrolment</a></div></div></div></footer><a href="index.html" style="position:fixed;bottom:16px;left:16px;z-index:9999;display:inline-flex;align-items:center;gap:6px;padding:10px 14px;border-radius:999px;background:#873415;color:#fff;font:600 13px/1 'Plus Jakarta Sans',system-ui,sans-serif;text-decoration:none;box-shadow:0 4px 14px rgba(135,52,21,.28);">← All screens</a>
-</body></html>
+  document.getElementById("muhurat-form").addEventListener("submit", function(e){
+    e.preventDefault();
+    document.getElementById("results-panel").scrollIntoView({behavior:"smooth",block:"start"});
+    render();
+  });
+  // re-render on language change
+  document.querySelectorAll(".lang-toggle button").forEach(function(b){
+    b.addEventListener("click", function(){ setTimeout(render, 0); });
+  });
+  render();
+})();
+</script>
+
+</body>
+</html>

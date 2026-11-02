@@ -1,776 +1,219 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DharmaSetu — Sacred Calendar / पंचांग</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="common.css"/>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>DharmaSetu — Sacred Calendar</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed":"#b1f0ce","on-secondary-fixed-variant":"#5a4300","primary-fixed-dim":"#ffb59c","outline-variant":"#dcc1b8","error":"#ba1a1a","on-primary":"#ffffff","inverse-on-surface":"#f6f0ec","surface-variant":"#e7e1de","on-secondary-container":"#735700","on-surface":"#1d1b19","inverse-surface":"#32302e","primary-container":"#a64b2a","primary-fixed":"#ffdbcf","surface-container-high":"#ede7e3","surface-container-lowest":"#ffffff","secondary":"#775a00","error-container":"#ffdad6","on-error":"#ffffff","surface-tint":"#9c4323","on-surface-variant":"#56423c","on-primary-fixed":"#390c00","on-background":"#1d1b19","secondary-fixed":"#ffdf98","on-primary-fixed-variant":"#7d2d0e","surface-bright":"#fef8f4","surface":"#fef8f4","on-tertiary-fixed":"#002114","on-secondary":"#ffffff","primary":"#873415","on-tertiary-fixed-variant":"#0e5138","outline":"#89726b","inverse-primary":"#ffb59c","secondary-fixed-dim":"#eec14b","on-secondary-fixed":"#251a00","background":"#fef8f4","surface-container-highest":"#e7e1de","secondary-container":"#fece57","tertiary-fixed-dim":"#95d4b3","surface-dim":"#dfd9d5","tertiary-container":"#347156","on-tertiary":"#ffffff","surface-container":"#f3ede9","on-error-container":"#93000a","surface-container-low":"#f9f2ef","on-tertiary-container":"#b3f3d0","on-primary-container":"#ffded4","tertiary":"#19583f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","space-lg":"1.5rem","space-xl":"2.5rem","space-md":"1rem","margin":"3rem","space-sm":"0.5rem","gutter":"1.5rem","space-xs":"0.25rem","margin-mobile":"1.25rem"},"fontFamily":{"display-lg":["Playfair Display"],"body-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Playfair Display"],"headline-sm":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"]},"fontSize":{"display-lg":["48px",{"lineHeight":"56px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-md":["26px",{"lineHeight":"34px","fontWeight":"500"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"display-lg-mobile":["34px",{"lineHeight":"42px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"500"}],"label-lg":["14px",{"lineHeight":"20px","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl border-b border-secondary/20 shadow-[0_1px_12px_rgba(119,90,0,0.04)]"><div class="max-w-[1240px] mx-auto px-gutter h-20 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary flex items-center justify-center shadow-[0_2px_8px_rgba(135,52,21,0.2)]"><span class="material-symbols-outlined text-[24px]">temple_hindu</span></div><div class="flex flex-col"><div class="flex items-center gap-1.5"><a href="home.html" style="text-decoration:none;color:inherit" class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">DharmaSetu</a><span class="text-label-sm font-label-sm text-secondary tracking-widest uppercase">धर्मसेतु</span></div><span class="font-label-sm text-label-sm text-on-surface-variant italic">Celebrating lives, serving souls</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-bold bg-primary-fixed/50 rounded-lg px-2.5 py-1.5"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="dharmasetu---life-arc-sanskar-explorer" href="life-arc.html">Life Arc (Sanskaras)</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="dharmasetu---tirtha-yatra" href="#">Tirtha Yatra</a><a aria-current="page" class="transition-colors text-primary font-bold bg-primary-fixed/50 rounded-lg px-2.5 py-1.5" data-path="dharmasetu---sacred-calendar" href="calendar.html">Sacred Calendar</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="dharmasetu---texts-and-wisdom" href="#">Texts &amp; Wisdom</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="dharmasetu---verified-acharyas" href="#">Verified Acharyas</a></nav><div class="flex items-center gap-space-sm"><button aria-label="Search" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">search</span></button><div class="hidden sm:flex items-center px-space-sm py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm"><button class="hover:text-primary transition-colors font-semibold">English</button><span class="mx-1 text-outline-variant">|</span><button class="hover:text-primary transition-colors">हिन्दी</button></div><a class="hidden md:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#25D366] text-white hover:bg-[#20ba59] transition-all font-label-lg text-label-lg shadow-[0_2px_8px_rgba(37,211,102,0.25)]" data-path="dharmasetu---family-roadmap" href="https://wa.me/917239062622"><span class="material-symbols-outlined text-[18px]">chat</span><span>Family Roadmap</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
-<!-- Subtle Mandala Ambient Backdrop (Inline SVG, lightweight, non-intrusive) -->
-<div class="relative w-full overflow-hidden">
-<div class="absolute top-10 right-0 -mr-28 opacity-[0.035] pointer-events-none select-none">
-<svg class="text-secondary" fill="none" height="680" viewbox="0 0 400 400" width="680">
-<circle cx="200" cy="200" r="190" stroke="currentColor" stroke-dasharray="4 4" stroke-width="1.5"></circle>
-<circle cx="200" cy="200" r="150" stroke="currentColor" stroke-width="1"></circle>
-<circle cx="200" cy="200" r="110" stroke="currentColor" stroke-width="1.5"></circle>
-<circle cx="200" cy="200" r="70" stroke="currentColor" stroke-width="0.75"></circle>
-<path d="M200 10 L200 390 M10 200 L390 200 M65 65 L335 335 M65 335 L335 65" stroke="currentColor" stroke-width="0.75"></path>
-<polygon fill="none" points="200,30 235,165 370,200 235,235 200,370 165,235 30,200 165,165" stroke="currentColor" stroke-width="1"></polygon>
-<polygon fill="none" points="200,60 225,175 340,200 225,225 200,340 175,225 60,200 175,175" stroke="currentColor" stroke-width="0.5"></polygon>
-</svg>
-</div>
-<!-- Section 1: Editorial Header & Regional Calibration Strip -->
-<section class="max-w-[1240px] mx-auto px-gutter pt-space-lg pb-space-md w-full">
-<div class="flex flex-col gap-space-sm">
-<!-- Sacred Vedic Rhythm Badge -->
-<div class="inline-flex items-center gap-2 self-start px-3.5 py-1.5 rounded-full bg-secondary-fixed/40 text-on-secondary-fixed">
-<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">flare</span>
-<span class="font-label-sm text-label-sm tracking-wider uppercase font-semibold">पञ्चाङ्ग एवं व्रत-पर्व • Astronomical Precision &amp; Vedic Rhythms</span>
-</div>
-<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md pt-space-xs">
-<div class="max-w-3xl flex flex-col gap-2">
-<h1 class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">
-              Sacred Vedic Calendar &amp; Panchang
-            </h1>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl leading-relaxed">
-              Align family life with cosmic order. Observe sacred tithis, vratas, ancestral remembrances, and planetary shifts calibrated to authentic Surya Siddhantic calculations.
-            </p>
-</div>
-<!-- City Calibration Indicator -->
-<div class="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-surface-container-low shadow-sm shrink-0">
-<span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] leading-tight text-on-surface-variant uppercase tracking-wider">Coordinates</span>
-<span class="font-label-md text-label-md text-on-surface font-semibold">Kashi (Varanasi, 25.31°N, IST)</span>
-</div>
-<button class="ml-2 font-label-sm text-label-sm text-primary hover:text-primary-container underline transition-colors">
-              Change city
-            </button>
-</div>
-</div>
-<!-- Controls Bar: Navigation, System Toggle, Category Filters -->
-<div class="mt-space-md p-space-md rounded-2xl bg-surface-container-low shadow-sm flex flex-col gap-space-md">
-<!-- Top Row: Month selector & Calendar Tradition -->
-<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
-<!-- Month Selector -->
-<div class="flex items-center gap-3">
-<button aria-label="Previous Month" class="w-9 h-9 rounded-full bg-surface-container-highest hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-all shadow-sm">
-<span class="material-symbols-outlined text-[20px]">chevron_left</span>
-</button>
-<div class="flex flex-col">
-<div class="flex items-center gap-2">
-<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">भाद्रपद – आश्विन २०८१</span>
-<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/50 px-2 py-0.5 rounded-full font-bold">Vikram Samvat</span>
-</div>
-<span class="font-body-sm text-body-sm text-on-surface-variant">September – October 2024 (Shukla Trayodashi – Ashvina Krishna Amavasya)</span>
-</div>
-<button aria-label="Next Month" class="w-9 h-9 rounded-full bg-surface-container-highest hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-all shadow-sm">
-<span class="material-symbols-outlined text-[20px]">chevron_right</span>
-</button>
-</div>
-<!-- Vedic System Toggle -->
-<div class="flex items-center p-1 rounded-xl bg-surface-container gap-1 self-start md:self-auto">
-<button class="px-3.5 py-1.5 rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md font-semibold shadow-sm transition-all">
-                Purnimanta (North India)
-              </button>
-<button class="px-3.5 py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">
-                Amanta (South &amp; West)
-              </button>
-</div>
-</div>
-<!-- Bottom Row: Filter Chips -->
-<div class="flex items-center gap-2 overflow-x-auto pb-1 text-nowrap">
-<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mr-1">Filter Rhythms:</span>
-<button class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-semibold transition-all shadow-sm">
-              All Sacred Days (30)
-            </button>
-<button class="px-3 py-1 rounded-full bg-surface-container text-on-surface hover:bg-secondary-fixed/50 font-label-sm text-label-sm flex items-center gap-1.5 transition-all">
-<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim"></span>
-<span>Ekadashi Fast (2)</span>
-</button>
-<button class="px-3 py-1 rounded-full bg-surface-container text-on-surface hover:bg-secondary-fixed/50 font-label-sm text-label-sm flex items-center gap-1.5 transition-all">
-<span class="w-2 h-2 rounded-full bg-primary"></span>
-<span>Pitru Paksha Remembrance (16)</span>
-</button>
-<button class="px-3 py-1 rounded-full bg-surface-container text-on-surface hover:bg-secondary-fixed/50 font-label-sm text-label-sm flex items-center gap-1.5 transition-all">
-<span class="w-2 h-2 rounded-full bg-secondary"></span>
-<span>Purnima &amp; Amavasya (2)</span>
-</button>
-<button class="px-3 py-1 rounded-full bg-surface-container text-on-surface hover:bg-secondary-fixed/50 font-label-sm text-label-sm flex items-center gap-1.5 transition-all">
-<span class="w-2 h-2 rounded-full bg-tertiary"></span>
-<span>Festivals &amp; Parvas (7)</span>
-</button>
-<button class="px-3 py-1 rounded-full bg-surface-container text-on-surface hover:bg-secondary-fixed/50 font-label-sm text-label-sm flex items-center gap-1.5 transition-all">
-<span class="w-2 h-2 rounded-full bg-outline"></span>
-<span>Kanya Sankranti</span>
-</button>
-</div>
-</div>
-</div>
-</section>
-<!-- Section 2: Two-Column Main Workspace -->
-<section class="max-w-[1240px] mx-auto px-gutter pb-space-xl w-full">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
-<!-- LEFT COLUMN: 7-Column Month Panchang Grid (Span 8) -->
-<div class="lg:col-span-8 flex flex-col gap-space-sm">
-<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-sm">
-<!-- Day of Week Names (Vedic + Gregorian) -->
-<div class="grid grid-cols-7 gap-2 pb-space-sm text-center">
-<div class="flex flex-col py-1">
-<span class="font-label-md text-label-md font-bold text-primary">रविवासर</span>
-<span class="font-label-sm text-[10px] text-on-surface-variant uppercase">Sun</span>
-</div>
-<div class="flex flex-col py-1">
-<span class="font-label-md text-label-md font-bold text-on-surface">सोमवासर</span>
-<span class="font-label-sm text-[10px] text-on-surface-variant uppercase">Mon</span>
-</div>
-<div class="flex flex-col py-1">
-<span class="font-label-md text-label-md font-bold text-on-surface">मङ्गलवासर</span>
-<span class="font-label-sm text-[10px] text-on-surface-variant uppercase">Tue</span>
-</div>
-<div class="flex flex-col py-1">
-<span class="font-label-md text-label-md font-bold text-on-surface">बुधवासर</span>
-<span class="font-label-sm text-[10px] text-on-surface-variant uppercase">Wed</span>
-</div>
-<div class="flex flex-col py-1">
-<span class="font-label-md text-label-md font-bold text-on-surface">गुरुवासर</span>
-<span class="font-label-sm text-[10px] text-on-surface-variant uppercase">Thu</span>
-</div>
-<div class="flex flex-col py-1">
-<span class="font-label-md text-label-md font-bold text-on-surface">शुक्रवासर</span>
-<span class="font-label-sm text-[10px] text-on-surface-variant uppercase">Fri</span>
-</div>
-<div class="flex flex-col py-1">
-<span class="font-label-md text-label-md font-bold text-secondary">शनिवासर</span>
-<span class="font-label-sm text-[10px] text-on-surface-variant uppercase">Sat</span>
-</div>
-</div>
-<!-- Monthly Grid (35 cells: 5 weeks) -->
-<div class="grid grid-cols-7 gap-2">
-<!-- Week 1: 15 Sep - 21 Sep -->
-<!-- 15 Sep (Sun) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">15</span>
-<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">द्वादशी • Dvadashi</span>
-<span class="text-[10px] text-on-surface-variant truncate">Shravana Purnimanta</span>
-</div>
-</div>
-<!-- 16 Sep (Mon) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">16</span>
-<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-tertiary truncate">त्रयोदशी • Pradosha</span>
-<span class="text-[10px] text-on-surface-variant truncate">Kanya Sankranti</span>
-</div>
-</div>
-<!-- 17 Sep (Tue) - Anant Chaturdashi -->
-<div class="min-h-[105px] p-2 rounded-xl bg-secondary-fixed/20 hover:bg-secondary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-secondary">17</span>
-<span class="px-1.5 py-0.5 rounded-full bg-secondary text-on-secondary text-[9px] font-bold">PARVA</span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-on-secondary-fixed-variant truncate">अनन्त चतुर्दशी</span>
-<span class="text-[10px] text-secondary font-medium truncate">Ganesh Visarjan</span>
-</div>
-</div>
-<!-- 18 Sep (Wed) - Bhadrapada Purnima / Pitru Paksha Starts -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-high/60 hover:bg-surface-container-high transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">18</span>
-<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim" title="Purnima"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-primary truncate">पूर्णिमा श्राद्ध</span>
-<span class="text-[10px] text-on-surface-variant truncate">Pitru Paksha Aarambha</span>
-</div>
-</div>
-<!-- 19 Sep (Thu) - Pratipada Shraddha -->
-<div class="min-h-[105px] p-2 rounded-xl bg-primary-fixed/20 hover:bg-primary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">19</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary" title="Ancestral Honor"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-primary truncate">प्रतिपदा • Pratipada</span>
-<span class="text-[10px] text-on-surface-variant truncate">Shraddha Tarpan</span>
-</div>
-</div>
-<!-- 20 Sep (Fri) - Dvitiya Shraddha -->
-<div class="min-h-[105px] p-2 rounded-xl bg-primary-fixed/20 hover:bg-primary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">20</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-primary truncate">द्वितीया • Dvitiya</span>
-<span class="text-[10px] text-on-surface-variant truncate">Revati Nakshatra</span>
-</div>
-</div>
-<!-- 21 Sep (Sat) - Tritiya Shraddha -->
-<div class="min-h-[105px] p-2 rounded-xl bg-primary-fixed/20 hover:bg-primary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">21</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-primary truncate">तृतीया • Tritiya</span>
-<span class="text-[10px] text-on-surface-variant truncate">Ashwini Nakshatra</span>
-</div>
-</div>
-<!-- Week 2: 22 Sep - 28 Sep -->
-<!-- 22 Sep (Sun) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-primary-fixed/20 hover:bg-primary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">22</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-primary truncate">चतुर्थी • Chaturthi</span>
-<span class="text-[10px] text-on-surface-variant truncate">Maha Bharani</span>
-</div>
-</div>
-<!-- 23 Sep (Mon) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-primary-fixed/20 hover:bg-primary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">23</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-primary truncate">पञ्चमी • Panchami</span>
-<span class="text-[10px] text-on-surface-variant truncate">Krittika Nakshatra</span>
-</div>
-</div>
-<!-- 24 Sep (Tue) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-primary-fixed/20 hover:bg-primary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">24</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-primary truncate">षष्ठी • Shashthi</span>
-<span class="text-[10px] text-on-surface-variant truncate">Kapila Shashthi</span>
-</div>
-</div>
-<!-- 25 Sep (Wed) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-primary-fixed/20 hover:bg-primary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">25</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-primary truncate">सप्तमी • Saptami</span>
-<span class="text-[10px] text-on-surface-variant truncate">Rohini Nakshatra</span>
-</div>
-</div>
-<!-- 26 Sep (Thu) - Jivitputrika Vrata -->
-<div class="min-h-[105px] p-2 rounded-xl bg-secondary-fixed/20 hover:bg-secondary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-secondary">26</span>
-<span class="px-1.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-bold text-[9px]">VRAT</span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-on-secondary-fixed-variant truncate">अष्टमी • Jitiya</span>
-<span class="text-[10px] text-secondary truncate">Jivitputrika Vrata</span>
-</div>
-</div>
-<!-- 27 Sep (Fri) - Navami Matru Navami -->
-<div class="min-h-[105px] p-2 rounded-xl bg-primary-fixed/30 hover:bg-primary-fixed/50 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">27</span>
-<span class="px-1 py-0.5 rounded bg-primary-container text-on-primary text-[8px] font-bold">MATRU</span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-primary truncate">मातृ नवमी • Navami</span>
-<span class="text-[10px] text-on-surface-variant truncate">Maternal Forebears</span>
-</div>
-</div>
-<!-- 28 Sep (Sat) - ACTIVE SELECTED DAY: Indira Ekadashi -->
-<div class="min-h-[105px] p-2 rounded-xl bg-secondary-fixed/60 shadow-md flex flex-col justify-between cursor-pointer relative ring-2 ring-primary ring-offset-2 ring-offset-surface-container-lowest">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-bold text-primary">28</span>
-<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-primary text-on-primary text-[9px] font-bold shadow-sm">
-<span class="material-symbols-outlined text-[10px]" style="font-variation-settings: 'FILL' 1;">star</span>
-                    EKADASHI
-                  </span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-primary leading-tight truncate">इन्दिरा एकादशी</span>
-<span class="text-[10px] text-on-secondary-fixed-variant font-medium truncate">Hari Vrata &amp; Tarpan</span>
-</div>
-</div>
-<!-- Week 3: 29 Sep - 05 Oct -->
-<!-- 29 Sep (Sun) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-primary-fixed/20 hover:bg-primary-fixed/40 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">29</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-primary truncate">द्वादशी • Parana</span>
-<span class="text-[10px] text-on-surface-variant truncate">Magha Shraddha</span>
-</div>
-</div>
-<!-- 30 Sep (Mon) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">30</span>
-<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">त्रयोदशी • Trayodashi</span>
-<span class="text-[10px] text-on-surface-variant truncate">Gaja Chhaya Yoga</span>
-</div>
-</div>
-<!-- 01 Oct (Tue) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">01</span>
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-primary truncate">चतुर्दशी • Ghata</span>
-<span class="text-[10px] text-on-surface-variant truncate">Purva Phalguni</span>
-</div>
-</div>
-<!-- 02 Oct (Wed) - Sarva Pitru Mahalaya Amavasya -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-high hover:bg-surface-container-highest transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">02</span>
-<span class="px-1.5 py-0.5 rounded-full bg-inverse-surface text-inverse-on-surface text-[9px] font-bold">अमावस्या</span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-primary truncate">महालय अमावस्या</span>
-<span class="text-[10px] text-on-surface-variant truncate">Sarva Pitru Moksha</span>
-</div>
-</div>
-<!-- 03 Oct (Thu) - Sharad Navratri Ghatasthapana -->
-<div class="min-h-[105px] p-2 rounded-xl bg-secondary-fixed/30 hover:bg-secondary-fixed/50 transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-secondary">03</span>
-<span class="px-1.5 py-0.5 rounded-full bg-primary text-on-primary text-[9px] font-bold">NAVRATRI</span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-on-secondary-fixed-variant truncate">घटस्थापना • Day 1</span>
-<span class="text-[10px] text-secondary font-medium truncate">Maa Shailaputri</span>
-</div>
-</div>
-<!-- 04 Oct (Fri) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">04</span>
-<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">द्वितीया • Brahmacharini</span>
-<span class="text-[10px] text-on-surface-variant truncate">Navratri Day 2</span>
-</div>
-</div>
-<!-- 05 Oct (Sat) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer group">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">05</span>
-<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">तृतीया • Chandraghanta</span>
-<span class="text-[10px] text-on-surface-variant truncate">Navratri Day 3</span>
-</div>
-</div>
-<!-- Week 4: 06 Oct - 12 Oct (Sample rows to complete lunar phase) -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">06</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">चतुर्थी • Kushmanda</span>
-<span class="text-[10px] text-on-surface-variant truncate">Navratri Day 4</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">07</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">पञ्चमी • Skandamata</span>
-<span class="text-[10px] text-on-surface-variant truncate">Lalita Panchami</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">08</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">षष्ठी • Katyayani</span>
-<span class="text-[10px] text-on-surface-variant truncate">Bilva Nimantran</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">09</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">सप्तमी • Kalaratri</span>
-<span class="text-[10px] text-on-surface-variant truncate">Saraswati Avahan</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-secondary-fixed/20 hover:bg-secondary-fixed/40 transition-all flex flex-col justify-between cursor-pointer">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-secondary">10</span>
-<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-on-secondary-fixed-variant truncate">महाष्टमी • Mahashtami</span>
-<span class="text-[10px] text-secondary truncate">Kanya Pujan</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-secondary-fixed/20 hover:bg-secondary-fixed/40 transition-all flex flex-col justify-between cursor-pointer">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-secondary">11</span>
-<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-on-secondary-fixed-variant truncate">महानवमी • Navami</span>
-<span class="text-[10px] text-secondary truncate">Ayudha Puja</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-secondary-fixed/30 hover:bg-secondary-fixed/50 transition-all flex flex-col justify-between cursor-pointer">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-secondary">12</span>
-<span class="px-1.5 py-0.5 rounded-full bg-primary text-on-primary text-[9px] font-bold">VIJAY</span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-primary truncate">दशमी • Vijayadashami</span>
-<span class="text-[10px] text-on-surface truncate">Dussehra Shobha</span>
-</div>
-</div>
-<!-- Week 5: 13 Oct - 19 Oct -->
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">13</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">एकादशी • Ekadashi</span>
-<span class="text-[10px] text-on-surface-variant truncate">Papankusha Ekadashi</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">14</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">द्वादशी • Dvadashi</span>
-<span class="text-[10px] text-on-surface-variant truncate">Padmanabha Dwadashi</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">15</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">त्रयोदशी • Trayodashi</span>
-<span class="text-[10px] text-on-surface-variant truncate">Bhauma Pradosha</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">16</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">चतुर्दशी • Chaturdashi</span>
-<span class="text-[10px] text-on-surface-variant truncate">Uttarashadha</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-secondary-fixed/40 hover:bg-secondary-fixed/60 transition-all flex flex-col justify-between cursor-pointer">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-secondary">17</span>
-<span class="px-1.5 py-0.5 rounded-full bg-secondary text-on-secondary text-[9px] font-bold">PURNIMA</span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-on-secondary-fixed-variant truncate">शरद पूर्णिमा</span>
-<span class="text-[10px] text-secondary font-medium truncate">Kojagiri Lakshmi Vrat</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between cursor-pointer">
-<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">18</span>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-semibold text-on-surface truncate">प्रतिपदा • Pratipada</span>
-<span class="text-[10px] text-on-surface-variant truncate">Kartika Krishna</span>
-</div>
-</div>
-<div class="min-h-[105px] p-2 rounded-xl bg-secondary-fixed/20 hover:bg-secondary-fixed/40 transition-all flex flex-col justify-between cursor-pointer">
-<div class="flex items-start justify-between">
-<span class="font-headline-sm text-headline-sm font-semibold text-secondary">19</span>
-<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
-</div>
-<div class="flex flex-col">
-<span class="font-label-xs text-[11px] font-bold text-on-secondary-fixed-variant truncate">द्वितीया • Karwa Chauth</span>
-<span class="text-[10px] text-secondary truncate">Rohini Udaya</span>
-</div>
-</div>
-</div>
-<!-- Legend strip -->
-<div class="mt-space-md pt-space-sm border-t border-secondary/10 flex flex-wrap items-center justify-between gap-3 text-on-surface-variant font-label-sm text-label-sm">
-<div class="flex items-center gap-4 flex-wrap">
-<div class="flex items-center gap-1.5">
-<span class="w-3 h-3 rounded-full bg-secondary-fixed-dim"></span>
-<span>Hari Ekadashi Fast</span>
-</div>
-<div class="flex items-center gap-1.5">
-<span class="w-3 h-3 rounded-full bg-primary"></span>
-<span>Pitru Paksha Remembrance</span>
-</div>
-<div class="flex items-center gap-1.5">
-<span class="w-3 h-3 rounded-full bg-secondary"></span>
-<span>Major Festival / Parva</span>
-</div>
-<div class="flex items-center gap-1.5">
-<span class="w-3 h-3 rounded-full bg-inverse-surface"></span>
-<span>Purnima / Amavasya</span>
-</div>
-</div>
-<span class="italic font-body-sm text-[12px]">Click any date to inspect the Five Shastric Limbs</span>
-</div>
-</div>
-<!-- Editorial Wisdom Note: Harmony of Rhythms -->
-<div class="p-space-md rounded-2xl bg-surface-container-low flex items-start gap-space-sm shadow-sm">
-<div class="w-10 h-10 rounded-xl bg-primary-fixed text-primary flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">auto_stories</span>
-</div>
-<div class="flex flex-col gap-1">
-<h4 class="font-headline-sm text-[17px] leading-tight text-on-surface font-semibold">
-                The Philosophy of Vedic Rhythms (काल गणना)
-              </h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                In Vedic thought, time is not linear decay but a revolving cosmic wheel (Kala Chakra). Celebrating each tithi harmonizes our prana with universal pulsation. During Pitru Paksha, the veil thins between generations, allowing sons and daughters to express profound gratitude without despair.
-              </p>
-</div>
-</div>
-</div>
-<!-- RIGHT COLUMN: Panchang Details Side Panel (Selected Day Dossier) (Span 4) -->
-<div class="lg:col-span-4 flex flex-col gap-space-md">
-<!-- Main Dossier Card -->
-<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-md flex flex-col gap-space-md relative overflow-hidden">
-<!-- Top accent bar -->
-<div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary via-secondary to-primary-container"></div>
-<!-- Dossier Header -->
-<div class="flex flex-col gap-1 pt-1">
-<div class="flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">दैनिक पञ्चाङ्ग • Selected Day</span>
-<span class="px-2 py-0.5 rounded-full bg-secondary-fixed/50 text-on-secondary-fixed text-label-sm font-semibold">Today in View</span>
-</div>
-<h2 class="font-headline-md text-headline-md text-on-surface font-semibold pt-1">
-                Saturday, 28 Sep 2024
-              </h2>
-<p class="font-body-sm text-body-sm text-primary font-semibold">
-                आश्विन कृष्ण एकादशी • Ashvina Krishna Indira Ekadashi
-              </p>
-</div>
-<!-- Panchanga: Five Limbs Grid -->
-<div class="flex flex-col gap-2">
-<span class="font-label-xs text-[11px] font-bold text-on-surface-variant uppercase tracking-wider">
-                The 5 Sacred Limbs (पञ्चाङ्ग)
-              </span>
-<div class="grid grid-cols-1 gap-2">
-<!-- Tithi -->
-<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
-<div class="flex items-center gap-2.5">
-<span class="w-7 h-7 rounded-lg bg-primary-fixed/60 text-primary flex items-center justify-center font-bold text-xs">ति</span>
-<div class="flex flex-col">
-<span class="font-label-sm text-label-sm font-bold text-on-surface">Tithi (Lunar Day)</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Indira Ekadashi</span>
-</div>
-</div>
-<span class="font-label-xs text-[12px] text-primary font-semibold">Upto 02:49 PM</span>
-</div>
-<!-- Nakshatra -->
-<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
-<div class="flex items-center gap-2.5">
-<span class="w-7 h-7 rounded-lg bg-secondary-fixed/60 text-secondary flex items-center justify-center font-bold text-xs">न</span>
-<div class="flex flex-col">
-<span class="font-label-sm text-label-sm font-bold text-on-surface">Nakshatra (Asterism)</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Pushya (Auspicious Sovereign)</span>
-</div>
-</div>
-<span class="font-label-xs text-[12px] text-secondary font-semibold">Upto 11:52 PM</span>
-</div>
-<!-- Yoga -->
-<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
-<div class="flex items-center gap-2.5">
-<span class="w-7 h-7 rounded-lg bg-tertiary-fixed/60 text-tertiary flex items-center justify-center font-bold text-xs">यो</span>
-<div class="flex flex-col">
-<span class="font-label-sm text-label-sm font-bold text-on-surface">Yoga (Angle)</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Shiva Yoga (Auspicious)</span>
-</div>
-</div>
-<span class="font-label-xs text-[12px] text-tertiary font-semibold">Whole Day</span>
-</div>
-<!-- Karana -->
-<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
-<div class="flex items-center gap-2.5">
-<span class="w-7 h-7 rounded-lg bg-surface-container text-on-surface-variant flex items-center justify-center font-bold text-xs">क</span>
-<div class="flex flex-col">
-<span class="font-label-sm text-label-sm font-bold text-on-surface">Karana (Half-Tithi)</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Bava, followed by Balava</span>
-</div>
-</div>
-<span class="font-label-xs text-[12px] text-on-surface-variant">After 02:49 PM</span>
-</div>
-<!-- Vara -->
-<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
-<div class="flex items-center gap-2.5">
-<span class="w-7 h-7 rounded-lg bg-surface-container-high text-on-surface flex items-center justify-center font-bold text-xs">वा</span>
-<div class="flex flex-col">
-<span class="font-label-sm text-label-sm font-bold text-on-surface">Vara (Solar Day)</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Shanivara (Saturn)</span>
-</div>
-</div>
-<span class="font-label-xs text-[12px] text-on-surface font-semibold">Shani Devata</span>
-</div>
-</div>
-</div>
-<!-- Celestial Timings (Muhurat & Solar Rhythm) -->
-<div class="flex flex-col gap-2 pt-1">
-<span class="font-label-xs text-[11px] font-bold text-on-surface-variant uppercase tracking-wider">
-                Celestial &amp; Muhurat Windows
-              </span>
-<div class="grid grid-cols-2 gap-2">
-<!-- Surya Udaya -->
-<div class="p-2.5 rounded-xl bg-surface-container-low flex flex-col gap-0.5">
-<div class="flex items-center gap-1.5 text-secondary">
-<span class="material-symbols-outlined text-[16px]">wb_sunny</span>
-<span class="font-label-xs text-[11px] font-semibold">Surya Udaya</span>
-</div>
-<span class="font-headline-sm text-[16px] font-bold text-on-surface">05:54 AM</span>
-</div>
-<!-- Surya Asta -->
-<div class="p-2.5 rounded-xl bg-surface-container-low flex flex-col gap-0.5">
-<div class="flex items-center gap-1.5 text-primary">
-<span class="material-symbols-outlined text-[16px]">wb_twilight</span>
-<span class="font-label-xs text-[11px] font-semibold">Surya Asta</span>
-</div>
-<span class="font-headline-sm text-[16px] font-bold text-on-surface">06:02 PM</span>
-</div>
-<!-- Brahma Muhurat -->
-<div class="p-2.5 rounded-xl bg-secondary-fixed/20 flex flex-col gap-0.5 col-span-2">
-<div class="flex items-center justify-between">
-<div class="flex items-center gap-1.5 text-secondary">
-<span class="material-symbols-outlined text-[16px]">self_improvement</span>
-<span class="font-label-sm text-label-sm font-bold">Brahma Muhurat (ब्रह्म मुहूर्त)</span>
-</div>
-<span class="text-[10px] text-secondary font-semibold uppercase">Optimal for Dhyana</span>
-</div>
-<span class="font-headline-sm text-[17px] font-bold text-on-surface pt-0.5">04:18 AM – 05:06 AM</span>
-<span class="text-[11px] text-on-surface-variant leading-tight">Quiet contemplative window before dawn; ideal for Gayatri Japa.</span>
-</div>
-<!-- Abhijit Muhurat -->
-<div class="p-2.5 rounded-xl bg-tertiary-fixed/30 flex flex-col gap-0.5 col-span-1">
-<span class="font-label-xs text-[11px] font-bold text-tertiary">Abhijit (अभिजीत)</span>
-<span class="font-body-md text-body-md font-bold text-on-surface">11:34 AM – 12:22 PM</span>
-<span class="text-[10px] text-on-surface-variant">Highly auspicious</span>
-</div>
-<!-- Rahu Kaal -->
-<div class="p-2.5 rounded-xl bg-error-container/40 flex flex-col gap-0.5 col-span-1">
-<span class="font-label-xs text-[11px] font-bold text-on-error-container">Rahu Kaal (राहु काल)</span>
-<span class="font-body-md text-body-md font-bold text-on-surface">09:00 AM – 10:30 AM</span>
-<span class="text-[10px] text-on-surface-variant">Avoid new initiatives</span>
-</div>
-</div>
-</div>
-<!-- Ritual Significance Card -->
-<div class="p-3.5 rounded-xl bg-primary-fixed/25 flex flex-col gap-2">
-<div class="flex items-center gap-2 text-primary">
-<span class="material-symbols-outlined text-[18px]">verified</span>
-<span class="font-label-md text-label-md font-bold">Indira Ekadashi Vrata Insights</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface leading-relaxed">
-                Falling within the Pitru Paksha fortnight, this sacred fast dedicates the fruit of Vishnu's worship directly to ancestral souls, fostering liberation (moksha) and family generational peace.
-              </p>
-<div class="flex items-center gap-2 pt-1">
-<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface font-label-xs text-[11px] font-medium">Satvik Diet</span>
-<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface font-label-xs text-[11px] font-medium">Vishnu Sahasranama</span>
-<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface font-label-xs text-[11px] font-medium">Gau Seva</span>
-</div>
-</div>
-<!-- Opt-In Box: Remind My Family via WhatsApp -->
-<div class="p-4 rounded-xl bg-surface-container shadow-sm flex flex-col gap-3">
-<div class="flex items-center gap-2 text-on-surface">
-<div class="w-7 h-7 rounded-full bg-[#25D366] text-white flex items-center justify-center shrink-0 shadow-sm">
-<span class="material-symbols-outlined text-[16px]">chat</span>
-</div>
-<h4 class="font-label-lg text-label-lg font-bold">
-                  Remind My Family via WhatsApp
-                </h4>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-tight">
-                Never miss sacred tithis. Receive dawn notifications for Ekadashi fasts, Amavasya tarpan windows, and family ancestral days.
-              </p>
-<!-- Phone input + CTA -->
-<div class="flex flex-col gap-2">
-<div class="flex items-center gap-1.5 p-1.5 rounded-lg bg-surface-container-lowest shadow-sm">
-<span class="text-on-surface-variant font-label-sm text-label-sm pl-2">+91</span>
-<input class="w-full bg-transparent px-1 py-1 font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none" placeholder="Enter WhatsApp Number" type="tel"/>
-</div>
-<button class="w-full py-2.5 px-4 rounded-lg bg-[#25D366] hover:bg-[#20ba59] text-white font-label-md text-label-md font-bold transition-all shadow-[0_2px_8px_rgba(37,211,102,0.25)] flex items-center justify-center gap-2">
-<span class="material-symbols-outlined text-[18px]">notifications_active</span>
-<span>Enable Family Tithi Alerts</span>
-</button>
-</div>
-<!-- Frequency Checkboxes -->
-<div class="flex flex-col gap-1.5 pt-1">
-<label class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant cursor-pointer select-none">
-<input checked="" class="w-4 h-4 rounded text-primary focus:ring-primary accent-primary" type="checkbox"/>
-<span>Ekadashi &amp; Purnima reminders</span>
-</label>
-<label class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant cursor-pointer select-none">
-<input checked="" class="w-4 h-4 rounded text-primary focus:ring-primary accent-primary" type="checkbox"/>
-<span>Ancestral Shraddha &amp; Pitru Tarpan tithis</span>
-</label>
-<label class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant cursor-pointer select-none">
-<input class="w-4 h-4 rounded text-primary focus:ring-primary accent-primary" type="checkbox"/>
-<span>Daily morning Rahu Kaal window</span>
-</label>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Section 3: Bottom Community Guidance & Acharya Assistance Banner -->
-<section class="max-w-[1240px] mx-auto px-gutter pb-space-xl w-full">
-<div class="rounded-3xl p-space-lg md:p-space-xl bg-surface-container-low shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-lg relative overflow-hidden">
-<!-- Faint Diya Flame Graphic / Mandala Accent -->
-<div class="absolute -right-12 -bottom-12 w-64 h-64 opacity-10 pointer-events-none">
-<svg class="text-primary" fill="none" viewbox="0 0 200 200">
-<path d="M100 20 C100 20 60 80 60 120 C60 150 80 180 100 180 C120 180 140 150 140 120 C140 80 100 20 100 20 Z" fill="currentColor"></path>
-</svg>
-</div>
-<div class="flex flex-col gap-space-xs max-w-2xl relative z-10">
-<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-fixed/50 text-on-secondary-fixed font-label-sm text-label-sm font-semibold self-start">
-<span class="material-symbols-outlined text-[16px]">school</span>
-<span>Gurukul Acharya Consultation</span>
-</div>
-<h3 class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">
-            Unsure about your family's gotra customs or specific ancestral tithis?
-          </h3>
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Every Hindu lineage preserves unique kul-parampara. Receive personalized tithi calculations, muhurat recommendations, and satvik ritual checklists curated directly by verified Vedic scholars.
-          </p>
-</div>
-<!-- High-Trust Direct CTA Group -->
-<div class="flex flex-col sm:flex-row md:flex-col lg:flex-row items-center gap-3 shrink-0 relative z-10 w-full md:w-auto">
-<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-label-lg text-label-lg font-bold shadow-[0_4px_16px_rgba(37,211,102,0.3)] transition-all" href="#">
-<span class="material-symbols-outlined text-[22px]">chat</span>
-<span>Get your family roadmap on WhatsApp</span>
-</a>
-<button class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg font-semibold transition-colors">
-<span class="material-symbols-outlined text-[20px] text-primary">download</span>
-<span>Download PDF Panchang</span>
-</button>
-</div>
-</div>
-</section>
-</div>
-</div>
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="home.html">
+      <div class="brand-mark" aria-hidden="true">ॐ</div>
+      <div class="brand-text">
+        <span class="brand-name">DharmaSetu <span style="font-size:.7em;color:var(--gold);font-weight:600">धर्मसेतु</span></span>
+        <span class="brand-sub"><span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span></span>
+      </div>
+    </a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+      <a href="calendar.html" class="active"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+      <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+      <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+      <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="hi">हिं</button>
+      </div>
+      <button class="burger" id="burger" type="button" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav">
+  <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+  <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+  <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+  <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+  <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+  <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
+</nav>
+
+<main>
+  <section class="section" style="padding-bottom:1rem;">
+    <div class="wrap">
+      <p class="eyebrow"><span data-i18n-en>Vedic calendar</span><span data-i18n-hi>वैदिक पंचांग</span></p>
+      <h1 style="font-size:clamp(1.6rem,3.5vw,2.2rem);color:var(--terracotta);">
+        <span data-i18n-en>Sacred Calendar</span><span data-i18n-hi>पवित्र पंचांग</span>
+      </h1>
+      <p class="muted" style="max-width:40rem;">
+        <span data-i18n-en>Sample dates from Nov 2026 – Feb 2027 with a short “why this day” note. Sync to Google Calendar or download .ics. All dates marked for verification.</span>
+        <span data-i18n-hi>नवम्बर २०२६ – फरवरी २०२७ की नमूना तिथियाँ, संक्षिप्त “यह दिन क्यों” नोट के साथ। गूगल कैलेंडर से सिंक करें या .ics डाउनलोड करें। सभी तिथियाँ सत्यापन हेतु चिह्नित।</span>
+      </p>
+      <div class="cta-row" style="margin-top:1rem;">
+        <button type="button" class="btn btn-primary" id="sync-all"><span data-i18n-en>Sync next event to Google Calendar</span><span data-i18n-hi>अगला पर्व गूगल कैलेंडर में जोड़ें</span></button>
+        <button type="button" class="btn btn-ghost" id="dl-all-ics"><span data-i18n-en>Download sample .ics pack</span><span data-i18n-hi>नमूना .ics पैक डाउनलोड</span></button>
+      </div>
+      <div class="alert-soft">
+        <span data-i18n-en>Regional panchangs differ. Treat these as educational samples — confirm with your local calendar or kul-purohit before planning.</span>
+        <span data-i18n-hi>क्षेत्रीय पंचांग भिन्न हो सकते हैं। इन्हें शैक्षिक नमूने मानें — योजना से पहले स्थानीय पंचांग या कुल-पुरोहित से पुष्टि करें।</span>
+      </div>
+    </div>
+  </section>
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      
+    <div class="card" style="padding:1.1rem;margin-bottom:1.1rem;">
+      <h3 style="color:var(--terracotta);margin-bottom:.75rem;">November 2026</h3>
+      <div class="cal-grid"><div class="cal-dow">Mon</div><div class="cal-dow">Tue</div><div class="cal-dow">Wed</div><div class="cal-dow">Thu</div><div class="cal-dow">Fri</div><div class="cal-dow">Sat</div><div class="cal-dow">Sun</div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day"><div class="n">1</div></div><div class="cal-day"><div class="n">2</div></div><div class="cal-day"><div class="n">3</div></div><div class="cal-day"><div class="n">4</div></div><div class="cal-day event" title="Dev Diwali (sample)"><div class="n">5</div><span class="tag"><span data-i18n-en>Dev Diwali (sample)</span><span data-i18n-hi>देव दीपावली (नमूना)</span></span></div><div class="cal-day"><div class="n">6</div></div><div class="cal-day"><div class="n">7</div></div><div class="cal-day"><div class="n">8</div></div><div class="cal-day"><div class="n">9</div></div><div class="cal-day"><div class="n">10</div></div><div class="cal-day"><div class="n">11</div></div><div class="cal-day event" title="Guru Nanak Jayanti (sample)"><div class="n">12</div><span class="tag"><span data-i18n-en>Guru Nanak Jayanti (sample)</span><span data-i18n-hi>गुरु नानक जयंती (नमूना)</span></span></div><div class="cal-day"><div class="n">13</div></div><div class="cal-day"><div class="n">14</div></div><div class="cal-day"><div class="n">15</div></div><div class="cal-day"><div class="n">16</div></div><div class="cal-day"><div class="n">17</div></div><div class="cal-day"><div class="n">18</div></div><div class="cal-day"><div class="n">19</div></div><div class="cal-day"><div class="n">20</div></div><div class="cal-day"><div class="n">21</div></div><div class="cal-day"><div class="n">22</div></div><div class="cal-day"><div class="n">23</div></div><div class="cal-day event" title="Kartika Ekadashi (sample)"><div class="n">24</div><span class="tag"><span data-i18n-en>Kartika Ekadashi (sample)</span><span data-i18n-hi>कार्तिक एकादशी (नमूना)</span></span></div><div class="cal-day"><div class="n">25</div></div><div class="cal-day"><div class="n">26</div></div><div class="cal-day"><div class="n">27</div></div><div class="cal-day"><div class="n">28</div></div><div class="cal-day"><div class="n">29</div></div><div class="cal-day"><div class="n">30</div></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div></div>
+    </div>
+    <div class="card" style="padding:1.1rem;margin-bottom:1.1rem;">
+      <h3 style="color:var(--terracotta);margin-bottom:.75rem;">December 2026</h3>
+      <div class="cal-grid"><div class="cal-dow">Mon</div><div class="cal-dow">Tue</div><div class="cal-dow">Wed</div><div class="cal-dow">Thu</div><div class="cal-dow">Fri</div><div class="cal-dow">Sat</div><div class="cal-dow">Sun</div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day"><div class="n">1</div></div><div class="cal-day"><div class="n">2</div></div><div class="cal-day"><div class="n">3</div></div><div class="cal-day event" title="Griha-friendly window (sample)"><div class="n">4</div><span class="tag"><span data-i18n-en>Griha-friendly window (sample)</span><span data-i18n-hi>गृह-अनुकूल खिड़की (नमूना)</span></span></div><div class="cal-day"><div class="n">5</div></div><div class="cal-day"><div class="n">6</div></div><div class="cal-day"><div class="n">7</div></div><div class="cal-day"><div class="n">8</div></div><div class="cal-day"><div class="n">9</div></div><div class="cal-day"><div class="n">10</div></div><div class="cal-day"><div class="n">11</div></div><div class="cal-day"><div class="n">12</div></div><div class="cal-day"><div class="n">13</div></div><div class="cal-day"><div class="n">14</div></div><div class="cal-day event" title="Dhanu Sankranti (sample)"><div class="n">15</div><span class="tag"><span data-i18n-en>Dhanu Sankranti (sample)</span><span data-i18n-hi>धनु संक्रांति (नमूना)</span></span></div><div class="cal-day"><div class="n">16</div></div><div class="cal-day"><div class="n">17</div></div><div class="cal-day"><div class="n">18</div></div><div class="cal-day"><div class="n">19</div></div><div class="cal-day"><div class="n">20</div></div><div class="cal-day"><div class="n">21</div></div><div class="cal-day"><div class="n">22</div></div><div class="cal-day"><div class="n">23</div></div><div class="cal-day"><div class="n">24</div></div><div class="cal-day"><div class="n">25</div></div><div class="cal-day"><div class="n">26</div></div><div class="cal-day"><div class="n">27</div></div><div class="cal-day"><div class="n">28</div></div><div class="cal-day"><div class="n">29</div></div><div class="cal-day"><div class="n">30</div></div><div class="cal-day"><div class="n">31</div></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div></div>
+    </div>
+    <div class="card" style="padding:1.1rem;margin-bottom:1.1rem;">
+      <h3 style="color:var(--terracotta);margin-bottom:.75rem;">January 2027</h3>
+      <div class="cal-grid"><div class="cal-dow">Mon</div><div class="cal-dow">Tue</div><div class="cal-dow">Wed</div><div class="cal-dow">Thu</div><div class="cal-dow">Fri</div><div class="cal-dow">Sat</div><div class="cal-dow">Sun</div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day"><div class="n">1</div></div><div class="cal-day"><div class="n">2</div></div><div class="cal-day"><div class="n">3</div></div><div class="cal-day"><div class="n">4</div></div><div class="cal-day"><div class="n">5</div></div><div class="cal-day"><div class="n">6</div></div><div class="cal-day"><div class="n">7</div></div><div class="cal-day"><div class="n">8</div></div><div class="cal-day"><div class="n">9</div></div><div class="cal-day"><div class="n">10</div></div><div class="cal-day"><div class="n">11</div></div><div class="cal-day"><div class="n">12</div></div><div class="cal-day"><div class="n">13</div></div><div class="cal-day event" title="Makar Sankranti (sample)"><div class="n">14</div><span class="tag"><span data-i18n-en>Makar Sankranti (sample)</span><span data-i18n-hi>मकर संक्रांति (नमूना)</span></span></div><div class="cal-day"><div class="n">15</div></div><div class="cal-day"><div class="n">16</div></div><div class="cal-day"><div class="n">17</div></div><div class="cal-day"><div class="n">18</div></div><div class="cal-day"><div class="n">19</div></div><div class="cal-day"><div class="n">20</div></div><div class="cal-day"><div class="n">21</div></div><div class="cal-day"><div class="n">22</div></div><div class="cal-day event" title="Vasant Panchami (sample)"><div class="n">23</div><span class="tag"><span data-i18n-en>Vasant Panchami (sample)</span><span data-i18n-hi>वसंत पंचमी (नमूना)</span></span></div><div class="cal-day"><div class="n">24</div></div><div class="cal-day"><div class="n">25</div></div><div class="cal-day"><div class="n">26</div></div><div class="cal-day"><div class="n">27</div></div><div class="cal-day"><div class="n">28</div></div><div class="cal-day"><div class="n">29</div></div><div class="cal-day"><div class="n">30</div></div><div class="cal-day"><div class="n">31</div></div></div>
+    </div>
+    <div class="card" style="padding:1.1rem;margin-bottom:1.1rem;">
+      <h3 style="color:var(--terracotta);margin-bottom:.75rem;">February 2027</h3>
+      <div class="cal-grid"><div class="cal-dow">Mon</div><div class="cal-dow">Tue</div><div class="cal-dow">Wed</div><div class="cal-dow">Thu</div><div class="cal-dow">Fri</div><div class="cal-dow">Sat</div><div class="cal-dow">Sun</div><div class="cal-day"><div class="n">1</div></div><div class="cal-day"><div class="n">2</div></div><div class="cal-day"><div class="n">3</div></div><div class="cal-day"><div class="n">4</div></div><div class="cal-day"><div class="n">5</div></div><div class="cal-day event" title="Ratha Saptami (sample)"><div class="n">6</div><span class="tag"><span data-i18n-en>Ratha Saptami (sample)</span><span data-i18n-hi>रथ सप्तमी (नमूना)</span></span></div><div class="cal-day"><div class="n">7</div></div><div class="cal-day"><div class="n">8</div></div><div class="cal-day"><div class="n">9</div></div><div class="cal-day"><div class="n">10</div></div><div class="cal-day"><div class="n">11</div></div><div class="cal-day"><div class="n">12</div></div><div class="cal-day"><div class="n">13</div></div><div class="cal-day"><div class="n">14</div></div><div class="cal-day"><div class="n">15</div></div><div class="cal-day"><div class="n">16</div></div><div class="cal-day"><div class="n">17</div></div><div class="cal-day"><div class="n">18</div></div><div class="cal-day"><div class="n">19</div></div><div class="cal-day"><div class="n">20</div></div><div class="cal-day"><div class="n">21</div></div><div class="cal-day"><div class="n">22</div></div><div class="cal-day"><div class="n">23</div></div><div class="cal-day event" title="Maha Shivaratri (sample)"><div class="n">24</div><span class="tag"><span data-i18n-en>Maha Shivaratri (sample)</span><span data-i18n-hi>महाशिवरात्रि (नमूना)</span></span></div><div class="cal-day"><div class="n">25</div></div><div class="cal-day"><div class="n">26</div></div><div class="cal-day"><div class="n">27</div></div><div class="cal-day"><div class="n">28</div></div></div>
+    </div>
+      <h2 style="color:var(--terracotta);margin:1.5rem 0 .9rem;font-size:1.35rem;"><span data-i18n-en>Event list &amp; reasoning</span><span data-i18n-hi>पर्व सूची व तर्क</span></h2>
+      
+    <article class="card result-card">
+      <span class="sample-badge">Sample — to be verified</span>
+      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Dev Diwali (sample)</span><span data-i18n-hi>देव दीपावली (नमूना)</span></h3>
+      <div class="meta-row"><span>05 November 2026</span></div>
+      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Kartika Poornima lights the ghats — a festival of lamps after Diwali in the Kashi tradition.</span><span data-i18n-hi>कार्तिक पूर्णिमा पर घाटों पर दीप — काशी परंपरा में दीपावली के बाद का दीपोत्सव।</span></div>
+      <div class="action-row">
+        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Dev Diwali (sample)" data-start="2026-11-05T18:00:00" data-end="2026-11-05T21:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Kartika Poornima lights the ghats — a festival of lamps after Diwali in the Kashi tradition." data-location="">Add to Google Calendar</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Dev Diwali (sample)" data-start="2026-11-05T18:00:00" data-end="2026-11-05T21:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-11-05">Download .ics</button>
+      </div>
+    </article>
+    <article class="card result-card">
+      <span class="sample-badge">Sample — to be verified</span>
+      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Guru Nanak Jayanti (sample)</span><span data-i18n-hi>गुरु नानक जयंती (नमूना)</span></h3>
+      <div class="meta-row"><span>12 November 2026</span></div>
+      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Marked on Kartika Poornima in many calendars — a day of remembrance and langar.</span><span data-i18n-hi>अनेक पंचांगों में कार्तिक पूर्णिमा पर — स्मरण और लंगर का दिन।</span></div>
+      <div class="action-row">
+        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Guru Nanak Jayanti (sample)" data-start="2026-11-12T06:00:00" data-end="2026-11-12T12:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Marked on Kartika Poornima in many calendars — a day of remembrance and langar." data-location="">Add to Google Calendar</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Guru Nanak Jayanti (sample)" data-start="2026-11-12T06:00:00" data-end="2026-11-12T12:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-11-12">Download .ics</button>
+      </div>
+    </article>
+    <article class="card result-card">
+      <span class="sample-badge">Sample — to be verified</span>
+      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Kartika Ekadashi (sample)</span><span data-i18n-hi>कार्तिक एकादशी (नमूना)</span></h3>
+      <div class="meta-row"><span>24 November 2026</span></div>
+      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Ekadashi is traditionally kept for fasting and quiet — a pause in the lunar fortnight.</span><span data-i18n-hi>एकादशी परंपरा में उपवास और शांति के लिए — पक्ष में एक विराम।</span></div>
+      <div class="action-row">
+        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Kartika Ekadashi (sample)" data-start="2026-11-24T05:00:00" data-end="2026-11-24T20:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Ekadashi is traditionally kept for fasting and quiet — a pause in the lunar fortnight." data-location="">Add to Google Calendar</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Kartika Ekadashi (sample)" data-start="2026-11-24T05:00:00" data-end="2026-11-24T20:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-11-24">Download .ics</button>
+      </div>
+    </article>
+    <article class="card result-card">
+      <span class="sample-badge">Sample — to be verified</span>
+      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Griha-friendly window (sample)</span><span data-i18n-hi>गृह-अनुकूल खिड़की (नमूना)</span></h3>
+      <div class="meta-row"><span>04 December 2026</span></div>
+      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>A sample Pushya-linked morning often cited for home beginnings — verify locally.</span><span data-i18n-hi>पुष्य से जुड़ी सुबह घर के आरंभ हेतु अक्सर उल्लिखित — स्थानीय पुष्टि करें।</span></div>
+      <div class="action-row">
+        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Griha-friendly window (sample)" data-start="2026-12-04T07:30:00" data-end="2026-12-04T10:30:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. A sample Pushya-linked morning often cited for home beginnings — verify locally." data-location="">Add to Google Calendar</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Griha-friendly window (sample)" data-start="2026-12-04T07:30:00" data-end="2026-12-04T10:30:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-12-04">Download .ics</button>
+      </div>
+    </article>
+    <article class="card result-card">
+      <span class="sample-badge">Sample — to be verified</span>
+      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Dhanu Sankranti (sample)</span><span data-i18n-hi>धनु संक्रांति (नमूना)</span></h3>
+      <div class="meta-row"><span>15 December 2026</span></div>
+      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Sun’s ingress into Dhanu — sankranti days mark solar transitions in the panchang.</span><span data-i18n-hi>सूर्य का धनु में प्रवेश — संक्रांति सौर संक्रमण चिह्नित करती है।</span></div>
+      <div class="action-row">
+        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Dhanu Sankranti (sample)" data-start="2026-12-15T06:00:00" data-end="2026-12-15T09:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Sun’s ingress into Dhanu — sankranti days mark solar transitions in the panchang." data-location="">Add to Google Calendar</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Dhanu Sankranti (sample)" data-start="2026-12-15T06:00:00" data-end="2026-12-15T09:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-12-15">Download .ics</button>
+      </div>
+    </article>
+    <article class="card result-card">
+      <span class="sample-badge">Sample — to be verified</span>
+      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Makar Sankranti (sample)</span><span data-i18n-hi>मकर संक्रांति (नमूना)</span></h3>
+      <div class="meta-row"><span>14 January 2027</span></div>
+      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Harvest thanks and sesame-jaggery sweets — a solar festival of sharing.</span><span data-i18n-hi>फसल-कृतज्ञता और तिल-गुड़ — साझा करने का सौर पर्व।</span></div>
+      <div class="action-row">
+        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Makar Sankranti (sample)" data-start="2027-01-14T06:30:00" data-end="2027-01-14T12:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Harvest thanks and sesame-jaggery sweets — a solar festival of sharing." data-location="">Add to Google Calendar</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Makar Sankranti (sample)" data-start="2027-01-14T06:30:00" data-end="2027-01-14T12:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2027-01-14">Download .ics</button>
+      </div>
+    </article>
+    <article class="card result-card">
+      <span class="sample-badge">Sample — to be verified</span>
+      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Vasant Panchami (sample)</span><span data-i18n-hi>वसंत पंचमी (नमूना)</span></h3>
+      <div class="meta-row"><span>23 January 2027</span></div>
+      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Saraswati and the first yellow of spring — traditionally linked with learning and arts.</span><span data-i18n-hi>सरस्वती और वसंत का प्रथम पीला — विद्या और कला से जुड़ा पर्व।</span></div>
+      <div class="action-row">
+        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Vasant Panchami (sample)" data-start="2027-01-23T08:00:00" data-end="2027-01-23T12:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Saraswati and the first yellow of spring — traditionally linked with learning and arts." data-location="">Add to Google Calendar</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Vasant Panchami (sample)" data-start="2027-01-23T08:00:00" data-end="2027-01-23T12:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2027-01-23">Download .ics</button>
+      </div>
+    </article>
+    <article class="card result-card">
+      <span class="sample-badge">Sample — to be verified</span>
+      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Ratha Saptami (sample)</span><span data-i18n-hi>रथ सप्तमी (नमूना)</span></h3>
+      <div class="meta-row"><span>06 February 2027</span></div>
+      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Surya’s chariot — a day many households use for health and gratitude prayers.</span><span data-i18n-hi>सूर्य का रथ — स्वास्थ्य और कृतज्ञता की प्रार्थनाओं का दिन।</span></div>
+      <div class="action-row">
+        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Ratha Saptami (sample)" data-start="2027-02-06T06:30:00" data-end="2027-02-06T09:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Surya’s chariot — a day many households use for health and gratitude prayers." data-location="">Add to Google Calendar</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Ratha Saptami (sample)" data-start="2027-02-06T06:30:00" data-end="2027-02-06T09:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2027-02-06">Download .ics</button>
+      </div>
+    </article>
+    <article class="card result-card">
+      <span class="sample-badge">Sample — to be verified</span>
+      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Maha Shivaratri (sample)</span><span data-i18n-hi>महाशिवरात्रि (नमूना)</span></h3>
+      <div class="meta-row"><span>24 February 2027</span></div>
+      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Night vigil and quiet worship — a major observance across many traditions.</span><span data-i18n-hi>जागरण और शांत आराधना — अनेक परंपराओं का प्रमुख पर्व।</span></div>
+      <div class="action-row">
+        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Maha Shivaratri (sample)" data-start="2027-02-24T18:00:00" data-end="2027-02-25T06:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Night vigil and quiet worship — a major observance across many traditions." data-location="">Add to Google Calendar</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Maha Shivaratri (sample)" data-start="2027-02-24T18:00:00" data-end="2027-02-25T06:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2027-02-24">Download .ics</button>
+      </div>
+    </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap inner">
+    <div>
+      <strong>DharmaSetu</strong> · <span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span><br/>
+      <span data-i18n-en>We never replace your family’s kul-purohit. Prototype v2 · 3 Nov 2026</span>
+      <span data-i18n-hi>हम आपके कुल-पुरोहित का स्थान नहीं लेते। प्रोटोटाइप v2 · 3 नवम्बर 2026</span>
+    </div>
+    <div>
+      <a href="https://wa.me/917239062622" target="_blank" rel="noopener">WhatsApp +91 72390 62622</a>
+      · <a href="index.html"><span data-i18n-en>Team hub</span><span data-i18n-hi>टीम हब</span></a>
+    </div>
+  </div>
+</footer>
+<script src="i18n.js"></script>
+<script src="cal.js"></script>
+
 <script>
-  // Simple interactive day picker highlight logic
-  document.addEventListener('DOMContentLoaded', () => {
-    const calendarCells = document.querySelectorAll('.grid-cols-7 > div[class*="min-h-"]');
-    calendarCells.forEach(cell => {
-      cell.addEventListener('click', () => {
-        calendarCells.forEach(c => {
-          c.classList.remove('ring-2', 'ring-primary', 'ring-offset-2');
-        });
-        cell.classList.add('ring-2', 'ring-primary', 'ring-offset-2');
-      });
-    });
+document.getElementById("sync-all").addEventListener("click", function(){
+  var first = document.querySelector("[data-gcal]");
+  if (first) first.click();
+});
+document.getElementById("dl-all-ics").addEventListener("click", function(){
+  // download a multi-event ICS
+  var events = Array.from(document.querySelectorAll("[data-ics]"));
+  var body = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//DharmaSetu//Prototype//EN","CALSCALE:GREGORIAN"];
+  events.forEach(function(el, i){
+    var start = el.getAttribute("data-start").replace(/[-:]/g,"").replace(".000","");
+    // simplify: use DSCal for first only + note
+    if (i===0) el.click();
   });
-</script></main><footer class="w-full bg-surface-container-low border-t border-secondary/20 pt-space-xl pb-space-lg"><div class="max-w-[1240px] mx-auto px-gutter"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-xl border-b border-outline-variant/40"><div class="lg:col-span-4 flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-primary-container text-on-primary flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">temple_hindu</span></div><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">DharmaSetu</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-sm">Dedicated to preserving and guiding through the 16 sacred Vedic Sanskars, ancestral tirthas, and righteous wisdom. We bridge timeless dharma with discerning, graceful life companionship for global Hindu families.</p><div class="flex items-center gap-space-sm pt-space-xs"><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px]">verified</span><span>Authentic Vedic Lineage</span></div></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Sacred Journeys</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="dharmasetu---life-arc-sanskar-explorer" href="life-arc.html">16 Sanskar Guides</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---tirtha-yatra" href="#">Tirtha Pilgrimages</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---sacred-calendar" href="muhurat.html">Panchang &amp; Muhurat</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---texts-and-wisdom" href="#">Vedic Scriptures</a></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Trust &amp; Sanctorum</span><div class="p-space-sm rounded-xl bg-surface-container border border-secondary/15 flex flex-col gap-space-xs"><div class="flex items-center gap-1.5 text-secondary"><span class="material-symbols-outlined text-[18px]">shield</span><span class="font-label-sm text-label-sm font-bold">Verified Acharyas</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Every ritual conductor and purohit is thoroughly credentialed in traditional gurukuls and local sampradayas.</p></div><div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-[18px] text-tertiary">support_agent</span><span>Helpline: +91 1800-DHARMA</span></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Vedic Newsletter</span><p class="font-body-sm text-body-sm text-on-surface-variant">Receive auspicious tithis, ekadashi alerts, and spiritual commentary directly in your sanctuary.</p><div class="flex flex-col sm:flex-row gap-2"><input class="px-3 py-2 rounded-lg bg-surface-container-lowest border border-outline-variant text-on-surface font-body-sm text-body-sm focus:outline-none focus:border-primary flex-1" placeholder="Your email address" type="email"/><button class="px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors shrink-0">Subscribe</button></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><p>© 2024 DharmaSetu Foundation. Celebrating lives, serving souls. All rights reserved.</p><div class="flex items-center gap-space-md"><a class="hover:text-primary transition-colors" data-path="dharmasetu---privacy-policy" href="#">Privacy &amp; Seva Code</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---terms-of-heritage" href="#">Terms of Heritage</a><a class="hover:text-primary transition-colors" data-path="dharmasetu---verified-acharyas" href="#">Acharya Enrolment</a></div></div></div></footer><a href="index.html" style="position:fixed;bottom:16px;left:16px;z-index:9999;display:inline-flex;align-items:center;gap:6px;padding:10px 14px;border-radius:999px;background:#873415;color:#fff;font:600 13px/1 'Plus Jakarta Sans',system-ui,sans-serif;text-decoration:none;box-shadow:0 4px 14px rgba(135,52,21,.28);">← All screens</a>
-</body></html>
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DharmaSetu — Sangam / संगम</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="common.css"/>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="home.html">
+      <div class="brand-mark" aria-hidden="true">ॐ</div>
+      <div class="brand-text">
+        <span class="brand-name">DharmaSetu <span style="font-size:.7em;color:var(--gold);font-weight:600">धर्मसेतु</span></span>
+        <span class="brand-sub"><span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span></span>
+      </div>
+    </a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+      <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+      <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+      <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+      <a href="community.html" class="active"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="hi">हिं</button>
+      </div>
+      <button class="burger" id="burger" type="button" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav">
+  <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+  <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+  <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+  <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+  <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+  <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
+</nav>
+
+<main>
+  <section class="section" style="padding-bottom:1rem;background:var(--cream-3);">
+    <div class="wrap">
+      <p class="eyebrow"><span data-i18n-en>Community</span><span data-i18n-hi>समुदाय</span></p>
+      <h1 style="font-size:clamp(1.6rem,3.5vw,2.2rem);color:var(--terracotta);">
+        <span data-i18n-en>Sangam — Share your tradition</span><span data-i18n-hi>संगम — अपनी परंपरा साझा करें</span>
+      </h1>
+      <p class="belief">
+        <span data-i18n-en>We are curators, not owners, of a shared belief temple.</span>
+        <span data-i18n-hi>हम साझा आस्था-मंदिर के संरक्षक हैं, स्वामी नहीं।</span>
+      </p>
+      <p class="muted" style="max-width:40rem;">
+        <span data-i18n-en>Bring your words, stories, regional rites and the lingo of your home. Active contributors can later become resource persons. Photos of acharyas appear only with consent.</span>
+        <span data-i18n-hi>अपने शब्द, कथाएँ, क्षेत्रीय रीतियाँ और घर की बोली लाएँ। सक्रिय योगदानकर्ता बाद में संसाधन-व्यक्ति बन सकते हैं। आचार्यों के चित्र केवल सहमति से।</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="display:grid;gap:1.25rem;">
+      <div class="card" style="padding:1.3rem 1.35rem;">
+        <h2 style="color:var(--terracotta);font-size:1.3rem;"><span data-i18n-en>Share a term, story or ritual</span><span data-i18n-hi>शब्द, कथा या रीति साझा करें</span></h2>
+        <p class="muted" style="font-size:.88rem;margin-bottom:1rem;"><span data-i18n-en>Submits to WhatsApp for now. <!-- Formspree/Sheet later --></span><span data-i18n-hi>अभी व्हाट्सऐप पर भेजा जाएगा। <!-- Formspree/Sheet later --></span></p>
+        <form id="sangam-form" class="form-grid cols-2">
+          <label class="field"><span data-i18n-en>Your name</span><span data-i18n-hi>आपका नाम</span>
+            <input name="name" required placeholder="Priya Verma"/>
+          </label>
+          <label class="field"><span data-i18n-en>City / region</span><span data-i18n-hi>शहर / क्षेत्र</span>
+            <input name="region" required placeholder="Ayodhya, Awadh"/>
+          </label>
+          <label class="field"><span data-i18n-en>Language</span><span data-i18n-hi>भाषा</span>
+            <input name="language" placeholder="Hindi / Awadhi / Bhojpuri…"/>
+          </label>
+          <label class="field"><span data-i18n-en>Type</span><span data-i18n-hi>प्रकार</span>
+            <select name="type">
+              <option value="term">Term / शब्द</option>
+              <option value="story">Story / कथा</option>
+              <option value="ritual">Ritual / रीति</option>
+              <option value="regional">Regional practice / क्षेत्रीय प्रथा</option>
+            </select>
+          </label>
+          <label class="field" style="grid-column:1/-1;"><span data-i18n-en>Your text</span><span data-i18n-hi>आपका पाठ</span>
+            <textarea name="text" required placeholder="e.g. In our home, vidaai is called…"></textarea>
+          </label>
+          <label class="field" style="grid-column:1/-1;"><span data-i18n-en>Photo (optional — placeholder)</span><span data-i18n-hi>फ़ोटो (वैकल्पिक — प्लेसहोल्डर)</span>
+            <input name="photo" type="file" accept="image/*" disabled title="Upload coming soon"/>
+            <span style="font-weight:400;font-size:.75rem;"><span data-i18n-en>Upload wiring comes with Formspree/Sheet.</span><span data-i18n-hi>अपलोड Formspree/Sheet के साथ जुड़ेगा।</span></span>
+          </label>
+          <label class="check" style="grid-column:1/-1;">
+            <input type="checkbox" name="consent" value="yes"/>
+            <span><span data-i18n-en>I consent to DharmaSetu sharing this with attribution, for education — not for fear or paid solicitation.</span><span data-i18n-hi>मैं सहमति देता/देती हूँ कि धर्मसेतु इसे श्रेय के साथ शैक्षिक उपयोग हेतु साझा करे — भय या भुगतान-याचना हेतु नहीं।</span></span>
+          </label>
+          <div style="grid-column:1/-1;">
+            <button class="btn btn-wa" type="submit"><span data-i18n-en>Send via WhatsApp</span><span data-i18n-hi>व्हाट्सऐप से भेजें</span></button>
+          </div>
+        </form>
+      </div>
+
+      <div class="card" style="padding:1.3rem 1.35rem;">
+        <h2 style="color:var(--terracotta);font-size:1.25rem;"><span data-i18n-en>Become a resource person</span><span data-i18n-hi>संसाधन-व्यक्ति बनें</span></h2>
+        <p class="muted"><span data-i18n-en>If you regularly share clear, kind knowledge — rites, terms, or regional calendars — we may invite you as a named guide on Sangam. No pressure. No replacing anyone’s kul-purohit.</span><span data-i18n-hi>यदि आप नियमित रूप से स्पष्ट, कोमल ज्ञान साझा करते हैं — विधि, शब्द या क्षेत्रीय पंचांग — तो हम आपको संगम पर नामित मार्गदर्शक के रूप में आमंत्रित कर सकते हैं। कोई दबाव नहीं। किसी के कुल-पुरोहित का स्थान नहीं।</span></p>
+        <a class="btn btn-primary" href="https://wa.me/917239062622?text=Namaste%2C%20I%20would%20like%20to%20become%20a%20DharmaSetu%20resource%20person." target="_blank" rel="noopener"><span data-i18n-en>Say hello on WhatsApp</span><span data-i18n-hi>व्हाट्सऐप पर नमस्ते कहें</span></a>
+      </div>
+
+      <div>
+        <h2 style="color:var(--terracotta);font-size:1.25rem;margin-bottom:.75rem;"><span data-i18n-en>Acharyas &amp; guides</span><span data-i18n-hi>आचार्य व मार्गदर्शक</span></h2>
+        <p class="muted" style="font-size:.88rem;margin-bottom:1rem;"><span data-i18n-en>Photos shown only with consent. Placeholders for now — no real names or faces.</span><span data-i18n-hi>चित्र केवल सहमति से। अभी प्लेसहोल्डर — कोई वास्तविक नाम या चेहरा नहीं।</span></p>
+        <div class="acharya-strip">
+          <div class="card acharya"><div class="silhouette" style="margin:0 auto;">👤</div><p><span data-i18n-en>Guide seat · consent pending</span><span data-i18n-hi>मार्गदर्शक स्थान · सहमति शेष</span></p></div>
+          <div class="card acharya"><div class="silhouette" style="margin:0 auto;">👤</div><p><span data-i18n-en>Guide seat · consent pending</span><span data-i18n-hi>मार्गदर्शक स्थान · सहमति शेष</span></p></div>
+          <div class="card acharya"><div class="silhouette" style="margin:0 auto;">👤</div><p><span data-i18n-en>Guide seat · consent pending</span><span data-i18n-hi>मार्गदर्शक स्थान · सहमति शेष</span></p></div>
+          <div class="card acharya"><div class="silhouette" style="margin:0 auto;">👤</div><p><span data-i18n-en>Guide seat · consent pending</span><span data-i18n-hi>मार्गदर्शक स्थान · सहमति शेष</span></p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap inner">
+    <div>
+      <strong>DharmaSetu</strong> · <span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span><br/>
+      <span data-i18n-en>We never replace your family’s kul-purohit. Prototype v2 · 3 Nov 2026</span>
+      <span data-i18n-hi>हम आपके कुल-पुरोहित का स्थान नहीं लेते। प्रोटोटाइप v2 · 3 नवम्बर 2026</span>
+    </div>
+    <div>
+      <a href="https://wa.me/917239062622" target="_blank" rel="noopener">WhatsApp +91 72390 62622</a>
+      · <a href="index.html"><span data-i18n-en>Team hub</span><span data-i18n-hi>टीम हब</span></a>
+    </div>
+  </div>
+</footer>
+<script src="i18n.js"></script>
+<script src="cal.js"></script>
+
+<script>
+// Formspree/Sheet later — for now submit via prefilled WhatsApp
+document.getElementById("sangam-form").addEventListener("submit", function(e){
+  e.preventDefault();
+  var fd = new FormData(e.target);
+  if (!fd.get("consent")) { alert(document.documentElement.lang==="hi" ? "कृपया सहमति दें।" : "Please tick the consent box."); return; }
+  var lines = [
+    "Sangam submission — DharmaSetu",
+    "Name: " + (fd.get("name")||""),
+    "City/Region: " + (fd.get("region")||""),
+    "Language: " + (fd.get("language")||""),
+    "Type: " + (fd.get("type")||""),
+    "",
+    fd.get("text")||"",
+    "",
+    "Consent: yes (share on DharmaSetu with attribution)"
+  ];
+  var url = "https://wa.me/917239062622?text=" + encodeURIComponent(lines.join("\\n"));
+  window.open(url, "_blank", "noopener");
+});
+</script>
+
+</body>
+</html>
