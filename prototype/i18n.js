@@ -1,7 +1,11 @@
 (function () {
   var KEY = "ds_lang";
   function getLang() {
-    try { return localStorage.getItem(KEY) || "en"; } catch (e) { return "en"; }
+    try {
+      var q = new URLSearchParams(location.search).get("lang");
+      if (q === "hi" || q === "en") return q;
+      return localStorage.getItem(KEY) || "en";
+    } catch (e) { return "en"; }
   }
   function setLang(lang) {
     lang = lang === "hi" ? "hi" : "en";
