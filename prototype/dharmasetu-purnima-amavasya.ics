@@ -1,0 +1,828 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DharmaSetu//Vedic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational.
+X-WR-CALNAME:DharmaSetu — Purnima & Amavasya
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:Amavasya — Ashvina / अमावस्या — आश्व
+ िन
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261103T043905Z
+UID:amavasya-2026-11-09@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — आश्विन\nअमावस्या अमावस्या 
+ तिथि — पितृ स्मरण और शांत गृ
+ ह कर्मों से जुड़ी।\nकारण: चंद
+ ्र के अँधेरे में पूर्वजों की
+  ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#c84
+ 5425ac6efc2ee
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Kartika / पूर्णिमा — कार्त
+ िक
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DTSTAMP:20261103T043905Z
+UID:purnima-2026-11-24@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — कार्तिक\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#91a
+ 3ea1bdf455b9f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Kartika / अमावस्या — कार्
+ तिक
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+DTSTAMP:20261103T043905Z
+UID:amavasya-2026-12-08@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — कार्तिक\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#6f0
+ 1db0b5477a31a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-01-07@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — मार्गशीर्ष\nअमावस्या अमाव
+ स्या तिथि — पितृ स्मरण और शा
+ ंत गृह कर्मों से जुड़ी।\nकार
+ ण: चंद्र के अँधेरे में पूर्व
+ जों की ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7ae
+ d76b6adcf4a6f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Pausha / पूर्णिमा — पौष
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-01-22@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — पौष\nपूर्णिमा प
+ ूर्णिमा तिथि — सत्यनारायण क
+ था\, दान और शांत अनुष्ठान के ल
+ िए पारंपरिक रूप से अनुकूल।\n
+ कारण: सबसे उज्ज्वल रात सामूह
+ िक प्रार्थना और पूर्णता के क
+ र्मों को आमंत्रित करती है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#78d
+ c692ffa60a80b
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Pausha / अमावस्या — पौष
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-02-06@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — पौष\nअमावस्या अमावस्या तिथ
+ ि — पितृ स्मरण और शांत गृह कर
+ ्मों से जुड़ी।\nकारण: चंद्र क
+ े अँधेरे में पूर्वजों की ओर 
+ ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#35a
+ e7e09792a15e8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Magha / अमावस्या — माघ
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-03-08@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — माघ\nअमावस्या अमावस्या तिथ
+ ि — पितृ स्मरण और शांत गृह कर
+ ्मों से जुड़ी।\nकारण: चंद्र क
+ े अँधेरे में पूर्वजों की ओर 
+ ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9d5
+ 87eb3f8631882
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Phalguna / पूर्णिमा — फाल्
+ गुन
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-03-22@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — फाल्गुन\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e54
+ 611c12ec5dd22
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Phalguna / अमावस्या — फाल्
+ गुन
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-04-06@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — फाल्गुन\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#fb0
+ 66a731ece57ea
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Chaitra / पूर्णिमा — चैत्र
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-04-20@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — चैत्र\nपूर्णिम
+ ा पूर्णिमा तिथि — सत्यनाराय
+ ण कथा\, दान और शांत अनुष्ठान क
+ े लिए पारंपरिक रूप से अनुकूल
+ ।\nकारण: सबसे उज्ज्वल रात साम
+ ूहिक प्रार्थना और पूर्णता क
+ े कर्मों को आमंत्रित करती है
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#35f
+ 1d5fcf2bc4942
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Chaitra / अमावस्या — चैत्
+ र
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-05-06@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — चैत्र\nअमावस्या अमावस्या त
+ िथि — पितृ स्मरण और शांत गृह 
+ कर्मों से जुड़ी।\nकारण: चंद्
+ र के अँधेरे में पूर्वजों की 
+ ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ee7
+ 0ac3440ee7ff8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Vaishakha / पूर्णिमा — वैशा
+ ख
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-05-20@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — वैशाख\nपूर्णिम
+ ा पूर्णिमा तिथि — सत्यनाराय
+ ण कथा\, दान और शांत अनुष्ठान क
+ े लिए पारंपरिक रूप से अनुकूल
+ ।\nकारण: सबसे उज्ज्वल रात साम
+ ूहिक प्रार्थना और पूर्णता क
+ े कर्मों को आमंत्रित करती है
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#656
+ 844002944da1c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Vaishakha / अमावस्या — वैशा
+ ख
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-06-04@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — वैशाख\nअमावस्या अमावस्या त
+ िथि — पितृ स्मरण और शांत गृह 
+ कर्मों से जुड़ी।\nकारण: चंद्
+ र के अँधेरे में पूर्वजों की 
+ ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#622
+ 4cbccc47b1b40
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Jyeshtha / पूर्णिमा — ज्ये
+ ष्ठ
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-06-18@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — ज्येष्ठ\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#61a
+ 356bae51b5e1a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Jyeshtha / पूर्णिमा — ज्ये
+ ष्ठ
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-06-19@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — ज्येष्ठ\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#2e0
+ 4258970abcedb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Jyeshtha / अमावस्या — ज्ये
+ ष्ठ
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-07-04@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — ज्येष्ठ\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#985
+ 6da695b1f1452
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Ashadha / पूर्णिमा — आषाढ़
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-07-18@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — आषाढ़\nपूर्णिम
+ ा पूर्णिमा तिथि — सत्यनाराय
+ ण कथा\, दान और शांत अनुष्ठान क
+ े लिए पारंपरिक रूप से अनुकूल
+ ।\nकारण: सबसे उज्ज्वल रात साम
+ ूहिक प्रार्थना और पूर्णता क
+ े कर्मों को आमंत्रित करती है
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#bff
+ 0afeae71c1fa1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Ashadha / अमावस्या — आषाढ
+ ़
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-08-02@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — आषाढ़\nअमावस्या अमावस्या त
+ िथि — पितृ स्मरण और शांत गृह 
+ कर्मों से जुड़ी।\nकारण: चंद्
+ र के अँधेरे में पूर्वजों की 
+ ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#253
+ 3c6f8c154b0a2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Shravana / पूर्णिमा — श्रा
+ वण
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270818
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-08-17@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — श्रावण\nपूर्णि
+ मा पूर्णिमा तिथि — सत्यनारा
+ यण कथा\, दान और शांत अनुष्ठान 
+ के लिए पारंपरिक रूप से अनुकू
+ ल।\nकारण: सबसे उज्ज्वल रात सा
+ मूहिक प्रार्थना और पूर्णता 
+ के कर्मों को आमंत्रित करती ह
+ ै।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7d8
+ 1341d7904b0c0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Shravana / अमावस्या — श्रा
+ वण
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-08-31@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — श्रावण\nअमावस्या अमावस्या 
+ तिथि — पितृ स्मरण और शांत गृ
+ ह कर्मों से जुड़ी।\nकारण: चंद
+ ्र के अँधेरे में पूर्वजों की
+  ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#c72
+ fd6b921b081b5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Bhadrapada / पूर्णिमा — भाद्
+ रपद
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-09-15@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — भाद्रपद\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#2b2
+ 9a9ab8e7e1496
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Bhadrapada / अमावस्या — भाद
+ ्रपद
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-09-30@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — भाद्रपद\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#890
+ dd53ee1a638fd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sarvapitri Amavasya [verify] / सर्वपित्नी अ
+ मावस्या [सत्यापित करें]
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261103T043905Z
+UID:sarvapitri-2027-09-30@dharmasetu
+CATEGORIES:ancestral\,purnima-amavasya\,festivals
+DESCRIPTION:Why: a safety-net day of remembrance so no lineage is left unn
+ amed.\n\nStory: Sarvapitri Amavasya closes Pitru Paksha — the day for al
+ l ancestors\, especially when individual tithi days were missed.\nSource: 
+ Garuda Purana\; Shraddha manuals\nWhy: a safety-net day of remembrance so 
+ no lineage is left unnamed.\nModern angle: Inclusive memorial day\; cultur
+ al/psychological grief support.\nEvidence: Cultural/psychological\nMore: h
+ ttps://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#shraddh
+ a-remembrance\nLocation basis: New Delhi. City-specific timing coming late
+ r.\n\n—\nसर्वपित्नी अमावस्या [सत
+ ्यापित करें]\nसर्वपित्नी अमा
+ वस्या पितृ पक्ष का समापन — स
+ भी पूर्वजों के लिए\, विशेषकर 
+ छूटी तिथियों पर।\nकारण: स्मर
+ ण का सुरक्षा-दिन ताकि कोई वं
+ श बिना नाम न रह जाए।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ea0
+ c668666d641be
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Ashvina / पूर्णिमा — आश्वि
+ न
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-10-15@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — आश्विन\nपूर्णि
+ मा पूर्णिमा तिथि — सत्यनारा
+ यण कथा\, दान और शांत अनुष्ठान 
+ के लिए पारंपरिक रूप से अनुकू
+ ल।\nकारण: सबसे उज्ज्वल रात सा
+ मूहिक प्रार्थना और पूर्णता 
+ के कर्मों को आमंत्रित करती ह
+ ै।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#676
+ 380f29cc4dc9b
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Ashvina / अमावस्या — आश्व
+ िन
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-10-29@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — आश्विन\nअमावस्या अमावस्या 
+ तिथि — पितृ स्मरण और शांत गृ
+ ह कर्मों से जुड़ी।\nकारण: चंद
+ ्र के अँधेरे में पूर्वजों की
+  ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f8c
+ f8fc1f600d50d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Kartika / पूर्णिमा — कार्त
+ िक
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-11-14@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — कार्तिक\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#96f
+ c112539d44153
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Kartika / अमावस्या — कार्
+ तिक
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-11-28@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — कार्तिक\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a8f
+ 2ccb27b379e06
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Margashirsha / पूर्णिमा — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20271213
+DTEND;VALUE=DATE:20271214
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-12-13@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — मार्गशीर्ष\nपू
+ र्णिमा पूर्णिमा तिथि — सत्य
+ नारायण कथा\, दान और शांत अनुष
+ ्ठान के लिए पारंपरिक रूप से 
+ अनुकूल।\nकारण: सबसे उज्ज्वल 
+ रात सामूहिक प्रार्थना और पू
+ र्णता के कर्मों को आमंत्रित 
+ करती है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#171
+ 1ad91ed4e102b
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20271227
+DTEND;VALUE=DATE:20271228
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-12-27@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — मार्गशीर्ष\nअमावस्या अमाव
+ स्या तिथि — पितृ स्मरण और शा
+ ंत गृह कर्मों से जुड़ी।\nकार
+ ण: चंद्र के अँधेरे में पूर्व
+ जों की ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7fa
+ d7c5eb1d0f44b
+END:VEVENT
+END:VCALENDAR

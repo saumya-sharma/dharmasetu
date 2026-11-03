@@ -1,0 +1,2620 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DharmaSetu//Vedic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational.
+X-WR-CALNAME:DharmaSetu — Vedic Calendar
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Ashvina / एकादशी (कृष्
+ ण) — आश्विन
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2026-11-05@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — आश्वि
+ न\nएकादशी प्रत्येक पक्ष की ग
+ ्यारहवीं तिथि — वैष्णव व्रत 
+ का दिन: संयम\, प्रार्थना और पा
+ चन-विश्राम।\nकारण: चंद्र मास 
+ में दो बार भारी भोजन और भागद
+ ौड़ से पीछे हटना — ध्यान के ल
+ िए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ca3
+ 253e5e4c50755
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Ashvina / अमावस्या — आश्व
+ िन
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261103T043905Z
+UID:amavasya-2026-11-09@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — आश्विन\nअमावस्या अमावस्या 
+ तिथि — पितृ स्मरण और शांत गृ
+ ह कर्मों से जुड़ी।\nकारण: चंद
+ ्र के अँधेरे में पूर्वजों की
+  ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#c84
+ 5425ac6efc2ee
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diwali / Deepavali [verify] / दीपावली [सत्य
+ ापित करें]
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261103T043905Z
+UID:diwali-2026-11-09@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: light the home when the moon is dark — invite prosperit
+ y\, kinship and clarity after the ancestral fortnight.\n\nStory: Diwali (D
+ eepavali) on the amavasya of Ashvina (amanta) / Kartika lights lamps for R
+ ama's return and Lakshmi's grace in the darkest new-moon night.\nSource: R
+ amayana return narrative\; Padma Purana Lakshmi strands\nWhy: light the ho
+ me when the moon is dark — invite prosperity\, kinship and clarity after
+  the ancestral fortnight.\nModern angle: Light\, gathering and gift ritual
+ s support mood and social ties in dark season\; cultural/psychological wit
+ h seasonal-affect context.\nEvidence: Cultural/psychological\nMore: https:
+ //saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lun
+ isolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nदीपावली [सत्यापित करें]\nदी
+ पावली आश्विन अमावस्या (अमान
+ ्त) / कार्तिक — सबसे अँधेरी अम
+ ावस्या पर राम की वापसी और लक
+ ्ष्मी की कृपा के दीप।\nकारण: च
+ ंद्र के अँधेरे में घर जलाएँ 
+ — पितृ पक्ष के बाद समृद्धि\, र
+ िश्ते और स्पष्टता का निमंत्
+ रण।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#11c
+ 9bda8c6d35afe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vrischika Sankranti / वृश्चिक संक्रां
+ ति
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2026-11-17@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nव
+ ृश्चिक संक्रांति\nसंक्रांत
+ ि सूर्य का नए सिडेरेल राशि म
+ ें प्रवेश — क्षेत्रीय कैलें
+ डरों में प्रयुक्त वास्तविक 
+ सौर मील का पत्थर।\nकारण: चंद्
+ र-सौर वर्ष की सौर रीढ़ को दान 
+ और सूर्य अर्घ्य से चिह्नित क
+ रना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#43c
+ 4dbc3e89ff102
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dev Uthani Ekadashi [verify] / देव उठनी एकाद
+ शी [सत्यापित करें]
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DTSTAMP:20261103T043905Z
+UID:dev_uthani-2026-11-20@dharmasetu
+CATEGORIES:festivals\,ekadashi
+DESCRIPTION:Why: close the monsoon retreat of the gods and reopen the seas
+ on of household beginnings.\n\nStory: Dev Uthani (Prabodhini) Ekadashi in 
+ Kartika Shukla ends Chaturmas — Vishnu is said to awaken\; marriages and
+  auspicious starts resume.\nSource: Padma Purana / Vaishnava ekadashi lore
+ \nWhy: close the monsoon retreat of the gods and reopen the season of hous
+ ehold beginnings.\nModern angle: Calendar bookkeeping for social life afte
+ r monsoon\; cultural. Ekadashi fasting has broader metabolic research link
+ s.\nEvidence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10
+ 894978/\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
+ ing.html#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing
+  coming later.\n\n—\nदेव उठनी एकादशी [सत
+ ्यापित करें]\nदेव उठनी (प्रबो
+ धिनी) एकादशी कार्तिक शुक्ल —
+  चातुर्मास का अंत\, विष्णु का 
+ जागरण\; विवाह और शुभ आरंभ फिर 
+ से।\nकारण: देवताओं के वर्षा-अ
+ वकाश का समापन और गृह आरंभों 
+ का मौसम फिर खोलना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#252
+ e1ecd88f84577
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Kartika / एकादशी (शुक्
+ ल) — कार्तिक
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2026-11-20@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — कार्त
+ िक\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#2a0
+ 355e5eee6bb75
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Kartika / पूर्णिमा — कार्त
+ िक
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DTSTAMP:20261103T043905Z
+UID:purnima-2026-11-24@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — कार्तिक\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#91a
+ 3ea1bdf455b9f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Kartika / एकादशी (कृष्
+ ण) — कार्तिक
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2026-12-04@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — कार्त
+ िक\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#06b
+ d999348376698
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Kartika / अमावस्या — कार्
+ तिक
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+DTSTAMP:20261103T043905Z
+UID:amavasya-2026-12-08@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — कार्तिक\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#6f0
+ 1db0b5477a31a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dhanu Sankranti / धनु संक्रांति
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2026-12-17@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nध
+ नु संक्रांति\nसंक्रांति सूर
+ ्य का नए सिडेरेल राशि में प्
+ रवेश — क्षेत्रीय कैलेंडरों 
+ में प्रयुक्त वास्तविक सौर म
+ ील का पत्थर।\nकारण: चंद्र-सौर 
+ वर्ष की सौर रीढ़ को दान और सू
+ र्य अर्घ्य से चिह्नित करना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#b6e
+ 7464f3c428fcb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Margashirsha / एकादशी (शुक
+ ्ल) — मार्गशीर्ष
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2026-12-20@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — मार्ग
+ शीर्ष\nएकादशी प्रत्येक पक्ष 
+ की ग्यारहवीं तिथि — वैष्णव व
+ ्रत का दिन: संयम\, प्रार्थना औ
+ र पाचन-विश्राम।\nकारण: चंद्र 
+ मास में दो बार भारी भोजन और भ
+ ागदौड़ से पीछे हटना — ध्यान 
+ के लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ed4
+ 33d3069a755fc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Margashirsha / एकादशी (कृ
+ ष्ण) — मार्गशीर्ष
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-01-03@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — मार्ग
+ शीर्ष\nएकादशी प्रत्येक पक्ष 
+ की ग्यारहवीं तिथि — वैष्णव व
+ ्रत का दिन: संयम\, प्रार्थना औ
+ र पाचन-विश्राम।\nकारण: चंद्र 
+ मास में दो बार भारी भोजन और भ
+ ागदौड़ से पीछे हटना — ध्यान 
+ के लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ea6
+ 1278f389cc2f4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-01-07@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — मार्गशीर्ष\nअमावस्या अमाव
+ स्या तिथि — पितृ स्मरण और शा
+ ंत गृह कर्मों से जुड़ी।\nकार
+ ण: चंद्र के अँधेरे में पूर्व
+ जों की ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7ae
+ d76b6adcf4a6f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Makar Sankranti / मकर संक्रांति
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261103T043905Z
+UID:makar_sankranti-2027-01-15@dharmasetu
+CATEGORIES:festivals\,sankranti\,birth-auspicious
+DESCRIPTION:Why: solar astronomy made visible as a festival of harvest\, c
+ harity (daan)\, and sesame–jaggery offerings to Surya.\n\nStory: Makar S
+ ankranti marks the Sun's sidereal ingress into Makara (Capricorn)\, tradit
+ ionally linked with Uttarayana — the northward turn of the solar path.\n
+ Source: Surya Siddhanta\; Puranic Uttarayana lore\nWhy: solar astronomy ma
+ de visible as a festival of harvest\, charity (daan)\, and sesame–jagger
+ y offerings to Surya.\nModern angle: Corresponds to a real solar-longitude
+  event (sidereal Capricorn ingress). Seasonal marker near mid-winter in th
+ e northern hemisphere.\nEvidence: Established\nLink: https://www.drikpanch
+ ang.com/sankranti/makar-sankranti-date-time.html\nMore: https://saumya-sha
+ rma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress
+ \nLocation basis: New Delhi. City-specific timing coming later.\n\n—\n
+ मकर संक्रांति\nमकर संक्रांत
+ ि सूर्य के मकर राशि में प्रव
+ ेश का पर्व है\, जिसे उत्तरायण 
+ — सूर्य के उत्तर की ओर बढ़ने 
+ — से जोड़ा जाता है।\nकारण: सौर
+  खगोल को फसल\, दान और सूर्य को 
+ तिल-गुड़ अर्पण के पर्व के रू
+ प में मनाना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#350
+ fff9e725b595c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Pausha / एकादशी (शुक्ल
+ ) — पौष
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-01-19@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — पौष\nएक
+ ादशी प्रत्येक पक्ष की ग्यार
+ हवीं तिथि — वैष्णव व्रत का द
+ िन: संयम\, प्रार्थना और पाचन-व
+ िश्राम।\nकारण: चंद्र मास में 
+ दो बार भारी भोजन और भागदौड़ 
+ से पीछे हटना — ध्यान के लिए स
+ ्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d3f
+ c74d0947e8b24
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Pausha / पूर्णिमा — पौष
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-01-22@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — पौष\nपूर्णिमा प
+ ूर्णिमा तिथि — सत्यनारायण क
+ था\, दान और शांत अनुष्ठान के ल
+ िए पारंपरिक रूप से अनुकूल।\n
+ कारण: सबसे उज्ज्वल रात सामूह
+ िक प्रार्थना और पूर्णता के क
+ र्मों को आमंत्रित करती है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#78d
+ c692ffa60a80b
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Pausha / एकादशी (कृष्
+ ण) — पौष
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-02-02@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — पौष\nएक
+ ादशी प्रत्येक पक्ष की ग्यार
+ हवीं तिथि — वैष्णव व्रत का द
+ िन: संयम\, प्रार्थना और पाचन-व
+ िश्राम।\nकारण: चंद्र मास में 
+ दो बार भारी भोजन और भागदौड़ 
+ से पीछे हटना — ध्यान के लिए स
+ ्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#186
+ 24e6b155a41bb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Pausha / अमावस्या — पौष
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-02-06@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — पौष\nअमावस्या अमावस्या तिथ
+ ि — पितृ स्मरण और शांत गृह कर
+ ्मों से जुड़ी।\nकारण: चंद्र क
+ े अँधेरे में पूर्वजों की ओर 
+ ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#35a
+ e7e09792a15e8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vasant Panchami / वसंत पंचमी
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+DTSTAMP:20261103T043905Z
+UID:vasant_panchami-2027-02-11@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: mark the turn toward longer light and dedicate the season
+  of growth to speech\, learning and the arts.\n\nStory: Vasant Panchami ho
+ nours Saraswati on Magha Shukla Panchami\, when spring (vasanta) begins to
+  show and learning\, music and yellow mustard fields are celebrated.\nSour
+ ce: Puranic Saraswati lore\; regional Grihya customs\nWhy: mark the turn t
+ oward longer light and dedicate the season of growth to speech\, learning 
+ and the arts.\nModern angle: Seasonal / cultural marker. No clinical outco
+ me claim\; supports community learning rituals.\nEvidence: Cultural/psycho
+ logical\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
+ ing.html#calendar-lunisolar\nLocation basis: New Delhi. City-specific timi
+ ng coming later.\n\n—\nवसंत पंचमी\nवसंत पं
+ चमी माघ शुक्ल पंचमी पर सरस्व
+ ती की पूजा है — वसंत का आरंभ\, 
+ विद्या\, संगीत और पीले सरसों 
+ के खेतों का उत्सव।\nकारण: बढ़
+ ती रोशनी के मौसम को वाणी\, विद
+ ्या और कलाओं को समर्पित करना
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#233
+ 033099b355ad7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kumbha Sankranti / कुम्भ संक्रांति
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-02-14@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nक
+ ुम्भ संक्रांति\nसंक्रांति स
+ ूर्य का नए सिडेरेल राशि में 
+ प्रवेश — क्षेत्रीय कैलेंडर
+ ों में प्रयुक्त वास्तविक सौ
+ र मील का पत्थर।\nकारण: चंद्र-स
+ ौर वर्ष की सौर रीढ़ को दान और 
+ सूर्य अर्घ्य से चिह्नित करन
+ ा।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#bcc
+ c771ac4ab995c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Magha / एकादशी (शुक्ल)
+  — माघ
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-02-17@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — माघ\nएक
+ ादशी प्रत्येक पक्ष की ग्यार
+ हवीं तिथि — वैष्णव व्रत का द
+ िन: संयम\, प्रार्थना और पाचन-व
+ िश्राम।\nकारण: चंद्र मास में 
+ दो बार भारी भोजन और भागदौड़ 
+ से पीछे हटना — ध्यान के लिए स
+ ्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f05
+ fa8269a44074f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Magha / एकादशी (कृष्ण
+ ) — माघ
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-03-03@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — माघ\nएक
+ ादशी प्रत्येक पक्ष की ग्यार
+ हवीं तिथि — वैष्णव व्रत का द
+ िन: संयम\, प्रार्थना और पाचन-व
+ िश्राम।\nकारण: चंद्र मास में 
+ दो बार भारी भोजन और भागदौड़ 
+ से पीछे हटना — ध्यान के लिए स
+ ्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#8e8
+ 10ae59a19e883
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Magha / एकादशी (कृष्ण
+ ) — माघ
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-03-04@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — माघ\nएक
+ ादशी प्रत्येक पक्ष की ग्यार
+ हवीं तिथि — वैष्णव व्रत का द
+ िन: संयम\, प्रार्थना और पाचन-व
+ िश्राम।\nकारण: चंद्र मास में 
+ दो बार भारी भोजन और भागदौड़ 
+ से पीछे हटना — ध्यान के लिए स
+ ्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#df0
+ 89488a7460daf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Maha Shivaratri [verify] / महा शिवरात्रि [
+ सत्यापित करें]
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DTSTAMP:20261103T043905Z
+UID:maha_shivaratri-2027-03-07@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: a night vigil of remembrance and restraint at the dark fo
+ rtnight's edge\, traditionally linked to Shiva's cosmic dance and marriage
+  lore.\n\nStory: Maha Shivaratri is the great night of Shiva\, observed on
+  the Krishna Chaturdashi before Magha/Phalguna amavasya — vigil\, fastin
+ g and bilva offerings.\nSource: Shiva Purana\; Linga Purana\nWhy: a night 
+ vigil of remembrance and restraint at the dark fortnight's edge\, traditio
+ nally linked to Shiva's cosmic dance and marriage lore.\nModern angle: Nig
+ ht-vigil fasting overlaps with researched intermittent-fasting windows\; e
+ vidence for specific Shivaratri outcomes is cultural\, not clinical.\nEvid
+ ence: Cultural/psychological\nLink: https://pubmed.ncbi.nlm.nih.gov/407013
+ 47/\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.
+ html#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing com
+ ing later.\n\n—\nमहा शिवरात्रि [सत्या
+ पित करें]\nमहा शिवरात्रि शिव 
+ की महा रात्रि है — माघ/फाल्ग
+ ुन कृष्ण चतुर्दशी पर जागरण\, 
+ व्रत और बिल्व अर्पण।\nकारण: क
+ ृष्ण पक्ष के अंत में जागरण औ
+ र संयम — शिव के तांडव और विवा
+ ह कथाओं से जुड़ा।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d4b
+ c3131946f24fc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Magha / अमावस्या — माघ
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-03-08@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — माघ\nअमावस्या अमावस्या तिथ
+ ि — पितृ स्मरण और शांत गृह कर
+ ्मों से जुड़ी।\nकारण: चंद्र क
+ े अँधेरे में पूर्वजों की ओर 
+ ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9d5
+ 87eb3f8631882
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Meena Sankranti / मीन संक्रांति
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-03-15@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nम
+ ीन संक्रांति\nसंक्रांति सूर
+ ्य का नए सिडेरेल राशि में प्
+ रवेश — क्षेत्रीय कैलेंडरों 
+ में प्रयुक्त वास्तविक सौर म
+ ील का पत्थर।\nकारण: चंद्र-सौर 
+ वर्ष की सौर रीढ़ को दान और सू
+ र्य अर्घ्य से चिह्नित करना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#1d6
+ c581be00d709f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Phalguna / एकादशी (शुक्
+ ल) — फाल्गुन
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-03-18@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — फाल्ग
+ ुन\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9c0
+ 9b02a92b93776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holika Dahan [verify] / होलिका दहन [सत्य
+ ापित करें]
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261103T043905Z
+UID:holi-2027-03-22@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: burn the symbol of harm\, then meet neighbours with colou
+ r — a ritual of courage\, play and community repair at winter's end.\n\n
+ Story: Holika Dahan on Phalguna Purnima recalls Prahlada's faith and Holik
+ a's fall\; the next day\, Rangwali Holi celebrates colour\, spring and soc
+ ial renewal.\nSource: Bhagavata Purana (Prahlada–Hiranyakashipu)\nWhy: b
+ urn the symbol of harm\, then meet neighbours with colour — a ritual of 
+ courage\, play and community repair at winter's end.\nModern angle: Strong
+  social-bonding and seasonal festival effects\; no medical claim for the f
+ ire ritual itself.\nEvidence: Cultural/psychological\nMore: https://saumya
+ -sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lunisolar\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nह
+ ोलिका दहन [सत्यापित करें]\nफा
+ ल्गुन पूर्णिमा पर होलिका दह
+ न प्रह्लाद की भक्ति और होलिक
+ ा के पतन की कथा है\; अगले दिन र
+ ंगवाली होली रंग\, वसंत और साम
+ ाजिक नवीकरण मनाती है।\nकारण: 
+ हिंसा के प्रतीक को जलाकर फिर
+  रंग से मिलना — शीत के अंत में
+  साहस\, खेल और समुदाय की मरम्म
+ त।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e9f
+ a2a8a3b2dc77f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Phalguna / पूर्णिमा — फाल्
+ गुन
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-03-22@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — फाल्गुन\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e54
+ 611c12ec5dd22
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holi (Rangwali) [verify] / होली (रंगवाली) [
+ सत्यापित करें]
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+DTSTAMP:20261103T043905Z
+UID:holi-2027-03-23@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: burn the symbol of harm\, then meet neighbours with colou
+ r — a ritual of courage\, play and community repair at winter's end.\n\n
+ Story: Holika Dahan on Phalguna Purnima recalls Prahlada's faith and Holik
+ a's fall\; the next day\, Rangwali Holi celebrates colour\, spring and soc
+ ial renewal.\nSource: Bhagavata Purana (Prahlada–Hiranyakashipu)\nWhy: b
+ urn the symbol of harm\, then meet neighbours with colour — a ritual of 
+ courage\, play and community repair at winter's end.\nModern angle: Strong
+  social-bonding and seasonal festival effects\; no medical claim for the f
+ ire ritual itself.\nEvidence: Cultural/psychological\nMore: https://saumya
+ -sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lunisolar\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nह
+ ोली (रंगवाली) [सत्यापित करें]
+ \nफाल्गुन पूर्णिमा पर होलिका
+  दहन प्रह्लाद की भक्ति और हो
+ लिका के पतन की कथा है\; अगले द
+ िन रंगवाली होली रंग\, वसंत और 
+ सामाजिक नवीकरण मनाती है।\nका
+ रण: हिंसा के प्रतीक को जलाकर 
+ फिर रंग से मिलना — शीत के अंत 
+ में साहस\, खेल और समुदाय की मर
+ म्मत।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#67d
+ f2754d1162d5f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Phalguna / एकादशी (कृष्
+ ण) — फाल्गुन
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-04-02@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — फाल्ग
+ ुन\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#c24
+ 9cc0ff2779baa
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Phalguna / अमावस्या — फाल्
+ गुन
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-04-06@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — फाल्गुन\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#fb0
+ 66a731ece57ea
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mesha Sankranti / मेष संक्रांति
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-04-15@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nम
+ ेष संक्रांति\nसंक्रांति सूर
+ ्य का नए सिडेरेल राशि में प्
+ रवेश — क्षेत्रीय कैलेंडरों 
+ में प्रयुक्त वास्तविक सौर म
+ ील का पत्थर।\nकारण: चंद्र-सौर 
+ वर्ष की सौर रीढ़ को दान और सू
+ र्य अर्घ्य से चिह्नित करना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#8c5
+ d3aba556ca578
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ram Navami / राम नवमी
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+DTSTAMP:20261103T043905Z
+UID:ram_navami-2027-04-15@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: remember a life-model of duty\, restraint and care for th
+ e vulnerable at the spring new-year fortnight.\n\nStory: Ram Navami celebr
+ ates the birth of Rama on Chaitra Shukla Navami — Maryada Purushottam\, 
+ the ideal of dharmic kingship in the Ramayana.\nSource: Valmiki Ramayana\;
+  later Puranic calendars\nWhy: remember a life-model of duty\, restraint a
+ nd care for the vulnerable at the spring new-year fortnight.\nModern angle
+ : Narrative ethics and community worship\; cultural meaning\, not a scient
+ ific outcome claim.\nEvidence: Cultural/psychological\nMore: https://saumy
+ a-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lunisolar
+ \nLocation basis: New Delhi. City-specific timing coming later.\n\n—\n
+ राम नवमी\nराम नवमी चैत्र शुक
+ ्ल नवमी पर राम के जन्म का उत्
+ सव है — रामायण में मर्यादा प
+ ुरुषोत्तम।\nकारण: वसंत नववर्
+ ष पक्ष में कर्तव्य\, संयम और द
+ ुर्बलों की रक्षा के जीवन-आदर
+ ्श का स्मरण।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#70a
+ af984b3e63a38
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Chaitra / एकादशी (शुक्
+ ल) — चैत्र
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-04-17@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — चैत्र\n
+ एकादशी प्रत्येक पक्ष की ग्य
+ ारहवीं तिथि — वैष्णव व्रत का
+  दिन: संयम\, प्रार्थना और पाचन
+ -विश्राम।\nकारण: चंद्र मास मे
+ ं दो बार भारी भोजन और भागदौड
+ ़ से पीछे हटना — ध्यान के लिए 
+ स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#dd7
+ cc527198fe5b8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Chaitra / पूर्णिमा — चैत्र
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-04-20@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — चैत्र\nपूर्णिम
+ ा पूर्णिमा तिथि — सत्यनाराय
+ ण कथा\, दान और शांत अनुष्ठान क
+ े लिए पारंपरिक रूप से अनुकूल
+ ।\nकारण: सबसे उज्ज्वल रात साम
+ ूहिक प्रार्थना और पूर्णता क
+ े कर्मों को आमंत्रित करती है
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#35f
+ 1d5fcf2bc4942
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Chaitra / एकादशी (कृष्
+ ण) — चैत्र
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-05-02@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — चैत्र\n
+ एकादशी प्रत्येक पक्ष की ग्य
+ ारहवीं तिथि — वैष्णव व्रत का
+  दिन: संयम\, प्रार्थना और पाचन
+ -विश्राम।\nकारण: चंद्र मास मे
+ ं दो बार भारी भोजन और भागदौड
+ ़ से पीछे हटना — ध्यान के लिए 
+ स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d9e
+ 93d7581df6d00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Chaitra / अमावस्या — चैत्
+ र
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-05-06@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — चैत्र\nअमावस्या अमावस्या त
+ िथि — पितृ स्मरण और शांत गृह 
+ कर्मों से जुड़ी।\nकारण: चंद्
+ र के अँधेरे में पूर्वजों की 
+ ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ee7
+ 0ac3440ee7ff8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Akshaya Tritiya / अक्षय तृतीया
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+DTSTAMP:20261103T043905Z
+UID:akshaya_tritiya-2027-05-09@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: a day set aside to start what should endure — learning
+ \, giving\, household foundations — under the spring sun.\n\nStory: Aksh
+ aya Tritiya (Vaishakha Shukla Tritiya) is called 'never-diminishing' — t
+ raditionally favoured for beginnings\, charity and lasting vows.\nSource: 
+ Puranic akshaya lore\; regional muhurat custom\nWhy: a day set aside to st
+ art what should endure — learning\, giving\, household foundations — u
+ nder the spring sun.\nModern angle: Muhurat timing itself is cultural\; ch
+ arity and intentional starts have known psychological benefits.\nEvidence:
+  Cultural/psychological\nMore: https://saumya-sharma.github.io/dharmasetu/
+ prototype/reasoning.html#muhurat-cultural\nLocation basis: New Delhi. City
+ -specific timing coming later.\n\n—\nअक्षय तृतीया
+ \nअक्षय तृतीया (वैशाख शुक्ल त
+ ृतीया) 'अक्षय' कही जाती है — आ
+ रंभ\, दान और दीर्घ संकल्पों क
+ े लिए पारंपरिक रूप से अनुकूल
+ ।\nकारण: जो टिके उसे आरंभ करने
+  का दिन — विद्या\, दान\, गृह आधा
+ र — वसंत सूर्य के नीचे।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ad3
+ c63f56c0bf4bd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Vaishakha / एकादशी (शुक्
+ ल) — वैशाख
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-05-16@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — वैशाख\n
+ एकादशी प्रत्येक पक्ष की ग्य
+ ारहवीं तिथि — वैष्णव व्रत का
+  दिन: संयम\, प्रार्थना और पाचन
+ -विश्राम।\nकारण: चंद्र मास मे
+ ं दो बार भारी भोजन और भागदौड
+ ़ से पीछे हटना — ध्यान के लिए 
+ स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a6a
+ 4137a242831ed
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vrishabha Sankranti / वृषभ संक्रांति
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-05-16@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nव
+ ृषभ संक्रांति\nसंक्रांति सू
+ र्य का नए सिडेरेल राशि में प
+ ्रवेश — क्षेत्रीय कैलेंडरो
+ ं में प्रयुक्त वास्तविक सौर 
+ मील का पत्थर।\nकारण: चंद्र-सौ
+ र वर्ष की सौर रीढ़ को दान और स
+ ूर्य अर्घ्य से चिह्नित करना
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#dd4
+ 2637a4cb3d3fe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Vaishakha / पूर्णिमा — वैशा
+ ख
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-05-20@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — वैशाख\nपूर्णिम
+ ा पूर्णिमा तिथि — सत्यनाराय
+ ण कथा\, दान और शांत अनुष्ठान क
+ े लिए पारंपरिक रूप से अनुकूल
+ ।\nकारण: सबसे उज्ज्वल रात साम
+ ूहिक प्रार्थना और पूर्णता क
+ े कर्मों को आमंत्रित करती है
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#656
+ 844002944da1c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Vaishakha / एकादशी (कृष
+ ्ण) — वैशाख
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-06-01@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — वैशाख\n
+ एकादशी प्रत्येक पक्ष की ग्य
+ ारहवीं तिथि — वैष्णव व्रत का
+  दिन: संयम\, प्रार्थना और पाचन
+ -विश्राम।\nकारण: चंद्र मास मे
+ ं दो बार भारी भोजन और भागदौड
+ ़ से पीछे हटना — ध्यान के लिए 
+ स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d06
+ ee048f5f66911
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Vaishakha / अमावस्या — वैशा
+ ख
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-06-04@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — वैशाख\nअमावस्या अमावस्या त
+ िथि — पितृ स्मरण और शांत गृह 
+ कर्मों से जुड़ी।\nकारण: चंद्
+ र के अँधेरे में पूर्वजों की 
+ ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#622
+ 4cbccc47b1b40
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Jyeshtha / एकादशी (शुक्
+ ल) — ज्येष्ठ
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-06-14@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — ज्येष
+ ्ठ\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#fd0
+ 7de58b0ab0c51
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mithuna Sankranti / मिथुन संक्रांति
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-06-16@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nम
+ िथुन संक्रांति\nसंक्रांति स
+ ूर्य का नए सिडेरेल राशि में 
+ प्रवेश — क्षेत्रीय कैलेंडर
+ ों में प्रयुक्त वास्तविक सौ
+ र मील का पत्थर।\nकारण: चंद्र-स
+ ौर वर्ष की सौर रीढ़ को दान और 
+ सूर्य अर्घ्य से चिह्नित करन
+ ा।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d49
+ 0c0777d3e4cd0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Jyeshtha / पूर्णिमा — ज्ये
+ ष्ठ
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-06-18@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — ज्येष्ठ\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#61a
+ 356bae51b5e1a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Jyeshtha / पूर्णिमा — ज्ये
+ ष्ठ
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-06-19@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — ज्येष्ठ\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#2e0
+ 4258970abcedb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Jyeshtha / एकादशी (कृष्
+ ण) — ज्येष्ठ
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-06-30@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — ज्येष
+ ्ठ\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#347
+ b70cf18c897df
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Jyeshtha / अमावस्या — ज्ये
+ ष्ठ
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-07-04@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — ज्येष्ठ\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#985
+ 6da695b1f1452
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Ashadha / एकादशी (शुक्
+ ल) — आषाढ़
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-07-14@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — आषाढ़\n
+ एकादशी प्रत्येक पक्ष की ग्य
+ ारहवीं तिथि — वैष्णव व्रत का
+  दिन: संयम\, प्रार्थना और पाचन
+ -विश्राम।\nकारण: चंद्र मास मे
+ ं दो बार भारी भोजन और भागदौड
+ ़ से पीछे हटना — ध्यान के लिए 
+ स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#22b
+ b1b65e7b74ff5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Karka Sankranti / कर्क संक्रांति
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-07-17@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nक
+ र्क संक्रांति\nसंक्रांति सू
+ र्य का नए सिडेरेल राशि में प
+ ्रवेश — क्षेत्रीय कैलेंडरो
+ ं में प्रयुक्त वास्तविक सौर 
+ मील का पत्थर।\nकारण: चंद्र-सौ
+ र वर्ष की सौर रीढ़ को दान और स
+ ूर्य अर्घ्य से चिह्नित करना
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#023
+ 0d3d211eb9291
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Guru Purnima / गुरु पूर्णिमा
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261103T043905Z
+UID:guru_purnima-2027-07-18@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: pause at the full moon of Ashadha to name gratitude for t
+ hose who taught you how to see.\n\nStory: Guru Purnima (Ashadha Purnima) h
+ onours the teacher — traditionally Vyasa\, and by extension every guide 
+ who transmits knowledge.\nSource: Skanda Purana / Vyasa Puja tradition\nWh
+ y: pause at the full moon of Ashadha to name gratitude for those who taugh
+ t you how to see.\nModern angle: Gratitude practices show measurable well-
+ being links in psychology research\; the lunar date is cultural.\nEvidence
+ : Plausible\nLink: https://pubmed.ncbi.nlm.nih.gov/12585811/\nMore: https:
+ //saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lun
+ isolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nगुरु पूर्णिमा\nगुरु पूर्ण
+ िमा (आषाढ़ पूर्णिमा) गुरु का 
+ सम्मान है — परंपरा में व्यास
+ \, और ज्ञान देने वाले प्रत्ये
+ क मार्गदर्शक।\nकारण: आषाढ़ क
+ ी पूर्णिमा पर उन लोगों के प्
+ रति कृतज्ञता जिनसे देखने की 
+ दृष्टि मिली।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#633
+ 43d9636f96172
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Ashadha / पूर्णिमा — आषाढ़
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-07-18@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — आषाढ़\nपूर्णिम
+ ा पूर्णिमा तिथि — सत्यनाराय
+ ण कथा\, दान और शांत अनुष्ठान क
+ े लिए पारंपरिक रूप से अनुकूल
+ ।\nकारण: सबसे उज्ज्वल रात साम
+ ूहिक प्रार्थना और पूर्णता क
+ े कर्मों को आमंत्रित करती है
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#bff
+ 0afeae71c1fa1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Ashadha / अमावस्या — आषाढ
+ ़
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-08-02@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — आषाढ़\nअमावस्या अमावस्या त
+ िथि — पितृ स्मरण और शांत गृह 
+ कर्मों से जुड़ी।\nकारण: चंद्
+ र के अँधेरे में पूर्वजों की 
+ ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#253
+ 3c6f8c154b0a2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Shravana / एकादशी (शुक्
+ ल) — श्रावण
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-08-12@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — श्राव
+ ण\nएकादशी प्रत्येक पक्ष की ग
+ ्यारहवीं तिथि — वैष्णव व्रत 
+ का दिन: संयम\, प्रार्थना और पा
+ चन-विश्राम।\nकारण: चंद्र मास 
+ में दो बार भारी भोजन और भागद
+ ौड़ से पीछे हटना — ध्यान के ल
+ िए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9c8
+ 78fb95fd1ba70
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Shravana / पूर्णिमा — श्रा
+ वण
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270818
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-08-17@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — श्रावण\nपूर्णि
+ मा पूर्णिमा तिथि — सत्यनारा
+ यण कथा\, दान और शांत अनुष्ठान 
+ के लिए पारंपरिक रूप से अनुकू
+ ल।\nकारण: सबसे उज्ज्वल रात सा
+ मूहिक प्रार्थना और पूर्णता 
+ के कर्मों को आमंत्रित करती ह
+ ै।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7d8
+ 1341d7904b0c0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Raksha Bandhan / रक्षाबंधन
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270818
+DTSTAMP:20261103T043905Z
+UID:raksha_bandhan-2027-08-17@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: make care visible — a thread that names who watches ove
+ r whom.\n\nStory: Raksha Bandhan on Shravana Purnima ties a rakhi as a ple
+ dge of protection and care between siblings and chosen kin.\nSource: Puran
+ ic / regional folk\; Bhavishya Purana strands\nWhy: make care visible — 
+ a thread that names who watches over whom.\nModern angle: Kinship bonding 
+ and ritualised commitment\; cultural/psychological strength.\nEvidence: Cu
+ ltural/psychological\nMore: https://saumya-sharma.github.io/dharmasetu/pro
+ totype/reasoning.html#life-moments-tilak\nLocation basis: New Delhi. City-
+ specific timing coming later.\n\n—\nरक्षाबंधन\nरक
+ ्षाबंधन श्रावण पूर्णिमा पर 
+ राखी बाँधकर भाई-बहन और चुने 
+ हुए परिजनों के बीच रक्षा और 
+ देखभाल का संकल्प।\nकारण: देख
+ भाल को दृश्य बनाना — एक धागा 
+ जो बताए कौन किसकी रक्षा करता
+  है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#6a5
+ 46906b2f9f603
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Simha Sankranti / सिंह संक्रांति
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-08-18@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nस
+ िंह संक्रांति\nसंक्रांति सू
+ र्य का नए सिडेरेल राशि में प
+ ्रवेश — क्षेत्रीय कैलेंडरो
+ ं में प्रयुक्त वास्तविक सौर 
+ मील का पत्थर।\nकारण: चंद्र-सौ
+ र वर्ष की सौर रीढ़ को दान और स
+ ूर्य अर्घ्य से चिह्नित करना
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d1d
+ c52b6caf6a4b0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Shravana / एकादशी (कृष्
+ ण) — श्रावण
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-08-28@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — श्राव
+ ण\nएकादशी प्रत्येक पक्ष की ग
+ ्यारहवीं तिथि — वैष्णव व्रत 
+ का दिन: संयम\, प्रार्थना और पा
+ चन-विश्राम।\nकारण: चंद्र मास 
+ में दो बार भारी भोजन और भागद
+ ौड़ से पीछे हटना — ध्यान के ल
+ िए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#6ac
+ ce7375e83668d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Shravana / अमावस्या — श्रा
+ वण
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-08-31@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — श्रावण\nअमावस्या अमावस्या 
+ तिथि — पितृ स्मरण और शांत गृ
+ ह कर्मों से जुड़ी।\nकारण: चंद
+ ्र के अँधेरे में पूर्वजों की
+  ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#c72
+ fd6b921b081b5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ganesh Chaturthi / गणेश चतुर्थी
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+DTSTAMP:20261103T043905Z
+UID:ganesh_chaturthi-2027-09-04@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: begin the season of vows by honouring the deity of thresh
+ olds and careful starts.\n\nStory: Ganesh Chaturthi (Bhadrapada Shukla Cha
+ turthi) installs Ganesha — remover of obstacles — at the doorway of ne
+ w undertakings.\nSource: Ganesha Purana\; Mudgala Purana\nWhy: begin the s
+ eason of vows by honouring the deity of thresholds and careful starts.\nMo
+ dern angle: Community craft\, public art and shared vows\; cultural meanin
+ g.\nEvidence: Cultural/psychological\nMore: https://saumya-sharma.github.i
+ o/dharmasetu/prototype/reasoning.html#calendar-lunisolar\nLocation basis: 
+ New Delhi. City-specific timing coming later.\n\n—\nगणेश चत
+ ुर्थी\nगणेश चतुर्थी (भाद्रपद
+  शुक्ल चतुर्थी) गणेश की स्था
+ पना — विघ्नहर्ता — नए आरंभों
+  के द्वार पर।\nकारण: संकल्पों 
+ के मौसम की शुरुआत देहलीज़ और
+  सावधान आरंभ के देवता के सम्
+ मान से।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#3dd
+ 2cc576ecda384
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Bhadrapada / एकादशी (शुक
+ ्ल) — भाद्रपद
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270912
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-09-11@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — भाद्र
+ पद\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#8ca
+ f2433c33695b6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Bhadrapada / पूर्णिमा — भाद्
+ रपद
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-09-15@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — भाद्रपद\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#2b2
+ 9a9ab8e7e1496
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pitru Paksha begins / पितृ पक्ष आरंभ
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+DTSTAMP:20261103T043905Z
+UID:pitru_paksha_start-2027-09-16@dharmasetu
+CATEGORIES:ancestral\,festivals
+DESCRIPTION:Why: set aside days so remembrance is not left to chance — f
+ ood\, water and name offered with care.\n\nStory: Pitru Paksha opens after
+  Bhadrapada Purnima — a fortnight of shraddha for ancestors\, closing on
+  Sarvapitri Amavasya.\nSource: Garuda Purana\; Shraddha Kalpa traditions\n
+ Why: set aside days so remembrance is not left to chance — food\, water 
+ and name offered with care.\nModern angle: Structured mourning and remembr
+ ance support grief processing\; cultural/psychological (see Worden / conti
+ nuing-bonds literature).\nEvidence: Plausible\nLink: https://pubmed.ncbi.n
+ lm.nih.gov/20680363/\nMore: https://saumya-sharma.github.io/dharmasetu/pro
+ totype/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi. Cit
+ y-specific timing coming later.\n\n—\nपितृ पक्ष आर
+ ंभ\nपितृ पक्ष भाद्रपद पूर्णि
+ मा के बाद आरंभ — पूर्वजों के 
+ श्राद्ध का पक्ष\, सर्वपित्नी
+  अमावस्या पर समाप्त।\nकारण: स
+ ्मरण संयोग पर न छूटे — अन्न\, 
+ जल और नाम सावधानी से अर्पित।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#65b
+ dddf8f1d44a71
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kanya Sankranti / कन्या संक्रांति
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-09-18@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nक
+ न्या संक्रांति\nसंक्रांति स
+ ूर्य का नए सिडेरेल राशि में 
+ प्रवेश — क्षेत्रीय कैलेंडर
+ ों में प्रयुक्त वास्तविक सौ
+ र मील का पत्थर।\nकारण: चंद्र-स
+ ौर वर्ष की सौर रीढ़ को दान और 
+ सूर्य अर्घ्य से चिह्नित करन
+ ा।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f57
+ ae50ecabdc27e
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Janmashtami / जन्माष्टमी
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+DTSTAMP:20261103T043905Z
+UID:janmashtami-2027-09-23@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: stay awake into the night to welcome a story of divine ca
+ re arriving in fragile human form.\n\nStory: Janmashtami marks Krishna's b
+ irth at midnight on Krishna Ashtami of Bhadrapada (amanta) — the Gokula 
+ narrative of protection amid danger.\nSource: Bhagavata Purana Canto 10\nW
+ hy: stay awake into the night to welcome a story of divine care arriving i
+ n fragile human form.\nModern angle: Night vigil and fasting are cultural-
+ devotional\; community singing supports belonging.\nEvidence: Cultural/psy
+ chological\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/rea
+ soning.html#calendar-lunisolar\nLocation basis: New Delhi. City-specific t
+ iming coming later.\n\n—\nजन्माष्टमी\nजन्म
+ ाष्टमी भाद्रपद कृष्ण अष्टम
+ ी की मध्यरात्रि पर कृष्ण जन्
+ म — संकट में गोकुला की रक्षा 
+ की कथा।\nकारण: रात जागकर उस कथ
+ ा का स्वागत जो दिव्य करुणा क
+ ो कोमल मानवीय रूप में लाती ह
+ ै।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a60
+ cdb59fb1ca71b
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Bhadrapada / एकादशी (कृष
+ ्ण) — भाद्रपद
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-09-26@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — भाद्र
+ पद\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#b65
+ 6740a645a84ee
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Bhadrapada / अमावस्या — भाद
+ ्रपद
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-09-30@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — भाद्रपद\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#890
+ dd53ee1a638fd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sarvapitri Amavasya [verify] / सर्वपित्नी अ
+ मावस्या [सत्यापित करें]
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261103T043905Z
+UID:sarvapitri-2027-09-30@dharmasetu
+CATEGORIES:ancestral\,purnima-amavasya\,festivals
+DESCRIPTION:Why: a safety-net day of remembrance so no lineage is left unn
+ amed.\n\nStory: Sarvapitri Amavasya closes Pitru Paksha — the day for al
+ l ancestors\, especially when individual tithi days were missed.\nSource: 
+ Garuda Purana\; Shraddha manuals\nWhy: a safety-net day of remembrance so 
+ no lineage is left unnamed.\nModern angle: Inclusive memorial day\; cultur
+ al/psychological grief support.\nEvidence: Cultural/psychological\nMore: h
+ ttps://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#shraddh
+ a-remembrance\nLocation basis: New Delhi. City-specific timing coming late
+ r.\n\n—\nसर्वपित्नी अमावस्या [सत
+ ्यापित करें]\nसर्वपित्नी अमा
+ वस्या पितृ पक्ष का समापन — स
+ भी पूर्वजों के लिए\, विशेषकर 
+ छूटी तिथियों पर।\nकारण: स्मर
+ ण का सुरक्षा-दिन ताकि कोई वं
+ श बिना नाम न रह जाए।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ea0
+ c668666d641be
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dussehra / Vijayadashami / दशहरा / विजयादश
+ मी
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+DTSTAMP:20261103T043905Z
+UID:dussehra-2027-10-10@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: name the day when persistence through the nine nights mee
+ ts its public affirmation.\n\nStory: Vijayadashami / Dussehra on Ashvina S
+ hukla Dashami recalls Rama's victory and Devi's triumph — the tenth day 
+ of courage.\nSource: Ramayana\; Devi Mahatmya\nWhy: name the day when pers
+ istence through the nine nights meets its public affirmation.\nModern angl
+ e: Communal narrative of resilience\; cultural/psychological.\nEvidence: C
+ ultural/psychological\nMore: https://saumya-sharma.github.io/dharmasetu/pr
+ ototype/reasoning.html#calendar-lunisolar\nLocation basis: New Delhi. City
+ -specific timing coming later.\n\n—\nदशहरा / विजया
+ दशमी\nविजयादशमी / दशहरा आश्व
+ िन शुक्ल दशमी — राम की विजय औ
+ र देवी की जय — साहस का दशम दिन
+ ।\nकारण: नौ रातों की दृढ़ता का
+  सार्वजनिक स्वीकार।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#5a3
+ 375375eb72ca9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Ashvina / एकादशी (शुक्
+ ल) — आश्विन
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-10-11@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — आश्वि
+ न\nएकादशी प्रत्येक पक्ष की ग
+ ्यारहवीं तिथि — वैष्णव व्रत 
+ का दिन: संयम\, प्रार्थना और पा
+ चन-विश्राम।\nकारण: चंद्र मास 
+ में दो बार भारी भोजन और भागद
+ ौड़ से पीछे हटना — ध्यान के ल
+ िए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e9e
+ bcaaf052b2b72
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Ashvina / पूर्णिमा — आश्वि
+ न
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-10-15@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — आश्विन\nपूर्णि
+ मा पूर्णिमा तिथि — सत्यनारा
+ यण कथा\, दान और शांत अनुष्ठान 
+ के लिए पारंपरिक रूप से अनुकू
+ ल।\nकारण: सबसे उज्ज्वल रात सा
+ मूहिक प्रार्थना और पूर्णता 
+ के कर्मों को आमंत्रित करती ह
+ ै।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#676
+ 380f29cc4dc9b
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tula Sankranti / तुला संक्रांति
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271019
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-10-18@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nत
+ ुला संक्रांति\nसंक्रांति सू
+ र्य का नए सिडेरेल राशि में प
+ ्रवेश — क्षेत्रीय कैलेंडरो
+ ं में प्रयुक्त वास्तविक सौर 
+ मील का पत्थर।\nकारण: चंद्र-सौ
+ र वर्ष की सौर रीढ़ को दान और स
+ ूर्य अर्घ्य से चिह्नित करना
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9e7
+ 4a947dc11f6ef
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Ashvina / एकादशी (कृष्
+ ण) — आश्विन
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-10-25@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — आश्वि
+ न\nएकादशी प्रत्येक पक्ष की ग
+ ्यारहवीं तिथि — वैष्णव व्रत 
+ का दिन: संयम\, प्रार्थना और पा
+ चन-विश्राम।\nकारण: चंद्र मास 
+ में दो बार भारी भोजन और भागद
+ ौड़ से पीछे हटना — ध्यान के ल
+ िए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#872
+ f97e23d1e649e
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Ashvina / अमावस्या — आश्व
+ िन
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-10-29@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — आश्विन\nअमावस्या अमावस्या 
+ तिथि — पितृ स्मरण और शांत गृ
+ ह कर्मों से जुड़ी।\nकारण: चंद
+ ्र के अँधेरे में पूर्वजों की
+  ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f8c
+ f8fc1f600d50d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diwali / Deepavali / दीपावली
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261103T043905Z
+UID:diwali-2027-10-29@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: light the home when the moon is dark — invite prosperit
+ y\, kinship and clarity after the ancestral fortnight.\n\nStory: Diwali (D
+ eepavali) on the amavasya of Ashvina (amanta) / Kartika lights lamps for R
+ ama's return and Lakshmi's grace in the darkest new-moon night.\nSource: R
+ amayana return narrative\; Padma Purana Lakshmi strands\nWhy: light the ho
+ me when the moon is dark — invite prosperity\, kinship and clarity after
+  the ancestral fortnight.\nModern angle: Light\, gathering and gift ritual
+ s support mood and social ties in dark season\; cultural/psychological wit
+ h seasonal-affect context.\nEvidence: Cultural/psychological\nMore: https:
+ //saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lun
+ isolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nदीपावली\nदीपावली आश्विन अ
+ मावस्या (अमान्त) / कार्तिक — स
+ बसे अँधेरी अमावस्या पर राम क
+ ी वापसी और लक्ष्मी की कृपा क
+ े दीप।\nकारण: चंद्र के अँधेरे 
+ में घर जलाएँ — पितृ पक्ष के ब
+ ाद समृद्धि\, रिश्ते और स्पष्
+ टता का निमंत्रण।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#0b1
+ 9ae66a02f6b0c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dev Uthani Ekadashi / देव उठनी एकादशी
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+DTSTAMP:20261103T043905Z
+UID:dev_uthani-2027-11-10@dharmasetu
+CATEGORIES:festivals\,ekadashi
+DESCRIPTION:Why: close the monsoon retreat of the gods and reopen the seas
+ on of household beginnings.\n\nStory: Dev Uthani (Prabodhini) Ekadashi in 
+ Kartika Shukla ends Chaturmas — Vishnu is said to awaken\; marriages and
+  auspicious starts resume.\nSource: Padma Purana / Vaishnava ekadashi lore
+ \nWhy: close the monsoon retreat of the gods and reopen the season of hous
+ ehold beginnings.\nModern angle: Calendar bookkeeping for social life afte
+ r monsoon\; cultural. Ekadashi fasting has broader metabolic research link
+ s.\nEvidence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10
+ 894978/\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
+ ing.html#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing
+  coming later.\n\n—\nदेव उठनी एकादशी\nदे
+ व उठनी (प्रबोधिनी) एकादशी का
+ र्तिक शुक्ल — चातुर्मास का अ
+ ंत\, विष्णु का जागरण\; विवाह औ
+ र शुभ आरंभ फिर से।\nकारण: देवत
+ ाओं के वर्षा-अवकाश का समापन 
+ और गृह आरंभों का मौसम फिर खो
+ लना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#773
+ 19bf382c085de
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Kartika / एकादशी (शुक्
+ ल) — कार्तिक
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-11-10@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — कार्त
+ िक\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a3f
+ 52f9b148296ad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Kartika / पूर्णिमा — कार्त
+ िक
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-11-14@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — कार्तिक\nपूर्ण
+ िमा पूर्णिमा तिथि — सत्यनार
+ ायण कथा\, दान और शांत अनुष्ठा
+ न के लिए पारंपरिक रूप से अनु
+ कूल।\nकारण: सबसे उज्ज्वल रात 
+ सामूहिक प्रार्थना और पूर्ण
+ ता के कर्मों को आमंत्रित करत
+ ी है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#96f
+ c112539d44153
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vrischika Sankranti / वृश्चिक संक्रां
+ ति
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-11-17@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nव
+ ृश्चिक संक्रांति\nसंक्रांत
+ ि सूर्य का नए सिडेरेल राशि म
+ ें प्रवेश — क्षेत्रीय कैलें
+ डरों में प्रयुक्त वास्तविक 
+ सौर मील का पत्थर।\nकारण: चंद्
+ र-सौर वर्ष की सौर रीढ़ को दान 
+ और सूर्य अर्घ्य से चिह्नित क
+ रना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#8f8
+ ce9ce4efdb2e6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Kartika / एकादशी (कृष्
+ ण) — कार्तिक
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-11-24@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — कार्त
+ िक\nएकादशी प्रत्येक पक्ष की 
+ ग्यारहवीं तिथि — वैष्णव व्र
+ त का दिन: संयम\, प्रार्थना और 
+ पाचन-विश्राम।\nकारण: चंद्र म
+ ास में दो बार भारी भोजन और भा
+ गदौड़ से पीछे हटना — ध्यान क
+ े लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#726
+ 4018900ae12dd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Kartika / अमावस्या — कार्
+ तिक
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-11-28@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — कार्तिक\nअमावस्या अमावस्य
+ ा तिथि — पितृ स्मरण और शांत ग
+ ृह कर्मों से जुड़ी।\nकारण: चं
+ द्र के अँधेरे में पूर्वजों क
+ ी ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a8f
+ 2ccb27b379e06
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Margashirsha / एकादशी (शुक
+ ्ल) — मार्गशीर्ष
+DTSTART;VALUE=DATE:20271209
+DTEND;VALUE=DATE:20271210
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-12-09@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (शुक्ल) — मार्ग
+ शीर्ष\nएकादशी प्रत्येक पक्ष 
+ की ग्यारहवीं तिथि — वैष्णव व
+ ्रत का दिन: संयम\, प्रार्थना औ
+ र पाचन-विश्राम।\nकारण: चंद्र 
+ मास में दो बार भारी भोजन और भ
+ ागदौड़ से पीछे हटना — ध्यान 
+ के लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#fbb
+ 39f6921dc59cd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Margashirsha / पूर्णिमा — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20271213
+DTEND;VALUE=DATE:20271214
+DTSTAMP:20261103T043905Z
+UID:purnima-2027-12-13@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and complet
+ ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
+ ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
+ nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
+ tes collective prayer and completion rites.\nModern angle: Full moon is an
+  astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nपूर्णिमा — मार्गशीर्ष\nपू
+ र्णिमा पूर्णिमा तिथि — सत्य
+ नारायण कथा\, दान और शांत अनुष
+ ्ठान के लिए पारंपरिक रूप से 
+ अनुकूल।\nकारण: सबसे उज्ज्वल 
+ रात सामूहिक प्रार्थना और पू
+ र्णता के कर्मों को आमंत्रित 
+ करती है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#171
+ 1ad91ed4e102b
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dhanu Sankranti / धनु संक्रांति
+DTSTART;VALUE=DATE:20271217
+DTEND;VALUE=DATE:20271218
+DTSTAMP:20261103T043905Z
+UID:sankranti_generic-2027-12-17@dharmasetu
+CATEGORIES:sankranti
+DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
+ y and Surya arghya.\n\nStory: Sankranti is the Sun's ingress into a new si
+ dereal rasi — a real solar milestone used across regional calendars.\nSo
+ urce: Surya Siddhanta\nWhy: mark the solar backbone of the lunisolar year 
+ with charity and Surya arghya.\nModern angle: Astronomically established s
+ olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
+ \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nध
+ नु संक्रांति\nसंक्रांति सूर
+ ्य का नए सिडेरेल राशि में प्
+ रवेश — क्षेत्रीय कैलेंडरों 
+ में प्रयुक्त वास्तविक सौर म
+ ील का पत्थर।\nकारण: चंद्र-सौर 
+ वर्ष की सौर रीढ़ को दान और सू
+ र्य अर्घ्य से चिह्नित करना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#5e6
+ c0112c59ea89c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Margashirsha / एकादशी (कृ
+ ष्ण) — मार्गशीर्ष
+DTSTART;VALUE=DATE:20271223
+DTEND;VALUE=DATE:20271224
+DTSTAMP:20261103T043905Z
+UID:ekadashi-2027-12-23@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.\n\n—\nएकादशी (कृष्ण) — मार्ग
+ शीर्ष\nएकादशी प्रत्येक पक्ष 
+ की ग्यारहवीं तिथि — वैष्णव व
+ ्रत का दिन: संयम\, प्रार्थना औ
+ र पाचन-विश्राम।\nकारण: चंद्र 
+ मास में दो बार भारी भोजन और भ
+ ागदौड़ से पीछे हटना — ध्यान 
+ के लिए स्थान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e3a
+ 091a9929edc2e
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20271227
+DTEND;VALUE=DATE:20271228
+DTSTAMP:20261103T043905Z
+UID:amavasya-2027-12-27@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.\n\n—\nअमावस्या 
+ — मार्गशीर्ष\nअमावस्या अमाव
+ स्या तिथि — पितृ स्मरण और शा
+ ंत गृह कर्मों से जुड़ी।\nकार
+ ण: चंद्र के अँधेरे में पूर्व
+ जों की ओर ध्यान।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7fa
+ d7c5eb1d0f44b
+END:VEVENT
+END:VCALENDAR

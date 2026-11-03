@@ -8,7 +8,56 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="common.css"/>
-
+<style>
+  .sub-grid { display:grid; gap:1rem; grid-template-columns:1fr; }
+  @media(min-width:720px){ .sub-grid{ grid-template-columns:1fr 1fr; } }
+  .sub-card { padding:1.1rem 1.2rem; }
+  .sub-card h3 { color:var(--terracotta); font-size:1.05rem; margin-bottom:.35rem; }
+  .sub-card .links { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.75rem; }
+  .cat-feeds { display:flex; flex-wrap:wrap; gap:.45rem; margin-top:.6rem; }
+  .chip {
+    display:inline-flex; align-items:center; gap:.35rem;
+    border:1px solid var(--line); background:#fff; border-radius:999px;
+    padding:.35rem .7rem; font-size:.78rem; font-weight:600; color:var(--muted);
+    cursor:pointer; text-decoration:none;
+  }
+  .chip:hover, .chip.on { background:#ffdbcf55; color:var(--terracotta); border-color:#e8a990; }
+  .chip input { accent-color:var(--terracotta); }
+  .event-list { display:flex; flex-direction:column; gap:.75rem; margin-top:1rem; }
+  .ev-card { padding:1rem 1.1rem; }
+  .ev-card .top { display:flex; gap:.75rem; align-items:flex-start; }
+  .ev-card .when { font-size:.78rem; font-weight:700; color:var(--gold); letter-spacing:.04em; min-width:6.5rem; }
+  .ev-card h3 { font-size:1.02rem; margin:0 0 .25rem; color:var(--terracotta); }
+  .ev-card .why { font-size:.88rem; color:var(--muted); margin:.2rem 0 .5rem; }
+  .ev-actions { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.5rem; }
+  .story {
+    margin-top:.75rem; border-top:1px dashed rgba(119,90,0,.25); padding-top:.75rem;
+    display:none; font-size:.88rem; color:var(--muted);
+  }
+  .ev-card.open .story { display:block; }
+  .story h4 { font-family:inherit; font-size:.8rem; letter-spacing:.06em; text-transform:uppercase; color:var(--gold); margin:0 0 .35rem; }
+  .story p { margin:0 0 .55rem; }
+  .badge {
+    display:inline-block; font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase;
+    padding:.2rem .45rem; border-radius:6px; margin-right:.35rem;
+  }
+  .badge-Established { background:#b1f0ce; color:#19583f; }
+  .badge-Plausible { background:#ffe6a7; color:#775a00; }
+  .badge-Cultural\/psychological, .badge-Cultural { background:#ffdbcf; color:#873415; }
+  .badge-No { background:#eee; color:#555; }
+  .month-block { margin-bottom:1.25rem; }
+  .month-block h3 { color:var(--terracotta); margin-bottom:.75rem; }
+  .cal-day.event { cursor:pointer; }
+  .choose-bar {
+    position:sticky; bottom:0; z-index:40; background:rgba(254,248,244,.96);
+    border-top:1px solid rgba(119,90,0,.2); padding:.75rem 0; backdrop-filter:blur(10px);
+    display:none;
+  }
+  .choose-bar.show { display:block; }
+  .choose-inner { display:flex; flex-wrap:wrap; gap:.6rem; align-items:center; justify-content:space-between; }
+  .evidence-line { margin:.4rem 0; }
+  #month-nav { display:flex; flex-wrap:wrap; gap:.35rem; margin:1rem 0; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -24,6 +73,7 @@
       <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
       <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
       <a href="calendar.html" class="active"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+      <a href="reasoning.html"><span data-i18n-en>Reasoning</span><span data-i18n-hi>कारण</span></a>
       <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
       <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
       <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
@@ -41,6 +91,7 @@
   <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
   <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
   <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+  <a href="reasoning.html"><span data-i18n-en>Reasoning library</span><span data-i18n-hi>कारण पुस्तकालय</span></a>
   <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
   <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
   <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
@@ -49,171 +100,400 @@
 <main>
   <section class="section" style="padding-bottom:1rem;">
     <div class="wrap">
-      <p class="eyebrow"><span data-i18n-en>Vedic calendar</span><span data-i18n-hi>वैदिक पंचांग</span></p>
+      <p class="eyebrow"><span data-i18n-en>Vedic calendar · New Delhi</span><span data-i18n-hi>वैदिक पंचांग · नई दिल्ली</span></p>
       <h1 style="font-size:clamp(1.6rem,3.5vw,2.2rem);color:var(--terracotta);">
         <span data-i18n-en>Sacred Calendar</span><span data-i18n-hi>पवित्र पंचांग</span>
       </h1>
-      <p class="muted" style="max-width:40rem;">
-        <span data-i18n-en>Sample dates from Nov 2026 – Feb 2027 with a short “why this day” note. Sync to Google Calendar or download .ics. All dates marked for verification.</span>
-        <span data-i18n-hi>नवम्बर २०२६ – फरवरी २०२७ की नमूना तिथियाँ, संक्षिप्त “यह दिन क्यों” नोट के साथ। गूगल कैलेंडर से सिंक करें या .ics डाउनलोड करें। सभी तिथियाँ सत्यापन हेतु चिह्नित।</span>
+      <p class="muted" style="max-width:42rem;">
+        <span data-i18n-en>Nov 2026 – Dec 2027 computed for New Delhi (28.61N, 77.21E, IST): sunrise tithi, sankranti, major festivals, Pitru Paksha 2027. Subscribe to the full feed, a category feed, or pick your own events. City-specific timing refinements coming later.</span>
+        <span data-i18n-hi>नवम्बर २०२६ – दिसम्बर २०२७, नई दिल्ली हेतु गणना: सूर्योदय तिथि, संक्रांति, प्रमुख त्योहार, पितृ पक्ष २०२७। पूरा फ़ीड, श्रेणी फ़ीड, या चुने हुए पर्व। शहर-विशिष्ट समय बाद में।</span>
       </p>
-      <div class="cta-row" style="margin-top:1rem;">
-        <button type="button" class="btn btn-primary" id="sync-all"><span data-i18n-en>Sync next event to Google Calendar</span><span data-i18n-hi>अगला पर्व गूगल कैलेंडर में जोड़ें</span></button>
-        <button type="button" class="btn btn-ghost" id="dl-all-ics"><span data-i18n-en>Download sample .ics pack</span><span data-i18n-hi>नमूना .ics पैक डाउनलोड</span></button>
-      </div>
       <div class="alert-soft">
-        <span data-i18n-en>Regional panchangs differ. Treat these as educational samples — confirm with your local calendar or kul-purohit before planning.</span>
-        <span data-i18n-hi>क्षेत्रीय पंचांग भिन्न हो सकते हैं। इन्हें शैक्षिक नमूने मानें — योजना से पहले स्थानीय पंचांग या कुल-पुरोहित से पुष्टि करें।</span>
+        <span data-i18n-en>Educational. Ambiguous rules (adhik maas, kshaya tithi) and ±1-day sunrise edges are marked <strong>verify</strong>. Confirm with your local panchang or kul-purohit. No outcome claims.</span>
+        <span data-i18n-hi>शैक्षिक। अस्पष्ट नियम (अधिक मास, क्षय तिथि) और ±१ दिन सूर्योदय अंतर <strong>सत्यापित करें</strong> चिह्नित। स्थानीय पंचांग/कुल-पुरोहित से पुष्टि करें। परिणाम दावा नहीं।</span>
       </div>
     </div>
   </section>
+
+  <section class="section" style="padding-top:0;" id="subscribe">
+    <div class="wrap">
+      <h2 style="color:var(--terracotta);font-size:1.35rem;">
+        <span data-i18n-en>Subscribe</span><span data-i18n-hi>सदस्यता</span>
+      </h2>
+      <div class="sub-grid">
+        <div class="card sub-card">
+          <h3><span data-i18n-en>(a) Full calendar</span><span data-i18n-hi>(अ) पूरा पंचांग</span></h3>
+          <p class="muted" style="font-size:.88rem;margin:0;">
+            <span data-i18n-en>All computed observances in one feed — X-WR-CALNAME “DharmaSetu — Vedic Calendar”, daily refresh hint.</span>
+            <span data-i18n-hi>सभी गणना पर्व एक फ़ीड में — X-WR-CALNAME “DharmaSetu — Vedic Calendar”।</span>
+          </p>
+          <div class="links">
+            <a class="btn btn-primary btn-sm" target="_blank" rel="noopener"
+               href="https://calendar.google.com/calendar/r?cid=webcal://saumya-sharma.github.io/dharmasetu/prototype/dharmasetu.ics">
+              <span data-i18n-en>Google Calendar</span><span data-i18n-hi>गूगल कैलेंडर</span>
+            </a>
+            <a class="btn btn-ghost btn-sm" href="webcal://saumya-sharma.github.io/dharmasetu/prototype/dharmasetu.ics">
+              <span data-i18n-en>Apple / Outlook (webcal)</span><span data-i18n-hi>एप्पल / आउटलुक (webcal)</span>
+            </a>
+            <a class="btn btn-ghost btn-sm" href="dharmasetu.ics" download>
+              <span data-i18n-en>Download .ics</span><span data-i18n-hi>.ics डाउनलोड</span>
+            </a>
+          </div>
+        </div>
+        <div class="card sub-card">
+          <h3><span data-i18n-en>Category feeds</span><span data-i18n-hi>श्रेणी फ़ीड</span></h3>
+          <p class="muted" style="font-size:.88rem;margin:0;">
+            <span data-i18n-en>Static site — we publish ready-made category calendars (not per-user server feeds).</span>
+            <span data-i18n-hi>स्थिर साइट — तैयार श्रेणी कैलेंडर (प्रति-उपयोगकर्ता सर्वर फ़ीड नहीं)।</span>
+          </p>
+          <div class="cat-feeds" id="cat-feed-links"></div>
+        </div>
+      </div>
+
+      <div class="card sub-card" style="margin-top:1rem;" id="choose">
+        <h3><span data-i18n-en>(b) Choose my events</span><span data-i18n-hi>(ब) अपने पर्व चुनें</span></h3>
+        <p class="muted" style="font-size:.88rem;">
+          <span data-i18n-en>Filter by category, tick events, then download a custom .ics or open Google “Add” links one by one.</span>
+          <span data-i18n-hi>श्रेणी से छानें, पर्व चुनें, फिर कस्टम .ics डाउनलोड करें या गूगल में एक-एक जोड़ें।</span>
+        </p>
+        <div class="cat-feeds" id="choose-filters"></div>
+        <div class="cta-row" style="margin-top:.75rem;">
+          <button type="button" class="btn btn-ghost btn-sm" id="sel-all"><span data-i18n-en>Select visible</span><span data-i18n-hi>दिख रहे चुनें</span></button>
+          <button type="button" class="btn btn-ghost btn-sm" id="sel-none"><span data-i18n-en>Clear</span><span data-i18n-hi>हटाएँ</span></button>
+          <button type="button" class="btn btn-primary btn-sm" id="dl-custom"><span data-i18n-en>Download selected .ics</span><span data-i18n-hi>चयनित .ics डाउनलोड</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section" style="padding-top:0;">
     <div class="wrap">
-      
-    <div class="card" style="padding:1.1rem;margin-bottom:1.1rem;">
-      <h3 style="color:var(--terracotta);margin-bottom:.75rem;">November 2026</h3>
-      <div class="cal-grid"><div class="cal-dow">Mon</div><div class="cal-dow">Tue</div><div class="cal-dow">Wed</div><div class="cal-dow">Thu</div><div class="cal-dow">Fri</div><div class="cal-dow">Sat</div><div class="cal-dow">Sun</div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day"><div class="n">1</div></div><div class="cal-day"><div class="n">2</div></div><div class="cal-day"><div class="n">3</div></div><div class="cal-day"><div class="n">4</div></div><div class="cal-day event" title="Dev Diwali (sample)"><div class="n">5</div><span class="tag"><span data-i18n-en>Dev Diwali (sample)</span><span data-i18n-hi>देव दीपावली (नमूना)</span></span></div><div class="cal-day"><div class="n">6</div></div><div class="cal-day"><div class="n">7</div></div><div class="cal-day"><div class="n">8</div></div><div class="cal-day"><div class="n">9</div></div><div class="cal-day"><div class="n">10</div></div><div class="cal-day"><div class="n">11</div></div><div class="cal-day event" title="Guru Nanak Jayanti (sample)"><div class="n">12</div><span class="tag"><span data-i18n-en>Guru Nanak Jayanti (sample)</span><span data-i18n-hi>गुरु नानक जयंती (नमूना)</span></span></div><div class="cal-day"><div class="n">13</div></div><div class="cal-day"><div class="n">14</div></div><div class="cal-day"><div class="n">15</div></div><div class="cal-day"><div class="n">16</div></div><div class="cal-day"><div class="n">17</div></div><div class="cal-day"><div class="n">18</div></div><div class="cal-day"><div class="n">19</div></div><div class="cal-day"><div class="n">20</div></div><div class="cal-day"><div class="n">21</div></div><div class="cal-day"><div class="n">22</div></div><div class="cal-day"><div class="n">23</div></div><div class="cal-day event" title="Kartika Ekadashi (sample)"><div class="n">24</div><span class="tag"><span data-i18n-en>Kartika Ekadashi (sample)</span><span data-i18n-hi>कार्तिक एकादशी (नमूना)</span></span></div><div class="cal-day"><div class="n">25</div></div><div class="cal-day"><div class="n">26</div></div><div class="cal-day"><div class="n">27</div></div><div class="cal-day"><div class="n">28</div></div><div class="cal-day"><div class="n">29</div></div><div class="cal-day"><div class="n">30</div></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div></div>
-    </div>
-    <div class="card" style="padding:1.1rem;margin-bottom:1.1rem;">
-      <h3 style="color:var(--terracotta);margin-bottom:.75rem;">December 2026</h3>
-      <div class="cal-grid"><div class="cal-dow">Mon</div><div class="cal-dow">Tue</div><div class="cal-dow">Wed</div><div class="cal-dow">Thu</div><div class="cal-dow">Fri</div><div class="cal-dow">Sat</div><div class="cal-dow">Sun</div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day"><div class="n">1</div></div><div class="cal-day"><div class="n">2</div></div><div class="cal-day"><div class="n">3</div></div><div class="cal-day event" title="Griha-friendly window (sample)"><div class="n">4</div><span class="tag"><span data-i18n-en>Griha-friendly window (sample)</span><span data-i18n-hi>गृह-अनुकूल खिड़की (नमूना)</span></span></div><div class="cal-day"><div class="n">5</div></div><div class="cal-day"><div class="n">6</div></div><div class="cal-day"><div class="n">7</div></div><div class="cal-day"><div class="n">8</div></div><div class="cal-day"><div class="n">9</div></div><div class="cal-day"><div class="n">10</div></div><div class="cal-day"><div class="n">11</div></div><div class="cal-day"><div class="n">12</div></div><div class="cal-day"><div class="n">13</div></div><div class="cal-day"><div class="n">14</div></div><div class="cal-day event" title="Dhanu Sankranti (sample)"><div class="n">15</div><span class="tag"><span data-i18n-en>Dhanu Sankranti (sample)</span><span data-i18n-hi>धनु संक्रांति (नमूना)</span></span></div><div class="cal-day"><div class="n">16</div></div><div class="cal-day"><div class="n">17</div></div><div class="cal-day"><div class="n">18</div></div><div class="cal-day"><div class="n">19</div></div><div class="cal-day"><div class="n">20</div></div><div class="cal-day"><div class="n">21</div></div><div class="cal-day"><div class="n">22</div></div><div class="cal-day"><div class="n">23</div></div><div class="cal-day"><div class="n">24</div></div><div class="cal-day"><div class="n">25</div></div><div class="cal-day"><div class="n">26</div></div><div class="cal-day"><div class="n">27</div></div><div class="cal-day"><div class="n">28</div></div><div class="cal-day"><div class="n">29</div></div><div class="cal-day"><div class="n">30</div></div><div class="cal-day"><div class="n">31</div></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div></div>
-    </div>
-    <div class="card" style="padding:1.1rem;margin-bottom:1.1rem;">
-      <h3 style="color:var(--terracotta);margin-bottom:.75rem;">January 2027</h3>
-      <div class="cal-grid"><div class="cal-dow">Mon</div><div class="cal-dow">Tue</div><div class="cal-dow">Wed</div><div class="cal-dow">Thu</div><div class="cal-dow">Fri</div><div class="cal-dow">Sat</div><div class="cal-dow">Sun</div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day" style="opacity:.35;background:transparent;border-color:transparent;"></div><div class="cal-day"><div class="n">1</div></div><div class="cal-day"><div class="n">2</div></div><div class="cal-day"><div class="n">3</div></div><div class="cal-day"><div class="n">4</div></div><div class="cal-day"><div class="n">5</div></div><div class="cal-day"><div class="n">6</div></div><div class="cal-day"><div class="n">7</div></div><div class="cal-day"><div class="n">8</div></div><div class="cal-day"><div class="n">9</div></div><div class="cal-day"><div class="n">10</div></div><div class="cal-day"><div class="n">11</div></div><div class="cal-day"><div class="n">12</div></div><div class="cal-day"><div class="n">13</div></div><div class="cal-day event" title="Makar Sankranti (sample)"><div class="n">14</div><span class="tag"><span data-i18n-en>Makar Sankranti (sample)</span><span data-i18n-hi>मकर संक्रांति (नमूना)</span></span></div><div class="cal-day"><div class="n">15</div></div><div class="cal-day"><div class="n">16</div></div><div class="cal-day"><div class="n">17</div></div><div class="cal-day"><div class="n">18</div></div><div class="cal-day"><div class="n">19</div></div><div class="cal-day"><div class="n">20</div></div><div class="cal-day"><div class="n">21</div></div><div class="cal-day"><div class="n">22</div></div><div class="cal-day event" title="Vasant Panchami (sample)"><div class="n">23</div><span class="tag"><span data-i18n-en>Vasant Panchami (sample)</span><span data-i18n-hi>वसंत पंचमी (नमूना)</span></span></div><div class="cal-day"><div class="n">24</div></div><div class="cal-day"><div class="n">25</div></div><div class="cal-day"><div class="n">26</div></div><div class="cal-day"><div class="n">27</div></div><div class="cal-day"><div class="n">28</div></div><div class="cal-day"><div class="n">29</div></div><div class="cal-day"><div class="n">30</div></div><div class="cal-day"><div class="n">31</div></div></div>
-    </div>
-    <div class="card" style="padding:1.1rem;margin-bottom:1.1rem;">
-      <h3 style="color:var(--terracotta);margin-bottom:.75rem;">February 2027</h3>
-      <div class="cal-grid"><div class="cal-dow">Mon</div><div class="cal-dow">Tue</div><div class="cal-dow">Wed</div><div class="cal-dow">Thu</div><div class="cal-dow">Fri</div><div class="cal-dow">Sat</div><div class="cal-dow">Sun</div><div class="cal-day"><div class="n">1</div></div><div class="cal-day"><div class="n">2</div></div><div class="cal-day"><div class="n">3</div></div><div class="cal-day"><div class="n">4</div></div><div class="cal-day"><div class="n">5</div></div><div class="cal-day event" title="Ratha Saptami (sample)"><div class="n">6</div><span class="tag"><span data-i18n-en>Ratha Saptami (sample)</span><span data-i18n-hi>रथ सप्तमी (नमूना)</span></span></div><div class="cal-day"><div class="n">7</div></div><div class="cal-day"><div class="n">8</div></div><div class="cal-day"><div class="n">9</div></div><div class="cal-day"><div class="n">10</div></div><div class="cal-day"><div class="n">11</div></div><div class="cal-day"><div class="n">12</div></div><div class="cal-day"><div class="n">13</div></div><div class="cal-day"><div class="n">14</div></div><div class="cal-day"><div class="n">15</div></div><div class="cal-day"><div class="n">16</div></div><div class="cal-day"><div class="n">17</div></div><div class="cal-day"><div class="n">18</div></div><div class="cal-day"><div class="n">19</div></div><div class="cal-day"><div class="n">20</div></div><div class="cal-day"><div class="n">21</div></div><div class="cal-day"><div class="n">22</div></div><div class="cal-day"><div class="n">23</div></div><div class="cal-day event" title="Maha Shivaratri (sample)"><div class="n">24</div><span class="tag"><span data-i18n-en>Maha Shivaratri (sample)</span><span data-i18n-hi>महाशिवरात्रि (नमूना)</span></span></div><div class="cal-day"><div class="n">25</div></div><div class="cal-day"><div class="n">26</div></div><div class="cal-day"><div class="n">27</div></div><div class="cal-day"><div class="n">28</div></div></div>
-    </div>
-      <h2 style="color:var(--terracotta);margin:1.5rem 0 .9rem;font-size:1.35rem;"><span data-i18n-en>Event list &amp; reasoning</span><span data-i18n-hi>पर्व सूची व तर्क</span></h2>
-      
-    <article class="card result-card">
-      <span class="sample-badge">Sample — to be verified</span>
-      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Dev Diwali (sample)</span><span data-i18n-hi>देव दीपावली (नमूना)</span></h3>
-      <div class="meta-row"><span>05 November 2026</span></div>
-      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Kartika Poornima lights the ghats — a festival of lamps after Diwali in the Kashi tradition.</span><span data-i18n-hi>कार्तिक पूर्णिमा पर घाटों पर दीप — काशी परंपरा में दीपावली के बाद का दीपोत्सव।</span></div>
-      <div class="action-row">
-        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Dev Diwali (sample)" data-start="2026-11-05T18:00:00" data-end="2026-11-05T21:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Kartika Poornima lights the ghats — a festival of lamps after Diwali in the Kashi tradition." data-location="">Add to Google Calendar</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Dev Diwali (sample)" data-start="2026-11-05T18:00:00" data-end="2026-11-05T21:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-11-05">Download .ics</button>
-      </div>
-    </article>
-    <article class="card result-card">
-      <span class="sample-badge">Sample — to be verified</span>
-      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Guru Nanak Jayanti (sample)</span><span data-i18n-hi>गुरु नानक जयंती (नमूना)</span></h3>
-      <div class="meta-row"><span>12 November 2026</span></div>
-      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Marked on Kartika Poornima in many calendars — a day of remembrance and langar.</span><span data-i18n-hi>अनेक पंचांगों में कार्तिक पूर्णिमा पर — स्मरण और लंगर का दिन।</span></div>
-      <div class="action-row">
-        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Guru Nanak Jayanti (sample)" data-start="2026-11-12T06:00:00" data-end="2026-11-12T12:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Marked on Kartika Poornima in many calendars — a day of remembrance and langar." data-location="">Add to Google Calendar</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Guru Nanak Jayanti (sample)" data-start="2026-11-12T06:00:00" data-end="2026-11-12T12:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-11-12">Download .ics</button>
-      </div>
-    </article>
-    <article class="card result-card">
-      <span class="sample-badge">Sample — to be verified</span>
-      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Kartika Ekadashi (sample)</span><span data-i18n-hi>कार्तिक एकादशी (नमूना)</span></h3>
-      <div class="meta-row"><span>24 November 2026</span></div>
-      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Ekadashi is traditionally kept for fasting and quiet — a pause in the lunar fortnight.</span><span data-i18n-hi>एकादशी परंपरा में उपवास और शांति के लिए — पक्ष में एक विराम।</span></div>
-      <div class="action-row">
-        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Kartika Ekadashi (sample)" data-start="2026-11-24T05:00:00" data-end="2026-11-24T20:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Ekadashi is traditionally kept for fasting and quiet — a pause in the lunar fortnight." data-location="">Add to Google Calendar</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Kartika Ekadashi (sample)" data-start="2026-11-24T05:00:00" data-end="2026-11-24T20:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-11-24">Download .ics</button>
-      </div>
-    </article>
-    <article class="card result-card">
-      <span class="sample-badge">Sample — to be verified</span>
-      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Griha-friendly window (sample)</span><span data-i18n-hi>गृह-अनुकूल खिड़की (नमूना)</span></h3>
-      <div class="meta-row"><span>04 December 2026</span></div>
-      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>A sample Pushya-linked morning often cited for home beginnings — verify locally.</span><span data-i18n-hi>पुष्य से जुड़ी सुबह घर के आरंभ हेतु अक्सर उल्लिखित — स्थानीय पुष्टि करें।</span></div>
-      <div class="action-row">
-        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Griha-friendly window (sample)" data-start="2026-12-04T07:30:00" data-end="2026-12-04T10:30:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. A sample Pushya-linked morning often cited for home beginnings — verify locally." data-location="">Add to Google Calendar</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Griha-friendly window (sample)" data-start="2026-12-04T07:30:00" data-end="2026-12-04T10:30:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-12-04">Download .ics</button>
-      </div>
-    </article>
-    <article class="card result-card">
-      <span class="sample-badge">Sample — to be verified</span>
-      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Dhanu Sankranti (sample)</span><span data-i18n-hi>धनु संक्रांति (नमूना)</span></h3>
-      <div class="meta-row"><span>15 December 2026</span></div>
-      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Sun’s ingress into Dhanu — sankranti days mark solar transitions in the panchang.</span><span data-i18n-hi>सूर्य का धनु में प्रवेश — संक्रांति सौर संक्रमण चिह्नित करती है।</span></div>
-      <div class="action-row">
-        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Dhanu Sankranti (sample)" data-start="2026-12-15T06:00:00" data-end="2026-12-15T09:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Sun’s ingress into Dhanu — sankranti days mark solar transitions in the panchang." data-location="">Add to Google Calendar</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Dhanu Sankranti (sample)" data-start="2026-12-15T06:00:00" data-end="2026-12-15T09:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2026-12-15">Download .ics</button>
-      </div>
-    </article>
-    <article class="card result-card">
-      <span class="sample-badge">Sample — to be verified</span>
-      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Makar Sankranti (sample)</span><span data-i18n-hi>मकर संक्रांति (नमूना)</span></h3>
-      <div class="meta-row"><span>14 January 2027</span></div>
-      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Harvest thanks and sesame-jaggery sweets — a solar festival of sharing.</span><span data-i18n-hi>फसल-कृतज्ञता और तिल-गुड़ — साझा करने का सौर पर्व।</span></div>
-      <div class="action-row">
-        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Makar Sankranti (sample)" data-start="2027-01-14T06:30:00" data-end="2027-01-14T12:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Harvest thanks and sesame-jaggery sweets — a solar festival of sharing." data-location="">Add to Google Calendar</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Makar Sankranti (sample)" data-start="2027-01-14T06:30:00" data-end="2027-01-14T12:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2027-01-14">Download .ics</button>
-      </div>
-    </article>
-    <article class="card result-card">
-      <span class="sample-badge">Sample — to be verified</span>
-      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Vasant Panchami (sample)</span><span data-i18n-hi>वसंत पंचमी (नमूना)</span></h3>
-      <div class="meta-row"><span>23 January 2027</span></div>
-      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Saraswati and the first yellow of spring — traditionally linked with learning and arts.</span><span data-i18n-hi>सरस्वती और वसंत का प्रथम पीला — विद्या और कला से जुड़ा पर्व।</span></div>
-      <div class="action-row">
-        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Vasant Panchami (sample)" data-start="2027-01-23T08:00:00" data-end="2027-01-23T12:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Saraswati and the first yellow of spring — traditionally linked with learning and arts." data-location="">Add to Google Calendar</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Vasant Panchami (sample)" data-start="2027-01-23T08:00:00" data-end="2027-01-23T12:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2027-01-23">Download .ics</button>
-      </div>
-    </article>
-    <article class="card result-card">
-      <span class="sample-badge">Sample — to be verified</span>
-      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Ratha Saptami (sample)</span><span data-i18n-hi>रथ सप्तमी (नमूना)</span></h3>
-      <div class="meta-row"><span>06 February 2027</span></div>
-      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Surya’s chariot — a day many households use for health and gratitude prayers.</span><span data-i18n-hi>सूर्य का रथ — स्वास्थ्य और कृतज्ञता की प्रार्थनाओं का दिन।</span></div>
-      <div class="action-row">
-        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Ratha Saptami (sample)" data-start="2027-02-06T06:30:00" data-end="2027-02-06T09:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Surya’s chariot — a day many households use for health and gratitude prayers." data-location="">Add to Google Calendar</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Ratha Saptami (sample)" data-start="2027-02-06T06:30:00" data-end="2027-02-06T09:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2027-02-06">Download .ics</button>
-      </div>
-    </article>
-    <article class="card result-card">
-      <span class="sample-badge">Sample — to be verified</span>
-      <h3 style="font-size:1.1rem;margin:.5rem 0 .25rem;"><span data-i18n-en>Maha Shivaratri (sample)</span><span data-i18n-hi>महाशिवरात्रि (नमूना)</span></h3>
-      <div class="meta-row"><span>24 February 2027</span></div>
-      <div class="why-line"><strong><span data-i18n-en>Why this day · </span><span data-i18n-hi>यह दिन क्यों · </span></strong><span data-i18n-en>Night vigil and quiet worship — a major observance across many traditions.</span><span data-i18n-hi>जागरण और शांत आराधना — अनेक परंपराओं का प्रमुख पर्व।</span></div>
-      <div class="action-row">
-        <button type="button" class="btn btn-primary btn-sm" data-gcal data-title="Maha Shivaratri (sample)" data-start="2027-02-24T18:00:00" data-end="2027-02-25T06:00:00" data-details="DharmaSetu sample calendar event. Verify with local panchang. Night vigil and quiet worship — a major observance across many traditions." data-location="">Add to Google Calendar</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-ics data-title="Maha Shivaratri (sample)" data-start="2027-02-24T18:00:00" data-end="2027-02-25T06:00:00" data-details="DharmaSetu sample. Verify locally." data-filename="dharmasetu-2027-02-24">Download .ics</button>
-      </div>
-    </article>
+      <h2 style="color:var(--terracotta);font-size:1.35rem;">
+        <span data-i18n-en>Month grid</span><span data-i18n-hi>मासिक ग्रिड</span>
+      </h2>
+      <div id="month-nav"></div>
+      <div id="grids"></div>
+      <h2 style="color:var(--terracotta);font-size:1.35rem;margin-top:2rem;">
+        <span data-i18n-en>All events</span><span data-i18n-hi>सभी पर्व</span>
+      </h2>
+      <div class="event-list" id="event-list"></div>
     </div>
   </section>
 </main>
 
+<div class="choose-bar" id="choose-bar">
+  <div class="wrap choose-inner">
+    <span class="muted" id="sel-count">0 selected</span>
+    <button type="button" class="btn btn-primary btn-sm" id="dl-custom-2"><span data-i18n-en>Download selected .ics</span><span data-i18n-hi>चयनित .ics</span></button>
+  </div>
+</div>
+
 <footer class="site-footer">
-  <div class="wrap inner">
-    <div>
-      <strong>DharmaSetu</strong> · <span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span><br/>
-      <span data-i18n-en>We never replace your family’s kul-purohit. Prototype v2 · 3 Nov 2026</span>
-      <span data-i18n-hi>हम आपके कुल-पुरोहित का स्थान नहीं लेते। प्रोटोटाइप v2 · 3 नवम्बर 2026</span>
-    </div>
-    <div>
-      <a href="https://wa.me/917239062622" target="_blank" rel="noopener">WhatsApp +91 72390 62622</a>
-      · <a href="index.html"><span data-i18n-en>Team hub</span><span data-i18n-hi>टीम हब</span></a>
-    </div>
+  <div class="wrap" style="padding:2rem 1.25rem;font-size:.8rem;color:var(--muted);">
+    <span data-i18n-en>DharmaSetu prototype · New Delhi reference · <a href="reasoning.html">Reasoning library</a> · Not the live homepage</span>
+    <span data-i18n-hi>धर्मसेतु प्रोटोटाइप · नई दिल्ली संदर्भ · <a href="reasoning.html">कारण पुस्तकालय</a></span>
   </div>
 </footer>
+
 <script src="i18n.js"></script>
-<script src="cal.js"></script>
-
 <script>
-document.getElementById("sync-all").addEventListener("click", function(){
-  var first = document.querySelector("[data-gcal]");
-  if (first) first.click();
-});
-document.getElementById("dl-all-ics").addEventListener("click", function(){
-  // download a multi-event ICS
-  var events = Array.from(document.querySelectorAll("[data-ics]"));
-  var body = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//DharmaSetu//Prototype//EN","CALSCALE:GREGORIAN"];
-  events.forEach(function(el, i){
-    var start = el.getAttribute("data-start").replace(/[-:]/g,"").replace(".000","");
-    // simplify: use DSCal for first only + note
-    if (i===0) el.click();
-  });
-});
-</script>
+(function () {
+  var ICS_BASE = "https://saumya-sharma.github.io/dharmasetu/prototype/";
+  var CAT_FILES = {
+    festivals: "dharmasetu-festivals.ics",
+    ekadashi: "dharmasetu-ekadashi.ics",
+    "purnima-amavasya": "dharmasetu-purnima-amavasya.ics",
+    sankranti: "dharmasetu-sankranti.ics",
+    ancestral: "dharmasetu-ancestral.ics",
+    "birth-auspicious": "dharmasetu-birth-auspicious.ics"
+  };
+  var data = null;
+  var filterCats = new Set();
+  var selected = new Set();
 
+  function lang() { return (window.DSLang && DSLang.get()) || "en"; }
+  function t(en, hi) { return lang() === "hi" ? hi : en; }
+
+  function badgeClass(ev) {
+    var e = (ev.evidence || "").replace(/\s+/g, "");
+    if (e.indexOf("Established") === 0) return "badge-Established";
+    if (e.indexOf("Plausible") === 0) return "badge-Plausible";
+    if (e.indexOf("No") === 0) return "badge-No";
+    return "badge-Cultural";
+  }
+
+  function gcalUrl(ev) {
+    var d = ev.date.replace(/-/g, "");
+    var next = new Date(ev.date + "T12:00:00Z");
+    next.setUTCDate(next.getUTCDate() + 1);
+    var d2 = next.toISOString().slice(0, 10).replace(/-/g, "");
+    var text = encodeURIComponent(ev.title_en + " / " + ev.title_hi);
+    var details = encodeURIComponent(
+      (ev.why_en || "") + "\n\nStory: " + (ev.story_en || "") +
+      "\nSource: " + (ev.story_source || "") +
+      "\nEvidence: " + (ev.evidence || "") +
+      (ev.reasoning_id ? "\nhttps://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#" + ev.reasoning_id : "")
+    );
+    return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + text +
+      "&dates=" + d + "/" + d2 + "&details=" + details + "&location=" + encodeURIComponent("New Delhi (reference)");
+  }
+
+  function icsEscape(s) {
+    return String(s || "").replace(/\\/g, "\\\\").replace(/\n/g, "\\n").replace(/,/g, "\\,").replace(/;/g, "\\;");
+  }
+
+  function buildCustomIcs(evs) {
+    var lines = [
+      "BEGIN:VCALENDAR",
+      "VERSION:2.0",
+      "PRODID:-//DharmaSetu//Custom Selection//EN",
+      "CALSCALE:GREGORIAN",
+      "METHOD:PUBLISH",
+      "X-WR-CALNAME:DharmaSetu — My selection",
+      "X-WR-TIMEZONE:Asia/Kolkata"
+    ];
+    evs.forEach(function (ev) {
+      var d = ev.date.replace(/-/g, "");
+      var end = new Date(ev.date + "T12:00:00Z");
+      end.setUTCDate(end.getUTCDate() + 1);
+      var d2 = end.toISOString().slice(0, 10).replace(/-/g, "");
+      var desc = [
+        ev.desc_en, "", "Story: " + ev.story_en, "Source: " + ev.story_source,
+        ev.why_en, "Modern: " + ev.modern_en, "Evidence: " + ev.evidence,
+        ev.reasoning_id ? "More: " + ICS_BASE + "reasoning.html#" + ev.reasoning_id : "",
+        "New Delhi reference."
+      ].filter(Boolean).join("\n");
+      lines.push("BEGIN:VEVENT");
+      lines.push("UID:" + ev.uid);
+      lines.push("DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+Z$/, "Z"));
+      lines.push("DTSTART;VALUE=DATE:" + d);
+      lines.push("DTEND;VALUE=DATE:" + d2);
+      lines.push("SUMMARY:" + icsEscape(ev.title_en + " / " + ev.title_hi));
+      lines.push("DESCRIPTION:" + icsEscape(desc));
+      lines.push("LOCATION:New Delhi, India (reference)");
+      lines.push("END:VEVENT");
+    });
+    lines.push("END:VCALENDAR");
+    return lines.join("\r\n");
+  }
+
+  function downloadIcs(filename, text) {
+    var blob = new Blob([text], { type: "text/calendar;charset=utf-8" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+  }
+
+  function visibleEvents() {
+    return data.events.filter(function (ev) {
+      if (!filterCats.size) return true;
+      return ev.categories.some(function (c) { return filterCats.has(c); });
+    });
+  }
+
+  function updateSelBar() {
+    var n = selected.size;
+    document.getElementById("sel-count").textContent = t(n + " selected", n + " चयनित");
+    document.getElementById("choose-bar").classList.toggle("show", n > 0);
+  }
+
+  function renderCatFeeds() {
+    var box = document.getElementById("cat-feed-links");
+    var filters = document.getElementById("choose-filters");
+    box.innerHTML = "";
+    filters.innerHTML = "";
+    (data.meta.categories || []).forEach(function (c) {
+      var file = CAT_FILES[c.id];
+      if (file) {
+        var wrap = document.createElement("div");
+        wrap.style.display = "flex";
+        wrap.style.flexWrap = "wrap";
+        wrap.style.gap = ".35rem";
+        wrap.style.marginBottom = ".35rem";
+        wrap.innerHTML =
+          '<a class="chip" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/r?cid=webcal://saumya-sharma.github.io/dharmasetu/prototype/' + file + '">Google · ' + c.en + '</a>' +
+          '<a class="chip" href="webcal://saumya-sharma.github.io/dharmasetu/prototype/' + file + '">webcal</a>' +
+          '<a class="chip" href="' + file + '" download>↓ ' + file.replace("dharmasetu-", "").replace(".ics", "") + '</a>';
+        box.appendChild(wrap);
+      }
+      var lab = document.createElement("label");
+      lab.className = "chip";
+      lab.innerHTML = '<input type="checkbox" data-cat="' + c.id + '"/> <span data-i18n-en>' + c.en + '</span><span data-i18n-hi>' + c.hi + '</span>';
+      lab.querySelector("input").addEventListener("change", function () {
+        if (this.checked) filterCats.add(c.id); else filterCats.delete(c.id);
+        lab.classList.toggle("on", this.checked);
+        renderEvents();
+      });
+      filters.appendChild(lab);
+    });
+  }
+
+  function renderGrids() {
+    var byMonth = {};
+    data.events.forEach(function (ev) {
+      var m = ev.date.slice(0, 7);
+      (byMonth[m] = byMonth[m] || []).push(ev);
+    });
+    var months = Object.keys(byMonth).sort();
+    var nav = document.getElementById("month-nav");
+    var grids = document.getElementById("grids");
+    nav.innerHTML = "";
+    grids.innerHTML = "";
+    months.forEach(function (m) {
+      var a = document.createElement("a");
+      a.className = "chip";
+      a.href = "#m-" + m;
+      a.textContent = m;
+      nav.appendChild(a);
+
+      var y = +m.slice(0, 4), mo = +m.slice(5, 7);
+      var first = new Date(Date.UTC(y, mo - 1, 1));
+      var startDow = (first.getUTCDay() + 6) % 7; // Mon=0
+      var daysIn = new Date(Date.UTC(y, mo, 0)).getUTCDate();
+      var evByDay = {};
+      byMonth[m].forEach(function (ev) {
+        var d = +ev.date.slice(8, 10);
+        (evByDay[d] = evByDay[d] || []).push(ev);
+      });
+
+      var card = document.createElement("div");
+      card.className = "card month-block";
+      card.id = "m-" + m;
+      card.style.padding = "1.1rem";
+      var title = document.createElement("h3");
+      title.textContent = first.toLocaleString("en", { month: "long", year: "numeric", timeZone: "UTC" });
+      card.appendChild(title);
+      var grid = document.createElement("div");
+      grid.className = "cal-grid";
+      ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].forEach(function (d) {
+        var el = document.createElement("div");
+        el.className = "cal-dow";
+        el.textContent = d;
+        grid.appendChild(el);
+      });
+      for (var i = 0; i < startDow; i++) {
+        var empty = document.createElement("div");
+        empty.className = "cal-day";
+        empty.style.opacity = ".35";
+        empty.style.background = "transparent";
+        empty.style.borderColor = "transparent";
+        grid.appendChild(empty);
+      }
+      for (var day = 1; day <= daysIn; day++) {
+        var cell = document.createElement("div");
+        cell.className = "cal-day" + (evByDay[day] ? " event" : "");
+        cell.innerHTML = '<div class="n">' + day + "</div>";
+        if (evByDay[day]) {
+          var tag = document.createElement("span");
+          tag.className = "tag";
+          tag.textContent = (lang() === "hi" ? evByDay[day][0].title_hi : evByDay[day][0].title_en).slice(0, 28);
+          cell.appendChild(tag);
+          cell.title = evByDay[day].map(function (e) { return e.title_en; }).join(" · ");
+          cell.addEventListener("click", function (id) {
+            return function () {
+              var el = document.getElementById("ev-" + id);
+              if (el) { el.open = true; el.scrollIntoView({ behavior: "smooth", block: "center" }); el.classList.add("open"); }
+            };
+          }(evByDay[day][0].id));
+        }
+        grid.appendChild(cell);
+      }
+      card.appendChild(grid);
+      grids.appendChild(card);
+    });
+  }
+
+  function renderEvents() {
+    var list = document.getElementById("event-list");
+    list.innerHTML = "";
+    visibleEvents().forEach(function (ev) {
+      var card = document.createElement("article");
+      card.className = "card ev-card";
+      card.id = "ev-" + ev.id;
+      var title = lang() === "hi" ? ev.title_hi : ev.title_en;
+      var why = lang() === "hi" ? ev.why_hi : ev.why_en;
+      var story = lang() === "hi" ? ev.story_hi : ev.story_en;
+      var modern = lang() === "hi" ? ev.modern_hi : ev.modern_en;
+      card.innerHTML =
+        '<div class="top">' +
+          '<label><input type="checkbox" data-id="' + ev.id + '"' + (selected.has(ev.id) ? " checked" : "") + "/></label>" +
+          '<div style="flex:1">' +
+            '<div class="when">' + ev.date + "</div>" +
+            "<h3>" + title + "</h3>" +
+            '<p class="why">' + why + "</p>" +
+            '<div class="ev-actions">' +
+              '<button type="button" class="btn btn-ghost btn-sm story-toggle"><span data-i18n-en>Story &amp; reasoning</span><span data-i18n-hi>कथा और कारण</span></button>' +
+              '<a class="btn btn-ghost btn-sm" target="_blank" rel="noopener" href="' + gcalUrl(ev) + '"><span data-i18n-en>Add to Google</span><span data-i18n-hi>गूगल में जोड़ें</span></a>' +
+              (ev.reasoning_id ? '<a class="btn btn-ghost btn-sm" href="reasoning.html#' + ev.reasoning_id + '"><span data-i18n-en>Library</span><span data-i18n-hi>पुस्तकालय</span></a>' : "") +
+            "</div>" +
+            '<div class="story">' +
+              "<h4>" + t("Story / Katha", "कथा") + "</h4><p>" + story + "</p>" +
+              "<p><em>" + t("Textual source", "पाठ स्रोत") + ": " + (ev.story_source || "") + "</em></p>" +
+              "<h4>" + t("Traditional reasoning", "पारंपरिक कारण") + "</h4><p>" + why + "</p>" +
+              "<h4>" + t("Modern angle", "आधुनिक दृष्टि") + "</h4>" +
+              '<p class="evidence-line"><span class="badge ' + badgeClass(ev) + '">' + (ev.evidence || "") + "</span>" +
+              (ev.evidence_url ? ' <a href="' + ev.evidence_url + '" target="_blank" rel="noopener">' + t("Source", "स्रोत") + "</a>" : "") +
+              "</p><p>" + modern + "</p>" +
+            "</div>" +
+          "</div>" +
+        "</div>";
+      card.querySelector(".story-toggle").addEventListener("click", function () {
+        card.classList.toggle("open");
+      });
+      card.querySelector('input[type=checkbox]').addEventListener("change", function () {
+        if (this.checked) selected.add(ev.id); else selected.delete(ev.id);
+        updateSelBar();
+      });
+      list.appendChild(card);
+    });
+  }
+
+  function selectedEvents() {
+    return data.events.filter(function (e) { return selected.has(e.id); });
+  }
+
+  function wire() {
+    document.getElementById("sel-all").onclick = function () {
+      visibleEvents().forEach(function (e) { selected.add(e.id); });
+      renderEvents(); updateSelBar();
+    };
+    document.getElementById("sel-none").onclick = function () {
+      selected.clear(); renderEvents(); updateSelBar();
+    };
+    function dl() {
+      var evs = selectedEvents();
+      if (!evs.length) return;
+      downloadIcs("dharmasetu-selection.ics", buildCustomIcs(evs));
+    }
+    document.getElementById("dl-custom").onclick = dl;
+    document.getElementById("dl-custom-2").onclick = dl;
+    document.querySelectorAll(".lang-toggle button").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        setTimeout(function () { renderGrids(); renderEvents(); updateSelBar(); }, 0);
+      });
+    });
+  }
+
+  fetch("calendar-data.json")
+    .then(function (r) { return r.json(); })
+    .then(function (j) {
+      data = j;
+      renderCatFeeds();
+      renderGrids();
+      renderEvents();
+      wire();
+      if (location.hash) {
+        var el = document.getElementById(location.hash.slice(1));
+        if (el) el.scrollIntoView();
+      }
+    })
+    .catch(function (err) {
+      document.getElementById("event-list").innerHTML = "<p class='muted'>Could not load calendar-data.json</p>";
+      console.error(err);
+    });
+})();
+</script>
 </body>
 </html>

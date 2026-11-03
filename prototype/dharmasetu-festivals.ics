@@ -1,0 +1,557 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DharmaSetu//Vedic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational.
+X-WR-CALNAME:DharmaSetu — Festivals
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:Diwali / Deepavali [verify] / दीपावली [सत्य
+ ापित करें]
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261103T043905Z
+UID:diwali-2026-11-09@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: light the home when the moon is dark — invite prosperit
+ y\, kinship and clarity after the ancestral fortnight.\n\nStory: Diwali (D
+ eepavali) on the amavasya of Ashvina (amanta) / Kartika lights lamps for R
+ ama's return and Lakshmi's grace in the darkest new-moon night.\nSource: R
+ amayana return narrative\; Padma Purana Lakshmi strands\nWhy: light the ho
+ me when the moon is dark — invite prosperity\, kinship and clarity after
+  the ancestral fortnight.\nModern angle: Light\, gathering and gift ritual
+ s support mood and social ties in dark season\; cultural/psychological wit
+ h seasonal-affect context.\nEvidence: Cultural/psychological\nMore: https:
+ //saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lun
+ isolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nदीपावली [सत्यापित करें]\nदी
+ पावली आश्विन अमावस्या (अमान
+ ्त) / कार्तिक — सबसे अँधेरी अम
+ ावस्या पर राम की वापसी और लक
+ ्ष्मी की कृपा के दीप।\nकारण: च
+ ंद्र के अँधेरे में घर जलाएँ 
+ — पितृ पक्ष के बाद समृद्धि\, र
+ िश्ते और स्पष्टता का निमंत्
+ रण।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#11c
+ 9bda8c6d35afe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dev Uthani Ekadashi [verify] / देव उठनी एकाद
+ शी [सत्यापित करें]
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DTSTAMP:20261103T043905Z
+UID:dev_uthani-2026-11-20@dharmasetu
+CATEGORIES:festivals\,ekadashi
+DESCRIPTION:Why: close the monsoon retreat of the gods and reopen the seas
+ on of household beginnings.\n\nStory: Dev Uthani (Prabodhini) Ekadashi in 
+ Kartika Shukla ends Chaturmas — Vishnu is said to awaken\; marriages and
+  auspicious starts resume.\nSource: Padma Purana / Vaishnava ekadashi lore
+ \nWhy: close the monsoon retreat of the gods and reopen the season of hous
+ ehold beginnings.\nModern angle: Calendar bookkeeping for social life afte
+ r monsoon\; cultural. Ekadashi fasting has broader metabolic research link
+ s.\nEvidence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10
+ 894978/\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
+ ing.html#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing
+  coming later.\n\n—\nदेव उठनी एकादशी [सत
+ ्यापित करें]\nदेव उठनी (प्रबो
+ धिनी) एकादशी कार्तिक शुक्ल —
+  चातुर्मास का अंत\, विष्णु का 
+ जागरण\; विवाह और शुभ आरंभ फिर 
+ से।\nकारण: देवताओं के वर्षा-अ
+ वकाश का समापन और गृह आरंभों 
+ का मौसम फिर खोलना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#252
+ e1ecd88f84577
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Makar Sankranti / मकर संक्रांति
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261103T043905Z
+UID:makar_sankranti-2027-01-15@dharmasetu
+CATEGORIES:festivals\,sankranti\,birth-auspicious
+DESCRIPTION:Why: solar astronomy made visible as a festival of harvest\, c
+ harity (daan)\, and sesame–jaggery offerings to Surya.\n\nStory: Makar S
+ ankranti marks the Sun's sidereal ingress into Makara (Capricorn)\, tradit
+ ionally linked with Uttarayana — the northward turn of the solar path.\n
+ Source: Surya Siddhanta\; Puranic Uttarayana lore\nWhy: solar astronomy ma
+ de visible as a festival of harvest\, charity (daan)\, and sesame–jagger
+ y offerings to Surya.\nModern angle: Corresponds to a real solar-longitude
+  event (sidereal Capricorn ingress). Seasonal marker near mid-winter in th
+ e northern hemisphere.\nEvidence: Established\nLink: https://www.drikpanch
+ ang.com/sankranti/makar-sankranti-date-time.html\nMore: https://saumya-sha
+ rma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress
+ \nLocation basis: New Delhi. City-specific timing coming later.\n\n—\n
+ मकर संक्रांति\nमकर संक्रांत
+ ि सूर्य के मकर राशि में प्रव
+ ेश का पर्व है\, जिसे उत्तरायण 
+ — सूर्य के उत्तर की ओर बढ़ने 
+ — से जोड़ा जाता है।\nकारण: सौर
+  खगोल को फसल\, दान और सूर्य को 
+ तिल-गुड़ अर्पण के पर्व के रू
+ प में मनाना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#350
+ fff9e725b595c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vasant Panchami / वसंत पंचमी
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+DTSTAMP:20261103T043905Z
+UID:vasant_panchami-2027-02-11@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: mark the turn toward longer light and dedicate the season
+  of growth to speech\, learning and the arts.\n\nStory: Vasant Panchami ho
+ nours Saraswati on Magha Shukla Panchami\, when spring (vasanta) begins to
+  show and learning\, music and yellow mustard fields are celebrated.\nSour
+ ce: Puranic Saraswati lore\; regional Grihya customs\nWhy: mark the turn t
+ oward longer light and dedicate the season of growth to speech\, learning 
+ and the arts.\nModern angle: Seasonal / cultural marker. No clinical outco
+ me claim\; supports community learning rituals.\nEvidence: Cultural/psycho
+ logical\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
+ ing.html#calendar-lunisolar\nLocation basis: New Delhi. City-specific timi
+ ng coming later.\n\n—\nवसंत पंचमी\nवसंत पं
+ चमी माघ शुक्ल पंचमी पर सरस्व
+ ती की पूजा है — वसंत का आरंभ\, 
+ विद्या\, संगीत और पीले सरसों 
+ के खेतों का उत्सव।\nकारण: बढ़
+ ती रोशनी के मौसम को वाणी\, विद
+ ्या और कलाओं को समर्पित करना
+ ।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#233
+ 033099b355ad7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Maha Shivaratri [verify] / महा शिवरात्रि [
+ सत्यापित करें]
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DTSTAMP:20261103T043905Z
+UID:maha_shivaratri-2027-03-07@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: a night vigil of remembrance and restraint at the dark fo
+ rtnight's edge\, traditionally linked to Shiva's cosmic dance and marriage
+  lore.\n\nStory: Maha Shivaratri is the great night of Shiva\, observed on
+  the Krishna Chaturdashi before Magha/Phalguna amavasya — vigil\, fastin
+ g and bilva offerings.\nSource: Shiva Purana\; Linga Purana\nWhy: a night 
+ vigil of remembrance and restraint at the dark fortnight's edge\, traditio
+ nally linked to Shiva's cosmic dance and marriage lore.\nModern angle: Nig
+ ht-vigil fasting overlaps with researched intermittent-fasting windows\; e
+ vidence for specific Shivaratri outcomes is cultural\, not clinical.\nEvid
+ ence: Cultural/psychological\nLink: https://pubmed.ncbi.nlm.nih.gov/407013
+ 47/\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.
+ html#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing com
+ ing later.\n\n—\nमहा शिवरात्रि [सत्या
+ पित करें]\nमहा शिवरात्रि शिव 
+ की महा रात्रि है — माघ/फाल्ग
+ ुन कृष्ण चतुर्दशी पर जागरण\, 
+ व्रत और बिल्व अर्पण।\nकारण: क
+ ृष्ण पक्ष के अंत में जागरण औ
+ र संयम — शिव के तांडव और विवा
+ ह कथाओं से जुड़ा।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d4b
+ c3131946f24fc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holika Dahan [verify] / होलिका दहन [सत्य
+ ापित करें]
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261103T043905Z
+UID:holi-2027-03-22@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: burn the symbol of harm\, then meet neighbours with colou
+ r — a ritual of courage\, play and community repair at winter's end.\n\n
+ Story: Holika Dahan on Phalguna Purnima recalls Prahlada's faith and Holik
+ a's fall\; the next day\, Rangwali Holi celebrates colour\, spring and soc
+ ial renewal.\nSource: Bhagavata Purana (Prahlada–Hiranyakashipu)\nWhy: b
+ urn the symbol of harm\, then meet neighbours with colour — a ritual of 
+ courage\, play and community repair at winter's end.\nModern angle: Strong
+  social-bonding and seasonal festival effects\; no medical claim for the f
+ ire ritual itself.\nEvidence: Cultural/psychological\nMore: https://saumya
+ -sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lunisolar\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nह
+ ोलिका दहन [सत्यापित करें]\nफा
+ ल्गुन पूर्णिमा पर होलिका दह
+ न प्रह्लाद की भक्ति और होलिक
+ ा के पतन की कथा है\; अगले दिन र
+ ंगवाली होली रंग\, वसंत और साम
+ ाजिक नवीकरण मनाती है।\nकारण: 
+ हिंसा के प्रतीक को जलाकर फिर
+  रंग से मिलना — शीत के अंत में
+  साहस\, खेल और समुदाय की मरम्म
+ त।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e9f
+ a2a8a3b2dc77f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holi (Rangwali) [verify] / होली (रंगवाली) [
+ सत्यापित करें]
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+DTSTAMP:20261103T043905Z
+UID:holi-2027-03-23@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: burn the symbol of harm\, then meet neighbours with colou
+ r — a ritual of courage\, play and community repair at winter's end.\n\n
+ Story: Holika Dahan on Phalguna Purnima recalls Prahlada's faith and Holik
+ a's fall\; the next day\, Rangwali Holi celebrates colour\, spring and soc
+ ial renewal.\nSource: Bhagavata Purana (Prahlada–Hiranyakashipu)\nWhy: b
+ urn the symbol of harm\, then meet neighbours with colour — a ritual of 
+ courage\, play and community repair at winter's end.\nModern angle: Strong
+  social-bonding and seasonal festival effects\; no medical claim for the f
+ ire ritual itself.\nEvidence: Cultural/psychological\nMore: https://saumya
+ -sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lunisolar\n
+ Location basis: New Delhi. City-specific timing coming later.\n\n—\nह
+ ोली (रंगवाली) [सत्यापित करें]
+ \nफाल्गुन पूर्णिमा पर होलिका
+  दहन प्रह्लाद की भक्ति और हो
+ लिका के पतन की कथा है\; अगले द
+ िन रंगवाली होली रंग\, वसंत और 
+ सामाजिक नवीकरण मनाती है।\nका
+ रण: हिंसा के प्रतीक को जलाकर 
+ फिर रंग से मिलना — शीत के अंत 
+ में साहस\, खेल और समुदाय की मर
+ म्मत।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#67d
+ f2754d1162d5f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ram Navami / राम नवमी
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+DTSTAMP:20261103T043905Z
+UID:ram_navami-2027-04-15@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: remember a life-model of duty\, restraint and care for th
+ e vulnerable at the spring new-year fortnight.\n\nStory: Ram Navami celebr
+ ates the birth of Rama on Chaitra Shukla Navami — Maryada Purushottam\, 
+ the ideal of dharmic kingship in the Ramayana.\nSource: Valmiki Ramayana\;
+  later Puranic calendars\nWhy: remember a life-model of duty\, restraint a
+ nd care for the vulnerable at the spring new-year fortnight.\nModern angle
+ : Narrative ethics and community worship\; cultural meaning\, not a scient
+ ific outcome claim.\nEvidence: Cultural/psychological\nMore: https://saumy
+ a-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lunisolar
+ \nLocation basis: New Delhi. City-specific timing coming later.\n\n—\n
+ राम नवमी\nराम नवमी चैत्र शुक
+ ्ल नवमी पर राम के जन्म का उत्
+ सव है — रामायण में मर्यादा प
+ ुरुषोत्तम।\nकारण: वसंत नववर्
+ ष पक्ष में कर्तव्य\, संयम और द
+ ुर्बलों की रक्षा के जीवन-आदर
+ ्श का स्मरण।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#70a
+ af984b3e63a38
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Akshaya Tritiya / अक्षय तृतीया
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+DTSTAMP:20261103T043905Z
+UID:akshaya_tritiya-2027-05-09@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: a day set aside to start what should endure — learning
+ \, giving\, household foundations — under the spring sun.\n\nStory: Aksh
+ aya Tritiya (Vaishakha Shukla Tritiya) is called 'never-diminishing' — t
+ raditionally favoured for beginnings\, charity and lasting vows.\nSource: 
+ Puranic akshaya lore\; regional muhurat custom\nWhy: a day set aside to st
+ art what should endure — learning\, giving\, household foundations — u
+ nder the spring sun.\nModern angle: Muhurat timing itself is cultural\; ch
+ arity and intentional starts have known psychological benefits.\nEvidence:
+  Cultural/psychological\nMore: https://saumya-sharma.github.io/dharmasetu/
+ prototype/reasoning.html#muhurat-cultural\nLocation basis: New Delhi. City
+ -specific timing coming later.\n\n—\nअक्षय तृतीया
+ \nअक्षय तृतीया (वैशाख शुक्ल त
+ ृतीया) 'अक्षय' कही जाती है — आ
+ रंभ\, दान और दीर्घ संकल्पों क
+ े लिए पारंपरिक रूप से अनुकूल
+ ।\nकारण: जो टिके उसे आरंभ करने
+  का दिन — विद्या\, दान\, गृह आधा
+ र — वसंत सूर्य के नीचे।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ad3
+ c63f56c0bf4bd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Guru Purnima / गुरु पूर्णिमा
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261103T043905Z
+UID:guru_purnima-2027-07-18@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: pause at the full moon of Ashadha to name gratitude for t
+ hose who taught you how to see.\n\nStory: Guru Purnima (Ashadha Purnima) h
+ onours the teacher — traditionally Vyasa\, and by extension every guide 
+ who transmits knowledge.\nSource: Skanda Purana / Vyasa Puja tradition\nWh
+ y: pause at the full moon of Ashadha to name gratitude for those who taugh
+ t you how to see.\nModern angle: Gratitude practices show measurable well-
+ being links in psychology research\; the lunar date is cultural.\nEvidence
+ : Plausible\nLink: https://pubmed.ncbi.nlm.nih.gov/12585811/\nMore: https:
+ //saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lun
+ isolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nगुरु पूर्णिमा\nगुरु पूर्ण
+ िमा (आषाढ़ पूर्णिमा) गुरु का 
+ सम्मान है — परंपरा में व्यास
+ \, और ज्ञान देने वाले प्रत्ये
+ क मार्गदर्शक।\nकारण: आषाढ़ क
+ ी पूर्णिमा पर उन लोगों के प्
+ रति कृतज्ञता जिनसे देखने की 
+ दृष्टि मिली।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#633
+ 43d9636f96172
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Raksha Bandhan / रक्षाबंधन
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270818
+DTSTAMP:20261103T043905Z
+UID:raksha_bandhan-2027-08-17@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: make care visible — a thread that names who watches ove
+ r whom.\n\nStory: Raksha Bandhan on Shravana Purnima ties a rakhi as a ple
+ dge of protection and care between siblings and chosen kin.\nSource: Puran
+ ic / regional folk\; Bhavishya Purana strands\nWhy: make care visible — 
+ a thread that names who watches over whom.\nModern angle: Kinship bonding 
+ and ritualised commitment\; cultural/psychological strength.\nEvidence: Cu
+ ltural/psychological\nMore: https://saumya-sharma.github.io/dharmasetu/pro
+ totype/reasoning.html#life-moments-tilak\nLocation basis: New Delhi. City-
+ specific timing coming later.\n\n—\nरक्षाबंधन\nरक
+ ्षाबंधन श्रावण पूर्णिमा पर 
+ राखी बाँधकर भाई-बहन और चुने 
+ हुए परिजनों के बीच रक्षा और 
+ देखभाल का संकल्प।\nकारण: देख
+ भाल को दृश्य बनाना — एक धागा 
+ जो बताए कौन किसकी रक्षा करता
+  है।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#6a5
+ 46906b2f9f603
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ganesh Chaturthi / गणेश चतुर्थी
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+DTSTAMP:20261103T043905Z
+UID:ganesh_chaturthi-2027-09-04@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: begin the season of vows by honouring the deity of thresh
+ olds and careful starts.\n\nStory: Ganesh Chaturthi (Bhadrapada Shukla Cha
+ turthi) installs Ganesha — remover of obstacles — at the doorway of ne
+ w undertakings.\nSource: Ganesha Purana\; Mudgala Purana\nWhy: begin the s
+ eason of vows by honouring the deity of thresholds and careful starts.\nMo
+ dern angle: Community craft\, public art and shared vows\; cultural meanin
+ g.\nEvidence: Cultural/psychological\nMore: https://saumya-sharma.github.i
+ o/dharmasetu/prototype/reasoning.html#calendar-lunisolar\nLocation basis: 
+ New Delhi. City-specific timing coming later.\n\n—\nगणेश चत
+ ुर्थी\nगणेश चतुर्थी (भाद्रपद
+  शुक्ल चतुर्थी) गणेश की स्था
+ पना — विघ्नहर्ता — नए आरंभों
+  के द्वार पर।\nकारण: संकल्पों 
+ के मौसम की शुरुआत देहलीज़ और
+  सावधान आरंभ के देवता के सम्
+ मान से।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#3dd
+ 2cc576ecda384
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pitru Paksha begins / पितृ पक्ष आरंभ
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+DTSTAMP:20261103T043905Z
+UID:pitru_paksha_start-2027-09-16@dharmasetu
+CATEGORIES:ancestral\,festivals
+DESCRIPTION:Why: set aside days so remembrance is not left to chance — f
+ ood\, water and name offered with care.\n\nStory: Pitru Paksha opens after
+  Bhadrapada Purnima — a fortnight of shraddha for ancestors\, closing on
+  Sarvapitri Amavasya.\nSource: Garuda Purana\; Shraddha Kalpa traditions\n
+ Why: set aside days so remembrance is not left to chance — food\, water 
+ and name offered with care.\nModern angle: Structured mourning and remembr
+ ance support grief processing\; cultural/psychological (see Worden / conti
+ nuing-bonds literature).\nEvidence: Plausible\nLink: https://pubmed.ncbi.n
+ lm.nih.gov/20680363/\nMore: https://saumya-sharma.github.io/dharmasetu/pro
+ totype/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi. Cit
+ y-specific timing coming later.\n\n—\nपितृ पक्ष आर
+ ंभ\nपितृ पक्ष भाद्रपद पूर्णि
+ मा के बाद आरंभ — पूर्वजों के 
+ श्राद्ध का पक्ष\, सर्वपित्नी
+  अमावस्या पर समाप्त।\nकारण: स
+ ्मरण संयोग पर न छूटे — अन्न\, 
+ जल और नाम सावधानी से अर्पित।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#65b
+ dddf8f1d44a71
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Janmashtami / जन्माष्टमी
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+DTSTAMP:20261103T043905Z
+UID:janmashtami-2027-09-23@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: stay awake into the night to welcome a story of divine ca
+ re arriving in fragile human form.\n\nStory: Janmashtami marks Krishna's b
+ irth at midnight on Krishna Ashtami of Bhadrapada (amanta) — the Gokula 
+ narrative of protection amid danger.\nSource: Bhagavata Purana Canto 10\nW
+ hy: stay awake into the night to welcome a story of divine care arriving i
+ n fragile human form.\nModern angle: Night vigil and fasting are cultural-
+ devotional\; community singing supports belonging.\nEvidence: Cultural/psy
+ chological\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/rea
+ soning.html#calendar-lunisolar\nLocation basis: New Delhi. City-specific t
+ iming coming later.\n\n—\nजन्माष्टमी\nजन्म
+ ाष्टमी भाद्रपद कृष्ण अष्टम
+ ी की मध्यरात्रि पर कृष्ण जन्
+ म — संकट में गोकुला की रक्षा 
+ की कथा।\nकारण: रात जागकर उस कथ
+ ा का स्वागत जो दिव्य करुणा क
+ ो कोमल मानवीय रूप में लाती ह
+ ै।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a60
+ cdb59fb1ca71b
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sarvapitri Amavasya [verify] / सर्वपित्नी अ
+ मावस्या [सत्यापित करें]
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261103T043905Z
+UID:sarvapitri-2027-09-30@dharmasetu
+CATEGORIES:ancestral\,purnima-amavasya\,festivals
+DESCRIPTION:Why: a safety-net day of remembrance so no lineage is left unn
+ amed.\n\nStory: Sarvapitri Amavasya closes Pitru Paksha — the day for al
+ l ancestors\, especially when individual tithi days were missed.\nSource: 
+ Garuda Purana\; Shraddha manuals\nWhy: a safety-net day of remembrance so 
+ no lineage is left unnamed.\nModern angle: Inclusive memorial day\; cultur
+ al/psychological grief support.\nEvidence: Cultural/psychological\nMore: h
+ ttps://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#shraddh
+ a-remembrance\nLocation basis: New Delhi. City-specific timing coming late
+ r.\n\n—\nसर्वपित्नी अमावस्या [सत
+ ्यापित करें]\nसर्वपित्नी अमा
+ वस्या पितृ पक्ष का समापन — स
+ भी पूर्वजों के लिए\, विशेषकर 
+ छूटी तिथियों पर।\nकारण: स्मर
+ ण का सुरक्षा-दिन ताकि कोई वं
+ श बिना नाम न रह जाए।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ea0
+ c668666d641be
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dussehra / Vijayadashami / दशहरा / विजयादश
+ मी
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+DTSTAMP:20261103T043905Z
+UID:dussehra-2027-10-10@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: name the day when persistence through the nine nights mee
+ ts its public affirmation.\n\nStory: Vijayadashami / Dussehra on Ashvina S
+ hukla Dashami recalls Rama's victory and Devi's triumph — the tenth day 
+ of courage.\nSource: Ramayana\; Devi Mahatmya\nWhy: name the day when pers
+ istence through the nine nights meets its public affirmation.\nModern angl
+ e: Communal narrative of resilience\; cultural/psychological.\nEvidence: C
+ ultural/psychological\nMore: https://saumya-sharma.github.io/dharmasetu/pr
+ ototype/reasoning.html#calendar-lunisolar\nLocation basis: New Delhi. City
+ -specific timing coming later.\n\n—\nदशहरा / विजया
+ दशमी\nविजयादशमी / दशहरा आश्व
+ िन शुक्ल दशमी — राम की विजय औ
+ र देवी की जय — साहस का दशम दिन
+ ।\nकारण: नौ रातों की दृढ़ता का
+  सार्वजनिक स्वीकार।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#5a3
+ 375375eb72ca9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diwali / Deepavali / दीपावली
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261103T043905Z
+UID:diwali-2027-10-29@dharmasetu
+CATEGORIES:festivals
+DESCRIPTION:Why: light the home when the moon is dark — invite prosperit
+ y\, kinship and clarity after the ancestral fortnight.\n\nStory: Diwali (D
+ eepavali) on the amavasya of Ashvina (amanta) / Kartika lights lamps for R
+ ama's return and Lakshmi's grace in the darkest new-moon night.\nSource: R
+ amayana return narrative\; Padma Purana Lakshmi strands\nWhy: light the ho
+ me when the moon is dark — invite prosperity\, kinship and clarity after
+  the ancestral fortnight.\nModern angle: Light\, gathering and gift ritual
+ s support mood and social ties in dark season\; cultural/psychological wit
+ h seasonal-affect context.\nEvidence: Cultural/psychological\nMore: https:
+ //saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lun
+ isolar\nLocation basis: New Delhi. City-specific timing coming later.\n\n
+ —\nदीपावली\nदीपावली आश्विन अ
+ मावस्या (अमान्त) / कार्तिक — स
+ बसे अँधेरी अमावस्या पर राम क
+ ी वापसी और लक्ष्मी की कृपा क
+ े दीप।\nकारण: चंद्र के अँधेरे 
+ में घर जलाएँ — पितृ पक्ष के ब
+ ाद समृद्धि\, रिश्ते और स्पष्
+ टता का निमंत्रण।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#0b1
+ 9ae66a02f6b0c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dev Uthani Ekadashi / देव उठनी एकादशी
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+DTSTAMP:20261103T043905Z
+UID:dev_uthani-2027-11-10@dharmasetu
+CATEGORIES:festivals\,ekadashi
+DESCRIPTION:Why: close the monsoon retreat of the gods and reopen the seas
+ on of household beginnings.\n\nStory: Dev Uthani (Prabodhini) Ekadashi in 
+ Kartika Shukla ends Chaturmas — Vishnu is said to awaken\; marriages and
+  auspicious starts resume.\nSource: Padma Purana / Vaishnava ekadashi lore
+ \nWhy: close the monsoon retreat of the gods and reopen the season of hous
+ ehold beginnings.\nModern angle: Calendar bookkeeping for social life afte
+ r monsoon\; cultural. Ekadashi fasting has broader metabolic research link
+ s.\nEvidence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10
+ 894978/\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
+ ing.html#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing
+  coming later.\n\n—\nदेव उठनी एकादशी\nदे
+ व उठनी (प्रबोधिनी) एकादशी का
+ र्तिक शुक्ल — चातुर्मास का अ
+ ंत\, विष्णु का जागरण\; विवाह औ
+ र शुभ आरंभ फिर से।\nकारण: देवत
+ ाओं के वर्षा-अवकाश का समापन 
+ और गृह आरंभों का मौसम फिर खो
+ लना।
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#773
+ 19bf382c085de
+END:VEVENT
+END:VCALENDAR
