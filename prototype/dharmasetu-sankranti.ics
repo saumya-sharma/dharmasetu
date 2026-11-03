@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//DharmaSetu//Vedic Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational.
+X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational. 
 X-WR-CALNAME:DharmaSetu — Sankranti
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
@@ -13,7 +13,7 @@ SUMMARY:Vrischika Sankranti / वृश्चिक संक्रां
  ति
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2026-11-17@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -24,15 +24,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nव
- ृश्चिक संक्रांति\nसंक्रांत
- ि सूर्य का नए सिडेरेल राशि म
- ें प्रवेश — क्षेत्रीय कैलें
- डरों में प्रयुक्त वास्तविक 
- सौर मील का पत्थर।\nकारण: चंद्
- र-सौर वर्ष की सौर रीढ़ को दान 
- और सूर्य अर्घ्य से चिह्नित क
- रना।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#43c
@@ -42,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:Dhanu Sankranti / धनु संक्रांति
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2026-12-17@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -53,14 +45,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nध
- नु संक्रांति\nसंक्रांति सूर
- ्य का नए सिडेरेल राशि में प्
- रवेश — क्षेत्रीय कैलेंडरों 
- में प्रयुक्त वास्तविक सौर म
- ील का पत्थर।\nकारण: चंद्र-सौर 
- वर्ष की सौर रीढ़ को दान और सू
- र्य अर्घ्य से चिह्नित करना।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#b6e
@@ -70,7 +55,7 @@ BEGIN:VEVENT
 SUMMARY:Makar Sankranti / मकर संक्रांति
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:makar_sankranti-2027-01-15@dharmasetu
 CATEGORIES:festivals\,sankranti\,birth-auspicious
 DESCRIPTION:Why: solar astronomy made visible as a festival of harvest\, c
@@ -84,15 +69,7 @@ DESCRIPTION:Why: solar astronomy made visible as a festival of harvest\, c
  e northern hemisphere.\nEvidence: Established\nLink: https://www.drikpanch
  ang.com/sankranti/makar-sankranti-date-time.html\nMore: https://saumya-sha
  rma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress
- \nLocation basis: New Delhi. City-specific timing coming later.\n\n—\n
- मकर संक्रांति\nमकर संक्रांत
- ि सूर्य के मकर राशि में प्रव
- ेश का पर्व है\, जिसे उत्तरायण 
- — सूर्य के उत्तर की ओर बढ़ने 
- — से जोड़ा जाता है।\nकारण: सौर
-  खगोल को फसल\, दान और सूर्य को 
- तिल-गुड़ अर्पण के पर्व के रू
- प में मनाना।
+ \nLocation basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#350
@@ -102,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:Kumbha Sankranti / कुम्भ संक्रांति
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-02-14@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -113,15 +90,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nक
- ुम्भ संक्रांति\nसंक्रांति स
- ूर्य का नए सिडेरेल राशि में 
- प्रवेश — क्षेत्रीय कैलेंडर
- ों में प्रयुक्त वास्तविक सौ
- र मील का पत्थर।\nकारण: चंद्र-स
- ौर वर्ष की सौर रीढ़ को दान और 
- सूर्य अर्घ्य से चिह्नित करन
- ा।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#bcc
@@ -131,7 +100,7 @@ BEGIN:VEVENT
 SUMMARY:Meena Sankranti / मीन संक्रांति
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-03-15@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -142,14 +111,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nम
- ीन संक्रांति\nसंक्रांति सूर
- ्य का नए सिडेरेल राशि में प्
- रवेश — क्षेत्रीय कैलेंडरों 
- में प्रयुक्त वास्तविक सौर म
- ील का पत्थर।\nकारण: चंद्र-सौर 
- वर्ष की सौर रीढ़ को दान और सू
- र्य अर्घ्य से चिह्नित करना।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#1d6
@@ -159,7 +121,7 @@ BEGIN:VEVENT
 SUMMARY:Mesha Sankranti / मेष संक्रांति
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-04-15@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -170,14 +132,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nम
- ेष संक्रांति\nसंक्रांति सूर
- ्य का नए सिडेरेल राशि में प्
- रवेश — क्षेत्रीय कैलेंडरों 
- में प्रयुक्त वास्तविक सौर म
- ील का पत्थर।\nकारण: चंद्र-सौर 
- वर्ष की सौर रीढ़ को दान और सू
- र्य अर्घ्य से चिह्नित करना।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#8c5
@@ -187,7 +142,7 @@ BEGIN:VEVENT
 SUMMARY:Vrishabha Sankranti / वृषभ संक्रांति
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-05-16@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -198,15 +153,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nव
- ृषभ संक्रांति\nसंक्रांति सू
- र्य का नए सिडेरेल राशि में प
- ्रवेश — क्षेत्रीय कैलेंडरो
- ं में प्रयुक्त वास्तविक सौर 
- मील का पत्थर।\nकारण: चंद्र-सौ
- र वर्ष की सौर रीढ़ को दान और स
- ूर्य अर्घ्य से चिह्नित करना
- ।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#dd4
@@ -216,7 +163,7 @@ BEGIN:VEVENT
 SUMMARY:Mithuna Sankranti / मिथुन संक्रांति
 DTSTART;VALUE=DATE:20270616
 DTEND;VALUE=DATE:20270617
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-06-16@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -227,15 +174,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nम
- िथुन संक्रांति\nसंक्रांति स
- ूर्य का नए सिडेरेल राशि में 
- प्रवेश — क्षेत्रीय कैलेंडर
- ों में प्रयुक्त वास्तविक सौ
- र मील का पत्थर।\nकारण: चंद्र-स
- ौर वर्ष की सौर रीढ़ को दान और 
- सूर्य अर्घ्य से चिह्नित करन
- ा।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d49
@@ -245,7 +184,7 @@ BEGIN:VEVENT
 SUMMARY:Karka Sankranti / कर्क संक्रांति
 DTSTART;VALUE=DATE:20270717
 DTEND;VALUE=DATE:20270718
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-07-17@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -256,15 +195,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nक
- र्क संक्रांति\nसंक्रांति सू
- र्य का नए सिडेरेल राशि में प
- ्रवेश — क्षेत्रीय कैलेंडरो
- ं में प्रयुक्त वास्तविक सौर 
- मील का पत्थर।\nकारण: चंद्र-सौ
- र वर्ष की सौर रीढ़ को दान और स
- ूर्य अर्घ्य से चिह्नित करना
- ।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#023
@@ -274,7 +205,7 @@ BEGIN:VEVENT
 SUMMARY:Simha Sankranti / सिंह संक्रांति
 DTSTART;VALUE=DATE:20270818
 DTEND;VALUE=DATE:20270819
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-08-18@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -285,15 +216,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nस
- िंह संक्रांति\nसंक्रांति सू
- र्य का नए सिडेरेल राशि में प
- ्रवेश — क्षेत्रीय कैलेंडरो
- ं में प्रयुक्त वास्तविक सौर 
- मील का पत्थर।\nकारण: चंद्र-सौ
- र वर्ष की सौर रीढ़ को दान और स
- ूर्य अर्घ्य से चिह्नित करना
- ।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d1d
@@ -303,7 +226,7 @@ BEGIN:VEVENT
 SUMMARY:Kanya Sankranti / कन्या संक्रांति
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-09-18@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -314,15 +237,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nक
- न्या संक्रांति\nसंक्रांति स
- ूर्य का नए सिडेरेल राशि में 
- प्रवेश — क्षेत्रीय कैलेंडर
- ों में प्रयुक्त वास्तविक सौ
- र मील का पत्थर।\nकारण: चंद्र-स
- ौर वर्ष की सौर रीढ़ को दान और 
- सूर्य अर्घ्य से चिह्नित करन
- ा।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f57
@@ -332,7 +247,7 @@ BEGIN:VEVENT
 SUMMARY:Tula Sankranti / तुला संक्रांति
 DTSTART;VALUE=DATE:20271018
 DTEND;VALUE=DATE:20271019
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-10-18@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -343,15 +258,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nत
- ुला संक्रांति\nसंक्रांति सू
- र्य का नए सिडेरेल राशि में प
- ्रवेश — क्षेत्रीय कैलेंडरो
- ं में प्रयुक्त वास्तविक सौर 
- मील का पत्थर।\nकारण: चंद्र-सौ
- र वर्ष की सौर रीढ़ को दान और स
- ूर्य अर्घ्य से चिह्नित करना
- ।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9e7
@@ -362,7 +269,7 @@ SUMMARY:Vrischika Sankranti / वृश्चिक संक्रां
  ति
 DTSTART;VALUE=DATE:20271117
 DTEND;VALUE=DATE:20271118
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-11-17@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -373,15 +280,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nव
- ृश्चिक संक्रांति\nसंक्रांत
- ि सूर्य का नए सिडेरेल राशि म
- ें प्रवेश — क्षेत्रीय कैलें
- डरों में प्रयुक्त वास्तविक 
- सौर मील का पत्थर।\nकारण: चंद्
- र-सौर वर्ष की सौर रीढ़ को दान 
- और सूर्य अर्घ्य से चिह्नित क
- रना।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#8f8
@@ -391,7 +290,7 @@ BEGIN:VEVENT
 SUMMARY:Dhanu Sankranti / धनु संक्रांति
 DTSTART;VALUE=DATE:20271217
 DTEND;VALUE=DATE:20271218
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:sankranti_generic-2027-12-17@dharmasetu
 CATEGORIES:sankranti
 DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
@@ -402,14 +301,7 @@ DESCRIPTION:Why: mark the solar backbone of the lunisolar year with charit
  olar-longitude crossing (with ayanamsa convention).\nEvidence: Established
  \nLink: https://en.wikipedia.org/wiki/Sankranti\nMore: https://saumya-shar
  ma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress\n
- Location basis: New Delhi. City-specific timing coming later.\n\n—\nध
- नु संक्रांति\nसंक्रांति सूर
- ्य का नए सिडेरेल राशि में प्
- रवेश — क्षेत्रीय कैलेंडरों 
- में प्रयुक्त वास्तविक सौर म
- ील का पत्थर।\nकारण: चंद्र-सौर 
- वर्ष की सौर रीढ़ को दान और सू
- र्य अर्घ्य से चिह्नित करना।
+ Location basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#5e6

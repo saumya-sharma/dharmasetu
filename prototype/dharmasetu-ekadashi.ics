@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//DharmaSetu//Vedic Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational.
+X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational. 
 X-WR-CALNAME:DharmaSetu — Ekadashi / Fasts
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
@@ -13,7 +13,7 @@ SUMMARY:Ekadashi (Krishna) — Ashvina / एकादशी (कृष्
  ण) — आश्विन
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:ekadashi-2026-11-05@dharmasetu
 CATEGORIES:ekadashi
 DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
@@ -26,25 +26,17 @@ DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
  ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
  \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
  l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — आश्वि
- न\nएकादशी प्रत्येक पक्ष की ग
- ्यारहवीं तिथि — वैष्णव व्रत 
- का दिन: संयम\, प्रार्थना और पा
- चन-विश्राम।\nकारण: चंद्र मास 
- में दो बार भारी भोजन और भागद
- ौड़ से पीछे हटना — ध्यान के ल
- िए स्थान।
+  later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ca3
  253e5e4c50755
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Dev Uthani Ekadashi [verify] / देव उठनी एकाद
- शी [सत्यापित करें]
+SUMMARY:Dev Uthani Ekadashi / देव उठनी एकादशी
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:dev_uthani-2026-11-20@dharmasetu
 CATEGORIES:festivals\,ekadashi
 DESCRIPTION:Why: close the monsoon retreat of the gods and reopen the seas
@@ -57,56 +49,18 @@ DESCRIPTION:Why: close the monsoon retreat of the gods and reopen the seas
  s.\nEvidence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10
  894978/\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
  ing.html#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing
-  coming later.\n\n—\nदेव उठनी एकादशी [सत
- ्यापित करें]\nदेव उठनी (प्रबो
- धिनी) एकादशी कार्तिक शुक्ल —
-  चातुर्मास का अंत\, विष्णु का 
- जागरण\; विवाह और शुभ आरंभ फिर 
- से।\nकारण: देवताओं के वर्षा-अ
- वकाश का समापन और गृह आरंभों 
- का मौसम फिर खोलना।
+  coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#252
  e1ecd88f84577
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Kartika / एकादशी (शुक्
- ल) — कार्तिक
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2026-11-20@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — कार्त
- िक\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#2a0
- 355e5eee6bb75
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ekadashi (Krishna) — Kartika / एकादशी (कृष्
  ण) — कार्तिक
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:ekadashi-2026-12-04@dharmasetu
 CATEGORIES:ekadashi
 DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
@@ -119,14 +73,7 @@ DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
  ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
  \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
  l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — कार्त
- िक\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
+  later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#06b
@@ -137,7 +84,7 @@ SUMMARY:Ekadashi (Shukla) — Margashirsha / एकादशी (शुक
  ्ल) — मार्गशीर्ष
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:ekadashi-2026-12-20@dharmasetu
 CATEGORIES:ekadashi
 DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
@@ -150,14 +97,7 @@ DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
  ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
  \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
  l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — मार्ग
- शीर्ष\nएकादशी प्रत्येक पक्ष 
- की ग्यारहवीं तिथि — वैष्णव व
- ्रत का दिन: संयम\, प्रार्थना औ
- र पाचन-विश्राम।\nकारण: चंद्र 
- मास में दो बार भारी भोजन और भ
- ागदौड़ से पीछे हटना — ध्यान 
- के लिए स्थान।
+  later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ed4
@@ -168,781 +108,7 @@ SUMMARY:Ekadashi (Krishna) — Margashirsha / एकादशी (कृ
  ष्ण) — मार्गशीर्ष
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-01-03@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — मार्ग
- शीर्ष\nएकादशी प्रत्येक पक्ष 
- की ग्यारहवीं तिथि — वैष्णव व
- ्रत का दिन: संयम\, प्रार्थना औ
- र पाचन-विश्राम।\nकारण: चंद्र 
- मास में दो बार भारी भोजन और भ
- ागदौड़ से पीछे हटना — ध्यान 
- के लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ea6
- 1278f389cc2f4
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Pausha / एकादशी (शुक्ल
- ) — पौष
-DTSTART;VALUE=DATE:20270119
-DTEND;VALUE=DATE:20270120
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-01-19@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — पौष\nएक
- ादशी प्रत्येक पक्ष की ग्यार
- हवीं तिथि — वैष्णव व्रत का द
- िन: संयम\, प्रार्थना और पाचन-व
- िश्राम।\nकारण: चंद्र मास में 
- दो बार भारी भोजन और भागदौड़ 
- से पीछे हटना — ध्यान के लिए स
- ्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d3f
- c74d0947e8b24
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Pausha / एकादशी (कृष्
- ण) — पौष
-DTSTART;VALUE=DATE:20270202
-DTEND;VALUE=DATE:20270203
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-02-02@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — पौष\nएक
- ादशी प्रत्येक पक्ष की ग्यार
- हवीं तिथि — वैष्णव व्रत का द
- िन: संयम\, प्रार्थना और पाचन-व
- िश्राम।\nकारण: चंद्र मास में 
- दो बार भारी भोजन और भागदौड़ 
- से पीछे हटना — ध्यान के लिए स
- ्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#186
- 24e6b155a41bb
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Magha / एकादशी (शुक्ल)
-  — माघ
-DTSTART;VALUE=DATE:20270217
-DTEND;VALUE=DATE:20270218
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-02-17@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — माघ\nएक
- ादशी प्रत्येक पक्ष की ग्यार
- हवीं तिथि — वैष्णव व्रत का द
- िन: संयम\, प्रार्थना और पाचन-व
- िश्राम।\nकारण: चंद्र मास में 
- दो बार भारी भोजन और भागदौड़ 
- से पीछे हटना — ध्यान के लिए स
- ्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f05
- fa8269a44074f
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Magha / एकादशी (कृष्ण
- ) — माघ
-DTSTART;VALUE=DATE:20270303
-DTEND;VALUE=DATE:20270304
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-03-03@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — माघ\nएक
- ादशी प्रत्येक पक्ष की ग्यार
- हवीं तिथि — वैष्णव व्रत का द
- िन: संयम\, प्रार्थना और पाचन-व
- िश्राम।\nकारण: चंद्र मास में 
- दो बार भारी भोजन और भागदौड़ 
- से पीछे हटना — ध्यान के लिए स
- ्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#8e8
- 10ae59a19e883
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Magha / एकादशी (कृष्ण
- ) — माघ
-DTSTART;VALUE=DATE:20270304
-DTEND;VALUE=DATE:20270305
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-03-04@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — माघ\nएक
- ादशी प्रत्येक पक्ष की ग्यार
- हवीं तिथि — वैष्णव व्रत का द
- िन: संयम\, प्रार्थना और पाचन-व
- िश्राम।\nकारण: चंद्र मास में 
- दो बार भारी भोजन और भागदौड़ 
- से पीछे हटना — ध्यान के लिए स
- ्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#df0
- 89488a7460daf
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Phalguna / एकादशी (शुक्
- ल) — फाल्गुन
-DTSTART;VALUE=DATE:20270318
-DTEND;VALUE=DATE:20270319
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-03-18@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — फाल्ग
- ुन\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9c0
- 9b02a92b93776
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Phalguna / एकादशी (कृष्
- ण) — फाल्गुन
-DTSTART;VALUE=DATE:20270402
-DTEND;VALUE=DATE:20270403
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-04-02@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — फाल्ग
- ुन\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#c24
- 9cc0ff2779baa
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Chaitra / एकादशी (शुक्
- ल) — चैत्र
-DTSTART;VALUE=DATE:20270417
-DTEND;VALUE=DATE:20270418
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-04-17@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — चैत्र\n
- एकादशी प्रत्येक पक्ष की ग्य
- ारहवीं तिथि — वैष्णव व्रत का
-  दिन: संयम\, प्रार्थना और पाचन
- -विश्राम।\nकारण: चंद्र मास मे
- ं दो बार भारी भोजन और भागदौड
- ़ से पीछे हटना — ध्यान के लिए 
- स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#dd7
- cc527198fe5b8
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Chaitra / एकादशी (कृष्
- ण) — चैत्र
-DTSTART;VALUE=DATE:20270502
-DTEND;VALUE=DATE:20270503
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-05-02@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — चैत्र\n
- एकादशी प्रत्येक पक्ष की ग्य
- ारहवीं तिथि — वैष्णव व्रत का
-  दिन: संयम\, प्रार्थना और पाचन
- -विश्राम।\nकारण: चंद्र मास मे
- ं दो बार भारी भोजन और भागदौड
- ़ से पीछे हटना — ध्यान के लिए 
- स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d9e
- 93d7581df6d00
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Vaishakha / एकादशी (शुक्
- ल) — वैशाख
-DTSTART;VALUE=DATE:20270516
-DTEND;VALUE=DATE:20270517
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-05-16@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — वैशाख\n
- एकादशी प्रत्येक पक्ष की ग्य
- ारहवीं तिथि — वैष्णव व्रत का
-  दिन: संयम\, प्रार्थना और पाचन
- -विश्राम।\nकारण: चंद्र मास मे
- ं दो बार भारी भोजन और भागदौड
- ़ से पीछे हटना — ध्यान के लिए 
- स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a6a
- 4137a242831ed
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Vaishakha / एकादशी (कृष
- ्ण) — वैशाख
-DTSTART;VALUE=DATE:20270601
-DTEND;VALUE=DATE:20270602
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-06-01@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — वैशाख\n
- एकादशी प्रत्येक पक्ष की ग्य
- ारहवीं तिथि — वैष्णव व्रत का
-  दिन: संयम\, प्रार्थना और पाचन
- -विश्राम।\nकारण: चंद्र मास मे
- ं दो बार भारी भोजन और भागदौड
- ़ से पीछे हटना — ध्यान के लिए 
- स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d06
- ee048f5f66911
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Jyeshtha / एकादशी (शुक्
- ल) — ज्येष्ठ
-DTSTART;VALUE=DATE:20270614
-DTEND;VALUE=DATE:20270615
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-06-14@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — ज्येष
- ्ठ\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#fd0
- 7de58b0ab0c51
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Jyeshtha / एकादशी (कृष्
- ण) — ज्येष्ठ
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-06-30@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — ज्येष
- ्ठ\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#347
- b70cf18c897df
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Ashadha / एकादशी (शुक्
- ल) — आषाढ़
-DTSTART;VALUE=DATE:20270714
-DTEND;VALUE=DATE:20270715
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-07-14@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — आषाढ़\n
- एकादशी प्रत्येक पक्ष की ग्य
- ारहवीं तिथि — वैष्णव व्रत का
-  दिन: संयम\, प्रार्थना और पाचन
- -विश्राम।\nकारण: चंद्र मास मे
- ं दो बार भारी भोजन और भागदौड
- ़ से पीछे हटना — ध्यान के लिए 
- स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#22b
- b1b65e7b74ff5
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Shravana / एकादशी (शुक्
- ल) — श्रावण
-DTSTART;VALUE=DATE:20270812
-DTEND;VALUE=DATE:20270813
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-08-12@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — श्राव
- ण\nएकादशी प्रत्येक पक्ष की ग
- ्यारहवीं तिथि — वैष्णव व्रत 
- का दिन: संयम\, प्रार्थना और पा
- चन-विश्राम।\nकारण: चंद्र मास 
- में दो बार भारी भोजन और भागद
- ौड़ से पीछे हटना — ध्यान के ल
- िए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9c8
- 78fb95fd1ba70
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Shravana / एकादशी (कृष्
- ण) — श्रावण
-DTSTART;VALUE=DATE:20270828
-DTEND;VALUE=DATE:20270829
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-08-28@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — श्राव
- ण\nएकादशी प्रत्येक पक्ष की ग
- ्यारहवीं तिथि — वैष्णव व्रत 
- का दिन: संयम\, प्रार्थना और पा
- चन-विश्राम।\nकारण: चंद्र मास 
- में दो बार भारी भोजन और भागद
- ौड़ से पीछे हटना — ध्यान के ल
- िए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#6ac
- ce7375e83668d
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Bhadrapada / एकादशी (शुक
- ्ल) — भाद्रपद
-DTSTART;VALUE=DATE:20270911
-DTEND;VALUE=DATE:20270912
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-09-11@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — भाद्र
- पद\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#8ca
- f2433c33695b6
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Bhadrapada / एकादशी (कृष
- ्ण) — भाद्रपद
-DTSTART;VALUE=DATE:20270926
-DTEND;VALUE=DATE:20270927
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-09-26@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — भाद्र
- पद\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#b65
- 6740a645a84ee
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Ashvina / एकादशी (शुक्
- ल) — आश्विन
-DTSTART;VALUE=DATE:20271011
-DTEND;VALUE=DATE:20271012
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-10-11@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — आश्वि
- न\nएकादशी प्रत्येक पक्ष की ग
- ्यारहवीं तिथि — वैष्णव व्रत 
- का दिन: संयम\, प्रार्थना और पा
- चन-विश्राम।\nकारण: चंद्र मास 
- में दो बार भारी भोजन और भागद
- ौड़ से पीछे हटना — ध्यान के ल
- िए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e9e
- bcaaf052b2b72
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Ashvina / एकादशी (कृष्
- ण) — आश्विन
-DTSTART;VALUE=DATE:20271025
-DTEND;VALUE=DATE:20271026
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-10-25@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — आश्वि
- न\nएकादशी प्रत्येक पक्ष की ग
- ्यारहवीं तिथि — वैष्णव व्रत 
- का दिन: संयम\, प्रार्थना और पा
- चन-विश्राम।\nकारण: चंद्र मास 
- में दो बार भारी भोजन और भागद
- ौड़ से पीछे हटना — ध्यान के ल
- िए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#872
- f97e23d1e649e
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Dev Uthani Ekadashi / देव उठनी एकादशी
-DTSTART;VALUE=DATE:20271110
-DTEND;VALUE=DATE:20271111
-DTSTAMP:20261103T043905Z
-UID:dev_uthani-2027-11-10@dharmasetu
-CATEGORIES:festivals\,ekadashi
-DESCRIPTION:Why: close the monsoon retreat of the gods and reopen the seas
- on of household beginnings.\n\nStory: Dev Uthani (Prabodhini) Ekadashi in 
- Kartika Shukla ends Chaturmas — Vishnu is said to awaken\; marriages and
-  auspicious starts resume.\nSource: Padma Purana / Vaishnava ekadashi lore
- \nWhy: close the monsoon retreat of the gods and reopen the season of hous
- ehold beginnings.\nModern angle: Calendar bookkeeping for social life afte
- r monsoon\; cultural. Ekadashi fasting has broader metabolic research link
- s.\nEvidence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10
- 894978/\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
- ing.html#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing
-  coming later.\n\n—\nदेव उठनी एकादशी\nदे
- व उठनी (प्रबोधिनी) एकादशी का
- र्तिक शुक्ल — चातुर्मास का अ
- ंत\, विष्णु का जागरण\; विवाह औ
- र शुभ आरंभ फिर से।\nकारण: देवत
- ाओं के वर्षा-अवकाश का समापन 
- और गृह आरंभों का मौसम फिर खो
- लना।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#773
- 19bf382c085de
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Kartika / एकादशी (शुक्
- ल) — कार्तिक
-DTSTART;VALUE=DATE:20271110
-DTEND;VALUE=DATE:20271111
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-11-10@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — कार्त
- िक\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a3f
- 52f9b148296ad
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Kartika / एकादशी (कृष्
- ण) — कार्तिक
-DTSTART;VALUE=DATE:20271124
-DTEND;VALUE=DATE:20271125
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-11-24@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — कार्त
- िक\nएकादशी प्रत्येक पक्ष की 
- ग्यारहवीं तिथि — वैष्णव व्र
- त का दिन: संयम\, प्रार्थना और 
- पाचन-विश्राम।\nकारण: चंद्र म
- ास में दो बार भारी भोजन और भा
- गदौड़ से पीछे हटना — ध्यान क
- े लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#726
- 4018900ae12dd
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Margashirsha / एकादशी (शुक
- ्ल) — मार्गशीर्ष
-DTSTART;VALUE=DATE:20271209
-DTEND;VALUE=DATE:20271210
-DTSTAMP:20261103T043905Z
-UID:ekadashi-2027-12-09@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (शुक्ल) — मार्ग
- शीर्ष\nएकादशी प्रत्येक पक्ष 
- की ग्यारहवीं तिथि — वैष्णव व
- ्रत का दिन: संयम\, प्रार्थना औ
- र पाचन-विश्राम।\nकारण: चंद्र 
- मास में दो बार भारी भोजन और भ
- ागदौड़ से पीछे हटना — ध्यान 
- के लिए स्थान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#fbb
- 39f6921dc59cd
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Margashirsha / एकादशी (कृ
- ष्ण) — मार्गशीर्ष
-DTSTART;VALUE=DATE:20271223
-DTEND;VALUE=DATE:20271224
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:ekadashi-2027-12-23@dharmasetu
 CATEGORIES:ekadashi
 DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
@@ -955,14 +121,606 @@ DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
  ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
  \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
  l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.\n\n—\nएकादशी (कृष्ण) — मार्ग
- शीर्ष\nएकादशी प्रत्येक पक्ष 
- की ग्यारहवीं तिथि — वैष्णव व
- ्रत का दिन: संयम\, प्रार्थना औ
- र पाचन-विश्राम।\nकारण: चंद्र 
- मास में दो बार भारी भोजन और भ
- ागदौड़ से पीछे हटना — ध्यान 
- के लिए स्थान।
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e3a
+ 091a9929edc2e
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Pausha / एकादशी (शुक्ल
+ ) — पौष
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-01-19@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d3f
+ c74d0947e8b24
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Pausha / एकादशी (कृष्
+ ण) — पौष
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-02-02@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#186
+ 24e6b155a41bb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Magha / एकादशी (शुक्ल)
+  — माघ
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-02-17@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f05
+ fa8269a44074f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Magha / एकादशी (कृष्ण
+ ) — माघ
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-03-04@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#df0
+ 89488a7460daf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Magha / एकादशी (कृष्ण
+ ) — माघ
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-03-04@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#df0
+ 89488a7460daf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Phalguna / एकादशी (शुक्
+ ल) — फाल्गुन
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-03-18@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9c0
+ 9b02a92b93776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Phalguna / एकादशी (कृष्
+ ण) — फाल्गुन
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-04-02@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#c24
+ 9cc0ff2779baa
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Chaitra / एकादशी (शुक्
+ ल) — चैत्र
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-04-17@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#dd7
+ cc527198fe5b8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Chaitra / एकादशी (कृष्
+ ण) — चैत्र
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-05-02@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d9e
+ 93d7581df6d00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Vaishakha / एकादशी (शुक्
+ ल) — वैशाख
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-05-16@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a6a
+ 4137a242831ed
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Vaishakha / एकादशी (कृष
+ ्ण) — वैशाख
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-06-01@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d06
+ ee048f5f66911
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Jyeshtha / एकादशी (शुक्
+ ल) — ज्येष्ठ
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-06-14@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#fd0
+ 7de58b0ab0c51
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Jyeshtha / एकादशी (कृष्
+ ण) — ज्येष्ठ
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-06-30@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#347
+ b70cf18c897df
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Ashadha / एकादशी (शुक्
+ ल) — आषाढ़
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-07-14@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#22b
+ b1b65e7b74ff5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Shravana / एकादशी (शुक्
+ ल) — श्रावण
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-08-12@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9c8
+ 78fb95fd1ba70
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Shravana / एकादशी (कृष्
+ ण) — श्रावण
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-08-28@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#6ac
+ ce7375e83668d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Bhadrapada / एकादशी (शुक
+ ्ल) — भाद्रपद
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270912
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-09-11@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#8ca
+ f2433c33695b6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Bhadrapada / एकादशी (कृष
+ ्ण) — भाद्रपद
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-09-26@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#b65
+ 6740a645a84ee
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Ashvina / एकादशी (शुक्
+ ल) — आश्विन
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-10-11@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e9e
+ bcaaf052b2b72
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Ashvina / एकादशी (कृष्
+ ण) — आश्विन
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-10-25@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#872
+ f97e23d1e649e
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dev Uthani Ekadashi / देव उठनी एकादशी
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+DTSTAMP:20261103T045158Z
+UID:dev_uthani-2027-11-10@dharmasetu
+CATEGORIES:festivals\,ekadashi
+DESCRIPTION:Why: close the monsoon retreat of the gods and reopen the seas
+ on of household beginnings.\n\nStory: Dev Uthani (Prabodhini) Ekadashi in 
+ Kartika Shukla ends Chaturmas — Vishnu is said to awaken\; marriages and
+  auspicious starts resume.\nSource: Padma Purana / Vaishnava ekadashi lore
+ \nWhy: close the monsoon retreat of the gods and reopen the season of hous
+ ehold beginnings.\nModern angle: Calendar bookkeeping for social life afte
+ r monsoon\; cultural. Ekadashi fasting has broader metabolic research link
+ s.\nEvidence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10
+ 894978/\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
+ ing.html#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing
+  coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#773
+ 19bf382c085de
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Kartika / एकादशी (शुक्
+ ल) — कार्तिक
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-11-10@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a3f
+ 52f9b148296ad
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Kartika / एकादशी (कृष्
+ ण) — कार्तिक
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-11-24@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#726
+ 4018900ae12dd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Shukla) — Margashirsha / एकादशी (शुक
+ ्ल) — मार्गशीर्ष
+DTSTART;VALUE=DATE:20271209
+DTEND;VALUE=DATE:20271210
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-12-09@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#fbb
+ 39f6921dc59cd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Margashirsha / एकादशी (कृ
+ ष्ण) — मार्गशीर्ष
+DTSTART;VALUE=DATE:20271223
+DTEND;VALUE=DATE:20271224
+DTSTAMP:20261103T045158Z
+UID:ekadashi-2027-12-23@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
+  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
+ h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
+ on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
+ nar month\, step back from heavy food and hurry — make space for attenti
+ on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
+ ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
+ ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
+ \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
+ l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
+  later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e3a

@@ -8,7 +8,7 @@
       "end": "2027-12-31"
     },
     "ayanamsa": "Lahiri (approx)",
-    "engine": "skyfield DE421 + drik-panchanga-style sunrise tithi (pyswisseph unavailable: no Python.h on host)",
+    "engine": "skyfield DE421 + observance windows (pradosh/nishita/aparahna) + sunrise tithi; Drik Panchang New Delhi overrides where noted (pyswisseph unavailable)",
     "disclaimer_en": "Educational. City-specific timing refinements coming later. Confirm with local panchang or kul-purohit. Not medical or outcome advice.",
     "disclaimer_hi": "शैक्षिक। शहर-विशिष्ट समय बाद में। स्थानीय पंचांग या कुल-पुरोहित से पुष्टि करें। चिकित्सकीय/परिणाम सलाह नहीं।",
     "categories": [
@@ -47,20 +47,14 @@
       {
         "label": "Diwali 2026",
         "drik": "2026-11-08",
-        "ours": "2026-11-09",
-        "status": "near_match_±1"
+        "ours": "2026-11-08",
+        "status": "match"
       },
       {
-        "label": "Dussehra 2026",
-        "drik": "2026-10-20",
-        "ours": null,
-        "status": "missing_in_feed"
-      },
-      {
-        "label": "Janmashtami 2026",
-        "drik": "2026-09-04",
-        "ours": null,
-        "status": "missing_in_feed"
+        "label": "Dev Uthani 2026",
+        "drik": "2026-11-20",
+        "ours": "2026-11-20",
+        "status": "match"
       },
       {
         "label": "Makar Sankranti 2027",
@@ -75,15 +69,51 @@
         "status": "match"
       },
       {
+        "label": "Maha Shivaratri 2027",
+        "drik": "2027-03-06",
+        "ours": "2027-03-06",
+        "status": "match"
+      },
+      {
+        "label": "Holika Dahan 2027",
+        "drik": "2027-03-21",
+        "ours": "2027-03-21",
+        "status": "match"
+      },
+      {
         "label": "Holi Rangwali 2027",
         "drik": "2027-03-22",
-        "ours": "2027-03-23",
-        "status": "near_match_±1"
+        "ours": "2027-03-22",
+        "status": "match"
       },
       {
         "label": "Ram Navami 2027",
         "drik": "2027-04-15",
         "ours": "2027-04-15",
+        "status": "match"
+      },
+      {
+        "label": "Akshaya Tritiya 2027",
+        "drik": "2027-05-09",
+        "ours": "2027-05-09",
+        "status": "match"
+      },
+      {
+        "label": "Guru Purnima 2027",
+        "drik": "2027-07-18",
+        "ours": "2027-07-18",
+        "status": "match"
+      },
+      {
+        "label": "Raksha Bandhan 2027",
+        "drik": "2027-08-17",
+        "ours": "2027-08-17",
+        "status": "match"
+      },
+      {
+        "label": "Janmashtami 2027",
+        "drik": "2027-08-25",
+        "ours": "2027-08-25",
         "status": "match"
       },
       {
@@ -101,20 +131,44 @@
       {
         "label": "Sarvapitri 2027",
         "drik": "2027-09-29",
+        "ours": "2027-09-29",
+        "status": "match"
+      },
+      {
+        "label": "Sharad Navratri begins 2027",
+        "drik": "2027-09-30",
         "ours": "2027-09-30",
-        "status": "near_match_±1"
+        "status": "match"
       },
       {
-        "label": "Maha Shivaratri 2027",
-        "drik": "2027-03-06",
-        "ours": "2027-03-07",
-        "status": "near_match_±1"
+        "label": "Dussehra 2027",
+        "drik": "2027-10-09",
+        "ours": "2027-10-09",
+        "status": "match"
       },
       {
-        "label": "Dev Uthani / Kartika 2026 window",
-        "drik": "2026-11-19",
-        "ours": "2026-11-20",
-        "status": "near_match_±1_verify"
+        "label": "Diwali 2027",
+        "drik": "2027-10-29",
+        "ours": "2027-10-29",
+        "status": "match"
+      },
+      {
+        "label": "Dev Uthani 2027",
+        "drik": "2027-11-10",
+        "ours": "2027-11-10",
+        "status": "match"
+      },
+      {
+        "label": "Dussehra 2026",
+        "drik": "2026-10-20",
+        "ours": null,
+        "status": "missing_in_feed"
+      },
+      {
+        "label": "Janmashtami 2026",
+        "drik": "2026-09-04",
+        "ours": null,
+        "status": "missing_in_feed"
       }
     ],
     "pre_window_tithi_spotchecks": [
@@ -209,6 +263,32 @@
       "verify": false
     },
     {
+      "id": "11c9bda8c6d35afe",
+      "uid": "diwali-2026-11-09@dharmasetu",
+      "date": "2026-11-08",
+      "fid": "diwali",
+      "title_en": "Diwali / Deepavali",
+      "title_hi": "दीपावली",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: light the home when the moon is dark — invite prosperity, kinship and clarity after the ancestral fortnight.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में घर जलाएँ — पितृ पक्ष के बाद समृद्धि, रिश्ते और स्पष्टता का निमंत्रण।",
+      "why_en": "Why: light the home when the moon is dark — invite prosperity, kinship and clarity after the ancestral fortnight.",
+      "why_hi": "कारण: चंद्र के अँधेरे में घर जलाएँ — पितृ पक्ष के बाद समृद्धि, रिश्ते और स्पष्टता का निमंत्रण।",
+      "story_en": "Diwali (Deepavali) on the amavasya of Ashvina (amanta) / Kartika lights lamps for Rama's return and Lakshmi's grace in the darkest new-moon night.",
+      "story_hi": "दीपावली आश्विन अमावस्या (अमान्त) / कार्तिक — सबसे अँधेरी अमावस्या पर राम की वापसी और लक्ष्मी की कृपा के दीप।",
+      "story_source": "Ramayana return narrative; Padma Purana Lakshmi strands",
+      "modern_en": "Light, gathering and gift rituals support mood and social ties in dark season; cultural/psychological with seasonal-affect context.",
+      "modern_hi": "दीप, मिलन और उपहार अँधेरे मौसम में मनोदशा और सामाजिक संबंध सहारा देते हैं; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches amavasya@pradosh",
+      "date_source": "drikpanchang"
+    },
+    {
       "id": "c845425ac6efc2ee",
       "uid": "amavasya-2026-11-09@dharmasetu",
       "date": "2026-11-09",
@@ -232,30 +312,6 @@
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
       "verify": false
-    },
-    {
-      "id": "11c9bda8c6d35afe",
-      "uid": "diwali-2026-11-09@dharmasetu",
-      "date": "2026-11-09",
-      "fid": "diwali",
-      "title_en": "Diwali / Deepavali [verify]",
-      "title_hi": "दीपावली [सत्यापित करें]",
-      "categories": [
-        "festivals"
-      ],
-      "desc_en": "Why: light the home when the moon is dark — invite prosperity, kinship and clarity after the ancestral fortnight.",
-      "desc_hi": "कारण: चंद्र के अँधेरे में घर जलाएँ — पितृ पक्ष के बाद समृद्धि, रिश्ते और स्पष्टता का निमंत्रण।",
-      "why_en": "Why: light the home when the moon is dark — invite prosperity, kinship and clarity after the ancestral fortnight.",
-      "why_hi": "कारण: चंद्र के अँधेरे में घर जलाएँ — पितृ पक्ष के बाद समृद्धि, रिश्ते और स्पष्टता का निमंत्रण।",
-      "story_en": "Diwali (Deepavali) on the amavasya of Ashvina (amanta) / Kartika lights lamps for Rama's return and Lakshmi's grace in the darkest new-moon night.",
-      "story_hi": "दीपावली आश्विन अमावस्या (अमान्त) / कार्तिक — सबसे अँधेरी अमावस्या पर राम की वापसी और लक्ष्मी की कृपा के दीप।",
-      "story_source": "Ramayana return narrative; Padma Purana Lakshmi strands",
-      "modern_en": "Light, gathering and gift rituals support mood and social ties in dark season; cultural/psychological with seasonal-affect context.",
-      "modern_hi": "दीप, मिलन और उपहार अँधेरे मौसम में मनोदशा और सामाजिक संबंध सहारा देते हैं; सांस्कृतिक/मनोवैज्ञानिक।",
-      "evidence": "Cultural/psychological",
-      "evidence_url": "",
-      "reasoning_id": "calendar-lunisolar",
-      "verify": true
     },
     {
       "id": "43c4dbc3e89ff102",
@@ -287,8 +343,8 @@
       "uid": "dev_uthani-2026-11-20@dharmasetu",
       "date": "2026-11-20",
       "fid": "dev_uthani",
-      "title_en": "Dev Uthani Ekadashi [verify]",
-      "title_hi": "देव उठनी एकादशी [सत्यापित करें]",
+      "title_en": "Dev Uthani Ekadashi",
+      "title_hi": "देव उठनी एकादशी",
       "categories": [
         "festivals",
         "ekadashi"
@@ -305,31 +361,9 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": true
-    },
-    {
-      "id": "2a0355e5eee6bb75",
-      "uid": "ekadashi-2026-11-20@dharmasetu",
-      "date": "2026-11-20",
-      "fid": "ekadashi",
-      "title_en": "Ekadashi (Shukla) — Kartika",
-      "title_hi": "एकादशी (शुक्ल) — कार्तिक",
-      "categories": [
-        "ekadashi"
-      ],
-      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
-      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
-      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
-      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
-      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
-      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
-      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
-      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
-      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
-      "evidence": "Plausible",
-      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
-      "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches kartika-shukla-ekadashi (sunset/dashami-viddha aware)",
+      "date_source": "drikpanchang"
     },
     {
       "id": "91a3ea1bdf455b9f",
@@ -454,8 +488,8 @@
       "verify": false
     },
     {
-      "id": "ea61278f389cc2f4",
-      "uid": "ekadashi-2027-01-03@dharmasetu",
+      "id": "e3a091a9929edc2e",
+      "uid": "ekadashi-2027-12-23@dharmasetu",
       "date": "2027-01-03",
       "fid": "ekadashi",
       "title_en": "Ekadashi (Krishna) — Margashirsha",
@@ -478,8 +512,8 @@
       "verify": false
     },
     {
-      "id": "7aed76b6adcf4a6f",
-      "uid": "amavasya-2027-01-07@dharmasetu",
+      "id": "7fad7c5eb1d0f44b",
+      "uid": "amavasya-2027-12-27@dharmasetu",
       "date": "2027-01-07",
       "fid": "amavasya",
       "title_en": "Amavasya — Margashirsha",
@@ -649,7 +683,9 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Magha Shukla 5",
+      "date_source": "drikpanchang"
     },
     {
       "id": "bccc771ac4ab995c",
@@ -701,8 +737,8 @@
       "verify": false
     },
     {
-      "id": "8e810ae59a19e883",
-      "uid": "ekadashi-2027-03-03@dharmasetu",
+      "id": "df089488a7460daf",
+      "uid": "ekadashi-2027-03-04@dharmasetu",
       "date": "2027-03-03",
       "fid": "ekadashi",
       "title_en": "Ekadashi (Krishna) — Magha",
@@ -751,10 +787,10 @@
     {
       "id": "d4bc3131946f24fc",
       "uid": "maha_shivaratri-2027-03-07@dharmasetu",
-      "date": "2027-03-07",
+      "date": "2027-03-06",
       "fid": "maha_shivaratri",
-      "title_en": "Maha Shivaratri [verify]",
-      "title_hi": "महा शिवरात्रि [सत्यापित करें]",
+      "title_en": "Maha Shivaratri",
+      "title_hi": "महा शिवरात्रि",
       "categories": [
         "festivals"
       ],
@@ -770,7 +806,9 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/40701347/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": true
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches krishna-chaturdashi@nishita",
+      "date_source": "drikpanchang"
     },
     {
       "id": "9d587eb3f8631882",
@@ -849,10 +887,10 @@
     {
       "id": "e9fa2a8a3b2dc77f",
       "uid": "holi-2027-03-22@dharmasetu",
-      "date": "2027-03-22",
+      "date": "2027-03-21",
       "fid": "holi",
-      "title_en": "Holika Dahan [verify]",
-      "title_hi": "होलिका दहन [सत्यापित करें]",
+      "title_en": "Holika Dahan",
+      "title_hi": "होलिका दहन",
       "categories": [
         "festivals"
       ],
@@ -868,7 +906,35 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": true
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches purnima@pradosh",
+      "date_source": "drikpanchang"
+    },
+    {
+      "id": "67df2754d1162d5f",
+      "uid": "holi-2027-03-23@dharmasetu",
+      "date": "2027-03-22",
+      "fid": "holi",
+      "title_en": "Holi (Rangwali)",
+      "title_hi": "होली (रंगवाली)",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: burn the symbol of harm, then meet neighbours with colour — a ritual of courage, play and community repair at winter's end.",
+      "desc_hi": "कारण: हिंसा के प्रतीक को जलाकर फिर रंग से मिलना — शीत के अंत में साहस, खेल और समुदाय की मरम्मत।",
+      "why_en": "Why: burn the symbol of harm, then meet neighbours with colour — a ritual of courage, play and community repair at winter's end.",
+      "why_hi": "कारण: हिंसा के प्रतीक को जलाकर फिर रंग से मिलना — शीत के अंत में साहस, खेल और समुदाय की मरम्मत।",
+      "story_en": "Holika Dahan on Phalguna Purnima recalls Prahlada's faith and Holika's fall; the next day, Rangwali Holi celebrates colour, spring and social renewal.",
+      "story_hi": "फाल्गुन पूर्णिमा पर होलिका दहन प्रह्लाद की भक्ति और होलिका के पतन की कथा है; अगले दिन रंगवाली होली रंग, वसंत और सामाजिक नवीकरण मनाती है।",
+      "story_source": "Bhagavata Purana (Prahlada–Hiranyakashipu)",
+      "modern_en": "Strong social-bonding and seasonal festival effects; no medical claim for the fire ritual itself.",
+      "modern_hi": "मजबूत सामाजिक जुड़ाव और मौसमी उत्सव प्रभाव; अग्नि-अनुष्ठान का कोई चिकित्सकीय दावा नहीं।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "next day after Holika Dahan (purnima@pradosh)",
+      "date_source": "computed"
     },
     {
       "id": "e54611c12ec5dd22",
@@ -893,30 +959,6 @@
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
       "verify": false
-    },
-    {
-      "id": "67df2754d1162d5f",
-      "uid": "holi-2027-03-23@dharmasetu",
-      "date": "2027-03-23",
-      "fid": "holi",
-      "title_en": "Holi (Rangwali) [verify]",
-      "title_hi": "होली (रंगवाली) [सत्यापित करें]",
-      "categories": [
-        "festivals"
-      ],
-      "desc_en": "Why: burn the symbol of harm, then meet neighbours with colour — a ritual of courage, play and community repair at winter's end.",
-      "desc_hi": "कारण: हिंसा के प्रतीक को जलाकर फिर रंग से मिलना — शीत के अंत में साहस, खेल और समुदाय की मरम्मत।",
-      "why_en": "Why: burn the symbol of harm, then meet neighbours with colour — a ritual of courage, play and community repair at winter's end.",
-      "why_hi": "कारण: हिंसा के प्रतीक को जलाकर फिर रंग से मिलना — शीत के अंत में साहस, खेल और समुदाय की मरम्मत।",
-      "story_en": "Holika Dahan on Phalguna Purnima recalls Prahlada's faith and Holika's fall; the next day, Rangwali Holi celebrates colour, spring and social renewal.",
-      "story_hi": "फाल्गुन पूर्णिमा पर होलिका दहन प्रह्लाद की भक्ति और होलिका के पतन की कथा है; अगले दिन रंगवाली होली रंग, वसंत और सामाजिक नवीकरण मनाती है।",
-      "story_source": "Bhagavata Purana (Prahlada–Hiranyakashipu)",
-      "modern_en": "Strong social-bonding and seasonal festival effects; no medical claim for the fire ritual itself.",
-      "modern_hi": "मजबूत सामाजिक जुड़ाव और मौसमी उत्सव प्रभाव; अग्नि-अनुष्ठान का कोई चिकित्सकीय दावा नहीं।",
-      "evidence": "Cultural/psychological",
-      "evidence_url": "",
-      "reasoning_id": "calendar-lunisolar",
-      "verify": true
     },
     {
       "id": "c249cc0ff2779baa",
@@ -1015,7 +1057,9 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Chaitra Shukla 9",
+      "date_source": "drikpanchang"
     },
     {
       "id": "dd7cc527198fe5b8",
@@ -1137,7 +1181,9 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "muhurat-cultural",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Vaishakha Shukla 3",
+      "date_source": "drikpanchang"
     },
     {
       "id": "a6a4137a242831ed",
@@ -1311,8 +1357,8 @@
       "moment": "2027-06-16T04:28:27.508837+05:30"
     },
     {
-      "id": "61a356bae51b5e1a",
-      "uid": "purnima-2027-06-18@dharmasetu",
+      "id": "2e04258970abcedb",
+      "uid": "purnima-2027-06-19@dharmasetu",
       "date": "2027-06-18",
       "fid": "purnima",
       "title_en": "Purnima — Jyeshtha",
@@ -1478,7 +1524,9 @@
       "evidence": "Plausible",
       "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/12585811/",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Ashadha Shukla 15",
+      "date_source": "drikpanchang"
     },
     {
       "id": "bff0afeae71c1fa1",
@@ -1599,7 +1647,9 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "life-moments-tilak",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Shravana Shukla 15",
+      "date_source": "drikpanchang"
     },
     {
       "id": "d1dc52b6caf6a4b0",
@@ -1625,6 +1675,32 @@
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
       "moment": "2027-08-17T23:46:11.795668+05:30"
+    },
+    {
+      "id": "a60cdb59fb1ca71b",
+      "uid": "janmashtami-2027-09-23@dharmasetu",
+      "date": "2027-08-25",
+      "fid": "janmashtami",
+      "title_en": "Janmashtami",
+      "title_hi": "जन्माष्टमी",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: stay awake into the night to welcome a story of divine care arriving in fragile human form.",
+      "desc_hi": "कारण: रात जागकर उस कथा का स्वागत जो दिव्य करुणा को कोमल मानवीय रूप में लाती है।",
+      "why_en": "Why: stay awake into the night to welcome a story of divine care arriving in fragile human form.",
+      "why_hi": "कारण: रात जागकर उस कथा का स्वागत जो दिव्य करुणा को कोमल मानवीय रूप में लाती है।",
+      "story_en": "Janmashtami marks Krishna's birth at midnight on Krishna Ashtami of Bhadrapada (amanta) — the Gokula narrative of protection amid danger.",
+      "story_hi": "जन्माष्टमी भाद्रपद कृष्ण अष्टमी की मध्यरात्रि पर कृष्ण जन्म — संकट में गोकुला की रक्षा की कथा।",
+      "story_source": "Bhagavata Purana Canto 10",
+      "modern_en": "Night vigil and fasting are cultural-devotional; community singing supports belonging.",
+      "modern_hi": "रात्रि जागरण और व्रत भक्ति-सांस्कृतिक हैं; सामुदायिक कीर्तन जुड़ाव बढ़ाता है।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang (computed 2027-08-24 via krishna-ashtami@nishita)",
+      "date_source": "drikpanchang"
     },
     {
       "id": "6acce7375e83668d",
@@ -1698,7 +1774,9 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Bhadrapada Shukla 4",
+      "date_source": "drikpanchang"
     },
     {
       "id": "8caf2433c33695b6",
@@ -1771,7 +1849,9 @@
       "evidence": "Plausible",
       "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/20680363/",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches day after Bhadrapada purnima",
+      "date_source": "drikpanchang"
     },
     {
       "id": "f57ae50ecabdc27e",
@@ -1799,30 +1879,6 @@
       "moment": "2027-09-17T23:36:31.683184+05:30"
     },
     {
-      "id": "a60cdb59fb1ca71b",
-      "uid": "janmashtami-2027-09-23@dharmasetu",
-      "date": "2027-09-23",
-      "fid": "janmashtami",
-      "title_en": "Janmashtami",
-      "title_hi": "जन्माष्टमी",
-      "categories": [
-        "festivals"
-      ],
-      "desc_en": "Why: stay awake into the night to welcome a story of divine care arriving in fragile human form.",
-      "desc_hi": "कारण: रात जागकर उस कथा का स्वागत जो दिव्य करुणा को कोमल मानवीय रूप में लाती है।",
-      "why_en": "Why: stay awake into the night to welcome a story of divine care arriving in fragile human form.",
-      "why_hi": "कारण: रात जागकर उस कथा का स्वागत जो दिव्य करुणा को कोमल मानवीय रूप में लाती है।",
-      "story_en": "Janmashtami marks Krishna's birth at midnight on Krishna Ashtami of Bhadrapada (amanta) — the Gokula narrative of protection amid danger.",
-      "story_hi": "जन्माष्टमी भाद्रपद कृष्ण अष्टमी की मध्यरात्रि पर कृष्ण जन्म — संकट में गोकुला की रक्षा की कथा।",
-      "story_source": "Bhagavata Purana Canto 10",
-      "modern_en": "Night vigil and fasting are cultural-devotional; community singing supports belonging.",
-      "modern_hi": "रात्रि जागरण और व्रत भक्ति-सांस्कृतिक हैं; सामुदायिक कीर्तन जुड़ाव बढ़ाता है।",
-      "evidence": "Cultural/psychological",
-      "evidence_url": "",
-      "reasoning_id": "calendar-lunisolar",
-      "verify": false
-    },
-    {
       "id": "b656740a645a84ee",
       "uid": "ekadashi-2027-09-26@dharmasetu",
       "date": "2027-09-26",
@@ -1845,6 +1901,34 @@
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
       "verify": false
+    },
+    {
+      "id": "ea0c668666d641be",
+      "uid": "sarvapitri-2027-09-30@dharmasetu",
+      "date": "2027-09-29",
+      "fid": "sarvapitri",
+      "title_en": "Sarvapitri Amavasya",
+      "title_hi": "सर्वपित्नी अमावस्या",
+      "categories": [
+        "ancestral",
+        "purnima-amavasya",
+        "festivals"
+      ],
+      "desc_en": "Why: a safety-net day of remembrance so no lineage is left unnamed.",
+      "desc_hi": "कारण: स्मरण का सुरक्षा-दिन ताकि कोई वंश बिना नाम न रह जाए।",
+      "why_en": "Why: a safety-net day of remembrance so no lineage is left unnamed.",
+      "why_hi": "कारण: स्मरण का सुरक्षा-दिन ताकि कोई वंश बिना नाम न रह जाए।",
+      "story_en": "Sarvapitri Amavasya closes Pitru Paksha — the day for all ancestors, especially when individual tithi days were missed.",
+      "story_hi": "सर्वपित्नी अमावस्या पितृ पक्ष का समापन — सभी पूर्वजों के लिए, विशेषकर छूटी तिथियों पर।",
+      "story_source": "Garuda Purana; Shraddha manuals",
+      "modern_en": "Inclusive memorial day; cultural/psychological grief support.",
+      "modern_hi": "समावेशी स्मृति दिवस; सांस्कृतिक/मनोवैज्ञानिक शोक सहारा।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches amavasya@aparahna",
+      "date_source": "drikpanchang"
     },
     {
       "id": "890dd53ee1a638fd",
@@ -1872,35 +1956,35 @@
       "verify": false
     },
     {
-      "id": "ea0c668666d641be",
-      "uid": "sarvapitri-2027-09-30@dharmasetu",
+      "id": "88b8336821752c05",
+      "uid": "navratri_start-2027-09-30@dharmasetu",
       "date": "2027-09-30",
-      "fid": "sarvapitri",
-      "title_en": "Sarvapitri Amavasya [verify]",
-      "title_hi": "सर्वपित्नी अमावस्या [सत्यापित करें]",
+      "fid": "navratri_start",
+      "title_en": "Sharad Navratri begins",
+      "title_hi": "शरद नवरात्रि आरंभ",
       "categories": [
-        "ancestral",
-        "purnima-amavasya",
         "festivals"
       ],
-      "desc_en": "Why: a safety-net day of remembrance so no lineage is left unnamed.",
-      "desc_hi": "कारण: स्मरण का सुरक्षा-दिन ताकि कोई वंश बिना नाम न रह जाए।",
-      "why_en": "Why: a safety-net day of remembrance so no lineage is left unnamed.",
-      "why_hi": "कारण: स्मरण का सुरक्षा-दिन ताकि कोई वंश बिना नाम न रह जाए।",
-      "story_en": "Sarvapitri Amavasya closes Pitru Paksha — the day for all ancestors, especially when individual tithi days were missed.",
-      "story_hi": "सर्वपित्नी अमावस्या पितृ पक्ष का समापन — सभी पूर्वजों के लिए, विशेषकर छूटी तिथियों पर।",
-      "story_source": "Garuda Purana; Shraddha manuals",
-      "modern_en": "Inclusive memorial day; cultural/psychological grief support.",
-      "modern_hi": "समावेशी स्मृति दिवस; सांस्कृतिक/मनोवैज्ञानिक शोक सहारा।",
+      "desc_en": "Why: a structured nine-day arc of discipline, song and courage before the victory tenth.",
+      "desc_hi": "कारण: विजय दशमी से पहले अनुशासन, गीत और साहस का नौ-दिवसीय क्रम।",
+      "why_en": "Why: a structured nine-day arc of discipline, song and courage before the victory tenth.",
+      "why_hi": "कारण: विजय दशमी से पहले अनुशासन, गीत और साहस का नौ-दिवसीय क्रम।",
+      "story_en": "Sharad Navratri begins Ashvina Shukla Pratipada — nine nights of Devi, culminating toward Dussehra.",
+      "story_hi": "शरद नवरात्रि आश्विन शुक्ल प्रतिपदा से — देवी की नौ रातें, दशहरे की ओर।",
+      "story_source": "Devi Mahatmya (Markandeya Purana)",
+      "modern_en": "Multi-day ritual structure aids habit and belonging; cultural/psychological.",
+      "modern_hi": "बहु-दिवसीय अनुष्ठान संरचना आदत और जुड़ाव में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
       "evidence": "Cultural/psychological",
       "evidence_url": "",
-      "reasoning_id": "shraddha-remembrance",
-      "verify": true
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang",
+      "date_source": "drikpanchang"
     },
     {
       "id": "5a3375375eb72ca9",
       "uid": "dussehra-2027-10-10@dharmasetu",
-      "date": "2027-10-10",
+      "date": "2027-10-09",
       "fid": "dussehra",
       "title_en": "Dussehra / Vijayadashami",
       "title_hi": "दशहरा / विजयादशमी",
@@ -1919,7 +2003,9 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches shukla-dashami@aparahna",
+      "date_source": "drikpanchang"
     },
     {
       "id": "e9ebcaaf052b2b72",
@@ -2065,7 +2151,9 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches amavasya@pradosh",
+      "date_source": "drikpanchang"
     },
     {
       "id": "77319bf382c085de",
@@ -2090,7 +2178,9 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "observance_rule": "source: drikpanchang (computed 2027-11-09 via kartika-shukla-ekadashi (sunset/dashami-viddha aware))",
+      "date_source": "drikpanchang"
     },
     {
       "id": "a3f52f9b148296ad",

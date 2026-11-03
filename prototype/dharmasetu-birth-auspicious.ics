@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//DharmaSetu//Vedic Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational.
+X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational. 
 X-WR-CALNAME:DharmaSetu — Birth-related auspicious days
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:Makar Sankranti / मकर संक्रांति
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:makar_sankranti-2027-01-15@dharmasetu
 CATEGORIES:festivals\,sankranti\,birth-auspicious
 DESCRIPTION:Why: solar astronomy made visible as a festival of harvest\, c
@@ -26,15 +26,7 @@ DESCRIPTION:Why: solar astronomy made visible as a festival of harvest\, c
  e northern hemisphere.\nEvidence: Established\nLink: https://www.drikpanch
  ang.com/sankranti/makar-sankranti-date-time.html\nMore: https://saumya-sha
  rma.github.io/dharmasetu/prototype/reasoning.html#sankranti-solar-ingress
- \nLocation basis: New Delhi. City-specific timing coming later.\n\n—\n
- मकर संक्रांति\nमकर संक्रांत
- ि सूर्य के मकर राशि में प्रव
- ेश का पर्व है\, जिसे उत्तरायण 
- — सूर्य के उत्तर की ओर बढ़ने 
- — से जोड़ा जाता है।\nकारण: सौर
-  खगोल को फसल\, दान और सूर्य को 
- तिल-गुड़ अर्पण के पर्व के रू
- प में मनाना।
+ \nLocation basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#350
@@ -44,7 +36,7 @@ BEGIN:VEVENT
 SUMMARY:Vasant Panchami / वसंत पंचमी
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:vasant_panchami-2027-02-11@dharmasetu
 CATEGORIES:festivals\,birth-auspicious
 DESCRIPTION:Why: mark the turn toward longer light and dedicate the season
@@ -57,14 +49,7 @@ DESCRIPTION:Why: mark the turn toward longer light and dedicate the season
  me claim\; supports community learning rituals.\nEvidence: Cultural/psycho
  logical\nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reason
  ing.html#calendar-lunisolar\nLocation basis: New Delhi. City-specific timi
- ng coming later.\n\n—\nवसंत पंचमी\nवसंत पं
- चमी माघ शुक्ल पंचमी पर सरस्व
- ती की पूजा है — वसंत का आरंभ\, 
- विद्या\, संगीत और पीले सरसों 
- के खेतों का उत्सव।\nकारण: बढ़
- ती रोशनी के मौसम को वाणी\, विद
- ्या और कलाओं को समर्पित करना
- ।
+ ng coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#233
@@ -74,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:Ram Navami / राम नवमी
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:ram_navami-2027-04-15@dharmasetu
 CATEGORIES:festivals\,birth-auspicious
 DESCRIPTION:Why: remember a life-model of duty\, restraint and care for th
@@ -86,14 +71,7 @@ DESCRIPTION:Why: remember a life-model of duty\, restraint and care for th
  : Narrative ethics and community worship\; cultural meaning\, not a scient
  ific outcome claim.\nEvidence: Cultural/psychological\nMore: https://saumy
  a-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lunisolar
- \nLocation basis: New Delhi. City-specific timing coming later.\n\n—\n
- राम नवमी\nराम नवमी चैत्र शुक
- ्ल नवमी पर राम के जन्म का उत्
- सव है — रामायण में मर्यादा प
- ुरुषोत्तम।\nकारण: वसंत नववर्
- ष पक्ष में कर्तव्य\, संयम और द
- ुर्बलों की रक्षा के जीवन-आदर
- ्श का स्मरण।
+ \nLocation basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#70a
@@ -103,7 +81,7 @@ BEGIN:VEVENT
 SUMMARY:Akshaya Tritiya / अक्षय तृतीया
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:akshaya_tritiya-2027-05-09@dharmasetu
 CATEGORIES:festivals\,birth-auspicious
 DESCRIPTION:Why: a day set aside to start what should endure — learning
@@ -116,14 +94,7 @@ DESCRIPTION:Why: a day set aside to start what should endure — learning
  arity and intentional starts have known psychological benefits.\nEvidence:
   Cultural/psychological\nMore: https://saumya-sharma.github.io/dharmasetu/
  prototype/reasoning.html#muhurat-cultural\nLocation basis: New Delhi. City
- -specific timing coming later.\n\n—\nअक्षय तृतीया
- \nअक्षय तृतीया (वैशाख शुक्ल त
- ृतीया) 'अक्षय' कही जाती है — आ
- रंभ\, दान और दीर्घ संकल्पों क
- े लिए पारंपरिक रूप से अनुकूल
- ।\nकारण: जो टिके उसे आरंभ करने
-  का दिन — विद्या\, दान\, गृह आधा
- र — वसंत सूर्य के नीचे।
+ -specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ad3
@@ -133,7 +104,7 @@ BEGIN:VEVENT
 SUMMARY:Ganesh Chaturthi / गणेश चतुर्थी
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270905
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:ganesh_chaturthi-2027-09-04@dharmasetu
 CATEGORIES:festivals\,birth-auspicious
 DESCRIPTION:Why: begin the season of vows by honouring the deity of thresh
@@ -144,14 +115,7 @@ DESCRIPTION:Why: begin the season of vows by honouring the deity of thresh
  dern angle: Community craft\, public art and shared vows\; cultural meanin
  g.\nEvidence: Cultural/psychological\nMore: https://saumya-sharma.github.i
  o/dharmasetu/prototype/reasoning.html#calendar-lunisolar\nLocation basis: 
- New Delhi. City-specific timing coming later.\n\n—\nगणेश चत
- ुर्थी\nगणेश चतुर्थी (भाद्रपद
-  शुक्ल चतुर्थी) गणेश की स्था
- पना — विघ्नहर्ता — नए आरंभों
-  के द्वार पर।\nकारण: संकल्पों 
- के मौसम की शुरुआत देहलीज़ और
-  सावधान आरंभ के देवता के सम्
- मान से।
+ New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#3dd

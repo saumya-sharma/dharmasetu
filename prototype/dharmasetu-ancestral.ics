@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//DharmaSetu//Vedic Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational.
+X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational. 
 X-WR-CALNAME:DharmaSetu — Ancestral / Pitru Paksha
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
@@ -13,7 +13,7 @@ SUMMARY:Amavasya — Ashvina / अमावस्या — आश्व
  िन
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2026-11-09@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -24,12 +24,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — आश्विन\nअमावस्या अमावस्या 
- तिथि — पितृ स्मरण और शांत गृ
- ह कर्मों से जुड़ी।\nकारण: चंद
- ्र के अँधेरे में पूर्वजों की
-  ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#c84
@@ -40,7 +35,7 @@ SUMMARY:Amavasya — Kartika / अमावस्या — कार्
  तिक
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2026-12-08@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -51,12 +46,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — कार्तिक\nअमावस्या अमावस्य
- ा तिथि — पितृ स्मरण और शांत ग
- ृह कर्मों से जुड़ी।\nकारण: चं
- द्र के अँधेरे में पूर्वजों क
- ी ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#6f0
@@ -67,8 +57,8 @@ SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
  ्गशीर्ष
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
-DTSTAMP:20261103T043905Z
-UID:amavasya-2027-01-07@dharmasetu
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-12-27@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
  before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
@@ -78,22 +68,17 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — मार्गशीर्ष\nअमावस्या अमाव
- स्या तिथि — पितृ स्मरण और शा
- ंत गृह कर्मों से जुड़ी।\nकार
- ण: चंद्र के अँधेरे में पूर्व
- जों की ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7ae
- d76b6adcf4a6f
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7fa
+ d7c5eb1d0f44b
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Amavasya — Pausha / अमावस्या — पौष
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-02-06@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -104,12 +89,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — पौष\nअमावस्या अमावस्या तिथ
- ि — पितृ स्मरण और शांत गृह कर
- ्मों से जुड़ी।\nकारण: चंद्र क
- े अँधेरे में पूर्वजों की ओर 
- ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#35a
@@ -119,7 +99,7 @@ BEGIN:VEVENT
 SUMMARY:Amavasya — Magha / अमावस्या — माघ
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-03-08@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -130,12 +110,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — माघ\nअमावस्या अमावस्या तिथ
- ि — पितृ स्मरण और शांत गृह कर
- ्मों से जुड़ी।\nकारण: चंद्र क
- े अँधेरे में पूर्वजों की ओर 
- ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#9d5
@@ -146,7 +121,7 @@ SUMMARY:Amavasya — Phalguna / अमावस्या — फाल्
  गुन
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-04-06@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -157,12 +132,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — फाल्गुन\nअमावस्या अमावस्य
- ा तिथि — पितृ स्मरण और शांत ग
- ृह कर्मों से जुड़ी।\nकारण: चं
- द्र के अँधेरे में पूर्वजों क
- ी ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#fb0
@@ -173,7 +143,7 @@ SUMMARY:Amavasya — Chaitra / अमावस्या — चैत्
  र
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-05-06@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -184,12 +154,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — चैत्र\nअमावस्या अमावस्या त
- िथि — पितृ स्मरण और शांत गृह 
- कर्मों से जुड़ी।\nकारण: चंद्
- र के अँधेरे में पूर्वजों की 
- ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ee7
@@ -200,7 +165,7 @@ SUMMARY:Amavasya — Vaishakha / अमावस्या — वैशा
  ख
 DTSTART;VALUE=DATE:20270604
 DTEND;VALUE=DATE:20270605
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-06-04@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -211,12 +176,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — वैशाख\nअमावस्या अमावस्या त
- िथि — पितृ स्मरण और शांत गृह 
- कर्मों से जुड़ी।\nकारण: चंद्
- र के अँधेरे में पूर्वजों की 
- ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#622
@@ -227,7 +187,7 @@ SUMMARY:Amavasya — Jyeshtha / अमावस्या — ज्ये
  ष्ठ
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-07-04@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -238,12 +198,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — ज्येष्ठ\nअमावस्या अमावस्य
- ा तिथि — पितृ स्मरण और शांत ग
- ृह कर्मों से जुड़ी।\nकारण: चं
- द्र के अँधेरे में पूर्वजों क
- ी ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#985
@@ -254,7 +209,7 @@ SUMMARY:Amavasya — Ashadha / अमावस्या — आषाढ
  ़
 DTSTART;VALUE=DATE:20270802
 DTEND;VALUE=DATE:20270803
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-08-02@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -265,12 +220,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — आषाढ़\nअमावस्या अमावस्या त
- िथि — पितृ स्मरण और शांत गृह 
- कर्मों से जुड़ी।\nकारण: चंद्
- र के अँधेरे में पूर्वजों की 
- ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#253
@@ -281,7 +231,7 @@ SUMMARY:Amavasya — Shravana / अमावस्या — श्रा
  वण
 DTSTART;VALUE=DATE:20270831
 DTEND;VALUE=DATE:20270901
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-08-31@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -292,12 +242,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — श्रावण\nअमावस्या अमावस्या 
- तिथि — पितृ स्मरण और शांत गृ
- ह कर्मों से जुड़ी।\nकारण: चंद
- ्र के अँधेरे में पूर्वजों की
-  ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#c72
@@ -307,7 +252,7 @@ BEGIN:VEVENT
 SUMMARY:Pitru Paksha begins / पितृ पक्ष आरंभ
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20270917
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:pitru_paksha_start-2027-09-16@dharmasetu
 CATEGORIES:ancestral\,festivals
 DESCRIPTION:Why: set aside days so remembrance is not left to chance — f
@@ -320,51 +265,18 @@ DESCRIPTION:Why: set aside days so remembrance is not left to chance — f
  nuing-bonds literature).\nEvidence: Plausible\nLink: https://pubmed.ncbi.n
  lm.nih.gov/20680363/\nMore: https://saumya-sharma.github.io/dharmasetu/pro
  totype/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi. Cit
- y-specific timing coming later.\n\n—\nपितृ पक्ष आर
- ंभ\nपितृ पक्ष भाद्रपद पूर्णि
- मा के बाद आरंभ — पूर्वजों के 
- श्राद्ध का पक्ष\, सर्वपित्नी
-  अमावस्या पर समाप्त।\nकारण: स
- ्मरण संयोग पर न छूटे — अन्न\, 
- जल और नाम सावधानी से अर्पित।
+ y-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#65b
  dddf8f1d44a71
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Amavasya — Bhadrapada / अमावस्या — भाद
- ्रपद
-DTSTART;VALUE=DATE:20270930
-DTEND;VALUE=DATE:20271001
-DTSTAMP:20261103T043905Z
-UID:amavasya-2027-09-30@dharmasetu
-CATEGORIES:purnima-amavasya\,ancestral
-DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
- before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
- with ancestral remembrance (pitru) and quieter household rites.\nSource: G
- aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
-  dark\, turn attention to those who came before.\nModern angle: Scheduled 
- grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
- dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
- asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — भाद्रपद\nअमावस्या अमावस्य
- ा तिथि — पितृ स्मरण और शांत ग
- ृह कर्मों से जुड़ी।\nकारण: चं
- द्र के अँधेरे में पूर्वजों क
- ी ओर ध्यान।
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#890
- dd53ee1a638fd
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sarvapitri Amavasya [verify] / सर्वपित्नी अ
- मावस्या [सत्यापित करें]
-DTSTART;VALUE=DATE:20270930
-DTEND;VALUE=DATE:20271001
-DTSTAMP:20261103T043905Z
+SUMMARY:Sarvapitri Amavasya / सर्वपित्नी अमाव
+ स्या
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+DTSTAMP:20261103T045158Z
 UID:sarvapitri-2027-09-30@dharmasetu
 CATEGORIES:ancestral\,purnima-amavasya\,festivals
 DESCRIPTION:Why: a safety-net day of remembrance so no lineage is left unn
@@ -375,24 +287,40 @@ DESCRIPTION:Why: a safety-net day of remembrance so no lineage is left unn
  al/psychological grief support.\nEvidence: Cultural/psychological\nMore: h
  ttps://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#shraddh
  a-remembrance\nLocation basis: New Delhi. City-specific timing coming late
- r.\n\n—\nसर्वपित्नी अमावस्या [सत
- ्यापित करें]\nसर्वपित्नी अमा
- वस्या पितृ पक्ष का समापन — स
- भी पूर्वजों के लिए\, विशेषकर 
- छूटी तिथियों पर।\nकारण: स्मर
- ण का सुरक्षा-दिन ताकि कोई वं
- श बिना नाम न रह जाए।
+ r.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ea0
  c668666d641be
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Amavasya — Bhadrapada / अमावस्या — भाद
+ ्रपद
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-09-30@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
+ before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
+ with ancestral remembrance (pitru) and quieter household rites.\nSource: G
+ aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
+  dark\, turn attention to those who came before.\nModern angle: Scheduled 
+ grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
+ dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
+ asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
+ elhi. City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#890
+ dd53ee1a638fd
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Amavasya — Ashvina / अमावस्या — आश्व
  िन
 DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271030
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-10-29@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -403,12 +331,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — आश्विन\nअमावस्या अमावस्या 
- तिथि — पितृ स्मरण और शांत गृ
- ह कर्मों से जुड़ी।\nकारण: चंद
- ्र के अँधेरे में पूर्वजों की
-  ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f8c
@@ -419,7 +342,7 @@ SUMMARY:Amavasya — Kartika / अमावस्या — कार्
  तिक
 DTSTART;VALUE=DATE:20271128
 DTEND;VALUE=DATE:20271129
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-11-28@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -430,12 +353,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — कार्तिक\nअमावस्या अमावस्य
- ा तिथि — पितृ स्मरण और शांत ग
- ृह कर्मों से जुड़ी।\nकारण: चं
- द्र के अँधेरे में पूर्वजों क
- ी ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#a8f
@@ -446,7 +364,7 @@ SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
  ्गशीर्ष
 DTSTART;VALUE=DATE:20271227
 DTEND;VALUE=DATE:20271228
-DTSTAMP:20261103T043905Z
+DTSTAMP:20261103T045158Z
 UID:amavasya-2027-12-27@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
 DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
@@ -457,12 +375,7 @@ DESCRIPTION:Why: when the moon is dark\, turn attention to those who came
  grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
  dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
  asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.\n\n—\nअमावस्या 
- — मार्गशीर्ष\nअमावस्या अमाव
- स्या तिथि — पितृ स्मरण और शा
- ंत गृह कर्मों से जुड़ी।\nकार
- ण: चंद्र के अँधेरे में पूर्व
- जों की ओर ध्यान।
+ elhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7fa
