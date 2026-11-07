@@ -236,6 +236,28 @@ URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ed4
  33d3069a755fc
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Purnima — Margashirsha / पूर्णिमा — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DTSTAMP:20261107T133000Z
+UID:purnima-2026-12-23@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and completi
+ on rites.\n\nStory: Purnima is the full-moon tithi — traditionally favou
+ red for satyanarayan katha\, charity and calm observance.\nSource: Panchan
+ ga tradition\; Smriti calendrical practice\nWhy: the brightest night invit
+ es collective prayer and completion rites.\nModern angle: Full moon is an 
+ astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f989
+ 8ea00ae83f49
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ekadashi (Krishna) — Margashirsha / एकादशी (कृष
  ्ण) — मार्गशीर्ष
 DTSTART;VALUE=DATE:20270103
@@ -306,28 +328,31 @@ URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#350
  fff9e725b595c
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ekadashi (Shukla) — Pausha / एकादशी (शुक्ल
- ) — पौष
-DTSTART;VALUE=DATE:20270119
-DTEND;VALUE=DATE:20270120
-DTSTAMP:20261103T045158Z
+SUMMARY:Ekadashi (Shukla) — Pausha / एकादशी (शुक्ल)
+  — पौष
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+DTSTAMP:20261107T133000Z
+LAST-MODIFIED:20261107T133000Z
+SEQUENCE:1
 UID:ekadashi-2027-01-19@dharmasetu
 CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry 
+ — make space for attention.\n\nStory: Ekadashi is the 11th tithi of each
+  fortnight — a Vaishnava fasting day for restraint\, prayer and digestio
+ n-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lun
+ ar month\, step back from heavy food and hurry — make space for attentio
+ n.\nModern angle: Intermittent fasting shows metabolic and microbiome link
+ s in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvide
+ nce: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/\n
+ More: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#
+ ekadashi-fasting\nDrik Panchang also lists Gauna (secondary) Pausha Putrad
+ a Ekadashi on 19 Jan 2027\; some families observe that day.\nLocation basi
+ s: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d3f
- c74d0947e8b24
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#d3fc
+ 74d0947e8b24
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Purnima — Pausha / पूर्णिमा — पौष
@@ -464,28 +489,25 @@ URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f05
  fa8269a44074f
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Magha / एकादशी (कृष्ण
- ) — माघ
-DTSTART;VALUE=DATE:20270303
-DTEND;VALUE=DATE:20270304
-DTSTAMP:20261103T045158Z
-UID:ekadashi-2027-03-04@dharmasetu
-CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.
+SUMMARY:Purnima — Magha / पूर्णिमा — माघ
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261107T133000Z
+UID:purnima-2027-02-20@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and completi
+ on rites.\n\nStory: Purnima is the full-moon tithi — traditionally favou
+ red for satyanarayan katha\, charity and calm observance.\nSource: Panchan
+ ga tradition\; Smriti calendrical practice\nWhy: the brightest night invit
+ es collective prayer and completion rites.\nModern angle: Full moon is an 
+ astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#df0
- 89488a7460daf
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#0bbe
+ b598225d8b86
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ekadashi (Krishna) — Magha / एकादशी (कृष्ण
@@ -1054,28 +1076,6 @@ URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#2e0
  4258970abcedb
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Purnima — Jyeshtha / पूर्णिमा — ज्ये
- ष्ठ
-DTSTART;VALUE=DATE:20270619
-DTEND;VALUE=DATE:20270620
-DTSTAMP:20261103T045158Z
-UID:purnima-2027-06-19@dharmasetu
-CATEGORIES:purnima-amavasya
-DESCRIPTION:Why: the brightest night invites collective prayer and complet
- ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
- ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
- nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
- tes collective prayer and completion rites.\nModern angle: Full moon is an
-  astronomical fact\; claimed behavioural effects remain mixed in research 
- — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
- ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
- nisolar\nLocation basis: New Delhi. City-specific timing coming later.
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#2e0
- 4258970abcedb
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ekadashi (Krishna) — Jyeshtha / एकादशी (कृष्
  ण) — ज्येष्ठ
 DTSTART;VALUE=DATE:20270630
@@ -1208,6 +1208,31 @@ LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#bff
  0afeae71c1fa1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ekadashi (Krishna) — Ashadha / एकादशी (कृष्
+ ण) — आषाढ़
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+DTSTAMP:20261107T133000Z
+UID:ekadashi-2027-07-29@dharmasetu
+CATEGORIES:ekadashi
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry 
+ — make space for attention.\n\nStory: Ekadashi is the 11th tithi of each
+  fortnight — a Vaishnava fasting day for restraint\, prayer and digestio
+ n-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lun
+ ar month\, step back from heavy food and hurry — make space for attentio
+ n.\nModern angle: Intermittent fasting shows metabolic and microbiome link
+ s in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvide
+ nce: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/\n
+ More: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#
+ ekadashi-fasting\nDrik Panchang also lists Gauna (secondary) Kamika Ekadas
+ hi on 30 Jul 2027.\nLocation basis: New Delhi. City-specific timing coming
+  later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#0f82
+ 5eda723f0d73
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Amavasya — Ashadha / अमावस्या — आषाढ

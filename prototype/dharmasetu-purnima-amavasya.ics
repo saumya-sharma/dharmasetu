@@ -75,6 +75,28 @@ URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#6f0
  1db0b5477a31a
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Purnima — Margashirsha / पूर्णिमा — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DTSTAMP:20261107T133000Z
+UID:purnima-2026-12-23@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and completi
+ on rites.\n\nStory: Purnima is the full-moon tithi — traditionally favou
+ red for satyanarayan katha\, charity and calm observance.\nSource: Panchan
+ ga tradition\; Smriti calendrical practice\nWhy: the brightest night invit
+ es collective prayer and completion rites.\nModern angle: Full moon is an 
+ astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#f989
+ 8ea00ae83f49
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
  ्गशीर्ष
 DTSTART;VALUE=DATE:20270107
@@ -137,6 +159,27 @@ LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
 URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#35a
  e7e09792a15e8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purnima — Magha / पूर्णिमा — माघ
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261107T133000Z
+UID:purnima-2027-02-20@dharmasetu
+CATEGORIES:purnima-amavasya
+DESCRIPTION:Why: the brightest night invites collective prayer and completi
+ on rites.\n\nStory: Purnima is the full-moon tithi — traditionally favou
+ red for satyanarayan katha\, charity and calm observance.\nSource: Panchan
+ ga tradition\; Smriti calendrical practice\nWhy: the brightest night invit
+ es collective prayer and completion rites.\nModern angle: Full moon is an 
+ astronomical fact\; claimed behavioural effects remain mixed in research 
+ — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
+ ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
+ nisolar\nLocation basis: New Delhi. City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#0bbe
+ b598225d8b86
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Amavasya — Magha / अमावस्या — माघ
@@ -295,28 +338,6 @@ SUMMARY:Purnima — Jyeshtha / पूर्णिमा — ज्ये
  ष्ठ
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
-DTSTAMP:20261103T045158Z
-UID:purnima-2027-06-19@dharmasetu
-CATEGORIES:purnima-amavasya
-DESCRIPTION:Why: the brightest night invites collective prayer and complet
- ion rites.\n\nStory: Purnima is the full-moon tithi — traditionally favo
- ured for satyanarayan katha\, charity and calm observance.\nSource: Pancha
- nga tradition\; Smriti calendrical practice\nWhy: the brightest night invi
- tes collective prayer and completion rites.\nModern angle: Full moon is an
-  astronomical fact\; claimed behavioural effects remain mixed in research 
- — labelled cultural here.\nEvidence: Cultural/psychological\nMore: https
- ://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#calendar-lu
- nisolar\nLocation basis: New Delhi. City-specific timing coming later.
-LOCATION:New Delhi\, India (reference)
-TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#2e0
- 4258970abcedb
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Purnima — Jyeshtha / पूर्णिमा — ज्ये
- ष्ठ
-DTSTART;VALUE=DATE:20270619
-DTEND;VALUE=DATE:20270620
 DTSTAMP:20261103T045158Z
 UID:purnima-2027-06-19@dharmasetu
 CATEGORIES:purnima-amavasya

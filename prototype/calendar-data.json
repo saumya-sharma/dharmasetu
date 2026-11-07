@@ -235,6 +235,27 @@
         "tithi_name": "Navami",
         "sun_rasi": "Tula"
       }
+    ],
+    "audits": [
+      {
+        "date": "2026-11-07",
+        "scope": "Ekadashi (all, Nov 2026–Dec 2027) and Purnima 2027 + Dec 2026 vs Drik Panchang, New Delhi (geoname 1261481)",
+        "sources": [
+          "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+          "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+          "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+          "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026"
+        ],
+        "result": "All primary (Smarta/first-listed) Ekadashi dates match after fixes. Gauna/Vaishnava second-day variants listed by Drik (2026-11-21, 2027-01-19, 2027-07-30, 2027-10-26) are not separate events; noted where relevant.",
+        "fixes": [
+          "removed duplicate 2027-03-03 Ekadashi row (Drik: Vijaya Ekadashi 2027-03-04 only)",
+          "removed duplicate 2027-06-19 Purnima row (Drik: Jyeshtha Purnima 2027-06-18)",
+          "moved Pausha Putrada Ekadashi 2027-01-19 -> 2027-01-18 (UID kept, SEQUENCE 1)",
+          "added missing Kamika Ekadashi 2027-07-29",
+          "added missing Purnima 2026-12-23 and 2027-02-20"
+        ],
+        "not_audited": "Amavasya, Sankranti, birth-auspicious and ancestral-only rows; ‘verify:false’ alone does not mean independently verified."
+      }
     ]
   },
   "events": [
@@ -488,6 +509,33 @@
       "verify": false
     },
     {
+      "id": "f9898ea00ae83f49",
+      "uid": "purnima-2026-12-23@dharmasetu",
+      "date": "2026-12-23",
+      "fid": "purnima",
+      "title_en": "Purnima — Margashirsha",
+      "title_hi": "पूर्णिमा — मार्गशीर्ष",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026",
+      "sequence": 0
+    },
+    {
       "id": "ea61278f389cc2f4",
       "uid": "ekadashi-2027-01-03@dharmasetu",
       "date": "2027-01-03",
@@ -566,7 +614,7 @@
     {
       "id": "d3fc74d0947e8b24",
       "uid": "ekadashi-2027-01-19@dharmasetu",
-      "date": "2027-01-19",
+      "date": "2027-01-18",
       "fid": "ekadashi",
       "title_en": "Ekadashi (Shukla) — Pausha",
       "title_hi": "एकादशी (शुक्ल) — पौष",
@@ -585,7 +633,12 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "sequence": 1,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+      "variant_note_en": "Drik Panchang also lists Gauna (secondary) Pausha Putrada Ekadashi on 19 Jan 2027; some families observe that day.",
+      "variant_note_hi": "दृक पंचांग 19 जनवरी 2027 को गौण पौष पुत्रदा एकादशी भी दर्शाता है; कुछ परिवार उस दिन मानते हैं।"
     },
     {
       "id": "78dc692ffa60a80b",
@@ -737,28 +790,31 @@
       "verify": false
     },
     {
-      "id": "df089488a7460daf",
-      "uid": "ekadashi-2027-03-04@dharmasetu",
-      "date": "2027-03-03",
-      "fid": "ekadashi",
-      "title_en": "Ekadashi (Krishna) — Magha",
-      "title_hi": "एकादशी (कृष्ण) — माघ",
+      "id": "0bbeb598225d8b86",
+      "uid": "purnima-2027-02-20@dharmasetu",
+      "date": "2027-02-20",
+      "fid": "purnima",
+      "title_en": "Purnima — Magha",
+      "title_hi": "पूर्णिमा — माघ",
       "categories": [
-        "ekadashi"
+        "purnima-amavasya"
       ],
-      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
-      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
-      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
-      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
-      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
-      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
-      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
-      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
-      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
-      "evidence": "Plausible",
-      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
-      "reasoning_id": "ekadashi-fasting",
-      "verify": true
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+      "sequence": 0
     },
     {
       "id": "df089488a7460daf",
@@ -782,7 +838,9 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027"
     },
     {
       "id": "d4bc3131946f24fc",
@@ -1010,31 +1068,6 @@
       "verify": false
     },
     {
-      "id": "8c5d3aba556ca578",
-      "uid": "sankranti_generic-2027-04-15@dharmasetu",
-      "date": "2027-04-15",
-      "fid": "sankranti_generic",
-      "title_en": "Mesha Sankranti",
-      "title_hi": "मेष संक्रांति",
-      "categories": [
-        "sankranti"
-      ],
-      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
-      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
-      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
-      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
-      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
-      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
-      "story_source": "Surya Siddhanta",
-      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
-      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
-      "evidence": "Established",
-      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
-      "reasoning_id": "sankranti-solar-ingress",
-      "verify": false,
-      "moment": "2027-04-15T00:42:52.895064+05:30"
-    },
-    {
       "id": "70aaf984b3e63a38",
       "uid": "ram_navami-2027-04-15@dharmasetu",
       "date": "2027-04-15",
@@ -1060,6 +1093,31 @@
       "verify": false,
       "observance_rule": "source: drikpanchang; matches sunrise-tithi Chaitra Shukla 9",
       "date_source": "drikpanchang"
+    },
+    {
+      "id": "8c5d3aba556ca578",
+      "uid": "sankranti_generic-2027-04-15@dharmasetu",
+      "date": "2027-04-15",
+      "fid": "sankranti_generic",
+      "title_en": "Mesha Sankranti",
+      "title_hi": "मेष संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-04-15T00:42:52.895064+05:30"
     },
     {
       "id": "dd7cc527198fe5b8",
@@ -1378,31 +1436,9 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": true
-    },
-    {
-      "id": "2e04258970abcedb",
-      "uid": "purnima-2027-06-19@dharmasetu",
-      "date": "2027-06-19",
-      "fid": "purnima",
-      "title_en": "Purnima — Jyeshtha",
-      "title_hi": "पूर्णिमा — ज्येष्ठ",
-      "categories": [
-        "purnima-amavasya"
-      ],
-      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
-      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
-      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
-      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
-      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
-      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
-      "story_source": "Panchanga tradition; Smriti calendrical practice",
-      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
-      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
-      "evidence": "Cultural/psychological",
-      "evidence_url": "",
-      "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027"
     },
     {
       "id": "347b70cf18c897df",
@@ -1551,6 +1587,35 @@
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
       "verify": false
+    },
+    {
+      "id": "0f825eda723f0d73",
+      "uid": "ekadashi-2027-07-29@dharmasetu",
+      "date": "2027-07-29",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Ashadha",
+      "title_hi": "एकादशी (कृष्ण) — आषाढ़",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+      "sequence": 0,
+      "variant_note_en": "Drik Panchang also lists Gauna (secondary) Kamika Ekadashi on 30 Jul 2027.",
+      "variant_note_hi": "दृक पंचांग 30 जुलाई 2027 को गौण कामिका एकादशी भी दर्शाता है।"
     },
     {
       "id": "2533c6f8c154b0a2",

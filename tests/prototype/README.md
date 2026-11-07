@@ -33,6 +33,21 @@ python3 -m http.server 8765   # then open http://localhost:8765/prototype/home.h
 - WhatsApp reminders: needs a backend (preferences store + scheduler), Meta WhatsApp Business account, approved templates, explicit opt-in/opt-out flow, cost limits. UI says "not available yet".
 - Personal auto-updating feed URLs: need a server; only public category feeds exist.
 - Dates are New Delhi reference for all locations; no Smarta/Vaishnava variants.
-- Two consecutive-day pairs share a UID in the public feeds (Ekadashi 3/4 Mar 2027, Purnima 18/19 Jun 2027) — marked "needs confirmation"; verify against a panchang, then drop the wrong one.
-- Ekadashi dates as a set are not fully audited; Hindi copy needs native review.
+- Hindi copy needs native review. Amavasya, Sankranti, ancestral-only and birth-rite rows are not yet audited; `verify:false` alone does not mean independently verified.
+- 2027-11-10 has a generic Ekadashi row and a named Dev Uthani row for the same observance (both in the Ekadashi feed); left as-is, to be merged deliberately.
+- Gauna/Vaishnava second-day Ekadashi variants (21 Nov 2026, 19 Jan 2027, 30 Jul 2027, 26 Oct 2027) are not separate events; mentioned in notes where we changed a row.
 - No pricing, booking or payments; acharya presence pending consent.
+
+## Date audit, 7 Nov 2026 (Drik Panchang, New Delhi, geoname-id 1261481)
+Sources: drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026 and &year=2027; drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026 and &year=2027.
+- Removed duplicate row 2027-03-03 Ekadashi (shared UID `ekadashi-2027-03-04`; Drik lists Vijaya Ekadashi on 4 Mar only).
+- Removed duplicate row 2027-06-19 Purnima (shared UID `purnima-2027-06-19`; Drik: Jyeshtha Purnima / Vat Purnima 18 Jun). The 18 Jun row keeps that UID.
+- Moved Pausha Putrada Ekadashi 19 → 18 Jan 2027 (UID kept, `SEQUENCE:1`, `LAST-MODIFIED`); Gauna variant on 19 Jan noted in the description.
+- Added missing rows: Kamika Ekadashi 29 Jul 2027; Purnima 23 Dec 2026 and 20 Feb 2027.
+- Result: all 29 distinct Ekadashi dates and all 12 Purnima 2027 dates match; every UID unique across data and feeds (tested).
+
+## Feed update semantics (no guarantees)
+Changed events keep their UID and get a higher `SEQUENCE` + `LAST-MODIFIED`; removed duplicates simply disappear from the feed. Subscribed clients pick this up on their own refresh schedule (Google Calendar can take many hours; some clients may keep a stale copy). Downloaded snapshots never update. No `METHOD:CANCEL` is published (it is not meaningful for a PUBLISH subscription feed).
+
+## Alerts and time zones
+Events are all-day floating dates (the New Delhi reference date shown as-is everywhere). The optional VALARM is relative to local midnight of that date, so “19:00 the evening before” fires at 19:00 on the device clock wherever it is. The time zone/city fields do not recalculate dates or alarms; they are display/notes only. Many clients (incl. Google Calendar imports) ignore alarms in imported files, so alert timing is never guaranteed.

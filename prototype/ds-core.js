@@ -78,8 +78,11 @@
   function deletePrefs(storage) { try { storage.removeItem(PREFS_KEY); } catch (e) {} }
 
   /* Events chosen by prefs, sorted, on/after `today` (YYYY-MM-DD). */
-  function selectEvents(events, prefs, today) {
+  /* Rows flagged verify:true are held back from exports/reminders until reviewed (shown as reference only). */
+  function selectEvents(events, prefs, today, opts) {
+    var includeUnverified = !!(opts && opts.includeUnverified);
     var list = events.filter(function (e) {
+      if (e.verify === true && !includeUnverified) return false;
       if (prefs.mode === "events") return prefs.picks.indexOf(e.id) !== -1;
       return e.categories.some(function (c) { return prefs.cats.indexOf(c) !== -1; });
     });

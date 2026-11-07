@@ -61,6 +61,8 @@
     } else {
       count.textContent = t(list.length + " upcoming days. Your next ones:", "आगे " + list.length + " दिन। अगले कुछ:");
     }
+    var held = C.selectEvents(events, state, nowISO(), { includeUnverified: true }).length - list.length;
+    if (held > 0) count.textContent += " " + t("(" + held + " awaiting date review, not included.)", "(" + held + " तिथि-समीक्षा में, शामिल नहीं।)");
     document.getElementById("dl-ics").disabled = !list.length;
     list.slice(0, 5).forEach(function (e) {
       var hi = lang() === "hi", li = el("li");
@@ -70,6 +72,7 @@
       if (e.verify) title.appendChild(el("span", "tag", t("Date needs confirmation", "तिथि की पुष्टि बाकी")));
       li.appendChild(title);
       li.appendChild(el("p", "note", hi ? e.why_hi : e.why_en));
+      if (e.variant_note_en) li.appendChild(el("p", "note", hi ? e.variant_note_hi : e.variant_note_en));
       var d = el("details", "more"), s = el("summary", null, t("Story & reasoning", "कथा और कारण")); d.appendChild(s);
       if (e.story_en) d.appendChild(el("p", "note", hi ? e.story_hi : e.story_en));
       if (e.story_source) d.appendChild(el("p", "note", t("Source: ", "स्रोत: ") + e.story_source));
