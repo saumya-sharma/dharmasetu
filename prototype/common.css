@@ -390,3 +390,9 @@ details.more summary { cursor: pointer; color: var(--terracotta); font-weight: 6
 .saved-box { background: #fff; border: 1px solid var(--green-soft); border-left: 4px solid var(--green); }
 .note.err { color: #8a1c1c; font-weight: 600; } .note.err:empty, #form-errors:empty { display: none; }
 blockquote { margin: 0 0 .5rem; font-size: 1.05rem; }
+/* Mobile: let the header tagline wrap to at most two readable lines instead of an ellipsis. */
+@media (max-width: 640px) {
+  .brand-sub { white-space: normal; overflow: hidden; text-overflow: clip; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.25; font-size: 11px; }
+  .brand-name { font-size: 1.05rem; }
+  .site-header .inner { gap: .5rem; }
+}

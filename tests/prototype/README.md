@@ -55,3 +55,8 @@ Events are all-day floating dates (the New Delhi reference date shown as-is ever
 
 ## Audit status semantics
 Each event has `audit.status`: `source-checked` (date compared against the named source on the given day — Ekadashi and Purnima rows 7 Nov 2026; festivals in the 3 Nov cross-check) or `reference` (computed, not compared). `verify:true` is a separate flag for known-problem rows and is never exported. The Remember flow exports only `source-checked` rows unless the user ticks “Also include reference days not yet checked”; each preview item is tagged accordingly. After the merge: 88 events, 60 source-checked, 28 reference (mostly Amavasya, Sankranti, ancestral).
+
+## QA log
+- 8 Nov 2026 — browser QA by the team agent on the public review URL (desktop + 400×985 mobile, EN and HI): navigation cards, Remember (Ekadashi, story, save/reload/delete, .ics download), Sangam privacy defaults; no data sent. Not tested: importing the .ics into real calendar apps and whether alerts fire. This is a functional check, not user research.
+- Fixes after QA: local SVG favicon on every page; mobile header tagline wraps to two lines instead of an ellipsis.
+- Noted as intended: a UID's embedded date can differ from DTSTART for corrected events (UIDs are stable identity keys, never regenerated); all UIDs remain unique (tested).

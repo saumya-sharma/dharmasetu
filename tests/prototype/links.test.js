@@ -23,3 +23,12 @@ test("every page has EN+HI pairs and a 'Celebrating lives' line", () => {
     assert.ok(s.includes("Celebrating lives"), f);
   }
 });
+test("every page declares a local favicon that exists (avoids /favicon.ico 404)", () => {
+  for (const f of fs.readdirSync(P).filter(f => f.endsWith(".html"))) {
+    const s = fs.readFileSync(path.join(P, f), "utf8");
+    const m = s.match(/<link rel="icon" type="image\/svg\+xml" href="([^"]+)"\/>/);
+    assert.ok(m, f); assert.ok(fs.existsSync(path.join(P, m[1])), f + " -> " + m[1]);
+  }
+  const css = fs.readFileSync(path.join(P, "common.css"), "utf8");
+  assert.ok(/@media \(max-width: 640px\)[^}]*\.brand-sub \{ white-space: normal;[^}]*-webkit-line-clamp: 2/.test(css), "mobile tagline wraps (2 lines)");
+});
