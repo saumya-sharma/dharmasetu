@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "title_en": "Why we do what we do",
+    "title_hi": "हम ऐसा क्यों करते हैं",
+    "disclaimer_en": "Educational exploration of traditional reasoning and modern research links. Not medical, legal, or ritual advice. Confirm practice with your family, kul-purohit, and clinician where health is involved. We never claim outcomes from muhurat or astrology.",
+    "disclaimer_hi": "परंपरा के कारण और आधुनिक शोध-संबंधों का शैक्षिक अन्वेषण। चिकित्सकीय, कानूनी या अनुष्ठान सलाह नहीं। स्वास्थ्य संबंधी बातों में परिवार, कुल-पुरोहित और चिकित्सक से पुष्टि करें। मुहूर्त/ज्योतिष से परिणाम का दावा नहीं।"
+  },
+  "items": [
+    {
+      "id": "garbh-sanskar",
+      "area": "birth",
+      "tradition_en": "Garbh Sanskar",
+      "tradition_hi": "गर्भ संस्कार",
+      "text_source": "Charaka Samhita Sharira Sthana (garbhini care strands); later Ayurvedic garbha-sanskar manuals",
+      "verse_ref": "Charaka Sharira — garbhini paricharya themes",
+      "reasoning_en": "Tradition holds that the mother's diet, speech, music and mental state shape the unborn child's disposition — so pregnancy is treated as a formative samskara, not only a medical wait.",
+      "reasoning_hi": "परंपरा कहती है कि माता का आहार, वाणी, संगीत और मन भ्रूण के स्वभाव को गढ़ते हैं — गर्भावस्था केवल चिकित्सकीय प्रतीक्षा नहीं, एक संस्कार है।",
+      "modern_en": "Prenatal music and calm routines show reductions in maternal stress/anxiety in systematic reviews; claims that rituals raise IQ are not established. Epigenetic 'fetal programming' is an active research field but does not validate specific mantra outcomes.",
+      "modern_hi": "गर्भावस्था में संगीत/शांत दिनचर्या मातृ तनाव घटा सकती है; IQ बढ़ाने के दावे सिद्ध नहीं। एपिजेनेटिक भ्रूण-प्रोग्रामिंग शोध में है, पर विशिष्ट मंत्र-परिणाम प्रमाणित नहीं।",
+      "evidence": "Plausible",
+      "citations": [
+        {"label": "PubMed: music interventions in pregnancy (2024)", "url": "https://pubmed.ncbi.nlm.nih.gov/38866136/"},
+        {"label": "PubMed: prenatal music meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/34175408/"}
+      ]
+    },
+    {
+      "id": "sutika-40-day",
+      "area": "birth",
+      "tradition_en": "40-day postpartum rest (Sutika / Sutak period)",
+      "tradition_hi": "सूतिका / प्रसव के बाद ४० दिन विश्राम",
+      "text_source": "Kashyapa Samhita & Ayurvedic sutika-paricharya; Smriti household norms",
+      "verse_ref": "Sutika paricharya (Ayurveda)",
+      "reasoning_en": "After birth the mother is considered depleted and vulnerable; rest, warm food, limited visitors and family support protect recovery and the newborn.",
+      "reasoning_hi": "प्रसव के बाद माता क्षीण मानी जाती है; विश्राम, गुनगुना आहार, सीमित मिलना और पारिवारिक सहारा माता-शिशु की रक्षा करता है।",
+      "modern_en": "Cross-cultural reviews find a near-universal ~40-day postnatal window of rest and assistance. Evidence that restrictive 'confinement' rules reduce postpartum depression is conflicting; welcomed social support is the clearer benefit. Not medical advice for activity limits.",
+      "modern_hi": "अंतर-सांस्कृतिक समीक्षाओं में ~४० दिन का विश्राम/सहारा आम है। कठोर 'कन्फ़ाइनमेंट' से अवसाद घटने के प्रमाण मिश्रित; सामाजिक सहारा स्पष्ट लाभ। गतिविधि सीमा की चिकित्सकीय सलाह नहीं।",
+      "evidence": "Plausible",
+      "citations": [
+        {"label": "PubMed: postnatal care cross-cultural (2010)", "url": "https://pubmed.ncbi.nlm.nih.gov/20680363/"},
+        {"label": "PubMed: Asian pregnancy/postpartum beliefs review", "url": "https://pubmed.ncbi.nlm.nih.gov/29132060/"},
+        {"label": "PLOS One: doing-the-month & PPD review", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293667"}
+      ]
+    },
+    {
+      "id": "annaprashan",
+      "area": "birth",
+      "tradition_en": "Annaprashan (first grains)",
+      "tradition_hi": "अन्नप्राशन",
+      "text_source": "Grihya Sutras (e.g. Paraskara / Ashvalayana strands); Manusmriti samskara lists",
+      "verse_ref": "Grihya Sutra — annaprashana samskara",
+      "reasoning_en": "A named day to introduce solid food with blessing — marking the child's move beyond exclusive milk under family witness.",
+      "reasoning_hi": "परिवार की साक्षी में दूध से आगे ठोस अन्न का शुभ आरंभ — एक नामित संस्कार दिवस।",
+      "modern_en": "Aligns broadly with introducing complementary foods in later infancy; exact lunar timing is cultural. Follow pediatric guidance on what and when to feed — ritual date ≠ clinical schedule.",
+      "modern_hi": "शिशुआहार शुरू करने की आधुनिक सलाह से मोटे तौर पर मेल; चंद्र तिथि सांस्कृतिक। क्या/कब खिलाएँ — बाल चिकित्सक मार्गदर्शन मानें।",
+      "evidence": "Cultural/psychological",
+      "citations": [
+        {"label": "WHO complementary feeding (guidance context)", "url": "https://www.who.int/health-topics/complementary-feeding"}
+      ]
+    },
+    {
+      "id": "mundan",
+      "area": "birth",
+      "tradition_en": "Mundan (first haircut)",
+      "tradition_hi": "मुंडन / चौल",
+      "text_source": "Grihya Sutras — chudakarana / chaula samskara",
+      "verse_ref": "Chudakarana samskara",
+      "reasoning_en": "Tonsure marks a growth milestone and, in some tellings, releases birth hair linked with past impressions — done at a sacred place with family.",
+      "reasoning_hi": "मुंडन विकास का मील का पत्थर है; कुछ कथाओं में जन्म-केश संस्कारों से जुड़े — तीर्थ/घर पर परिवार संग।",
+      "modern_en": "No clinical evidence for spiritual 'release' claims. As a rite of passage it supports family bonding and identity; hygiene depends on aftercare, not the ritual mythos.",
+      "modern_hi": "आध्यात्मिक 'मुक्ति' दावों का चिकित्सकीय प्रमाण नहीं। संस्कार के रूप में पारिवारिक जुड़ाव; स्वच्छता बाद की देखभाल पर निर्भर।",
+      "evidence": "Cultural/psychological",
+      "citations": []
+    },
+    {
+      "id": "karnavedha",
+      "area": "birth",
+      "tradition_en": "Karnavedha (ear piercing)",
+      "tradition_hi": "कर्णवेध",
+      "text_source": "Grihya Sutras; later Ayurvedic notes on karnavedha",
+      "verse_ref": "Karnavedha samskara",
+      "reasoning_en": "Piercing is framed as a samskara that opens hearing/attention channels and marks belonging — traditionally timed with muhurat.",
+      "reasoning_hi": "कर्णवेध श्रवण/ध्यान के द्वार खोलने और पहचान का संस्कार — प्रायः मुहूर्त संग।",
+      "modern_en": "No established evidence for cognitive benefit from ritual piercing. Infection risk is real — sterile technique matters. Muhurat timing is cultural (no scientific outcome claim).",
+      "modern_hi": "संज्ञानात्मक लाभ का स्थापित प्रमाण नहीं। संक्रमण जोखिम वास्तविक — निष्फल विधि जरूरी। मुहूर्त सांस्कृतिक।",
+      "evidence": "No evidence",
+      "citations": []
+    },
+    {
+      "id": "mourning-13-day",
+      "area": "death",
+      "tradition_en": "13-day mourning period (as grief support structure)",
+      "tradition_hi": "तेरह दिवसीय शोक अवधि",
+      "text_source": "Garuda Purana pretakanda strands; regional antyesti paddhati",
+      "verse_ref": "Garuda Purana — sapindikarana / dinacharya after death",
+      "reasoning_en": "A paced sequence of rites and household limits gives the family a container for shock, naming, and gradual return to ordinary work.",
+      "reasoning_hi": "अनुष्ठानों और गृह सीमाओं का क्रम परिवार को सदमे, नामकरण और सामान्य जीवन की ओर धीरे लौटने का ढाँचा देता है।",
+      "modern_en": "Cross-cultural mourning-ritual reviews find structured rites can support meaning-making, family support and continuing bonds. Effects vary; not a substitute for clinical care when grief is disabling.",
+      "modern_hi": "अंतर-सांस्कृतिक समीक्षाओं में संरचित अनुष्ठान अर्थ-निर्माण और परिवार सहारे में सहायक। प्रभाव भिन्न; गंभीर शोक में चिकित्सकीय देखभाल का विकल्प नहीं।",
+      "evidence": "Plausible",
+      "citations": [
+        {"label": "PubMed: mourning rituals & grief (2025 review)", "url": "https://pubmed.ncbi.nlm.nih.gov/40957624/"},
+        {"label": "PubMed: Kaddish continuing bonds (comparative)", "url": "https://pubmed.ncbi.nlm.nih.gov/33272143/"}
+      ]
+    },
+    {
+      "id": "shraddha-remembrance",
+      "area": "death",
+      "tradition_en": "Shraddha as remembrance ritual",
+      "tradition_hi": "श्राद्ध — स्मरण अनुष्ठान",
+      "text_source": "Garuda Purana; Manusmriti shraddha chapters; Shraddha Kalpa",
+      "verse_ref": "Manusmriti — shraddha dharma; Garuda Purana",
+      "reasoning_en": "Food, water and name are offered so the dead are not forgotten — faith (shraddha) made tangible as care across generations.",
+      "reasoning_hi": "अन्न-जल-नाम अर्पित कर मृतक विस्मृत न हों — श्रद्धा को पीढ़ियों की देखभाल के रूप में साकार करना।",
+      "modern_en": "Fits 'continuing bonds' bereavement models: scheduled remembrance can aid adaptation. Hindu-specific RCTs are scarce; evidence strength is cultural/psychological with supportive comparative ritual research.",
+      "modern_hi": "'कंटीन्यूइंग बॉन्ड्स' शोक-मॉडल से मेल। हिंदू-विशिष्ट RCT दुर्लभ; तुलनात्मक अनुष्ठान शोध से सांस्कृतिक/मनोवैज्ञानिक बल।",
+      "evidence": "Cultural/psychological",
+      "citations": [
+        {"label": "PubMed: mourning rituals review", "url": "https://pubmed.ncbi.nlm.nih.gov/40957624/"}
+      ]
+    },
+    {
+      "id": "pind-daan",
+      "area": "death",
+      "tradition_en": "Pind daan",
+      "tradition_hi": "पिंड दान",
+      "text_source": "Garuda Purana; regional tirtha paddhati (Gaya etc.)",
+      "verse_ref": "Garuda Purana — pinda offerings",
+      "reasoning_en": "Rice-balls offered with mantra are said to nourish the departed's onward journey and free the lineage from unsettled debt of care.",
+      "reasoning_hi": "मंत्र सहित पिंड अर्पण से प्रस्थान-यात्रा को पोषण और वंश के अशांत ऋण से मुक्ति मानी जाती है।",
+      "modern_en": "No empirical test of metaphysical claims. As embodied memorial practice it can provide closure and family cohesion — cultural/psychological.",
+      "modern_hi": "आध्यात्मिक दावों का अनुभवजन्य परीक्षण नहीं। स्मृति-अनुष्ठान के रूप में समापन और परिवार एकता — सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "citations": []
+    },
+    {
+      "id": "brahma-muhurta",
+      "area": "daily",
+      "tradition_en": "Brahma muhurta waking",
+      "tradition_hi": "ब्रह्म मुहूर्त जागरण",
+      "text_source": "Ashtanga Hridaya / Charaka dinacharya; Ayurvedic daily regimen",
+      "verse_ref": "Ashtanga Hridaya Sutra — brahma muhurta utthana",
+      "reasoning_en": "The pre-dawn window is called ideal for study, meditation and clarity — mind is said to be sattvic before the day's noise.",
+      "reasoning_hi": "पूर्व-प्रातः अध्ययन, ध्यान और स्पष्टता के लिए उत्तम — दिन के शोर से पहले मन सात्त्विक माना जाता है।",
+      "modern_en": "A small Indian trial reported better attention/memory after 20 days of rising before ~4:30 vs ~7:00. Circadian science supports light-aligned waking generally; Brahma muhurta as a named slot is traditional. Individual sleep need varies.",
+      "modern_hi": "एक छोटे भारतीय अध्ययन में ~४:३० पूर्व जागने से ध्यान/स्मृति बेहतर। सर्कैडियन विज्ञान प्रकाश-संगत जागरण का समर्थन करता है; नामित स्लॉट पारंपरिक। नींद आवश्यकता व्यक्तिगत।",
+      "evidence": "Plausible",
+      "citations": [
+        {"label": "PubMed: early rising attention/memory (2012)", "url": "https://pubmed.ncbi.nlm.nih.gov/23781653/"},
+        {"label": "PubMed: clocks, light, melatonin review", "url": "https://pubmed.ncbi.nlm.nih.gov/20970001/"}
+      ]
+    },
+    {
+      "id": "ekadashi-fasting",
+      "area": "daily",
+      "tradition_en": "Ekadashi fasting",
+      "tradition_hi": "एकादशी व्रत",
+      "text_source": "Padma Purana ekadashi mahatmya; Smriti fasting rules",
+      "verse_ref": "Padma Purana — ekadashi vratkatha strands",
+      "reasoning_en": "Twice a lunar month, step back from heavy food for Vishnu remembrance, restraint and digestive rest.",
+      "reasoning_hi": "चंद्र मास में दो बार विष्णु स्मरण, संयम और पाचन-विश्राम हेतु भारी भोजन से पीछे हटना।",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed human and animal work. Ekadashi as a religious schedule is cultural; fasting is unsafe for some people (pregnancy, diabetes, eating disorders) — clinician first.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध शोध में। एकादशी धार्मिक अनुसूची सांस्कृतिक; कुछ लोगों के लिए व्रत असुरक्षित — चिकित्सक पहले।",
+      "evidence": "Plausible",
+      "citations": [
+        {"label": "PMC: intermittent fasting & gut microbiota review", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/"},
+        {"label": "PubMed: IF, microbiota, resistant hypertension (2025)", "url": "https://pubmed.ncbi.nlm.nih.gov/40701347/"}
+      ]
+    },
+    {
+      "id": "sandhya",
+      "area": "daily",
+      "tradition_en": "Sandhya (dawn/dusk prayer)",
+      "tradition_hi": "संध्या वंदन",
+      "text_source": "Grihya / Dharma Sutra sandhyopasana; Gayatri tradition",
+      "verse_ref": "Sandhyopasana paddhati",
+      "reasoning_en": "Junctions of day — sunrise and sunset — are set aside for mantra, water offerings and attention reset.",
+      "reasoning_hi": "दिन के संधि-काल — सूर्योदय/सूर्यास्त — मंत्र, अर्घ्य और ध्यान-रीसेट के लिए।",
+      "modern_en": "Brief daily rituals can anchor attention and reduce rumination (psychology of ritual). No unique clinical trial on Vedic sandhya as a protocol was found in our search.",
+      "modern_hi": "दैनिक संक्षिप्त अनुष्ठान ध्यान बाँध सकते हैं। वैदिक संध्या के विशिष्ट क्लिनिकल ट्रायल हमारी खोज में नहीं मिले।",
+      "evidence": "Cultural/psychological",
+      "citations": []
+    },
+    {
+      "id": "surya-namaskar",
+      "area": "daily",
+      "tradition_en": "Surya Namaskar (sun salutation)",
+      "tradition_hi": "सूर्य नमस्कार",
+      "text_source": "Modern yoga synthesis drawing on older Surya worship; classical texts praise Surya arghya more than the 12-asana set",
+      "verse_ref": "Surya worship in Vedic/Puranic layers; asana sequence modern",
+      "reasoning_en": "Salute the sun with breath-linked movement — gratitude for light and a full-body awakening.",
+      "reasoning_hi": "श्वास-युक्त गति से सूर्य को प्रणाम — प्रकाश के प्रति कृतज्ञता और पूर्ण-शरीर जागरण।",
+      "modern_en": "Peer-reviewed studies and a systematic review report cardiorespiratory, autonomic and fitness effects; protocols vary. Practice under guidance if you have joint/heart conditions.",
+      "modern_hi": "सहकर्मी-समीक्षित अध्ययन/समीक्षा में हृदय-श्वसन और फिटनेस प्रभाव; प्रोटोकॉल भिन्न। जोड़/हृदय स्थिति में मार्गदर्शन लें।",
+      "evidence": "Established",
+      "citations": [
+        {"label": "PubMed: slow vs fast Suryanamaskar (2011)", "url": "https://pubmed.ncbi.nlm.nih.gov/22022125/"},
+        {"label": "PubMed: acute Surya Namaskar metabolic effects", "url": "https://pubmed.ncbi.nlm.nih.gov/21665111/"},
+        {"label": "MDPI Healthcare systematic review (2026)", "url": "https://doi.org/10.3390/healthcare14131924"}
+      ]
+    },
+    {
+      "id": "eating-with-hands",
+      "area": "daily",
+      "tradition_en": "Eating with hands",
+      "tradition_hi": "हाथ से भोजन",
+      "text_source": "Ayurvedic dinacharya / cultural smriti practice (not a single canonical 'must')",
+      "verse_ref": "Ayurveda ahara vidhi themes",
+      "reasoning_en": "Touch is said to complete the sensory circuit of eating — temperature, texture and gratitude before the bite.",
+      "reasoning_hi": "स्पर्श से भोजन का इंद्रिय-चक्र पूरा — तापमान, स्पर्श और ग्रास से पहले कृतज्ञता।",
+      "modern_en": "Some popular claims about 'digestive mudras' lack rigorous trials. Mindful, slower eating has clearer evidence for satiety; hand-eating per se is cultural. Hygiene (clean hands) is the non-negotiable modern point. No high-quality study found proving superior nutrient absorption vs utensils.",
+      "modern_hi": "पाचन-मुद्रा दावों के कठोर ट्रायल दुर्लभ। धीमी सचेत खाई का साक्ष्य बेहतर; हाथ से खाना सांस्कृतिक। स्वच्छ हाथ अनिवार्य। बर्तन बनाम अवशोषण का मजबूत अध्ययन नहीं मिला।",
+      "evidence": "No evidence",
+      "citations": []
+    },
+    {
+      "id": "sitting-on-floor",
+      "area": "daily",
+      "tradition_en": "Sitting on the floor for meals / prayer",
+      "tradition_hi": "फ़र्श पर बैठकर भोजन / पूजा",
+      "text_source": "Household custom aligned with asana culture; Ayurvedic posture notes",
+      "verse_ref": "Cultural / asana practice",
+      "reasoning_en": "Grounded sitting is said to steady digestion and attention — spine erect, legs folded, meal unhurried.",
+      "reasoning_hi": "भूमि पर बैठना पाचन और ध्यान को स्थिर करे — रीढ़ सीधी, पैर मुड़े, भोजन बिना जल्दबाजी।",
+      "modern_en": "Floor sitting can train hip mobility for some; evidence for unique digestive benefit vs chair is limited. Contraindicated for certain knee/hip/back conditions. Cultural with plausible ergonomics for flexible bodies.",
+      "modern_hi": "कुछ के लिए कूल्हे लचीलापन; कुर्सी की तुलना में विशिष्ट पाचन लाभ सीमित। घुटना/पीठ समस्या में अनुपयुक्त। सांस्कृतिक + संभावित एर्गोनॉमिक्स।",
+      "evidence": "Cultural/psychological",
+      "citations": []
+    },
+    {
+      "id": "calendar-lunisolar",
+      "area": "calendar",
+      "tradition_en": "Lunisolar calendar astronomy",
+      "tradition_hi": "चंद्र-सौर पंचांग खगोल",
+      "text_source": "Surya Siddhanta; Vedanga Jyotisha",
+      "verse_ref": "Surya Siddhanta — tithi/masa reckoning",
+      "reasoning_en": "Months track the moon; years stay aligned to seasons via solar sankranti and occasional adhik masa — ritual time kept honest to sky.",
+      "reasoning_hi": "मास चंद्र से; वर्ष ऋतु से संक्रांति और अधिक मास द्वारा जुड़े — अनुष्ठान समय आकाश के प्रति ईमानदार।",
+      "modern_en": "Lunisolar intercalation is well-understood astronomy. Tithi at sunrise is a defined computational convention; city longitude matters. Established as astronomy; festival theology is separate.",
+      "modern_hi": "अधिक मास खगोल से सुज्ञात। सूर्योदय तिथि एक गणना पद्धति; देशांतर मायने रखता है। खगोल स्थापित; त्योहार-मीमांसा अलग।",
+      "evidence": "Established",
+      "citations": [
+        {"label": "Surya Siddhanta (encyclopedic overview)", "url": "https://en.wikipedia.org/wiki/Surya_Siddhanta"}
+      ]
+    },
+    {
+      "id": "sankranti-solar-ingress",
+      "area": "calendar",
+      "tradition_en": "Sankranti as real solar ingress",
+      "tradition_hi": "संक्रांति — वास्तविक सौर प्रवेश",
+      "text_source": "Surya Siddhanta; Puranic sankranti mahatmya",
+      "verse_ref": "Surya Siddhanta — rasi sandhi",
+      "reasoning_en": "When the Sun enters a new sidereal rasi, communities mark charity and Surya offerings — the solar spine of the year.",
+      "reasoning_hi": "सूर्य के नए सिडेरेल राशि प्रवेश पर दान और सूर्य अर्घ्य — वर्ष की सौर रीढ़।",
+      "modern_en": "Solar longitude crossings are measurable events (ayanamsa convention required for sidereal rasi). Makar Sankranti ≈ mid-January is a stable seasonal marker. Established astronomy.",
+      "modern_hi": "सौर देशांतर संक्रमण मापनीय (अयनांश आवश्यक)। मकर संक्रांति ≈ मध्य जनवरी स्थिर मौसमी चिह्न। स्थापित खगोल।",
+      "evidence": "Established",
+      "citations": [
+        {"label": "Sankranti overview", "url": "https://en.wikipedia.org/wiki/Sankranti"}
+      ]
+    },
+    {
+      "id": "eclipses",
+      "area": "calendar",
+      "tradition_en": "Eclipse (grahan) observances",
+      "tradition_hi": "ग्रहण संबंधी आचरण",
+      "text_source": "Smriti / Puranic grahan sutak rules; astronomical siddhantas predict them",
+      "verse_ref": "Grahan sutak paddhati",
+      "reasoning_en": "During eclipse, ordinary puja/food is paused; mantra and later snana/daan — treat the sky event as a pause for attention.",
+      "reasoning_hi": "ग्रहण में सामान्य पूजा/भोजन स्थगित; मंत्र और बाद में स्नान/दान — आकाश घटना को ध्यान का विराम मानना।",
+      "modern_en": "Eclipse prediction is Established astronomy. Food-safety myths (food becomes toxic) lack evidence; ordinary food hygiene applies. Viewing without eye protection is genuinely harmful — that risk is Established.",
+      "modern_hi": "ग्रहण भविष्यवाणी स्थापित खगोल। भोजन विषाक्त होने के मिथक बिना प्रमाण; सामान्य स्वच्छता का पालन। बिना सुरक्षा देखना हानिकारक — यह जोखिम स्थापित।",
+      "evidence": "Established",
+      "citations": [
+        {"label": "NASA eclipse eye safety", "url": "https://moon.nasa.gov/eclipse-safety/"}
+      ]
+    },
+    {
+      "id": "muhurat-cultural",
+      "area": "calendar",
+      "tradition_en": "Muhurat / electional timing",
+      "tradition_hi": "मुहूर्त चयन",
+      "text_source": "Muhurta Chintamani; Brihat Samhita strands",
+      "verse_ref": "Muhurta Chintamani",
+      "reasoning_en": "Choose a supportive sky-time for beginnings so the act is done with attention, consent of elders and shared calm — not in panic.",
+      "reasoning_hi": "आरंभ के लिए सहायक समय चुनें ताकि कर्म ध्यान, वृद्धों की सहमति और शांति से हो — घबराहट में नहीं।",
+      "modern_en": "No scientific evidence that planetary clocks cause life outcomes. Psychological value of deliberate timing and shared ritual is cultural. DharmaSetu states this plainly — no outcome claims.",
+      "modern_hi": "ग्रह घड़ियों से जीवन-परिणाम का वैज्ञानिक प्रमाण नहीं। सचेत समय और साझे अनुष्ठान का मनोवैज्ञानिक मूल्य सांस्कृतिक। धर्मसेतु परिणाम का दावा नहीं करता।",
+      "evidence": "Cultural/psychological",
+      "citations": []
+    },
+    {
+      "id": "vidaai",
+      "area": "life",
+      "tradition_en": "Vidaai (bridal farewell)",
+      "tradition_hi": "विदाई",
+      "text_source": "Regional wedding custom (not one Vedic verse); later paddhati",
+      "verse_ref": "Lokachara / vivaha paddhati",
+      "reasoning_en": "A public, wept goodbye that names the daughter's shift of household — grief allowed inside celebration.",
+      "reasoning_hi": "पुत्री के गृह-परिवर्तन को नाम देने वाली सार्वजनिक विदाई — उत्सव के भीतर शोक की अनुमति।",
+      "modern_en": "Ritualised farewell can help process ambiguous loss and family role change; cultural/psychological. Coercive or shaming forms are harmful — consent and care matter.",
+      "modern_hi": "अनुष्ठानिक विदाई भूमिका-परिवर्तन के भाव संभालने में सहायक हो सकती है। बाध्य/लाज देने वाले रूप हानिकारक — सहमति जरूरी।",
+      "evidence": "Cultural/psychological",
+      "citations": []
+    },
+    {
+      "id": "haldi",
+      "area": "life",
+      "tradition_en": "Haldi ceremony",
+      "tradition_hi": "हल्दी अनुष्ठान",
+      "text_source": "Regional vivaha custom; Ayurveda praises haridra (turmeric) generally",
+      "verse_ref": "Lokachara; Ayurvedic haridra gunas",
+      "reasoning_en": "Turmeric paste blesses skin and auspicious glow before the vows — family hands-on care.",
+      "reasoning_hi": "विवाह से पहले हल्दी लेप से त्वचा और शुभ कान्ति — परिवार के हाथों से देखभाल।",
+      "modern_en": "Curcumin has researched anti-inflammatory properties in other contexts; wedding haldi as topical ritual is not the same as clinical dosing. Patch-test for skin sensitivity. Cultural with a plausible botanical link.",
+      "modern_hi": "कर्क्यूमिन अन्य संदर्भों में शोधित; विवाह हल्दी क्लिनिकल खुराक नहीं। त्वचा संवेदनशीलता जाँचें। सांस्कृतिक + संभावित वनस्पति संबंध।",
+      "evidence": "Plausible",
+      "citations": [
+        {"label": "PubMed: curcumin review (example mechanistic literature)", "url": "https://pubmed.ncbi.nlm.nih.gov/17569207/"}
+      ]
+    },
+    {
+      "id": "mehendi",
+      "area": "life",
+      "tradition_en": "Mehendi (henna)",
+      "tradition_hi": "मेंहदी",
+      "text_source": "Regional bridal custom across South Asia / MENA",
+      "verse_ref": "Lokachara",
+      "reasoning_en": "Designs on hands slow the bride into stillness, beauty and women-led gathering before the wedding rush.",
+      "reasoning_hi": "हाथों की मेंहदी दुल्हन को ठहराव, सौंदर्य और महिलाओं के संगम में लाती है।",
+      "modern_en": "Natural henna is generally well-tolerated; 'black henna' (PPD) can cause severe allergy — Established dermatology warning. Social bonding is cultural/psychological.",
+      "modern_hi": "प्राकृतिक मेंहदी प्रायः सहन; 'ब्लैक मेंहदी' (PPD) गंभीर एलर्जी — स्थापित त्वचाविज्ञान चेतावनी। सामाजिक जुड़ाव सांस्कृतिक।",
+      "evidence": "Established",
+      "citations": [
+        {"label": "PubMed: para-phenylenediamine henna allergy", "url": "https://pubmed.ncbi.nlm.nih.gov/12373330/"}
+      ]
+    },
+    {
+      "id": "griha-pravesh",
+      "area": "life",
+      "tradition_en": "Griha pravesh",
+      "tradition_hi": "गृह प्रवेश",
+      "text_source": "Grihya Sutra domestic rites; later vastu/paddhati manuals",
+      "verse_ref": "Grihya — house-entry themes",
+      "reasoning_en": "First entry with fire, water, cow/milk or kalash — ask the space to become a home of dharma and hospitality.",
+      "reasoning_hi": "अग्नि-जल-कलश संग प्रथम प्रवेश — स्थान से धर्म और आतिथ्य का घर बनने का आग्रह।",
+      "modern_en": "Threshold rituals help psychological 'place attachment'. Vastu directional outcome claims are Cultural — no scientific outcome claim from DharmaSetu.",
+      "modern_hi": "देहलीज़ अनुष्ठान मनोवैज्ञानिक स्थान-जुड़ाव में सहायक। वास्तु दिशा-परिणाम सांस्कृतिक — धर्मसेतु वैज्ञानिक दावा नहीं करता।",
+      "evidence": "Cultural/psychological",
+      "citations": []
+    },
+    {
+      "id": "life-moments-tilak",
+      "area": "life",
+      "tradition_en": "Tilak / tika",
+      "tradition_hi": "तिलक / टीका",
+      "text_source": "Smriti / Agamic custom; regional greeting practice",
+      "verse_ref": "Samskara & seva custom",
+      "reasoning_en": "A mark on the forehead blesses attention (ajna) and publicly honours the person — greeting as sacred.",
+      "reasoning_hi": "ललाट पर चिह्न ध्यान (आज्ञा) को आशीष और व्यक्ति का सार्वजनिक सम्मान — अभिवादन को पवित्र बनाना।",
+      "modern_en": "Social-signaling and honour rituals; cultural/psychological. No evidence for mystical third-eye activation claims.",
+      "modern_hi": "सामाजिक सम्मान अनुष्ठान; सांस्कृतिक/मनोवैज्ञानिक। तीसरी आँख सक्रियण दावों का प्रमाण नहीं।",
+      "evidence": "Cultural/psychological",
+      "citations": []
+    },
+    {
+      "id": "namkaran",
+      "area": "birth",
+      "tradition_en": "Namkaran (naming)",
+      "tradition_hi": "नामकरण",
+      "text_source": "Grihya Sutras — namakarana samskara",
+      "verse_ref": "Namakarana samskara",
+      "reasoning_en": "Speak the child's public name into the world with elders present — identity gifted, not only registered.",
+      "reasoning_hi": "वृद्धों की उपस्थिति में बच्चे का सार्वजनिक नाम संसार में बोलना — पहचान केवल पंजीकरण नहीं, उपहार।",
+      "modern_en": "Naming ceremonies support belonging and family narrative; cultural/psychological. No outcome claim from nakshatra-name rules.",
+      "modern_hi": "नामकरण जुड़ाव और परिवार कथा में सहायक; सांस्कृतिक। नक्षत्र-नाम नियमों से परिणाम दावा नहीं।",
+      "evidence": "Cultural/psychological",
+      "citations": []
+    },
+    {
+      "id": "adhik-maas",
+      "area": "calendar",
+      "tradition_en": "Adhik maas (intercalary month)",
+      "tradition_hi": "अधिक मास",
+      "text_source": "Surya Siddhanta / Jyotisha siddhanta intercalation rules",
+      "verse_ref": "Adhimasa reckoning",
+      "reasoning_en": "When lunar months drift ahead of seasons, an extra month restores alignment — honesty to both moon and sun.",
+      "reasoning_hi": "जब चंद्र मास ऋतु से आगे बढ़ जाएँ, अतिरिक्त मास संरेखण लौटाता है — चंद्र और सूर्य दोनों के प्रति ईमानदारी।",
+      "modern_en": "Intercalation is standard lunisolar astronomy (Established). Festival timing in adhik maas can be regionally ambiguous — mark verify with local panchang.",
+      "modern_hi": "अधिक मास मानक चंद्र-सौर खगोल (स्थापित)। अधिक मास में त्योहार क्षेत्रीय रूप से अस्पष्ट हो सकते हैं — स्थानीय पंचांग से सत्यापित करें।",
+      "evidence": "Established",
+      "citations": [
+        {"label": "Lunisolar calendar (overview)", "url": "https://en.wikipedia.org/wiki/Lunisolar_calendar"}
+      ]
+    }
+  ]
+}

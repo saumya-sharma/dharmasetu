@@ -1,0 +1,384 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DharmaSetu//Vedic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational. 
+X-WR-CALNAME:DharmaSetu — Ancestral / Pitru Paksha
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:Amavasya — Ashvina / अमावस्या — आश्व
+ िन
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261103T045158Z
+UID:amavasya-2026-11-09@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#c84
+ 5425ac6efc2ee
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Kartika / अमावस्या — कार्
+ तिक
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+DTSTAMP:20261103T045158Z
+UID:amavasya-2026-12-08@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#6f0
+ 1db0b5477a31a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-01-07@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#7aed
+ 76b6adcf4a6f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Pausha / अमावस्या — पौष
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-02-06@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#35a
+ e7e09792a15e8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Magha / अमावस्या — माघ
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-03-08@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#9d5
+ 87eb3f8631882
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Phalguna / अमावस्या — फाल्
+ गुन
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-04-06@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#fb0
+ 66a731ece57ea
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Chaitra / अमावस्या — चैत्
+ र
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-05-06@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#ee7
+ 0ac3440ee7ff8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Vaishakha / अमावस्या — वैशा
+ ख
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-06-04@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#622
+ 4cbccc47b1b40
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Jyeshtha / अमावस्या — ज्ये
+ ष्ठ
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-07-04@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#985
+ 6da695b1f1452
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Ashadha / अमावस्या — आषाढ
+ ़
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-08-02@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#253
+ 3c6f8c154b0a2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Shravana / अमावस्या — श्रा
+ वण
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-08-31@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#c72
+ fd6b921b081b5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pitru Paksha begins / पितृ पक्ष आरंभ
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+DTSTAMP:20261103T045158Z
+UID:pitru_paksha_start-2027-09-16@dharmasetu
+CATEGORIES:ancestral\,festivals
+DESCRIPTION:Why: set aside days so remembrance is not left to chance — fo
+ od\, water and name offered with care.\n\nStory: Pitru Paksha opens after 
+ Bhadrapada Purnima — a fortnight of shraddha for ancestors\, closing on 
+ Sarvapitri Amavasya.\nSource: Garuda Purana\; Shraddha Kalpa traditions\nW
+ hy: set aside days so remembrance is not left to chance — food\, water a
+ nd name offered with care.\nModern angle: Structured mourning and remembra
+ nce support grief processing\; cultural/psychological (see Worden / contin
+ uing-bonds literature).\nEvidence: Plausible\nLink: https://pubmed.ncbi.nl
+ m.nih.gov/20680363/\nMore: https://saumya-sharma.github.io/dharmasetu/revi
+ ew/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi. City-sp
+ ecific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#65b
+ dddf8f1d44a71
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sarvapitri Amavasya / सर्वपित्नी अमाव
+ स्या
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+DTSTAMP:20261103T045158Z
+UID:sarvapitri-2027-09-30@dharmasetu
+CATEGORIES:ancestral\,purnima-amavasya\,festivals
+DESCRIPTION:Why: a safety-net day of remembrance so no lineage is left unn
+ amed.\n\nStory: Sarvapitri Amavasya closes Pitru Paksha — the day for al
+ l ancestors\, especially when individual tithi days were missed.\nSource: 
+ Garuda Purana\; Shraddha manuals\nWhy: a safety-net day of remembrance so 
+ no lineage is left unnamed.\nModern angle: Inclusive memorial day\; cultur
+ al/psychological grief support.\nEvidence: Cultural/psychological\nMore: h
+ ttps://saumya-sharma.github.io/dharmasetu/review/reasoning.html#shraddh
+ a-remembrance\nLocation basis: New Delhi. City-specific timing coming late
+ r.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#ea0
+ c668666d641be
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Bhadrapada / अमावस्या — भाद
+ ्रपद
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-09-30@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#890
+ dd53ee1a638fd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Ashvina / अमावस्या — आश्व
+ िन
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-10-29@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#f8c
+ f8fc1f600d50d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Kartika / अमावस्या — कार्
+ तिक
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-11-28@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#a8f
+ 2ccb27b379e06
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
+ ्गशीर्ष
+DTSTART;VALUE=DATE:20271227
+DTEND;VALUE=DATE:20271228
+DTSTAMP:20261103T045158Z
+UID:amavasya-2027-12-27@dharmasetu
+CATEGORIES:purnima-amavasya\,ancestral
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/review/reasoning.html#shraddha-remembrance\nLocation basis: New Delhi
+ . City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#7fa
+ d7c5eb1d0f44b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1 @@
+logo-temple.svg: "temple_hindu" glyph from Google Material Symbols (Apache License 2.0), placed on the DharmaSetu terracotta tile. Placeholder until the final brand kit is delivered.

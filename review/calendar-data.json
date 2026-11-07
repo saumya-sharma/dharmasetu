@@ -1,0 +1,2976 @@
+{
+  "meta": {
+    "name": "DharmaSetu — Vedic Calendar",
+    "name_hi": "धर्मसेतु — वैदिक पंचांग",
+    "location": "New Delhi (28.61N, 77.21E, IST)",
+    "range": {
+      "start": "2026-11-01",
+      "end": "2027-12-31"
+    },
+    "ayanamsa": "Lahiri (approx)",
+    "engine": "skyfield DE421 + observance windows (pradosh/nishita/aparahna) + sunrise tithi; Drik Panchang New Delhi overrides where noted (pyswisseph unavailable)",
+    "disclaimer_en": "Educational. City-specific timing refinements coming later. Confirm with local panchang or kul-purohit. Not medical or outcome advice.",
+    "disclaimer_hi": "शैक्षिक। शहर-विशिष्ट समय बाद में। स्थानीय पंचांग या कुल-पुरोहित से पुष्टि करें। चिकित्सकीय/परिणाम सलाह नहीं।",
+    "categories": [
+      {
+        "id": "festivals",
+        "en": "Festivals",
+        "hi": "त्योहार"
+      },
+      {
+        "id": "ekadashi",
+        "en": "Ekadashi / fasts",
+        "hi": "एकादशी / व्रत"
+      },
+      {
+        "id": "purnima-amavasya",
+        "en": "Purnima / Amavasya",
+        "hi": "पूर्णिमा / अमावस्या"
+      },
+      {
+        "id": "sankranti",
+        "en": "Sankranti",
+        "hi": "संक्रांति"
+      },
+      {
+        "id": "ancestral",
+        "en": "Pitru Paksha / ancestral",
+        "hi": "पितृ पक्ष / पूर्वज"
+      },
+      {
+        "id": "birth-auspicious",
+        "en": "Birth-related auspicious days",
+        "hi": "जन्म-संबंधी शुभ दिन"
+      }
+    ],
+    "cross_check": [
+      {
+        "label": "Diwali 2026",
+        "drik": "2026-11-08",
+        "ours": "2026-11-08",
+        "status": "match"
+      },
+      {
+        "label": "Dev Uthani 2026",
+        "drik": "2026-11-20",
+        "ours": "2026-11-20",
+        "status": "match"
+      },
+      {
+        "label": "Makar Sankranti 2027",
+        "drik": "2027-01-15",
+        "ours": "2027-01-15",
+        "status": "match"
+      },
+      {
+        "label": "Vasant Panchami 2027",
+        "drik": "2027-02-11",
+        "ours": "2027-02-11",
+        "status": "match"
+      },
+      {
+        "label": "Maha Shivaratri 2027",
+        "drik": "2027-03-06",
+        "ours": "2027-03-06",
+        "status": "match"
+      },
+      {
+        "label": "Holika Dahan 2027",
+        "drik": "2027-03-21",
+        "ours": "2027-03-21",
+        "status": "match"
+      },
+      {
+        "label": "Holi Rangwali 2027",
+        "drik": "2027-03-22",
+        "ours": "2027-03-22",
+        "status": "match"
+      },
+      {
+        "label": "Ram Navami 2027",
+        "drik": "2027-04-15",
+        "ours": "2027-04-15",
+        "status": "match"
+      },
+      {
+        "label": "Akshaya Tritiya 2027",
+        "drik": "2027-05-09",
+        "ours": "2027-05-09",
+        "status": "match"
+      },
+      {
+        "label": "Guru Purnima 2027",
+        "drik": "2027-07-18",
+        "ours": "2027-07-18",
+        "status": "match"
+      },
+      {
+        "label": "Raksha Bandhan 2027",
+        "drik": "2027-08-17",
+        "ours": "2027-08-17",
+        "status": "match"
+      },
+      {
+        "label": "Janmashtami 2027",
+        "drik": "2027-08-25",
+        "ours": "2027-08-25",
+        "status": "match"
+      },
+      {
+        "label": "Ganesh Chaturthi 2027",
+        "drik": "2027-09-04",
+        "ours": "2027-09-04",
+        "status": "match"
+      },
+      {
+        "label": "Pitru Paksha begins 2027",
+        "drik": "2027-09-16",
+        "ours": "2027-09-16",
+        "status": "match"
+      },
+      {
+        "label": "Sarvapitri 2027",
+        "drik": "2027-09-29",
+        "ours": "2027-09-29",
+        "status": "match"
+      },
+      {
+        "label": "Sharad Navratri begins 2027",
+        "drik": "2027-09-30",
+        "ours": "2027-09-30",
+        "status": "match"
+      },
+      {
+        "label": "Dussehra 2027",
+        "drik": "2027-10-09",
+        "ours": "2027-10-09",
+        "status": "match"
+      },
+      {
+        "label": "Diwali 2027",
+        "drik": "2027-10-29",
+        "ours": "2027-10-29",
+        "status": "match"
+      },
+      {
+        "label": "Dev Uthani 2027",
+        "drik": "2027-11-10",
+        "ours": "2027-11-10",
+        "status": "match"
+      },
+      {
+        "label": "Dussehra 2026",
+        "drik": "2026-10-20",
+        "ours": null,
+        "status": "missing_in_feed"
+      },
+      {
+        "label": "Janmashtami 2026",
+        "drik": "2026-09-04",
+        "ours": null,
+        "status": "missing_in_feed"
+      }
+    ],
+    "pre_window_tithi_spotchecks": [
+      {
+        "label": "Makar Sankranti 2026",
+        "date": "2026-01-14",
+        "tithi_at_sunrise": 26,
+        "tithi_name": "Ekadashi",
+        "sun_rasi": "Dhanu"
+      },
+      {
+        "label": "Vasant Panchami 2026",
+        "date": "2026-01-23",
+        "tithi_at_sunrise": 5,
+        "tithi_name": "Panchami",
+        "sun_rasi": "Makara"
+      },
+      {
+        "label": "Maha Shivaratri 2026",
+        "date": "2026-02-15",
+        "tithi_at_sunrise": 28,
+        "tithi_name": "Trayodashi",
+        "sun_rasi": "Kumbha"
+      },
+      {
+        "label": "Holi 2026",
+        "date": "2026-03-04",
+        "tithi_at_sunrise": 16,
+        "tithi_name": "Pratipada",
+        "sun_rasi": "Kumbha"
+      },
+      {
+        "label": "Ram Navami 2026",
+        "date": "2026-03-26",
+        "tithi_at_sunrise": 8,
+        "tithi_name": "Ashtami",
+        "sun_rasi": "Meena"
+      },
+      {
+        "label": "Akshaya Tritiya 2026",
+        "date": "2026-04-19",
+        "tithi_at_sunrise": 2,
+        "tithi_name": "Dwitiya",
+        "sun_rasi": "Mesha"
+      },
+      {
+        "label": "Janmashtami 2026",
+        "date": "2026-09-04",
+        "tithi_at_sunrise": 23,
+        "tithi_name": "Ashtami",
+        "sun_rasi": "Simha"
+      },
+      {
+        "label": "Ganesh Chaturthi 2026",
+        "date": "2026-09-14",
+        "tithi_at_sunrise": 3,
+        "tithi_name": "Tritiya",
+        "sun_rasi": "Simha"
+      },
+      {
+        "label": "Dussehra 2026",
+        "date": "2026-10-20",
+        "tithi_at_sunrise": 9,
+        "tithi_name": "Navami",
+        "sun_rasi": "Tula"
+      }
+    ],
+    "audits": [
+      {
+        "date": "2026-11-07",
+        "scope": "Ekadashi (all, Nov 2026–Dec 2027) and Purnima 2027 + Dec 2026 vs Drik Panchang, New Delhi (geoname 1261481)",
+        "sources": [
+          "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+          "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+          "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+          "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026"
+        ],
+        "result": "All primary (Smarta/first-listed) Ekadashi dates match after fixes. Gauna/Vaishnava second-day variants listed by Drik (2026-11-21, 2027-01-19, 2027-07-30, 2027-10-26) are not separate events; noted where relevant.",
+        "fixes": [
+          "removed duplicate 2027-03-03 Ekadashi row (Drik: Vijaya Ekadashi 2027-03-04 only)",
+          "removed duplicate 2027-06-19 Purnima row (Drik: Jyeshtha Purnima 2027-06-18)",
+          "moved Pausha Putrada Ekadashi 2027-01-19 -> 2027-01-18 (UID kept, SEQUENCE 1)",
+          "added missing Kamika Ekadashi 2027-07-29",
+          "added missing Purnima 2026-12-23 and 2027-02-20"
+        ],
+        "not_audited": "Amavasya, Sankranti, birth-auspicious and ancestral-only rows; ‘verify:false’ alone does not mean independently verified."
+      }
+    ],
+    "audit_semantics": "audit.status 'source-checked' = date compared against the named source on the given day. 'reference' = computed, not yet compared. 'verify:true' is a separate technical flag for known-bad/ambiguous rows (held back always)."
+  },
+  "events": [
+    {
+      "id": "ca3253e5e4c50755",
+      "uid": "ekadashi-2026-11-05@dharmasetu",
+      "date": "2026-11-05",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Ashvina",
+      "title_hi": "एकादशी (कृष्ण) — आश्विन",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "11c9bda8c6d35afe",
+      "uid": "diwali-2026-11-09@dharmasetu",
+      "date": "2026-11-08",
+      "fid": "diwali",
+      "title_en": "Diwali / Deepavali",
+      "title_hi": "दीपावली",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: light the home when the moon is dark — invite prosperity, kinship and clarity after the ancestral fortnight.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में घर जलाएँ — पितृ पक्ष के बाद समृद्धि, रिश्ते और स्पष्टता का निमंत्रण।",
+      "why_en": "Why: light the home when the moon is dark — invite prosperity, kinship and clarity after the ancestral fortnight.",
+      "why_hi": "कारण: चंद्र के अँधेरे में घर जलाएँ — पितृ पक्ष के बाद समृद्धि, रिश्ते और स्पष्टता का निमंत्रण।",
+      "story_en": "Diwali (Deepavali) on the amavasya of Ashvina (amanta) / Kartika lights lamps for Rama's return and Lakshmi's grace in the darkest new-moon night.",
+      "story_hi": "दीपावली आश्विन अमावस्या (अमान्त) / कार्तिक — सबसे अँधेरी अमावस्या पर राम की वापसी और लक्ष्मी की कृपा के दीप।",
+      "story_source": "Ramayana return narrative; Padma Purana Lakshmi strands",
+      "modern_en": "Light, gathering and gift rituals support mood and social ties in dark season; cultural/psychological with seasonal-affect context.",
+      "modern_hi": "दीप, मिलन और उपहार अँधेरे मौसम में मनोदशा और सामाजिक संबंध सहारा देते हैं; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches amavasya@pradosh",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2026",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "c845425ac6efc2ee",
+      "uid": "amavasya-2026-11-09@dharmasetu",
+      "date": "2026-11-09",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Ashvina",
+      "title_hi": "अमावस्या — आश्विन",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "43c4dbc3e89ff102",
+      "uid": "sankranti_generic-2026-11-17@dharmasetu",
+      "date": "2026-11-17",
+      "fid": "sankranti_generic",
+      "title_en": "Vrischika Sankranti",
+      "title_hi": "वृश्चिक संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2026-11-17T04:34:07.762313+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "252e1ecd88f84577",
+      "uid": "dev_uthani-2026-11-20@dharmasetu",
+      "date": "2026-11-20",
+      "fid": "dev_uthani",
+      "title_en": "Dev Uthani Ekadashi",
+      "title_hi": "देव उठनी एकादशी",
+      "categories": [
+        "festivals",
+        "ekadashi"
+      ],
+      "desc_en": "Why: close the monsoon retreat of the gods and reopen the season of household beginnings.",
+      "desc_hi": "कारण: देवताओं के वर्षा-अवकाश का समापन और गृह आरंभों का मौसम फिर खोलना।",
+      "why_en": "Why: close the monsoon retreat of the gods and reopen the season of household beginnings.",
+      "why_hi": "कारण: देवताओं के वर्षा-अवकाश का समापन और गृह आरंभों का मौसम फिर खोलना।",
+      "story_en": "Dev Uthani (Prabodhini) Ekadashi in Kartika Shukla ends Chaturmas — Vishnu is said to awaken; marriages and auspicious starts resume.",
+      "story_hi": "देव उठनी (प्रबोधिनी) एकादशी कार्तिक शुक्ल — चातुर्मास का अंत, विष्णु का जागरण; विवाह और शुभ आरंभ फिर से।",
+      "story_source": "Padma Purana / Vaishnava ekadashi lore",
+      "modern_en": "Calendar bookkeeping for social life after monsoon; cultural. Ekadashi fasting has broader metabolic research links.",
+      "modern_hi": "मानसून के बाद सामाजिक जीवन का कैलेंडर; सांस्कृतिक। एकादशी व्रत के व्यापक चयापचय शोध संबंध।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches kartika-shukla-ekadashi (sunset/dashami-viddha aware)",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "91a3ea1bdf455b9f",
+      "uid": "purnima-2026-11-24@dharmasetu",
+      "date": "2026-11-24",
+      "fid": "purnima",
+      "title_en": "Purnima — Kartika",
+      "title_hi": "पूर्णिमा — कार्तिक",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "06bd999348376698",
+      "uid": "ekadashi-2026-12-04@dharmasetu",
+      "date": "2026-12-04",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Kartika",
+      "title_hi": "एकादशी (कृष्ण) — कार्तिक",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "6f01db0b5477a31a",
+      "uid": "amavasya-2026-12-08@dharmasetu",
+      "date": "2026-12-08",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Kartika",
+      "title_hi": "अमावस्या — कार्तिक",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "b6e7464f3c428fcb",
+      "uid": "sankranti_generic-2026-12-17@dharmasetu",
+      "date": "2026-12-17",
+      "fid": "sankranti_generic",
+      "title_en": "Dhanu Sankranti",
+      "title_hi": "धनु संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2026-12-16T19:12:30.675202+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "ed433d3069a755fc",
+      "uid": "ekadashi-2026-12-20@dharmasetu",
+      "date": "2026-12-20",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Margashirsha",
+      "title_hi": "एकादशी (शुक्ल) — मार्गशीर्ष",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "f9898ea00ae83f49",
+      "uid": "purnima-2026-12-23@dharmasetu",
+      "date": "2026-12-23",
+      "fid": "purnima",
+      "title_en": "Purnima — Margashirsha",
+      "title_hi": "पूर्णिमा — मार्गशीर्ष",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026",
+      "sequence": 0,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "ea61278f389cc2f4",
+      "uid": "ekadashi-2027-01-03@dharmasetu",
+      "date": "2027-01-03",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Margashirsha",
+      "title_hi": "एकादशी (कृष्ण) — मार्गशीर्ष",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "7aed76b6adcf4a6f",
+      "uid": "amavasya-2027-01-07@dharmasetu",
+      "date": "2027-01-07",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Margashirsha",
+      "title_hi": "अमावस्या — मार्गशीर्ष",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "350fff9e725b595c",
+      "uid": "makar_sankranti-2027-01-15@dharmasetu",
+      "date": "2027-01-15",
+      "fid": "makar_sankranti",
+      "title_en": "Makar Sankranti",
+      "title_hi": "मकर संक्रांति",
+      "categories": [
+        "festivals",
+        "sankranti",
+        "birth-auspicious"
+      ],
+      "desc_en": "Why: solar astronomy made visible as a festival of harvest, charity (daan), and sesame–jaggery offerings to Surya.",
+      "desc_hi": "कारण: सौर खगोल को फसल, दान और सूर्य को तिल-गुड़ अर्पण के पर्व के रूप में मनाना।",
+      "why_en": "Why: solar astronomy made visible as a festival of harvest, charity (daan), and sesame–jaggery offerings to Surya.",
+      "why_hi": "कारण: सौर खगोल को फसल, दान और सूर्य को तिल-गुड़ अर्पण के पर्व के रूप में मनाना।",
+      "story_en": "Makar Sankranti marks the Sun's sidereal ingress into Makara (Capricorn), traditionally linked with Uttarayana — the northward turn of the solar path.",
+      "story_hi": "मकर संक्रांति सूर्य के मकर राशि में प्रवेश का पर्व है, जिसे उत्तरायण — सूर्य के उत्तर की ओर बढ़ने — से जोड़ा जाता है।",
+      "story_source": "Surya Siddhanta; Puranic Uttarayana lore",
+      "modern_en": "Corresponds to a real solar-longitude event (sidereal Capricorn ingress). Seasonal marker near mid-winter in the northern hemisphere.",
+      "modern_hi": "यह वास्तविक सौर-देशांतर घटना (सिडेरेल मकर प्रवेश) है। उत्तरी गोलार्ध में मध्य-शीत का मौसमी चिह्न।",
+      "evidence": "Established",
+      "evidence_url": "https://www.drikpanchang.com/sankranti/makar-sankranti-date-time.html",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-01-15T05:58:50.387893+05:30",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "d3fc74d0947e8b24",
+      "uid": "ekadashi-2027-01-19@dharmasetu",
+      "date": "2027-01-18",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Pausha",
+      "title_hi": "एकादशी (शुक्ल) — पौष",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "sequence": 1,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+      "variant_note_en": "Drik Panchang also lists Gauna (secondary) Pausha Putrada Ekadashi on 19 Jan 2027; some families observe that day.",
+      "variant_note_hi": "दृक पंचांग 19 जनवरी 2027 को गौण पौष पुत्रदा एकादशी भी दर्शाता है; कुछ परिवार उस दिन मानते हैं।",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "78dc692ffa60a80b",
+      "uid": "purnima-2027-01-22@dharmasetu",
+      "date": "2027-01-22",
+      "fid": "purnima",
+      "title_en": "Purnima — Pausha",
+      "title_hi": "पूर्णिमा — पौष",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "18624e6b155a41bb",
+      "uid": "ekadashi-2027-02-02@dharmasetu",
+      "date": "2027-02-02",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Pausha",
+      "title_hi": "एकादशी (कृष्ण) — पौष",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "35ae7e09792a15e8",
+      "uid": "amavasya-2027-02-06@dharmasetu",
+      "date": "2027-02-06",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Pausha",
+      "title_hi": "अमावस्या — पौष",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "233033099b355ad7",
+      "uid": "vasant_panchami-2027-02-11@dharmasetu",
+      "date": "2027-02-11",
+      "fid": "vasant_panchami",
+      "title_en": "Vasant Panchami",
+      "title_hi": "वसंत पंचमी",
+      "categories": [
+        "festivals",
+        "birth-auspicious"
+      ],
+      "desc_en": "Why: mark the turn toward longer light and dedicate the season of growth to speech, learning and the arts.",
+      "desc_hi": "कारण: बढ़ती रोशनी के मौसम को वाणी, विद्या और कलाओं को समर्पित करना।",
+      "why_en": "Why: mark the turn toward longer light and dedicate the season of growth to speech, learning and the arts.",
+      "why_hi": "कारण: बढ़ती रोशनी के मौसम को वाणी, विद्या और कलाओं को समर्पित करना।",
+      "story_en": "Vasant Panchami honours Saraswati on Magha Shukla Panchami, when spring (vasanta) begins to show and learning, music and yellow mustard fields are celebrated.",
+      "story_hi": "वसंत पंचमी माघ शुक्ल पंचमी पर सरस्वती की पूजा है — वसंत का आरंभ, विद्या, संगीत और पीले सरसों के खेतों का उत्सव।",
+      "story_source": "Puranic Saraswati lore; regional Grihya customs",
+      "modern_en": "Seasonal / cultural marker. No clinical outcome claim; supports community learning rituals.",
+      "modern_hi": "मौसमी/सांस्कृतिक चिह्न। कोई चिकित्सकीय दावा नहीं; सामुदायिक विद्या-अनुष्ठानों को सहारा।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Magha Shukla 5",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "bccc771ac4ab995c",
+      "uid": "sankranti_generic-2027-02-14@dharmasetu",
+      "date": "2027-02-14",
+      "fid": "sankranti_generic",
+      "title_en": "Kumbha Sankranti",
+      "title_hi": "कुम्भ संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-02-13T19:03:03.526599+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "f05fa8269a44074f",
+      "uid": "ekadashi-2027-02-17@dharmasetu",
+      "date": "2027-02-17",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Magha",
+      "title_hi": "एकादशी (शुक्ल) — माघ",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "0bbeb598225d8b86",
+      "uid": "purnima-2027-02-20@dharmasetu",
+      "date": "2027-02-20",
+      "fid": "purnima",
+      "title_en": "Purnima — Magha",
+      "title_hi": "पूर्णिमा — माघ",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+      "sequence": 0,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "df089488a7460daf",
+      "uid": "ekadashi-2027-03-04@dharmasetu",
+      "date": "2027-03-04",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Magha",
+      "title_hi": "एकादशी (कृष्ण) — माघ",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "d4bc3131946f24fc",
+      "uid": "maha_shivaratri-2027-03-07@dharmasetu",
+      "date": "2027-03-06",
+      "fid": "maha_shivaratri",
+      "title_en": "Maha Shivaratri",
+      "title_hi": "महा शिवरात्रि",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: a night vigil of remembrance and restraint at the dark fortnight's edge, traditionally linked to Shiva's cosmic dance and marriage lore.",
+      "desc_hi": "कारण: कृष्ण पक्ष के अंत में जागरण और संयम — शिव के तांडव और विवाह कथाओं से जुड़ा।",
+      "why_en": "Why: a night vigil of remembrance and restraint at the dark fortnight's edge, traditionally linked to Shiva's cosmic dance and marriage lore.",
+      "why_hi": "कारण: कृष्ण पक्ष के अंत में जागरण और संयम — शिव के तांडव और विवाह कथाओं से जुड़ा।",
+      "story_en": "Maha Shivaratri is the great night of Shiva, observed on the Krishna Chaturdashi before Magha/Phalguna amavasya — vigil, fasting and bilva offerings.",
+      "story_hi": "महा शिवरात्रि शिव की महा रात्रि है — माघ/फाल्गुन कृष्ण चतुर्दशी पर जागरण, व्रत और बिल्व अर्पण।",
+      "story_source": "Shiva Purana; Linga Purana",
+      "modern_en": "Night-vigil fasting overlaps with researched intermittent-fasting windows; evidence for specific Shivaratri outcomes is cultural, not clinical.",
+      "modern_hi": "रात्रि जागरण व्रत आंतरायिक उपवास की शोध-खिड़कियों से मिलता-जुलता है; विशिष्ट शिवरात्रि परिणाम सांस्कृतिक हैं, चिकित्सकीय नहीं।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/40701347/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches krishna-chaturdashi@nishita",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "9d587eb3f8631882",
+      "uid": "amavasya-2027-03-08@dharmasetu",
+      "date": "2027-03-08",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Magha",
+      "title_hi": "अमावस्या — माघ",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "1d6c581be00d709f",
+      "uid": "sankranti_generic-2027-03-15@dharmasetu",
+      "date": "2027-03-15",
+      "fid": "sankranti_generic",
+      "title_en": "Meena Sankranti",
+      "title_hi": "मीन संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-03-15T16:03:23.219592+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "9c09b02a92b93776",
+      "uid": "ekadashi-2027-03-18@dharmasetu",
+      "date": "2027-03-18",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Phalguna",
+      "title_hi": "एकादशी (शुक्ल) — फाल्गुन",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "e9fa2a8a3b2dc77f",
+      "uid": "holi-2027-03-22@dharmasetu",
+      "date": "2027-03-21",
+      "fid": "holi",
+      "title_en": "Holika Dahan",
+      "title_hi": "होलिका दहन",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: burn the symbol of harm, then meet neighbours with colour — a ritual of courage, play and community repair at winter's end.",
+      "desc_hi": "कारण: हिंसा के प्रतीक को जलाकर फिर रंग से मिलना — शीत के अंत में साहस, खेल और समुदाय की मरम्मत।",
+      "why_en": "Why: burn the symbol of harm, then meet neighbours with colour — a ritual of courage, play and community repair at winter's end.",
+      "why_hi": "कारण: हिंसा के प्रतीक को जलाकर फिर रंग से मिलना — शीत के अंत में साहस, खेल और समुदाय की मरम्मत।",
+      "story_en": "Holika Dahan on Phalguna Purnima recalls Prahlada's faith and Holika's fall; the next day, Rangwali Holi celebrates colour, spring and social renewal.",
+      "story_hi": "फाल्गुन पूर्णिमा पर होलिका दहन प्रह्लाद की भक्ति और होलिका के पतन की कथा है; अगले दिन रंगवाली होली रंग, वसंत और सामाजिक नवीकरण मनाती है।",
+      "story_source": "Bhagavata Purana (Prahlada–Hiranyakashipu)",
+      "modern_en": "Strong social-bonding and seasonal festival effects; no medical claim for the fire ritual itself.",
+      "modern_hi": "मजबूत सामाजिक जुड़ाव और मौसमी उत्सव प्रभाव; अग्नि-अनुष्ठान का कोई चिकित्सकीय दावा नहीं।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches purnima@pradosh",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "67df2754d1162d5f",
+      "uid": "holi-2027-03-23@dharmasetu",
+      "date": "2027-03-22",
+      "fid": "holi",
+      "title_en": "Holi (Rangwali)",
+      "title_hi": "होली (रंगवाली)",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: burn the symbol of harm, then meet neighbours with colour — a ritual of courage, play and community repair at winter's end.",
+      "desc_hi": "कारण: हिंसा के प्रतीक को जलाकर फिर रंग से मिलना — शीत के अंत में साहस, खेल और समुदाय की मरम्मत।",
+      "why_en": "Why: burn the symbol of harm, then meet neighbours with colour — a ritual of courage, play and community repair at winter's end.",
+      "why_hi": "कारण: हिंसा के प्रतीक को जलाकर फिर रंग से मिलना — शीत के अंत में साहस, खेल और समुदाय की मरम्मत।",
+      "story_en": "Holika Dahan on Phalguna Purnima recalls Prahlada's faith and Holika's fall; the next day, Rangwali Holi celebrates colour, spring and social renewal.",
+      "story_hi": "फाल्गुन पूर्णिमा पर होलिका दहन प्रह्लाद की भक्ति और होलिका के पतन की कथा है; अगले दिन रंगवाली होली रंग, वसंत और सामाजिक नवीकरण मनाती है।",
+      "story_source": "Bhagavata Purana (Prahlada–Hiranyakashipu)",
+      "modern_en": "Strong social-bonding and seasonal festival effects; no medical claim for the fire ritual itself.",
+      "modern_hi": "मजबूत सामाजिक जुड़ाव और मौसमी उत्सव प्रभाव; अग्नि-अनुष्ठान का कोई चिकित्सकीय दावा नहीं।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "next day after Holika Dahan (purnima@pradosh)",
+      "date_source": "computed",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "e54611c12ec5dd22",
+      "uid": "purnima-2027-03-22@dharmasetu",
+      "date": "2027-03-22",
+      "fid": "purnima",
+      "title_en": "Purnima — Phalguna",
+      "title_hi": "पूर्णिमा — फाल्गुन",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "c249cc0ff2779baa",
+      "uid": "ekadashi-2027-04-02@dharmasetu",
+      "date": "2027-04-02",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Phalguna",
+      "title_hi": "एकादशी (कृष्ण) — फाल्गुन",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "fb066a731ece57ea",
+      "uid": "amavasya-2027-04-06@dharmasetu",
+      "date": "2027-04-06",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Phalguna",
+      "title_hi": "अमावस्या — फाल्गुन",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "70aaf984b3e63a38",
+      "uid": "ram_navami-2027-04-15@dharmasetu",
+      "date": "2027-04-15",
+      "fid": "ram_navami",
+      "title_en": "Ram Navami",
+      "title_hi": "राम नवमी",
+      "categories": [
+        "festivals",
+        "birth-auspicious"
+      ],
+      "desc_en": "Why: remember a life-model of duty, restraint and care for the vulnerable at the spring new-year fortnight.",
+      "desc_hi": "कारण: वसंत नववर्ष पक्ष में कर्तव्य, संयम और दुर्बलों की रक्षा के जीवन-आदर्श का स्मरण।",
+      "why_en": "Why: remember a life-model of duty, restraint and care for the vulnerable at the spring new-year fortnight.",
+      "why_hi": "कारण: वसंत नववर्ष पक्ष में कर्तव्य, संयम और दुर्बलों की रक्षा के जीवन-आदर्श का स्मरण।",
+      "story_en": "Ram Navami celebrates the birth of Rama on Chaitra Shukla Navami — Maryada Purushottam, the ideal of dharmic kingship in the Ramayana.",
+      "story_hi": "राम नवमी चैत्र शुक्ल नवमी पर राम के जन्म का उत्सव है — रामायण में मर्यादा पुरुषोत्तम।",
+      "story_source": "Valmiki Ramayana; later Puranic calendars",
+      "modern_en": "Narrative ethics and community worship; cultural meaning, not a scientific outcome claim.",
+      "modern_hi": "कथात्मक नैतिकता और सामुदायिक पूजा; सांस्कृतिक अर्थ, वैज्ञानिक परिणाम का दावा नहीं।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Chaitra Shukla 9",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "8c5d3aba556ca578",
+      "uid": "sankranti_generic-2027-04-15@dharmasetu",
+      "date": "2027-04-15",
+      "fid": "sankranti_generic",
+      "title_en": "Mesha Sankranti",
+      "title_hi": "मेष संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-04-15T00:42:52.895064+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "dd7cc527198fe5b8",
+      "uid": "ekadashi-2027-04-17@dharmasetu",
+      "date": "2027-04-17",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Chaitra",
+      "title_hi": "एकादशी (शुक्ल) — चैत्र",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "35f1d5fcf2bc4942",
+      "uid": "purnima-2027-04-20@dharmasetu",
+      "date": "2027-04-20",
+      "fid": "purnima",
+      "title_en": "Purnima — Chaitra",
+      "title_hi": "पूर्णिमा — चैत्र",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "d9e93d7581df6d00",
+      "uid": "ekadashi-2027-05-02@dharmasetu",
+      "date": "2027-05-02",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Chaitra",
+      "title_hi": "एकादशी (कृष्ण) — चैत्र",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "ee70ac3440ee7ff8",
+      "uid": "amavasya-2027-05-06@dharmasetu",
+      "date": "2027-05-06",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Chaitra",
+      "title_hi": "अमावस्या — चैत्र",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "ad3c63f56c0bf4bd",
+      "uid": "akshaya_tritiya-2027-05-09@dharmasetu",
+      "date": "2027-05-09",
+      "fid": "akshaya_tritiya",
+      "title_en": "Akshaya Tritiya",
+      "title_hi": "अक्षय तृतीया",
+      "categories": [
+        "festivals",
+        "birth-auspicious"
+      ],
+      "desc_en": "Why: a day set aside to start what should endure — learning, giving, household foundations — under the spring sun.",
+      "desc_hi": "कारण: जो टिके उसे आरंभ करने का दिन — विद्या, दान, गृह आधार — वसंत सूर्य के नीचे।",
+      "why_en": "Why: a day set aside to start what should endure — learning, giving, household foundations — under the spring sun.",
+      "why_hi": "कारण: जो टिके उसे आरंभ करने का दिन — विद्या, दान, गृह आधार — वसंत सूर्य के नीचे।",
+      "story_en": "Akshaya Tritiya (Vaishakha Shukla Tritiya) is called 'never-diminishing' — traditionally favoured for beginnings, charity and lasting vows.",
+      "story_hi": "अक्षय तृतीया (वैशाख शुक्ल तृतीया) 'अक्षय' कही जाती है — आरंभ, दान और दीर्घ संकल्पों के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Puranic akshaya lore; regional muhurat custom",
+      "modern_en": "Muhurat timing itself is cultural; charity and intentional starts have known psychological benefits.",
+      "modern_hi": "मुहूर्त समय स्वयं सांस्कृतिक है; दान और सचेत आरंभ के मनोवैज्ञानिक लाभ ज्ञात हैं।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "muhurat-cultural",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Vaishakha Shukla 3",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "a6a4137a242831ed",
+      "uid": "ekadashi-2027-05-16@dharmasetu",
+      "date": "2027-05-16",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Vaishakha",
+      "title_hi": "एकादशी (शुक्ल) — वैशाख",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "dd42637a4cb3d3fe",
+      "uid": "sankranti_generic-2027-05-16@dharmasetu",
+      "date": "2027-05-16",
+      "fid": "sankranti_generic",
+      "title_en": "Vrishabha Sankranti",
+      "title_hi": "वृषभ संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-05-15T21:44:49.480592+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "656844002944da1c",
+      "uid": "purnima-2027-05-20@dharmasetu",
+      "date": "2027-05-20",
+      "fid": "purnima",
+      "title_en": "Purnima — Vaishakha",
+      "title_hi": "पूर्णिमा — वैशाख",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "d06ee048f5f66911",
+      "uid": "ekadashi-2027-06-01@dharmasetu",
+      "date": "2027-06-01",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Vaishakha",
+      "title_hi": "एकादशी (कृष्ण) — वैशाख",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "6224cbccc47b1b40",
+      "uid": "amavasya-2027-06-04@dharmasetu",
+      "date": "2027-06-04",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Vaishakha",
+      "title_hi": "अमावस्या — वैशाख",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "fd07de58b0ab0c51",
+      "uid": "ekadashi-2027-06-14@dharmasetu",
+      "date": "2027-06-14",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Jyeshtha",
+      "title_hi": "एकादशी (शुक्ल) — ज्येष्ठ",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "d490c0777d3e4cd0",
+      "uid": "sankranti_generic-2027-06-16@dharmasetu",
+      "date": "2027-06-16",
+      "fid": "sankranti_generic",
+      "title_en": "Mithuna Sankranti",
+      "title_hi": "मिथुन संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-06-16T04:28:27.508837+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "2e04258970abcedb",
+      "uid": "purnima-2027-06-19@dharmasetu",
+      "date": "2027-06-18",
+      "fid": "purnima",
+      "title_en": "Purnima — Jyeshtha",
+      "title_hi": "पूर्णिमा — ज्येष्ठ",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "347b70cf18c897df",
+      "uid": "ekadashi-2027-06-30@dharmasetu",
+      "date": "2027-06-30",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Jyeshtha",
+      "title_hi": "एकादशी (कृष्ण) — ज्येष्ठ",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "9856da695b1f1452",
+      "uid": "amavasya-2027-07-04@dharmasetu",
+      "date": "2027-07-04",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Jyeshtha",
+      "title_hi": "अमावस्या — ज्येष्ठ",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "22bb1b65e7b74ff5",
+      "uid": "ekadashi-2027-07-14@dharmasetu",
+      "date": "2027-07-14",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Ashadha",
+      "title_hi": "एकादशी (शुक्ल) — आषाढ़",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "0230d3d211eb9291",
+      "uid": "sankranti_generic-2027-07-17@dharmasetu",
+      "date": "2027-07-17",
+      "fid": "sankranti_generic",
+      "title_en": "Karka Sankranti",
+      "title_hi": "कर्क संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-07-17T15:23:59.360034+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "63343d9636f96172",
+      "uid": "guru_purnima-2027-07-18@dharmasetu",
+      "date": "2027-07-18",
+      "fid": "guru_purnima",
+      "title_en": "Guru Purnima",
+      "title_hi": "गुरु पूर्णिमा",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: pause at the full moon of Ashadha to name gratitude for those who taught you how to see.",
+      "desc_hi": "कारण: आषाढ़ की पूर्णिमा पर उन लोगों के प्रति कृतज्ञता जिनसे देखने की दृष्टि मिली।",
+      "why_en": "Why: pause at the full moon of Ashadha to name gratitude for those who taught you how to see.",
+      "why_hi": "कारण: आषाढ़ की पूर्णिमा पर उन लोगों के प्रति कृतज्ञता जिनसे देखने की दृष्टि मिली।",
+      "story_en": "Guru Purnima (Ashadha Purnima) honours the teacher — traditionally Vyasa, and by extension every guide who transmits knowledge.",
+      "story_hi": "गुरु पूर्णिमा (आषाढ़ पूर्णिमा) गुरु का सम्मान है — परंपरा में व्यास, और ज्ञान देने वाले प्रत्येक मार्गदर्शक।",
+      "story_source": "Skanda Purana / Vyasa Puja tradition",
+      "modern_en": "Gratitude practices show measurable well-being links in psychology research; the lunar date is cultural.",
+      "modern_hi": "कृतज्ञता अभ्यास मनोविज्ञान में कल्याण से जुड़े हैं; चंद्र तिथि सांस्कृतिक है।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/12585811/",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Ashadha Shukla 15",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "bff0afeae71c1fa1",
+      "uid": "purnima-2027-07-18@dharmasetu",
+      "date": "2027-07-18",
+      "fid": "purnima",
+      "title_en": "Purnima — Ashadha",
+      "title_hi": "पूर्णिमा — आषाढ़",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "0f825eda723f0d73",
+      "uid": "ekadashi-2027-07-29@dharmasetu",
+      "date": "2027-07-29",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Ashadha",
+      "title_hi": "एकादशी (कृष्ण) — आषाढ़",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "date_source": "drikpanchang",
+      "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+      "sequence": 0,
+      "variant_note_en": "Drik Panchang also lists Gauna (secondary) Kamika Ekadashi on 30 Jul 2027.",
+      "variant_note_hi": "दृक पंचांग 30 जुलाई 2027 को गौण कामिका एकादशी भी दर्शाता है।",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "2533c6f8c154b0a2",
+      "uid": "amavasya-2027-08-02@dharmasetu",
+      "date": "2027-08-02",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Ashadha",
+      "title_hi": "अमावस्या — आषाढ़",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "9c878fb95fd1ba70",
+      "uid": "ekadashi-2027-08-12@dharmasetu",
+      "date": "2027-08-12",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Shravana",
+      "title_hi": "एकादशी (शुक्ल) — श्रावण",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "7d81341d7904b0c0",
+      "uid": "purnima-2027-08-17@dharmasetu",
+      "date": "2027-08-17",
+      "fid": "purnima",
+      "title_en": "Purnima — Shravana",
+      "title_hi": "पूर्णिमा — श्रावण",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "6a546906b2f9f603",
+      "uid": "raksha_bandhan-2027-08-17@dharmasetu",
+      "date": "2027-08-17",
+      "fid": "raksha_bandhan",
+      "title_en": "Raksha Bandhan",
+      "title_hi": "रक्षाबंधन",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: make care visible — a thread that names who watches over whom.",
+      "desc_hi": "कारण: देखभाल को दृश्य बनाना — एक धागा जो बताए कौन किसकी रक्षा करता है।",
+      "why_en": "Why: make care visible — a thread that names who watches over whom.",
+      "why_hi": "कारण: देखभाल को दृश्य बनाना — एक धागा जो बताए कौन किसकी रक्षा करता है।",
+      "story_en": "Raksha Bandhan on Shravana Purnima ties a rakhi as a pledge of protection and care between siblings and chosen kin.",
+      "story_hi": "रक्षाबंधन श्रावण पूर्णिमा पर राखी बाँधकर भाई-बहन और चुने हुए परिजनों के बीच रक्षा और देखभाल का संकल्प।",
+      "story_source": "Puranic / regional folk; Bhavishya Purana strands",
+      "modern_en": "Kinship bonding and ritualised commitment; cultural/psychological strength.",
+      "modern_hi": "रिश्तेदारी का जुड़ाव और अनुष्ठानिक प्रतिबद्धता; सांस्कृतिक/मनोवैज्ञानिक बल।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "life-moments-tilak",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Shravana Shukla 15",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "d1dc52b6caf6a4b0",
+      "uid": "sankranti_generic-2027-08-18@dharmasetu",
+      "date": "2027-08-18",
+      "fid": "sankranti_generic",
+      "title_en": "Simha Sankranti",
+      "title_hi": "सिंह संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-08-17T23:46:11.795668+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "a60cdb59fb1ca71b",
+      "uid": "janmashtami-2027-09-23@dharmasetu",
+      "date": "2027-08-25",
+      "fid": "janmashtami",
+      "title_en": "Janmashtami",
+      "title_hi": "जन्माष्टमी",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: stay awake into the night to welcome a story of divine care arriving in fragile human form.",
+      "desc_hi": "कारण: रात जागकर उस कथा का स्वागत जो दिव्य करुणा को कोमल मानवीय रूप में लाती है।",
+      "why_en": "Why: stay awake into the night to welcome a story of divine care arriving in fragile human form.",
+      "why_hi": "कारण: रात जागकर उस कथा का स्वागत जो दिव्य करुणा को कोमल मानवीय रूप में लाती है।",
+      "story_en": "Janmashtami marks Krishna's birth at midnight on Krishna Ashtami of Bhadrapada (amanta) — the Gokula narrative of protection amid danger.",
+      "story_hi": "जन्माष्टमी भाद्रपद कृष्ण अष्टमी की मध्यरात्रि पर कृष्ण जन्म — संकट में गोकुला की रक्षा की कथा।",
+      "story_source": "Bhagavata Purana Canto 10",
+      "modern_en": "Night vigil and fasting are cultural-devotional; community singing supports belonging.",
+      "modern_hi": "रात्रि जागरण और व्रत भक्ति-सांस्कृतिक हैं; सामुदायिक कीर्तन जुड़ाव बढ़ाता है।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang (computed 2027-08-24 via krishna-ashtami@nishita)",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "6acce7375e83668d",
+      "uid": "ekadashi-2027-08-28@dharmasetu",
+      "date": "2027-08-28",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Shravana",
+      "title_hi": "एकादशी (कृष्ण) — श्रावण",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "c72fd6b921b081b5",
+      "uid": "amavasya-2027-08-31@dharmasetu",
+      "date": "2027-08-31",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Shravana",
+      "title_hi": "अमावस्या — श्रावण",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "3dd2cc576ecda384",
+      "uid": "ganesh_chaturthi-2027-09-04@dharmasetu",
+      "date": "2027-09-04",
+      "fid": "ganesh_chaturthi",
+      "title_en": "Ganesh Chaturthi",
+      "title_hi": "गणेश चतुर्थी",
+      "categories": [
+        "festivals",
+        "birth-auspicious"
+      ],
+      "desc_en": "Why: begin the season of vows by honouring the deity of thresholds and careful starts.",
+      "desc_hi": "कारण: संकल्पों के मौसम की शुरुआत देहलीज़ और सावधान आरंभ के देवता के सम्मान से।",
+      "why_en": "Why: begin the season of vows by honouring the deity of thresholds and careful starts.",
+      "why_hi": "कारण: संकल्पों के मौसम की शुरुआत देहलीज़ और सावधान आरंभ के देवता के सम्मान से।",
+      "story_en": "Ganesh Chaturthi (Bhadrapada Shukla Chaturthi) installs Ganesha — remover of obstacles — at the doorway of new undertakings.",
+      "story_hi": "गणेश चतुर्थी (भाद्रपद शुक्ल चतुर्थी) गणेश की स्थापना — विघ्नहर्ता — नए आरंभों के द्वार पर।",
+      "story_source": "Ganesha Purana; Mudgala Purana",
+      "modern_en": "Community craft, public art and shared vows; cultural meaning.",
+      "modern_hi": "सामुदायिक शिल्प, सार्वजनिक कला और साझे संकल्प; सांस्कृतिक अर्थ।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches sunrise-tithi Bhadrapada Shukla 4",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "8caf2433c33695b6",
+      "uid": "ekadashi-2027-09-11@dharmasetu",
+      "date": "2027-09-11",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Bhadrapada",
+      "title_hi": "एकादशी (शुक्ल) — भाद्रपद",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "2b29a9ab8e7e1496",
+      "uid": "purnima-2027-09-15@dharmasetu",
+      "date": "2027-09-15",
+      "fid": "purnima",
+      "title_en": "Purnima — Bhadrapada",
+      "title_hi": "पूर्णिमा — भाद्रपद",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "65bdddf8f1d44a71",
+      "uid": "pitru_paksha_start-2027-09-16@dharmasetu",
+      "date": "2027-09-16",
+      "fid": "pitru_paksha_start",
+      "title_en": "Pitru Paksha begins",
+      "title_hi": "पितृ पक्ष आरंभ",
+      "categories": [
+        "ancestral",
+        "festivals"
+      ],
+      "desc_en": "Why: set aside days so remembrance is not left to chance — food, water and name offered with care.",
+      "desc_hi": "कारण: स्मरण संयोग पर न छूटे — अन्न, जल और नाम सावधानी से अर्पित।",
+      "why_en": "Why: set aside days so remembrance is not left to chance — food, water and name offered with care.",
+      "why_hi": "कारण: स्मरण संयोग पर न छूटे — अन्न, जल और नाम सावधानी से अर्पित।",
+      "story_en": "Pitru Paksha opens after Bhadrapada Purnima — a fortnight of shraddha for ancestors, closing on Sarvapitri Amavasya.",
+      "story_hi": "पितृ पक्ष भाद्रपद पूर्णिमा के बाद आरंभ — पूर्वजों के श्राद्ध का पक्ष, सर्वपित्नी अमावस्या पर समाप्त।",
+      "story_source": "Garuda Purana; Shraddha Kalpa traditions",
+      "modern_en": "Structured mourning and remembrance support grief processing; cultural/psychological (see Worden / continuing-bonds literature).",
+      "modern_hi": "संरचित शोक और स्मरण दुख-प्रक्रिया में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/20680363/",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches day after Bhadrapada purnima",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "f57ae50ecabdc27e",
+      "uid": "sankranti_generic-2027-09-18@dharmasetu",
+      "date": "2027-09-18",
+      "fid": "sankranti_generic",
+      "title_en": "Kanya Sankranti",
+      "title_hi": "कन्या संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-09-17T23:36:31.683184+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "b656740a645a84ee",
+      "uid": "ekadashi-2027-09-26@dharmasetu",
+      "date": "2027-09-26",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Bhadrapada",
+      "title_hi": "एकादशी (कृष्ण) — भाद्रपद",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "ea0c668666d641be",
+      "uid": "sarvapitri-2027-09-30@dharmasetu",
+      "date": "2027-09-29",
+      "fid": "sarvapitri",
+      "title_en": "Sarvapitri Amavasya",
+      "title_hi": "सर्वपित्नी अमावस्या",
+      "categories": [
+        "ancestral",
+        "purnima-amavasya",
+        "festivals"
+      ],
+      "desc_en": "Why: a safety-net day of remembrance so no lineage is left unnamed.",
+      "desc_hi": "कारण: स्मरण का सुरक्षा-दिन ताकि कोई वंश बिना नाम न रह जाए।",
+      "why_en": "Why: a safety-net day of remembrance so no lineage is left unnamed.",
+      "why_hi": "कारण: स्मरण का सुरक्षा-दिन ताकि कोई वंश बिना नाम न रह जाए।",
+      "story_en": "Sarvapitri Amavasya closes Pitru Paksha — the day for all ancestors, especially when individual tithi days were missed.",
+      "story_hi": "सर्वपित्नी अमावस्या पितृ पक्ष का समापन — सभी पूर्वजों के लिए, विशेषकर छूटी तिथियों पर।",
+      "story_source": "Garuda Purana; Shraddha manuals",
+      "modern_en": "Inclusive memorial day; cultural/psychological grief support.",
+      "modern_hi": "समावेशी स्मृति दिवस; सांस्कृतिक/मनोवैज्ञानिक शोक सहारा।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches amavasya@aparahna",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "890dd53ee1a638fd",
+      "uid": "amavasya-2027-09-30@dharmasetu",
+      "date": "2027-09-30",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Bhadrapada",
+      "title_hi": "अमावस्या — भाद्रपद",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "88b8336821752c05",
+      "uid": "navratri_start-2027-09-30@dharmasetu",
+      "date": "2027-09-30",
+      "fid": "navratri_start",
+      "title_en": "Sharad Navratri begins",
+      "title_hi": "शरद नवरात्रि आरंभ",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: a structured nine-day arc of discipline, song and courage before the victory tenth.",
+      "desc_hi": "कारण: विजय दशमी से पहले अनुशासन, गीत और साहस का नौ-दिवसीय क्रम।",
+      "why_en": "Why: a structured nine-day arc of discipline, song and courage before the victory tenth.",
+      "why_hi": "कारण: विजय दशमी से पहले अनुशासन, गीत और साहस का नौ-दिवसीय क्रम।",
+      "story_en": "Sharad Navratri begins Ashvina Shukla Pratipada — nine nights of Devi, culminating toward Dussehra.",
+      "story_hi": "शरद नवरात्रि आश्विन शुक्ल प्रतिपदा से — देवी की नौ रातें, दशहरे की ओर।",
+      "story_source": "Devi Mahatmya (Markandeya Purana)",
+      "modern_en": "Multi-day ritual structure aids habit and belonging; cultural/psychological.",
+      "modern_hi": "बहु-दिवसीय अनुष्ठान संरचना आदत और जुड़ाव में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "5a3375375eb72ca9",
+      "uid": "dussehra-2027-10-10@dharmasetu",
+      "date": "2027-10-09",
+      "fid": "dussehra",
+      "title_en": "Dussehra / Vijayadashami",
+      "title_hi": "दशहरा / विजयादशमी",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: name the day when persistence through the nine nights meets its public affirmation.",
+      "desc_hi": "कारण: नौ रातों की दृढ़ता का सार्वजनिक स्वीकार।",
+      "why_en": "Why: name the day when persistence through the nine nights meets its public affirmation.",
+      "why_hi": "कारण: नौ रातों की दृढ़ता का सार्वजनिक स्वीकार।",
+      "story_en": "Vijayadashami / Dussehra on Ashvina Shukla Dashami recalls Rama's victory and Devi's triumph — the tenth day of courage.",
+      "story_hi": "विजयादशमी / दशहरा आश्विन शुक्ल दशमी — राम की विजय और देवी की जय — साहस का दशम दिन।",
+      "story_source": "Ramayana; Devi Mahatmya",
+      "modern_en": "Communal narrative of resilience; cultural/psychological.",
+      "modern_hi": "लचीलापन की सामुदायिक कथा; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches shukla-dashami@aparahna",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "e9ebcaaf052b2b72",
+      "uid": "ekadashi-2027-10-11@dharmasetu",
+      "date": "2027-10-11",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Ashvina",
+      "title_hi": "एकादशी (शुक्ल) — आश्विन",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "676380f29cc4dc9b",
+      "uid": "purnima-2027-10-15@dharmasetu",
+      "date": "2027-10-15",
+      "fid": "purnima",
+      "title_en": "Purnima — Ashvina",
+      "title_hi": "पूर्णिमा — आश्विन",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "9e74a947dc11f6ef",
+      "uid": "sankranti_generic-2027-10-18@dharmasetu",
+      "date": "2027-10-18",
+      "fid": "sankranti_generic",
+      "title_en": "Tula Sankranti",
+      "title_hi": "तुला संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-10-18T11:26:54.729323+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "872f97e23d1e649e",
+      "uid": "ekadashi-2027-10-25@dharmasetu",
+      "date": "2027-10-25",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Ashvina",
+      "title_hi": "एकादशी (कृष्ण) — आश्विन",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "f8cf8fc1f600d50d",
+      "uid": "amavasya-2027-10-29@dharmasetu",
+      "date": "2027-10-29",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Ashvina",
+      "title_hi": "अमावस्या — आश्विन",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "0b19ae66a02f6b0c",
+      "uid": "diwali-2027-10-29@dharmasetu",
+      "date": "2027-10-29",
+      "fid": "diwali",
+      "title_en": "Diwali / Deepavali",
+      "title_hi": "दीपावली",
+      "categories": [
+        "festivals"
+      ],
+      "desc_en": "Why: light the home when the moon is dark — invite prosperity, kinship and clarity after the ancestral fortnight.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में घर जलाएँ — पितृ पक्ष के बाद समृद्धि, रिश्ते और स्पष्टता का निमंत्रण।",
+      "why_en": "Why: light the home when the moon is dark — invite prosperity, kinship and clarity after the ancestral fortnight.",
+      "why_hi": "कारण: चंद्र के अँधेरे में घर जलाएँ — पितृ पक्ष के बाद समृद्धि, रिश्ते और स्पष्टता का निमंत्रण।",
+      "story_en": "Diwali (Deepavali) on the amavasya of Ashvina (amanta) / Kartika lights lamps for Rama's return and Lakshmi's grace in the darkest new-moon night.",
+      "story_hi": "दीपावली आश्विन अमावस्या (अमान्त) / कार्तिक — सबसे अँधेरी अमावस्या पर राम की वापसी और लक्ष्मी की कृपा के दीप।",
+      "story_source": "Ramayana return narrative; Padma Purana Lakshmi strands",
+      "modern_en": "Light, gathering and gift rituals support mood and social ties in dark season; cultural/psychological with seasonal-affect context.",
+      "modern_hi": "दीप, मिलन और उपहार अँधेरे मौसम में मनोदशा और सामाजिक संबंध सहारा देते हैं; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "observance_rule": "source: drikpanchang; matches amavasya@pradosh",
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
+    },
+    {
+      "id": "77319bf382c085de",
+      "uid": "dev_uthani-2027-11-10@dharmasetu",
+      "date": "2027-11-10",
+      "fid": "dev_uthani",
+      "title_en": "Dev Uthani Ekadashi",
+      "title_hi": "देव उठनी एकादशी",
+      "categories": [
+        "festivals",
+        "ekadashi"
+      ],
+      "desc_en": "Why: close the monsoon retreat of the gods and reopen the season of household beginnings.",
+      "desc_hi": "कारण: देवताओं के वर्षा-अवकाश का समापन और गृह आरंभों का मौसम फिर खोलना।",
+      "why_en": "Why: close the monsoon retreat of the gods and reopen the season of household beginnings.",
+      "why_hi": "कारण: देवताओं के वर्षा-अवकाश का समापन और गृह आरंभों का मौसम फिर खोलना।",
+      "story_en": "Dev Uthani (Prabodhini) Ekadashi in Kartika Shukla ends Chaturmas — Vishnu is said to awaken; marriages and auspicious starts resume.",
+      "story_hi": "देव उठनी (प्रबोधिनी) एकादशी कार्तिक शुक्ल — चातुर्मास का अंत, विष्णु का जागरण; विवाह और शुभ आरंभ फिर से।",
+      "story_source": "Padma Purana / Vaishnava ekadashi lore",
+      "modern_en": "Calendar bookkeeping for social life after monsoon; cultural. Ekadashi fasting has broader metabolic research links.",
+      "modern_hi": "मानसून के बाद सामाजिक जीवन का कैलेंडर; सांस्कृतिक। एकादशी व्रत के व्यापक चयापचय शोध संबंध।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "observance_rule": "source: drikpanchang (computed 2027-11-09 via kartika-shukla-ekadashi (sunset/dashami-viddha aware))",
+      "date_source": "drikpanchang",
+      "merged_uids": [
+        "ekadashi-2027-11-10@dharmasetu"
+      ],
+      "merge_note": "Same observance as the generic Shukla Ekadashi row; merged 2026-11-07 to avoid two reminders.",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "96fc112539d44153",
+      "uid": "purnima-2027-11-14@dharmasetu",
+      "date": "2027-11-14",
+      "fid": "purnima",
+      "title_en": "Purnima — Kartika",
+      "title_hi": "पूर्णिमा — कार्तिक",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "8f8ce9ce4efdb2e6",
+      "uid": "sankranti_generic-2027-11-17@dharmasetu",
+      "date": "2027-11-17",
+      "fid": "sankranti_generic",
+      "title_en": "Vrischika Sankranti",
+      "title_hi": "वृश्चिक संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-11-17T11:09:38.862763+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "7264018900ae12dd",
+      "uid": "ekadashi-2027-11-24@dharmasetu",
+      "date": "2027-11-24",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Kartika",
+      "title_hi": "एकादशी (कृष्ण) — कार्तिक",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "a8f2ccb27b379e06",
+      "uid": "amavasya-2027-11-28@dharmasetu",
+      "date": "2027-11-28",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Kartika",
+      "title_hi": "अमावस्या — कार्तिक",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "fbb39f6921dc59cd",
+      "uid": "ekadashi-2027-12-09@dharmasetu",
+      "date": "2027-12-09",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Shukla) — Margashirsha",
+      "title_hi": "एकादशी (शुक्ल) — मार्गशीर्ष",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "1711ad91ed4e102b",
+      "uid": "purnima-2027-12-13@dharmasetu",
+      "date": "2027-12-13",
+      "fid": "purnima",
+      "title_en": "Purnima — Margashirsha",
+      "title_hi": "पूर्णिमा — मार्गशीर्ष",
+      "categories": [
+        "purnima-amavasya"
+      ],
+      "desc_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "desc_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "why_en": "Why: the brightest night invites collective prayer and completion rites.",
+      "why_hi": "कारण: सबसे उज्ज्वल रात सामूहिक प्रार्थना और पूर्णता के कर्मों को आमंत्रित करती है।",
+      "story_en": "Purnima is the full-moon tithi — traditionally favoured for satyanarayan katha, charity and calm observance.",
+      "story_hi": "पूर्णिमा पूर्णिमा तिथि — सत्यनारायण कथा, दान और शांत अनुष्ठान के लिए पारंपरिक रूप से अनुकूल।",
+      "story_source": "Panchanga tradition; Smriti calendrical practice",
+      "modern_en": "Full moon is an astronomical fact; claimed behavioural effects remain mixed in research — labelled cultural here.",
+      "modern_hi": "पूर्णिमा खगोलीय तथ्य है; व्यवहार प्रभावों पर शोध मिश्रित — यहाँ सांस्कृतिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "calendar-lunisolar",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "5e6c0112c59ea89c",
+      "uid": "sankranti_generic-2027-12-17@dharmasetu",
+      "date": "2027-12-17",
+      "fid": "sankranti_generic",
+      "title_en": "Dhanu Sankranti",
+      "title_hi": "धनु संक्रांति",
+      "categories": [
+        "sankranti"
+      ],
+      "desc_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "desc_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "why_en": "Why: mark the solar backbone of the lunisolar year with charity and Surya arghya.",
+      "why_hi": "कारण: चंद्र-सौर वर्ष की सौर रीढ़ को दान और सूर्य अर्घ्य से चिह्नित करना।",
+      "story_en": "Sankranti is the Sun's ingress into a new sidereal rasi — a real solar milestone used across regional calendars.",
+      "story_hi": "संक्रांति सूर्य का नए सिडेरेल राशि में प्रवेश — क्षेत्रीय कैलेंडरों में प्रयुक्त वास्तविक सौर मील का पत्थर।",
+      "story_source": "Surya Siddhanta",
+      "modern_en": "Astronomically established solar-longitude crossing (with ayanamsa convention).",
+      "modern_hi": "खगोलीय रूप से स्थापित सौर-देशांतर संक्रमण (अयनांश पद्धति सहित)।",
+      "evidence": "Established",
+      "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
+      "reasoning_id": "sankranti-solar-ingress",
+      "verify": false,
+      "moment": "2027-12-17T01:46:24.711444+05:30",
+      "audit": {
+        "status": "reference"
+      }
+    },
+    {
+      "id": "e3a091a9929edc2e",
+      "uid": "ekadashi-2027-12-23@dharmasetu",
+      "date": "2027-12-23",
+      "fid": "ekadashi",
+      "title_en": "Ekadashi (Krishna) — Margashirsha",
+      "title_hi": "एकादशी (कृष्ण) — मार्गशीर्ष",
+      "categories": [
+        "ekadashi"
+      ],
+      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
+      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
+      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
+      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
+      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
+      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
+      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
+      "evidence": "Plausible",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
+      "reasoning_id": "ekadashi-fasting",
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "7fad7c5eb1d0f44b",
+      "uid": "amavasya-2027-12-27@dharmasetu",
+      "date": "2027-12-27",
+      "fid": "amavasya",
+      "title_en": "Amavasya — Margashirsha",
+      "title_hi": "अमावस्या — मार्गशीर्ष",
+      "categories": [
+        "purnima-amavasya",
+        "ancestral"
+      ],
+      "desc_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "desc_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "why_en": "Why: when the moon is dark, turn attention to those who came before.",
+      "why_hi": "कारण: चंद्र के अँधेरे में पूर्वजों की ओर ध्यान।",
+      "story_en": "Amavasya is the new-moon tithi — traditionally linked with ancestral remembrance (pitru) and quieter household rites.",
+      "story_hi": "अमावस्या अमावस्या तिथि — पितृ स्मरण और शांत गृह कर्मों से जुड़ी।",
+      "story_source": "Garuda Purana ancestral strands; panchanga practice",
+      "modern_en": "Scheduled grief/remembrance days aid mourning culture; cultural/psychological.",
+      "modern_hi": "निर्धारित स्मरण दिवस शोक-संस्कृति में सहायक; सांस्कृतिक/मनोवैज्ञानिक।",
+      "evidence": "Cultural/psychological",
+      "evidence_url": "",
+      "reasoning_id": "shraddha-remembrance",
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
+    }
+  ],
+  "days_sample": [
+    {
+      "date": "2026-11-01",
+      "sunrise_iso": "2026-11-01T01:02:57Z",
+      "tithi": 22,
+      "tithi_name_en": "Saptami",
+      "tithi_name_hi": "सप्तमी",
+      "paksha": "Krishna",
+      "tithi_num_in_paksha": 7,
+      "sun_rasi": 6,
+      "sun_rasi_en": "Tula",
+      "elong": 259.4674,
+      "tithi_evening": 23,
+      "verify": false,
+      "month_verify": false,
+      "lunar_month_idx": 6,
+      "lunar_month_en": "Ashvina",
+      "lunar_month_hi": "आश्विन"
+    },
+    {
+      "date": "2026-11-02",
+      "sunrise_iso": "2026-11-02T01:03:40Z",
+      "tithi": 23,
+      "tithi_name_en": "Ashtami",
+      "tithi_name_hi": "अष्टमी",
+      "paksha": "Krishna",
+      "tithi_num_in_paksha": 8,
+      "sun_rasi": 6,
+      "sun_rasi_en": "Tula",
+      "elong": 272.462,
+      "tithi_evening": 24,
+      "verify": false,
+      "month_verify": false,
+      "lunar_month_idx": 6,
+      "lunar_month_en": "Ashvina",
+      "lunar_month_hi": "आश्विन"
+    },
+    {
+      "date": "2026-11-03",
+      "sunrise_iso": "2026-11-03T01:04:24Z",
+      "tithi": 24,
+      "tithi_name_en": "Navami",
+      "tithi_name_hi": "नवमी",
+      "paksha": "Krishna",
+      "tithi_num_in_paksha": 9,
+      "sun_rasi": 6,
+      "sun_rasi_en": "Tula",
+      "elong": 285.1989,
+      "tithi_evening": 25,
+      "verify": false,
+      "month_verify": false,
+      "lunar_month_idx": 6,
+      "lunar_month_en": "Ashvina",
+      "lunar_month_hi": "आश्विन"
+    }
+  ]
+}

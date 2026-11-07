@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="robots" content="noindex, nofollow"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DharmaSetu — Why we do what we do / हम ऐसा क्यों करते हैं</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="common.css"/>
+<style>
+  .filters { display:flex; flex-wrap:wrap; gap:.45rem; margin:1rem 0; }
+  .chip {
+    display:inline-flex; align-items:center; gap:.35rem;
+    border:1px solid var(--line); background:#fff; border-radius:999px;
+    padding:.4rem .75rem; font-size:.8rem; font-weight:600; color:var(--muted);
+    cursor:pointer; user-select:none;
+  }
+  .chip.on, .chip:hover { background:#ffdbcf55; color:var(--terracotta); border-color:#e8a990; }
+  .r-grid { display:grid; gap:1rem; grid-template-columns:1fr; }
+  @media(min-width:720px){ .r-grid{ grid-template-columns:1fr 1fr; } }
+  .r-card { padding:1.15rem 1.2rem; display:flex; flex-direction:column; gap:.45rem; }
+  .r-card h3 { color:var(--terracotta); font-size:1.12rem; margin:0; }
+  .area-tag { font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--gold); }
+  .flow { font-size:.88rem; color:var(--muted); }
+  .flow strong { color:var(--ink); font-weight:600; }
+  .badge {
+    display:inline-block; font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase;
+    padding:.25rem .5rem; border-radius:6px;
+  }
+  .b-Established { background:#b1f0ce; color:#19583f; }
+  .b-Plausible { background:#ffe6a7; color:#775a00; }
+  .b-Cultural { background:#ffdbcf; color:#873415; }
+  .b-No { background:#eee; color:#555; }
+  .cites { font-size:.8rem; margin:0; padding-left:1.1rem; }
+  .cites a { word-break:break-all; }
+  .legend { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.75rem; }
+</style>
+</head>
+<body>
+<div style="background:#1d1b19;color:#fef8f4;font-size:.78rem;text-align:center;padding:.3rem .5rem;">Team preview · टीम पूर्वावलोकन — not the live site</div>
+<a class="skip-link" href="#main"><span data-i18n-en>Skip to content</span><span data-i18n-hi>सामग्री पर जाएँ</span></a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="home.html">
+      <div class="brand-mark brand-logo" aria-hidden="true"><img src="assets/logo-temple.svg" alt="" width="40" height="40"/></div>
+      <div class="brand-text">
+        <span class="brand-name">DharmaSetu <span style="font-size:.7em;color:var(--gold);font-weight:600">धर्मसेतु</span></span>
+        <span class="brand-sub"><span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span></span>
+      </div>
+    </a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
+      <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+      <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+      <a href="reasoning.html" class="active"><span data-i18n-en>Reasoning</span><span data-i18n-hi>कारण</span></a>
+      <a href="muhurat.html"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
+      <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+      <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="hi">हिं</button>
+      </div>
+      <button class="burger" id="burger" type="button" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav">
+  <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
+  <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+  <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+  <a href="reasoning.html"><span data-i18n-en>Reasoning library</span><span data-i18n-hi>कारण पुस्तकालय</span></a>
+  <a href="muhurat.html"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
+  <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+  <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
+</nav>
+
+<main id="main">
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow"><span data-i18n-en>Reasoning library</span><span data-i18n-hi>कारण पुस्तकालय</span></p>
+      <h1 style="font-size:clamp(1.55rem,3.5vw,2.2rem);color:var(--terracotta);">
+        <span data-i18n-en>Why we do what we do</span><span data-i18n-hi>हम ऐसा क्यों करते हैं</span>
+      </h1>
+      <p class="muted" style="max-width:44rem;" id="disclaimer"></p>
+      <div class="legend">
+        <span class="badge b-Established">Established</span>
+        <span class="badge b-Plausible">Plausible</span>
+        <span class="badge b-Cultural">Cultural/psychological</span>
+        <span class="badge b-No">No evidence</span>
+      </div>
+      <p class="muted" style="font-size:.85rem;margin-top:.75rem;">
+        <span data-i18n-en>Filter by life area and evidence label. Each card: text source → traditional reasoning → modern evidence.</span>
+        <span data-i18n-hi>क्षेत्र और साक्ष्य लेबल से छानें। प्रत्येक कार्ड: पाठ स्रोत → पारंपरिक कारण → आधुनिक साक्ष्य।</span>
+      </p>
+      <div class="filters" id="area-filters"></div>
+      <div class="filters" id="ev-filters"></div>
+      <div class="r-grid" id="cards"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap" style="padding:2rem 1.25rem;font-size:.8rem;color:var(--muted);">
+    <span data-i18n-en>Also in the <a href="https://docs.google.com/spreadsheets/d/11-6PG5fy9Mkypy75tn7F4TFXQvEUVWX0X6CaSx2nKJY/edit" target="_blank" rel="noopener">Services &amp; Fees sheet → Reasoning library</a> tab. Educational — not medical advice.</span>
+    <span data-i18n-hi><a href="https://docs.google.com/spreadsheets/d/11-6PG5fy9Mkypy75tn7F4TFXQvEUVWX0X6CaSx2nKJY/edit" target="_blank" rel="noopener">सेवा व शुल्क शीट → Reasoning library</a> टैब में भी। शैक्षिक — चिकित्सकीय सलाह नहीं।</span>
+  </div>
+</footer>
+<script src="i18n.js"></script>
+<script>
+(function () {
+  var AREAS = [
+    { id: "birth", en: "Birth", hi: "जन्म" },
+    { id: "death", en: "Death & ancestral", hi: "मृत्यु व पूर्वज" },
+    { id: "daily", en: "Daily life", hi: "दैनिक जीवन" },
+    { id: "calendar", en: "Calendar", hi: "पंचांग" },
+    { id: "life", en: "Life moments", hi: "जीवन क्षण" }
+  ];
+  var EVS = ["Established", "Plausible", "Cultural/psychological", "No evidence"];
+  var areaOn = new Set();
+  var evOn = new Set();
+  var items = [];
+
+  function lang() { return (window.DSLang && DSLang.get()) || "en"; }
+  function badge(e) {
+    if (e === "Established") return "b-Established";
+    if (e === "Plausible") return "b-Plausible";
+    if (e === "No evidence") return "b-No";
+    return "b-Cultural";
+  }
+  function areaLabel(id) {
+    var a = AREAS.find(function (x) { return x.id === id; });
+    return a ? (lang() === "hi" ? a.hi : a.en) : id;
+  }
+
+  function renderFilters() {
+    var af = document.getElementById("area-filters");
+    var ef = document.getElementById("ev-filters");
+    af.innerHTML = ""; ef.innerHTML = "";
+    AREAS.forEach(function (a) {
+      var c = document.createElement("button");
+      c.type = "button"; c.className = "chip" + (areaOn.has(a.id) ? " on" : "");
+      c.innerHTML = '<span data-i18n-en>' + a.en + '</span><span data-i18n-hi>' + a.hi + '</span>';
+      c.onclick = function () {
+        if (areaOn.has(a.id)) areaOn.delete(a.id); else areaOn.add(a.id);
+        renderFilters(); renderCards();
+      };
+      af.appendChild(c);
+    });
+    EVS.forEach(function (e) {
+      var c = document.createElement("button");
+      c.type = "button"; c.className = "chip" + (evOn.has(e) ? " on" : "");
+      c.textContent = e;
+      c.onclick = function () {
+        if (evOn.has(e)) evOn.delete(e); else evOn.add(e);
+        renderFilters(); renderCards();
+      };
+      ef.appendChild(c);
+    });
+  }
+
+  function renderCards() {
+    var box = document.getElementById("cards");
+    box.innerHTML = "";
+    items.filter(function (it) {
+      if (areaOn.size && !areaOn.has(it.area)) return false;
+      if (evOn.size && !evOn.has(it.evidence)) return false;
+      return true;
+    }).forEach(function (it) {
+      var title = lang() === "hi" ? it.tradition_hi : it.tradition_en;
+      var reason = lang() === "hi" ? it.reasoning_hi : it.reasoning_en;
+      var modern = lang() === "hi" ? it.modern_hi : it.modern_en;
+      var card = document.createElement("article");
+      card.className = "card r-card";
+      card.id = it.id;
+      var cites = (it.citations || []).map(function (c) {
+        return "<li><a href=\"" + c.url + "\" target=\"_blank\" rel=\"noopener\">" + c.label + "</a></li>";
+      }).join("");
+      card.innerHTML =
+        '<div class="area-tag">' + areaLabel(it.area) + "</div>" +
+        "<h3>" + title + "</h3>" +
+        '<span class="badge ' + badge(it.evidence) + '">' + it.evidence + "</span>" +
+        '<p class="flow"><strong>' + (lang()==="hi"?"पाठ स्रोत":"Text source") + ":</strong> " + it.text_source +
+        (it.verse_ref ? " <em>(" + it.verse_ref + ")</em>" : "") + "</p>" +
+        '<p class="flow"><strong>' + (lang()==="hi"?"पारंपरिक कारण":"Traditional reasoning") + ":</strong> " + reason + "</p>" +
+        '<p class="flow"><strong>' + (lang()==="hi"?"आधुनिक साक्ष्य / संबंध":"Modern evidence / link") + ":</strong> " + modern + "</p>" +
+        (cites ? "<ul class=\"cites\">" + cites + "</ul>" : '<p class="flow"><em>' + (lang()==="hi"?"आधुनिक अध्ययन लिंक नहीं मिला — ईमानदारी से दर्ज।":"No modern study link found — recorded honestly.") + "</em></p>");
+      box.appendChild(card);
+    });
+  }
+
+  fetch("reasoning-data.json").then(function (r) { return r.json(); }).then(function (j) {
+    items = j.items;
+    var d = document.getElementById("disclaimer");
+    d.setAttribute("data-i18n-en", "");
+    d.innerHTML = '<span data-i18n-en>' + j.meta.disclaimer_en + '</span><span data-i18n-hi>' + j.meta.disclaimer_hi + '</span>';
+    renderFilters();
+    renderCards();
+    document.querySelectorAll(".lang-toggle button").forEach(function (btn) {
+      btn.addEventListener("click", function () { setTimeout(renderCards, 0); });
+    });
+    if (location.hash) {
+      setTimeout(function () {
+        var el = document.getElementById(location.hash.slice(1));
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 100);
+    }
+  });
+})();
+</script>
+</body>
+</html>

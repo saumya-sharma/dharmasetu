@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DharmaSetu//Vedic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Hindu/Vedic observances for New Delhi (IST). Educational. 
+X-WR-CALNAME:DharmaSetu — Birth-related auspicious days
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+SUMMARY:Makar Sankranti / मकर संक्रांति
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261103T045158Z
+UID:makar_sankranti-2027-01-15@dharmasetu
+CATEGORIES:festivals\,sankranti\,birth-auspicious
+DESCRIPTION:Why: solar astronomy made visible as a festival of harvest\, ch
+ arity (daan)\, and sesame–jaggery offerings to Surya.\n\nStory: Makar Sa
+ nkranti marks the Sun's sidereal ingress into Makara (Capricorn)\, traditi
+ onally linked with Uttarayana — the northward turn of the solar path.\nS
+ ource: Surya Siddhanta\; Puranic Uttarayana lore\nWhy: solar astronomy mad
+ e visible as a festival of harvest\, charity (daan)\, and sesame–jaggery
+  offerings to Surya.\nModern angle: Corresponds to a real solar-longitude 
+ event (sidereal Capricorn ingress). Seasonal marker near mid-winter in the
+  northern hemisphere.\nEvidence: Established\nLink: https://www.drikpancha
+ ng.com/sankranti/makar-sankranti-date-time.html\nMore: https://saumya-shar
+ ma.github.io/dharmasetu/review/reasoning.html#sankranti-solar-ingress\nLoc
+ ation basis: New Delhi. City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#350
+ fff9e725b595c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vasant Panchami / वसंत पंचमी
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+DTSTAMP:20261103T045158Z
+UID:vasant_panchami-2027-02-11@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: mark the turn toward longer light and dedicate the season
+  of growth to speech\, learning and the arts.\n\nStory: Vasant Panchami ho
+ nours Saraswati on Magha Shukla Panchami\, when spring (vasanta) begins to
+  show and learning\, music and yellow mustard fields are celebrated.\nSour
+ ce: Puranic Saraswati lore\; regional Grihya customs\nWhy: mark the turn t
+ oward longer light and dedicate the season of growth to speech\, learning 
+ and the arts.\nModern angle: Seasonal / cultural marker. No clinical outco
+ me claim\; supports community learning rituals.\nEvidence: Cultural/psycho
+ logical\nMore: https://saumya-sharma.github.io/dharmasetu/review/reason
+ ing.html#calendar-lunisolar\nLocation basis: New Delhi. City-specific timi
+ ng coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#233
+ 033099b355ad7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ram Navami / राम नवमी
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+DTSTAMP:20261103T045158Z
+UID:ram_navami-2027-04-15@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: remember a life-model of duty\, restraint and care for the
+  vulnerable at the spring new-year fortnight.\n\nStory: Ram Navami celebra
+ tes the birth of Rama on Chaitra Shukla Navami — Maryada Purushottam\, t
+ he ideal of dharmic kingship in the Ramayana.\nSource: Valmiki Ramayana\; 
+ later Puranic calendars\nWhy: remember a life-model of duty\, restraint an
+ d care for the vulnerable at the spring new-year fortnight.\nModern angle:
+  Narrative ethics and community worship\; cultural meaning\, not a scienti
+ fic outcome claim.\nEvidence: Cultural/psychological\nMore: https://saumya
+ -sharma.github.io/dharmasetu/review/reasoning.html#calendar-lunisolar\nLoc
+ ation basis: New Delhi. City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#70a
+ af984b3e63a38
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Akshaya Tritiya / अक्षय तृतीया
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+DTSTAMP:20261103T045158Z
+UID:akshaya_tritiya-2027-05-09@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: a day set aside to start what should endure — learning\,
+  giving\, household foundations — under the spring sun.\n\nStory: Akshay
+ a Tritiya (Vaishakha Shukla Tritiya) is called 'never-diminishing' — tra
+ ditionally favoured for beginnings\, charity and lasting vows.\nSource: Pu
+ ranic akshaya lore\; regional muhurat custom\nWhy: a day set aside to star
+ t what should endure — learning\, giving\, household foundations — und
+ er the spring sun.\nModern angle: Muhurat timing itself is cultural\; char
+ ity and intentional starts have known psychological benefits.\nEvidence: C
+ ultural/psychological\nMore: https://saumya-sharma.github.io/dharmasetu/re
+ view/reasoning.html#muhurat-cultural\nLocation basis: New Delhi. City-spec
+ ific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#ad3
+ c63f56c0bf4bd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ganesh Chaturthi / गणेश चतुर्थी
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+DTSTAMP:20261103T045158Z
+UID:ganesh_chaturthi-2027-09-04@dharmasetu
+CATEGORIES:festivals\,birth-auspicious
+DESCRIPTION:Why: begin the season of vows by honouring the deity of thresho
+ lds and careful starts.\n\nStory: Ganesh Chaturthi (Bhadrapada Shukla Chat
+ urthi) installs Ganesha — remover of obstacles — at the doorway of new
+  undertakings.\nSource: Ganesha Purana\; Mudgala Purana\nWhy: begin the se
+ ason of vows by honouring the deity of thresholds and careful starts.\nMod
+ ern angle: Community craft\, public art and shared vows\; cultural meaning
+ .\nEvidence: Cultural/psychological\nMore: https://saumya-sharma.github.io
+ /dharmasetu/review/reasoning.html#calendar-lunisolar\nLocation basis: New 
+ Delhi. City-specific timing coming later.
+LOCATION:New Delhi\, India (reference)
+TRANSP:TRANSPARENT
+URL:https://saumya-sharma.github.io/dharmasetu/review/calendar.html#3dd
+ 2cc576ecda384
+END:VEVENT
+END:VCALENDAR
