@@ -104,28 +104,28 @@ URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ed4
  33d3069a755fc
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ekadashi (Krishna) — Margashirsha / एकादशी (कृ
- ष्ण) — मार्गशीर्ष
+SUMMARY:Ekadashi (Krishna) — Margashirsha / एकादशी (कृष
+ ्ण) — मार्गशीर्ष
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 DTSTAMP:20261103T045158Z
-UID:ekadashi-2027-12-23@dharmasetu
+UID:ekadashi-2027-01-03@dharmasetu
 CATEGORIES:ekadashi
-DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry
-  — make space for attention.\n\nStory: Ekadashi is the 11th tithi of eac
- h fortnight — a Vaishnava fasting day for restraint\, prayer and digesti
- on-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lu
- nar month\, step back from heavy food and hurry — make space for attenti
- on.\nModern angle: Intermittent fasting shows metabolic and microbiome lin
- ks in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvid
- ence: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/
- \nMore: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.htm
- l#ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming
-  later.
+DESCRIPTION:Why: twice a lunar month\, step back from heavy food and hurry 
+ — make space for attention.\n\nStory: Ekadashi is the 11th tithi of each
+  fortnight — a Vaishnava fasting day for restraint\, prayer and digestio
+ n-rest.\nSource: Padma Purana ekadashi mahatmya\; Smriti\nWhy: twice a lun
+ ar month\, step back from heavy food and hurry — make space for attentio
+ n.\nModern angle: Intermittent fasting shows metabolic and microbiome link
+ s in peer-reviewed work\; ekadashi as a named practice is cultural.\nEvide
+ nce: Plausible\nLink: https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/\n
+ More: https://saumya-sharma.github.io/dharmasetu/prototype/reasoning.html#
+ ekadashi-fasting\nLocation basis: New Delhi. City-specific timing coming l
+ ater.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#e3a
- 091a9929edc2e
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#ea61
+ 278f389cc2f4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ekadashi (Shukla) — Pausha / एकादशी (शुक्ल

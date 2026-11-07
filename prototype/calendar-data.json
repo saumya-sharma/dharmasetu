@@ -488,8 +488,8 @@
       "verify": false
     },
     {
-      "id": "e3a091a9929edc2e",
-      "uid": "ekadashi-2027-12-23@dharmasetu",
+      "id": "ea61278f389cc2f4",
+      "uid": "ekadashi-2027-01-03@dharmasetu",
       "date": "2027-01-03",
       "fid": "ekadashi",
       "title_en": "Ekadashi (Krishna) — Margashirsha",
@@ -512,8 +512,8 @@
       "verify": false
     },
     {
-      "id": "7fad7c5eb1d0f44b",
-      "uid": "amavasya-2027-12-27@dharmasetu",
+      "id": "7aed76b6adcf4a6f",
+      "uid": "amavasya-2027-01-07@dharmasetu",
       "date": "2027-01-07",
       "fid": "amavasya",
       "title_en": "Amavasya — Margashirsha",
@@ -758,7 +758,7 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": true
     },
     {
       "id": "df089488a7460daf",
@@ -1378,7 +1378,7 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": true
     },
     {
       "id": "2e04258970abcedb",
