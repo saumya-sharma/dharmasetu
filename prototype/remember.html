@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DharmaSetu — Remember a day</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="common.css"/>
+
+</head>
+<body>
+<a class="skip-link" href="#main"><span data-i18n-en>Skip to content</span><span data-i18n-hi>सामग्री पर जाएँ</span></a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="home.html">
+      <div class="brand-mark brand-logo" aria-hidden="true"><img src="assets/logo-temple.svg" alt="" width="40" height="40"/></div>
+      <div class="brand-text">
+        <span class="brand-name">DharmaSetu <span style="font-size:.7em;color:var(--gold);font-weight:600">धर्मसेतु</span></span>
+        <span class="brand-sub"><span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span></span>
+      </div>
+    </a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html" class="active" aria-current="page"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
+      <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+      <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+      <a href="reasoning.html"><span data-i18n-en>Reasoning</span><span data-i18n-hi>कारण</span></a>
+      <a href="muhurat.html"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
+      <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+      <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="hi">हिं</button>
+      </div>
+      <a class="btn btn-wa btn-sm" href="https://wa.me/917239062622?text=Namaste%2C%20I%20found%20DharmaSetu%20and%20would%20like%20guidance." target="_blank" rel="noopener" style="display:none" id="hdr-wa">WhatsApp</a>
+      <button class="burger" id="burger" type="button" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav">
+  <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
+  <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
+  <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
+  <a href="reasoning.html"><span data-i18n-en>Reasoning</span><span data-i18n-hi>कारण</span></a>
+      <a href="muhurat.html"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
+  <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
+  <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
+</nav>
+
+<main id="main" class="rm">
+  <section class="section" style="padding-bottom:.5rem;">
+    <div class="wrap" style="max-width:820px;">
+      <p class="eyebrow"><span data-i18n-en>Remember a day</span><span data-i18n-hi>दिन याद रखें</span></p>
+      <h1><span data-i18n-en>Which days would you like help remembering?</span><span data-i18n-hi>आप कौन-से दिन याद रखना चाहते हैं?</span></h1>
+      <p class="muted"><span data-i18n-en>Pick what matters to you, preview it, then add it to your own calendar. No name, birth date or phone number needed.</span><span data-i18n-hi>जो आपके लिए मायने रखता है वह चुनें, देखें, फिर अपने कैलेंडर में जोड़ें। नाम, जन्म तिथि या फ़ोन नंबर की ज़रूरत नहीं।</span></p>
+      <div id="saved-box" class="card saved-box rm-step" hidden>
+        <strong><span data-i18n-en>Your choices are saved on this device.</span><span data-i18n-hi>आपके चुनाव इस डिवाइस पर सहेजे गए हैं।</span></strong>
+        <p class="note"><span data-i18n-en>Stored only in this browser (localStorage) — not on our servers. Clearing browser data removes it.</span><span data-i18n-hi>केवल इसी ब्राउज़र (localStorage) में — हमारे सर्वर पर नहीं। ब्राउज़र डेटा मिटाने पर हट जाएगा।</span></p>
+        <div class="rm-actions">
+          <a class="btn btn-ghost btn-sm" href="#step1"><span data-i18n-en>Edit choices</span><span data-i18n-hi>चुनाव बदलें</span></a>
+          <button type="button" class="btn btn-ghost btn-sm" id="export-prefs"><span data-i18n-en>Export settings (.json)</span><span data-i18n-hi>सेटिंग निर्यात (.json)</span></button>
+          <button type="button" class="btn btn-ghost btn-sm" id="delete-prefs"><span data-i18n-en>Delete saved choices</span><span data-i18n-hi>सहेजे चुनाव मिटाएँ</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <form class="wrap" style="max-width:820px;" id="rm-form" novalidate>
+      <div class="card rm-step" id="step1" tabindex="-1">
+        <h2><span data-i18n-en>1 · What should we help you remember?</span><span data-i18n-hi>१ · क्या याद दिलाएँ?</span></h2>
+        <fieldset>
+          <legend class="sr-only"><span data-i18n-en>How to choose</span><span data-i18n-hi>चुनने का तरीका</span></legend>
+          <div class="seg">
+            <label><input type="radio" name="mode" value="categories"/> <span data-i18n-en>Kinds of days</span><span data-i18n-hi>दिनों के प्रकार</span></label>
+            <label><input type="radio" name="mode" value="events"/> <span data-i18n-en>Pick individual days</span><span data-i18n-hi>अलग-अलग दिन चुनें</span></label>
+          </div>
+        </fieldset>
+        <fieldset id="cats-box">
+          <legend><span data-i18n-en>Choose any (all are fine)</span><span data-i18n-hi>कोई भी चुनें (सभी भी)</span></legend>
+          <div class="cat-grid" id="cat-grid"></div>
+        </fieldset>
+        <fieldset id="events-box" hidden>
+          <legend><span data-i18n-en>Tick the days you want</span><span data-i18n-hi>जो दिन चाहिए उन पर टिक करें</span></legend>
+          <div class="ev-pick" id="ev-pick"></div>
+        </fieldset>
+        <label class="opt" style="margin:.2rem 0 .6rem;"><input type="checkbox" name="includeRef" id="include-ref"/> <span><span data-i18n-en>Also include reference days not yet checked against a source</span><span data-i18n-hi>स्रोत से अभी न जाँचे गए संदर्भ दिन भी शामिल करें</span></span></label>
+        <details class="more">
+          <summary><span data-i18n-en>How do you mark these days? (optional)</span><span data-i18n-hi>आप ये दिन कैसे मनाते हैं? (वैकल्पिक)</span></summary>
+          <p class="note"><span data-i18n-en>Only used to word your calendar note, e.g. “You chose to mark this for: a food choice”. We never tell you what to eat or how to fast.</span><span data-i18n-hi>केवल आपके कैलेंडर नोट के शब्दों के लिए, जैसे “आपने चुना: भोजन-संबंधी अपना चुनाव”। हम कभी नहीं बताते कि क्या खाएँ या व्रत कैसे रखें।</span></p>
+          <div class="seg" id="practice-box" style="margin-top:.5rem;">
+            <label><input type="checkbox" name="practice" value="fast"/> <span data-i18n-en>I keep a fast</span><span data-i18n-hi>मैं व्रत रखता/रखती हूँ</span></label>
+            <label><input type="checkbox" name="practice" value="food-choice"/> <span data-i18n-en>I make a food choice (e.g. no non-veg)</span><span data-i18n-hi>भोजन-संबंधी चुनाव (जैसे मांसाहार नहीं)</span></label>
+            <label><input type="checkbox" name="practice" value="puja"/> <span data-i18n-en>Puja / prayer</span><span data-i18n-hi>पूजा / प्रार्थना</span></label>
+            <label><input type="checkbox" name="practice" value="aware"/> <span data-i18n-en>Just want to know</span><span data-i18n-hi>बस जानना है</span></label>
+          </div>
+        </details>
+      </div>
+
+      <div class="card rm-step" id="step2">
+        <h2><span data-i18n-en>2 · How should reminders work?</span><span data-i18n-hi>२ · याद कैसे दिलाएँ?</span></h2>
+        <div class="rm-row">
+          <label class="field"><span data-i18n-en>Remind me</span><span data-i18n-hi>कब याद दिलाएँ</span>
+            <select name="lead" id="lead">
+              <option value="day-before">Evening before · एक दिन पहले</option>
+              <option value="same-day">On the day · उसी दिन</option>
+              <option value="none">No alert · कोई अलर्ट नहीं</option>
+            </select>
+          </label>
+          <label class="field"><span data-i18n-en>At</span><span data-i18n-hi>समय</span>
+            <select name="time" id="time"></select>
+          </label>
+        </div>
+        <p class="note"><span data-i18n-en>Alerts follow your calendar app’s clock and time zone. Some apps ignore alerts in imported files — if so, set one there.</span><span data-i18n-hi>अलर्ट आपके कैलेंडर ऐप की घड़ी व समय-क्षेत्र पर चलते हैं। कुछ ऐप आयातित फ़ाइल के अलर्ट अनदेखा करते हैं — तब वहीं अलर्ट सेट करें।</span></p>
+        <fieldset style="margin-top:1rem;">
+          <legend><span data-i18n-en>Language of calendar notes</span><span data-i18n-hi>कैलेंडर नोट की भाषा</span></legend>
+          <div class="seg">
+            <label><input type="radio" name="lang" value="en"/> English</label>
+            <label><input type="radio" name="lang" value="hi"/> हिंदी</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend><span data-i18n-en>Where reminders go</span><span data-i18n-hi>याद कहाँ मिले</span></legend>
+          <div class="seg">
+            <span class="opt" style="cursor:default;"><span aria-hidden="true">📅</span> <span data-i18n-en>Your calendar app</span><span data-i18n-hi>आपका कैलेंडर ऐप</span></span>
+            <span class="unavail"><span data-i18n-en>WhatsApp reminders — not available yet</span><span data-i18n-hi>व्हाट्सऐप रिमाइंडर — अभी उपलब्ध नहीं</span></span>
+          </div>
+        </fieldset>
+        <details class="more">
+          <summary><span data-i18n-en>City &amp; family tradition (optional)</span><span data-i18n-hi>शहर व पारिवारिक परंपरा (वैकल्पिक)</span></summary>
+          <div class="rm-row" style="margin-top:.5rem;">
+
+            <label class="field"><span data-i18n-en>City (a note for later — doesn’t change dates)</span><span data-i18n-hi>शहर (बाद के लिए नोट — तिथि नहीं बदलती)</span>
+              <input name="city" id="city" maxlength="60" autocomplete="address-level2"/>
+            </label>
+            <label class="field"><span data-i18n-en>Family tradition (optional)</span><span data-i18n-hi>पारिवारिक परंपरा (वैकल्पिक)</span>
+              <select name="tradition" id="tradition">
+                <option value="">— · —</option>
+                <option value="family">I follow my family’s way · परिवार की रीति</option>
+                <option value="not-sure">Not sure · पता नहीं</option>
+              </select>
+            </label>
+          </div>
+                    <p class="note"><span data-i18n-en>All dates use the New Delhi reference for every location for now — a city does not change them. Tradition-specific dates (e.g. some Ekadashi) can differ; check with your kul-purohit.</span><span data-i18n-hi>अभी हर स्थान के लिए तिथियाँ नई दिल्ली संदर्भ पर हैं — शहर बदलने से तिथि नहीं बदलती। परंपरा के अनुसार कुछ तिथियाँ (जैसे कुछ एकादशी) भिन्न हो सकती हैं; अपने कुल-पुरोहित से पूछें।</span></p>
+        </details>
+      </div>
+
+      <div class="card rm-step" id="step3">
+        <h2><span data-i18n-en>3 · Preview your next days</span><span data-i18n-hi>३ · आगे के दिन देखें</span></h2>
+        <p class="muted" id="pv-count" aria-live="polite"></p>
+        <ul class="preview-list" id="pv-list"></ul>
+        <div class="rm-actions">
+          <button type="button" class="btn btn-primary" id="dl-ics"><span data-i18n-en>Add these to my calendar (.ics)</span><span data-i18n-hi>इन्हें मेरे कैलेंडर में जोड़ें (.ics)</span></button>
+          <button type="button" class="btn btn-ghost" id="save-prefs"><span data-i18n-en>Save on this device</span><span data-i18n-hi>इस डिवाइस पर सहेजें</span></button>
+          <button type="button" class="btn btn-ghost btn-sm" id="reset-form"><span data-i18n-en>Start over</span><span data-i18n-hi>फिर से शुरू करें</span></button>
+        </div>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+        <details class="more">
+          <summary><span data-i18n-en>About this download</span><span data-i18n-hi>इस डाउनलोड के बारे में</span></summary>
+          <p class="note"><span data-i18n-en>It is a one-time copy: it will not update if a date is corrected. Some calendar apps (including Google Calendar imports) ignore alerts in a file — set notifications there if so. Alerts fire at your device’s local time.</span><span data-i18n-hi>यह एक बार की प्रति है: तिथि सुधरने पर यह अपडेट नहीं होगी। कुछ कैलेंडर ऐप (गूगल कैलेंडर आयात सहित) फ़ाइल के अलर्ट अनदेखा करते हैं — तब वहीं सूचना सेट करें। अलर्ट आपके डिवाइस के स्थानीय समय पर आते हैं।</span></p>
+          <p class="note" id="sub-links"></p>
+        </details>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap inner">
+    <div>
+      <strong>DharmaSetu</strong> · <span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span><br/>
+      <span data-i18n-en>We never replace your family’s kul-purohit. Preview · Nov 2026</span>
+      <span data-i18n-hi>हम आपके कुल-पुरोहित का स्थान नहीं लेते। पूर्वावलोकन · नवम्बर 2026</span>
+    </div>
+    <div>
+      <a href="https://wa.me/917239062622" target="_blank" rel="noopener">WhatsApp +91 72390 62622</a>
+      · <a href="index.html"><span data-i18n-en>Team hub</span><span data-i18n-hi>टीम हब</span></a>
+    </div>
+  </div>
+</footer>
+<script src="i18n.js"></script>
+<script src="ds-core.js"></script>
+<script src="remember.js"></script>
+</body>
+</html>

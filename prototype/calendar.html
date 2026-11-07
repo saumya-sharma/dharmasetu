@@ -60,10 +60,11 @@
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main"><span data-i18n-en>Skip to content</span><span data-i18n-hi>सामग्री पर जाएँ</span></a>
 <header class="site-header">
   <div class="inner">
     <a class="brand" href="home.html">
-      <div class="brand-mark" aria-hidden="true">ॐ</div>
+      <div class="brand-mark brand-logo" aria-hidden="true"><img src="assets/logo-temple.svg" alt="" width="40" height="40"/></div>
       <div class="brand-text">
         <span class="brand-name">DharmaSetu <span style="font-size:.7em;color:var(--gold);font-weight:600">धर्मसेतु</span></span>
         <span class="brand-sub"><span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span></span>
@@ -71,10 +72,11 @@
     </a>
     <nav class="nav-main" aria-label="Primary">
       <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
       <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
       <a href="calendar.html" class="active"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
       <a href="reasoning.html"><span data-i18n-en>Reasoning</span><span data-i18n-hi>कारण</span></a>
-      <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+      <a href="muhurat.html"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
       <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
       <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
     </nav>
@@ -89,15 +91,16 @@
 </header>
 <nav class="mobile-nav" id="mobile-nav">
   <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
   <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
   <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
   <a href="reasoning.html"><span data-i18n-en>Reasoning library</span><span data-i18n-hi>कारण पुस्तकालय</span></a>
-  <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+  <a href="muhurat.html"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
   <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
   <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
 </nav>
 
-<main>
+<main id="main">
   <section class="section" style="padding-bottom:1rem;">
     <div class="wrap">
       <p class="eyebrow"><span data-i18n-en>Vedic calendar · New Delhi</span><span data-i18n-hi>वैदिक पंचांग · नई दिल्ली</span></p>
@@ -108,6 +111,11 @@
         <span data-i18n-en>Nov 2026 – Dec 2027 computed for New Delhi (28.61N, 77.21E, IST): sunrise tithi, sankranti, major festivals, Pitru Paksha 2027. Subscribe to the full feed, a category feed, or pick your own events. City-specific timing refinements coming later.</span>
         <span data-i18n-hi>नवम्बर २०२६ – दिसम्बर २०२७, नई दिल्ली हेतु गणना: सूर्योदय तिथि, संक्रांति, प्रमुख त्योहार, पितृ पक्ष २०२७। पूरा फ़ीड, श्रेणी फ़ीड, या चुने हुए पर्व। शहर-विशिष्ट समय बाद में।</span>
       </p>
+      <a class="card action-card" href="remember.html" style="margin:1rem 0;max-width:42rem;">
+        <span class="k"><span data-i18n-en>Easiest way</span><span data-i18n-hi>सबसे आसान तरीका</span></span>
+        <h3><span data-i18n-en>Choose only the days you observe →</span><span data-i18n-hi>केवल वही दिन चुनें जो आप मनाते हैं →</span></h3>
+        <p><span data-i18n-en>Three quick steps, with an optional reminder time.</span><span data-i18n-hi>तीन छोटे कदम, चाहें तो रिमाइंडर समय के साथ।</span></p>
+      </a>
       <div class="alert-soft">
         <span data-i18n-en>Educational. Ambiguous rules (adhik maas, kshaya tithi) and ±1-day sunrise edges are marked <strong>verify</strong>. Confirm with your local panchang or kul-purohit. No outcome claims.</span>
         <span data-i18n-hi>शैक्षिक। अस्पष्ट नियम (अधिक मास, क्षय तिथि) और ±१ दिन सूर्योदय अंतर <strong>सत्यापित करें</strong> चिह्नित। स्थानीय पंचांग/कुल-पुरोहित से पुष्टि करें। परिणाम दावा नहीं।</span>
@@ -196,6 +204,7 @@
 </footer>
 
 <script src="i18n.js"></script>
+<script src="ds-core.js"></script>
 <script>
 (function () {
   var ICS_BASE = "https://saumya-sharma.github.io/dharmasetu/prototype/";
@@ -465,7 +474,8 @@
     function dl() {
       var evs = selectedEvents();
       if (!evs.length) return;
-      downloadIcs("dharmasetu-selection.ics", buildCustomIcs(evs));
+      var p = DSCore.defaults(); p.lang = lang(); p.remind.lead = "none";
+      downloadIcs("dharmasetu-selection.ics", DSCore.buildICS(evs.slice().sort(function (a, b) { return a.date < b.date ? -1 : 1; }), p, {}));
     }
     document.getElementById("dl-custom").onclick = dl;
     document.getElementById("dl-custom-2").onclick = dl;
@@ -485,7 +495,7 @@
       renderEvents();
       wire();
       if (location.hash) {
-        var el = document.getElementById(location.hash.slice(1));
+        var el = document.getElementById(location.hash.slice(1)) || document.getElementById("ev-" + location.hash.slice(1));
         if (el) el.scrollIntoView();
       }
     })

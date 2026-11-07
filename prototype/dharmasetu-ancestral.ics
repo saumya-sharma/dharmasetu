@@ -58,21 +58,21 @@ SUMMARY:Amavasya — Margashirsha / अमावस्या — मार
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 DTSTAMP:20261103T045158Z
-UID:amavasya-2027-12-27@dharmasetu
+UID:amavasya-2027-01-07@dharmasetu
 CATEGORIES:purnima-amavasya\,ancestral
-DESCRIPTION:Why: when the moon is dark\, turn attention to those who came 
- before.\n\nStory: Amavasya is the new-moon tithi — traditionally linked 
- with ancestral remembrance (pitru) and quieter household rites.\nSource: G
- aruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is
-  dark\, turn attention to those who came before.\nModern angle: Scheduled 
- grief/remembrance days aid mourning culture\; cultural/psychological.\nEvi
- dence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharm
- asetu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New D
- elhi. City-specific timing coming later.
+DESCRIPTION:Why: when the moon is dark\, turn attention to those who came b
+ efore.\n\nStory: Amavasya is the new-moon tithi — traditionally linked w
+ ith ancestral remembrance (pitru) and quieter household rites.\nSource: Ga
+ ruda Purana ancestral strands\; panchanga practice\nWhy: when the moon is 
+ dark\, turn attention to those who came before.\nModern angle: Scheduled g
+ rief/remembrance days aid mourning culture\; cultural/psychological.\nEvid
+ ence: Cultural/psychological\nMore: https://saumya-sharma.github.io/dharma
+ setu/prototype/reasoning.html#shraddha-remembrance\nLocation basis: New De
+ lhi. City-specific timing coming later.
 LOCATION:New Delhi\, India (reference)
 TRANSP:TRANSPARENT
-URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7fa
- d7c5eb1d0f44b
+URL:https://saumya-sharma.github.io/dharmasetu/prototype/calendar.html#7aed
+ 76b6adcf4a6f
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Amavasya — Pausha / अमावस्या — पौष
