@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<link rel="icon" type="image/svg+xml" href="assets/logo-temple.svg"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>DharmaSetu — Sangam / संगम</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -11,10 +12,11 @@
 
 </head>
 <body>
+<a class="skip-link" href="#main"><span data-i18n-en>Skip to content</span><span data-i18n-hi>सामग्री पर जाएँ</span></a>
 <header class="site-header">
   <div class="inner">
     <a class="brand" href="home.html">
-      <div class="brand-mark" aria-hidden="true">ॐ</div>
+      <div class="brand-mark brand-logo" aria-hidden="true"><img src="assets/logo-temple.svg" alt="" width="40" height="40"/></div>
       <div class="brand-text">
         <span class="brand-name">DharmaSetu <span style="font-size:.7em;color:var(--gold);font-weight:600">धर्मसेतु</span></span>
         <span class="brand-sub"><span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span></span>
@@ -22,10 +24,11 @@
     </a>
     <nav class="nav-main" aria-label="Primary">
       <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
       <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
       <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
       <a href="reasoning.html"><span data-i18n-en>Reasoning</span><span data-i18n-hi>कारण</span></a>
-      <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+      <a href="muhurat.html"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
       <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
       <a href="community.html" class="active"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
     </nav>
@@ -40,98 +43,138 @@
 </header>
 <nav class="mobile-nav" id="mobile-nav">
   <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
   <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
   <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
   <a href="reasoning.html"><span data-i18n-en>Reasoning</span><span data-i18n-hi>कारण</span></a>
-      <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+      <a href="muhurat.html"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
   <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
   <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
 </nav>
 
-<main>
-  <section class="section" style="padding-bottom:1rem;background:var(--cream-3);">
-    <div class="wrap">
-      <p class="eyebrow"><span data-i18n-en>Community</span><span data-i18n-hi>समुदाय</span></p>
-      <h1 style="font-size:clamp(1.6rem,3.5vw,2.2rem);color:var(--terracotta);">
-        <span data-i18n-en>Sangam — Share your tradition</span><span data-i18n-hi>संगम — अपनी परंपरा साझा करें</span>
-      </h1>
-      <p class="belief">
-        <span data-i18n-en>We are curators, not owners, of a shared belief temple.</span>
-        <span data-i18n-hi>हम साझा आस्था-मंदिर के संरक्षक हैं, स्वामी नहीं।</span>
-      </p>
-      <p class="muted" style="max-width:40rem;">
-        <span data-i18n-en>Bring your words, stories, regional rites and the lingo of your home. Active contributors can later become resource persons. Photos of acharyas appear only with consent.</span>
-        <span data-i18n-hi>अपने शब्द, कथाएँ, क्षेत्रीय रीतियाँ और घर की बोली लाएँ। सक्रिय योगदानकर्ता बाद में संसाधन-व्यक्ति बन सकते हैं। आचार्यों के चित्र केवल सहमति से।</span>
-      </p>
+<main id="main" class="rm">
+  <section class="section" style="padding-bottom:.5rem;background:var(--cream-3);">
+    <div class="wrap" style="max-width:820px;">
+      <p class="eyebrow"><span data-i18n-en>Sangam · community</span><span data-i18n-hi>संगम · समुदाय</span></p>
+      <h1><span data-i18n-en>Share what your family knows</span><span data-i18n-hi>आपका परिवार जो जानता है, साझा करें</span></h1>
+      <p class="belief" style="margin:.2rem 0 .6rem;"><span data-i18n-en>We are curators, not owners, of a shared belief temple.</span><span data-i18n-hi>हम साझा आस्था-मंदिर के संरक्षक हैं, स्वामी नहीं।</span></p>
+      <p class="muted"><span data-i18n-en>A story your nani told, a ritual from your region, a word only your village uses. Write it in a few lines — you decide whether it is credited and whether it may be published.</span><span data-i18n-hi>नानी की सुनाई कथा, आपके क्षेत्र की रीति, या ऐसा शब्द जो केवल आपके गाँव में बोला जाता है। कुछ पंक्तियों में लिखें — श्रेय और प्रकाशन का निर्णय आपका।</span></p>
+      <a class="btn btn-primary" href="#compose"><span data-i18n-en>Start sharing</span><span data-i18n-hi>साझा करना शुरू करें</span></a>
     </div>
   </section>
 
   <section class="section">
-    <div class="wrap" style="display:grid;gap:1.25rem;">
-      <div class="card" style="padding:1.3rem 1.35rem;">
-        <h2 style="color:var(--terracotta);font-size:1.3rem;"><span data-i18n-en>Share a term, story or ritual</span><span data-i18n-hi>शब्द, कथा या रीति साझा करें</span></h2>
-        <p class="muted" style="font-size:.88rem;margin-bottom:1rem;"><span data-i18n-en>Submits to WhatsApp for now. <!-- Formspree/Sheet later --></span><span data-i18n-hi>अभी व्हाट्सऐप पर भेजा जाएगा। <!-- Formspree/Sheet later --></span></p>
-        <form id="sangam-form" class="form-grid cols-2">
-          <label class="field"><span data-i18n-en>Your name</span><span data-i18n-hi>आपका नाम</span>
-            <input name="name" required placeholder="Priya Verma"/>
-          </label>
-          <label class="field"><span data-i18n-en>City / region</span><span data-i18n-hi>शहर / क्षेत्र</span>
-            <input name="region" required placeholder="Ayodhya, Awadh"/>
-          </label>
-          <label class="field"><span data-i18n-en>Language</span><span data-i18n-hi>भाषा</span>
-            <input name="language" placeholder="Hindi / Awadhi / Bhojpuri…"/>
-          </label>
-          <label class="field"><span data-i18n-en>Type</span><span data-i18n-hi>प्रकार</span>
-            <select name="type">
-              <option value="term">Term / शब्द</option>
-              <option value="story">Story / कथा</option>
-              <option value="ritual">Ritual / रीति</option>
-              <option value="regional">Regional practice / क्षेत्रीय प्रथा</option>
-            </select>
-          </label>
-          <label class="field" style="grid-column:1/-1;"><span data-i18n-en>Your text</span><span data-i18n-hi>आपका पाठ</span>
-            <textarea name="text" required placeholder="e.g. In our home, vidaai is called…"></textarea>
-          </label>
-          <label class="field" style="grid-column:1/-1;"><span data-i18n-en>Photo (optional — placeholder)</span><span data-i18n-hi>फ़ोटो (वैकल्पिक — प्लेसहोल्डर)</span>
-            <input name="photo" type="file" accept="image/*" disabled title="Upload coming soon"/>
-            <span style="font-weight:400;font-size:.75rem;"><span data-i18n-en>Upload wiring comes with Formspree/Sheet.</span><span data-i18n-hi>अपलोड Formspree/Sheet के साथ जुड़ेगा।</span></span>
-          </label>
-          <label class="check" style="grid-column:1/-1;">
-            <input type="checkbox" name="consent" value="yes"/>
-            <span><span data-i18n-en>I consent to DharmaSetu sharing this with attribution, for education — not for fear or paid solicitation.</span><span data-i18n-hi>मैं सहमति देता/देती हूँ कि धर्मसेतु इसे श्रेय के साथ शैक्षिक उपयोग हेतु साझा करे — भय या भुगतान-याचना हेतु नहीं।</span></span>
-          </label>
-          <div style="grid-column:1/-1;">
-            <button class="btn btn-wa" type="submit"><span data-i18n-en>Send via WhatsApp</span><span data-i18n-hi>व्हाट्सऐप से भेजें</span></button>
+    <div class="wrap" style="max-width:820px;">
+      <form class="card rm-step" id="compose" novalidate tabindex="-1" aria-labelledby="compose-h">
+        <h2 id="compose-h"><span data-i18n-en>Your contribution</span><span data-i18n-hi>आपका योगदान</span> <span class="tag" id="step-label"></span></h2>
+        <div id="form-errors" class="status err" role="alert" aria-live="assertive"></div>
+
+        <fieldset data-step="1">
+          <legend><span data-i18n-en>What would you like to share?</span><span data-i18n-hi>आप क्या साझा करना चाहते हैं?</span></legend>
+          <div class="seg" id="type-box">
+            <label><input type="radio" name="type" value="story"/> <span data-i18n-en>A story</span><span data-i18n-hi>कथा</span></label>
+            <label><input type="radio" name="type" value="ritual"/> <span data-i18n-en>A ritual</span><span data-i18n-hi>रीति</span></label>
+            <label><input type="radio" name="type" value="term"/> <span data-i18n-en>A local term</span><span data-i18n-hi>स्थानीय शब्द</span></label>
+            <label><input type="radio" name="type" value="experience"/> <span data-i18n-en>An experience</span><span data-i18n-hi>अनुभव</span></label>
+            <label><input type="radio" name="type" value="resource"/> <span data-i18n-en>A resource</span><span data-i18n-hi>संसाधन</span></label>
           </div>
-        </form>
-      </div>
+          <p class="note" id="err-type"></p>
+        </fieldset>
 
-      <div class="card" style="padding:1.3rem 1.35rem;">
-        <h2 style="color:var(--terracotta);font-size:1.25rem;"><span data-i18n-en>Become a resource person</span><span data-i18n-hi>संसाधन-व्यक्ति बनें</span></h2>
-        <p class="muted"><span data-i18n-en>If you regularly share clear, kind knowledge — rites, terms, or regional calendars — we may invite you as a named guide on Sangam. No pressure. No replacing anyone’s kul-purohit.</span><span data-i18n-hi>यदि आप नियमित रूप से स्पष्ट, कोमल ज्ञान साझा करते हैं — विधि, शब्द या क्षेत्रीय पंचांग — तो हम आपको संगम पर नामित मार्गदर्शक के रूप में आमंत्रित कर सकते हैं। कोई दबाव नहीं। किसी के कुल-पुरोहित का स्थान नहीं।</span></p>
-        <a class="btn btn-primary" href="https://wa.me/917239062622?text=Namaste%2C%20I%20would%20like%20to%20become%20a%20DharmaSetu%20resource%20person." target="_blank" rel="noopener"><span data-i18n-en>Say hello on WhatsApp</span><span data-i18n-hi>व्हाट्सऐप पर नमस्ते कहें</span></a>
-      </div>
+        <fieldset data-step="2" hidden>
+          <legend><span data-i18n-en>Tell it in your words</span><span data-i18n-hi>अपने शब्दों में बताएँ</span></legend>
+          <label class="field"><span data-i18n-en>Short title (optional)</span><span data-i18n-hi>छोटा शीर्षक (वैकल्पिक)</span>
+            <input name="title" maxlength="80" autocomplete="off"/></label>
+          <label class="field" style="margin-top:.7rem;"><span data-i18n-en>Your words (20–1500 characters)</span><span data-i18n-hi>आपके शब्द (20–1500 अक्षर)</span>
+            <textarea name="text" maxlength="1500" rows="6" aria-describedby="err-text text-hint"></textarea></label>
+          <p class="note" id="text-hint"><span data-i18n-en>Please leave out phone numbers, emails, addresses, birth dates and other people’s private details.</span><span data-i18n-hi>कृपया फ़ोन नंबर, ईमेल, पता, जन्म तिथि और दूसरों की निजी जानकारी न लिखें।</span> <span id="text-count"></span></p>
+          <p class="note err" id="err-text"></p>
+          <details class="more">
+            <summary><span data-i18n-en>Region, language &amp; source (optional)</span><span data-i18n-hi>क्षेत्र, भाषा व स्रोत (वैकल्पिक)</span></summary>
+            <div class="rm-row">
+              <label class="field"><span data-i18n-en>Region</span><span data-i18n-hi>क्षेत्र</span><input name="region" maxlength="60" autocomplete="off"/></label>
+              <label class="field"><span data-i18n-en>Language</span><span data-i18n-hi>भाषा</span><input name="language" maxlength="40" autocomplete="off"/></label>
+            </div>
+            <label class="field" style="margin-top:.7rem;"><span data-i18n-en>Source link (https://…)</span><span data-i18n-hi>स्रोत लिंक (https://…)</span>
+              <input name="source" type="url" inputmode="url" maxlength="300" autocomplete="off" aria-describedby="err-source"/></label>
+            <p class="note err" id="err-source"></p>
+          </details>
+        </fieldset>
 
-      <div>
-        <h2 style="color:var(--terracotta);font-size:1.25rem;margin-bottom:.75rem;"><span data-i18n-en>Acharyas &amp; guides</span><span data-i18n-hi>आचार्य व मार्गदर्शक</span></h2>
-        <p class="muted" style="font-size:.88rem;margin-bottom:1rem;"><span data-i18n-en>Photos shown only with consent. Placeholders for now — no real names or faces.</span><span data-i18n-hi>चित्र केवल सहमति से। अभी प्लेसहोल्डर — कोई वास्तविक नाम या चेहरा नहीं।</span></p>
-        <div class="acharya-strip">
-          <div class="card acharya"><div class="silhouette" style="margin:0 auto;">👤</div><p><span data-i18n-en>Guide seat · consent pending</span><span data-i18n-hi>मार्गदर्शक स्थान · सहमति शेष</span></p></div>
-          <div class="card acharya"><div class="silhouette" style="margin:0 auto;">👤</div><p><span data-i18n-en>Guide seat · consent pending</span><span data-i18n-hi>मार्गदर्शक स्थान · सहमति शेष</span></p></div>
-          <div class="card acharya"><div class="silhouette" style="margin:0 auto;">👤</div><p><span data-i18n-en>Guide seat · consent pending</span><span data-i18n-hi>मार्गदर्शक स्थान · सहमति शेष</span></p></div>
-          <div class="card acharya"><div class="silhouette" style="margin:0 auto;">👤</div><p><span data-i18n-en>Guide seat · consent pending</span><span data-i18n-hi>मार्गदर्शक स्थान · सहमति शेष</span></p></div>
+        <fieldset data-step="3" hidden>
+          <legend><span data-i18n-en>Credit &amp; permissions</span><span data-i18n-hi>श्रेय व अनुमति</span></legend>
+          <div class="seg">
+            <label><input type="radio" name="attribution" value="anonymous" checked/> <span data-i18n-en>Keep me anonymous</span><span data-i18n-hi>मुझे गुमनाम रखें</span></label>
+            <label><input type="radio" name="attribution" value="name"/> <span data-i18n-en>Credit me by a display name</span><span data-i18n-hi>प्रदर्शित नाम से श्रेय दें</span></label>
+          </div>
+          <label class="field" id="name-field" hidden style="margin-top:.7rem;"><span data-i18n-en>Display name (any name you like)</span><span data-i18n-hi>प्रदर्शित नाम (कोई भी नाम)</span>
+            <input name="displayName" maxlength="40" autocomplete="nickname" aria-describedby="err-displayName"/></label>
+          <p class="note err" id="err-displayName"></p>
+          <div style="display:grid;gap:.5rem;margin-top:.8rem;">
+            <label class="opt"><input type="checkbox" name="ownConsent" aria-describedby="err-ownConsent"/> <span><span data-i18n-en>I have permission to share this, and it contains no one else’s private details.</span><span data-i18n-hi>मुझे इसे साझा करने की अनुमति है, और इसमें किसी दूसरे की निजी जानकारी नहीं है।</span> <small>(<span data-i18n-en>required</span><span data-i18n-hi>आवश्यक</span>)</small></span></label>
+            <p class="note err" id="err-ownConsent"></p>
+            <label class="opt"><input type="checkbox" name="publishOk"/> <span><span data-i18n-en>DharmaSetu may publish this after review (optional — leave unticked to share with the team only)</span><span data-i18n-hi>समीक्षा के बाद धर्मसेतु इसे प्रकाशित कर सकता है (वैकल्पिक — केवल टीम के लिए हो तो खाली छोड़ें)</span></span></label>
+            <label class="opt"><input type="checkbox" name="resourceInterest"/> <span><span data-i18n-en>I might like to help later as a resource person (optional; not a commitment or a credential)</span><span data-i18n-hi>बाद में संसाधन-व्यक्ति के रूप में मदद करना चाहूँगा/चाहूँगी (वैकल्पिक; कोई वचन या प्रमाण नहीं)</span></span></label>
+          </div>
+        </fieldset>
+
+        <fieldset data-step="4" hidden>
+          <legend><span data-i18n-en>Review your draft</span><span data-i18n-hi>अपना ड्राफ़्ट देखें</span></legend>
+          <pre id="preview" class="card" style="white-space:pre-wrap;padding:1rem;font:inherit;font-size:.95rem;"></pre>
+          <p class="note"><strong><span data-i18n-en>Nothing has been sent.</span><span data-i18n-hi>अभी कुछ भेजा नहीं गया है।</span></strong> <span data-i18n-en>Download or copy it, or open a WhatsApp draft to our team — it is sent only if you press Send in WhatsApp. Our team reviews every contribution by hand; stories and traditions are kept separate from any science claim.</span><span data-i18n-hi>इसे डाउनलोड या कॉपी करें, या हमारी टीम के लिए व्हाट्सऐप ड्राफ़्ट खोलें — यह तभी जाएगा जब आप व्हाट्सऐप में Send दबाएँगे। हर योगदान हमारी टीम स्वयं पढ़ती है; कथाएँ व परंपराएँ किसी वैज्ञानिक दावे से अलग रखी जाती हैं।</span></p>
+          <div class="rm-actions">
+            <a class="btn btn-wa" id="wa-draft" target="_blank" rel="noopener" hidden><span data-i18n-en>Open WhatsApp draft</span><span data-i18n-hi>व्हाट्सऐप ड्राफ़्ट खोलें</span></a>
+            <button type="button" class="btn btn-ghost" id="copy-draft"><span data-i18n-en>Copy text</span><span data-i18n-hi>टेक्स्ट कॉपी करें</span></button>
+            <button type="button" class="btn btn-ghost" id="dl-txt"><span data-i18n-en>Download (.txt)</span><span data-i18n-hi>डाउनलोड (.txt)</span></button>
+            <button type="button" class="btn btn-ghost btn-sm" id="dl-json"><span data-i18n-en>Download (.json)</span><span data-i18n-hi>डाउनलोड (.json)</span></button>
+          </div>
+          <p class="note" id="wa-too-long" hidden><span data-i18n-en>This is too long for a WhatsApp draft link — copy or download it and paste it into WhatsApp.</span><span data-i18n-hi>यह व्हाट्सऐप ड्राफ़्ट लिंक के लिए लंबा है — कॉपी या डाउनलोड करके व्हाट्सऐप में चिपकाएँ।</span></p>
+          <p class="status" id="draft-status" role="status" aria-live="polite"></p>
+        </fieldset>
+
+        <div class="rm-actions">
+          <button type="button" class="btn btn-ghost" id="back" hidden><span data-i18n-en>Back</span><span data-i18n-hi>पीछे</span></button>
+          <button type="button" class="btn btn-primary" id="next"><span data-i18n-en>Next</span><span data-i18n-hi>आगे</span></button>
+          <button type="button" class="btn btn-ghost btn-sm" id="clear"><span data-i18n-en>Clear</span><span data-i18n-hi>साफ़ करें</span></button>
         </div>
-      </div>
+        <p class="note"><span data-i18n-en>Nothing is saved in your browser or sent anywhere while you type.</span><span data-i18n-hi>लिखते समय कुछ भी ब्राउज़र में सहेजा या कहीं भेजा नहीं जाता।</span></p>
+      </form>
+
+      <section id="voices" hidden aria-labelledby="voices-h" style="margin-top:2rem;">
+        <h2 id="voices-h" style="color:var(--terracotta);font-size:1.3rem;"><span data-i18n-en>In their words</span><span data-i18n-hi>उनके शब्दों में</span></h2>
+        <div id="voices-list" class="cat-grid"></div>
+      </section>
+
+      <section id="guides" aria-labelledby="guides-h" style="margin-top:2rem;">
+        <h2 id="guides-h" style="color:var(--terracotta);font-size:1.3rem;"><span data-i18n-en>Guides who collaborate with us</span><span data-i18n-hi>हमारे साथ जुड़े मार्गदर्शक</span></h2>
+        <div id="guides-list" class="cat-grid" hidden></div>
+        <div id="guides-invite" class="card rm-step">
+          <h3 style="color:var(--terracotta);"><span data-i18n-en>Are you an acharya, purohit or scholar?</span><span data-i18n-hi>क्या आप आचार्य, पुरोहित या विद्वान हैं?</span></h3>
+          <p class="muted"><span data-i18n-en>Share your expertise with families who want to understand their traditions. We never replace a family’s kul-purohit.</span><span data-i18n-hi>उन परिवारों के साथ अपना ज्ञान साझा करें जो अपनी परंपराएँ समझना चाहते हैं। हम किसी परिवार के कुल-पुरोहित का स्थान नहीं लेते।</span></p>
+          <details class="more">
+            <summary><span data-i18n-en>How we check credibility</span><span data-i18n-hi>हम विश्वसनीयता कैसे जाँचते हैं</span></summary>
+            <ul class="note">
+              <li><span data-i18n-en>A conversation with our team (in person or video).</span><span data-i18n-hi>हमारी टीम से बातचीत (आमने-सामने या वीडियो)।</span></li>
+              <li><span data-i18n-en>We check the training or lineage you tell us about, and references.</span><span data-i18n-hi>आपके बताए प्रशिक्षण या परंपरा, और संदर्भों की जाँच।</span></li>
+              <li><span data-i18n-en>Your profile, photo or video appear only with your written consent — and come down whenever you ask.</span><span data-i18n-hi>आपकी प्रोफ़ाइल, फ़ोटो या वीडियो केवल लिखित सहमति से — और आपके कहने पर तुरंत हटाए जाते हैं।</span></li>
+              <li><span data-i18n-en>Each profile shows what was checked and when.</span><span data-i18n-hi>हर प्रोफ़ाइल पर लिखा होता है कि क्या और कब जाँचा गया।</span></li>
+            </ul>
+          </details>
+          <a class="btn btn-primary" href="https://wa.me/917239062622?text=Namaste%2C%20I%20am%20an%20acharya%2Fscholar%20and%20would%20like%20to%20know%20more%20about%20collaborating%20with%20DharmaSetu." target="_blank" rel="noopener"><span data-i18n-en>Start a conversation on WhatsApp</span><span data-i18n-hi>व्हाट्सऐप पर बातचीत शुरू करें</span></a>
+          <p class="note"><span data-i18n-en>Opens a WhatsApp draft; nothing is sent until you press Send.</span><span data-i18n-hi>व्हाट्सऐप ड्राफ़्ट खुलेगा; Send दबाने तक कुछ नहीं जाएगा।</span></p>
+        </div>
+      </section>
     </div>
   </section>
 </main>
+
 
 <footer class="site-footer">
   <div class="wrap inner">
     <div>
       <strong>DharmaSetu</strong> · <span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span><br/>
-      <span data-i18n-en>We never replace your family’s kul-purohit. Prototype v2 · 3 Nov 2026</span>
-      <span data-i18n-hi>हम आपके कुल-पुरोहित का स्थान नहीं लेते। प्रोटोटाइप v2 · 3 नवम्बर 2026</span>
+      <span data-i18n-en>We never replace your family’s kul-purohit. Preview · Nov 2026</span>
+      <span data-i18n-hi>हम आपके कुल-पुरोहित का स्थान नहीं लेते। पूर्वावलोकन · नवम्बर 2026</span>
     </div>
     <div>
       <a href="https://wa.me/917239062622" target="_blank" rel="noopener">WhatsApp +91 72390 62622</a>
@@ -140,29 +183,8 @@
   </div>
 </footer>
 <script src="i18n.js"></script>
-<script src="cal.js"></script>
-
-<script>
-// Formspree/Sheet later — for now submit via prefilled WhatsApp
-document.getElementById("sangam-form").addEventListener("submit", function(e){
-  e.preventDefault();
-  var fd = new FormData(e.target);
-  if (!fd.get("consent")) { alert(document.documentElement.lang==="hi" ? "कृपया सहमति दें।" : "Please tick the consent box."); return; }
-  var lines = [
-    "Sangam submission — DharmaSetu",
-    "Name: " + (fd.get("name")||""),
-    "City/Region: " + (fd.get("region")||""),
-    "Language: " + (fd.get("language")||""),
-    "Type: " + (fd.get("type")||""),
-    "",
-    fd.get("text")||"",
-    "",
-    "Consent: yes (share on DharmaSetu with attribution)"
-  ];
-  var url = "https://wa.me/917239062622?text=" + encodeURIComponent(lines.join("\\n"));
-  window.open(url, "_blank", "noopener");
-});
-</script>
+<script src="trust-core.js"></script>
+<script src="community.js"></script>
 
 </body>
 </html>

@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<link rel="icon" type="image/svg+xml" href="assets/logo-temple.svg"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DharmaSetu — Muhurat / शुभ मुहूर्त</title>
+<title>DharmaSetu — Plan a life moment / शुभ मुहूर्त</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet"/>
@@ -11,10 +12,11 @@
 
 </head>
 <body>
+<a class="skip-link" href="#main"><span data-i18n-en>Skip to content</span><span data-i18n-hi>सामग्री पर जाएँ</span></a>
 <header class="site-header">
   <div class="inner">
     <a class="brand" href="home.html">
-      <div class="brand-mark" aria-hidden="true">ॐ</div>
+      <div class="brand-mark brand-logo" aria-hidden="true"><img src="assets/logo-temple.svg" alt="" width="40" height="40"/></div>
       <div class="brand-text">
         <span class="brand-name">DharmaSetu <span style="font-size:.7em;color:var(--gold);font-weight:600">धर्मसेतु</span></span>
         <span class="brand-sub"><span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span></span>
@@ -22,10 +24,11 @@
     </a>
     <nav class="nav-main" aria-label="Primary">
       <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
       <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
       <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
       <a href="reasoning.html"><span data-i18n-en>Reasoning</span><span data-i18n-hi>कारण</span></a>
-      <a href="muhurat.html" class="active"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+      <a href="muhurat.html" class="active"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
       <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
       <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
     </nav>
@@ -40,104 +43,52 @@
 </header>
 <nav class="mobile-nav" id="mobile-nav">
   <a href="home.html"><span data-i18n-en>Home</span><span data-i18n-hi>होम</span></a>
+      <a href="remember.html"><span data-i18n-en>Remember</span><span data-i18n-hi>याद रखें</span></a>
   <a href="life-arc.html"><span data-i18n-en>Life Arc</span><span data-i18n-hi>जीवन-यात्रा</span></a>
   <a href="calendar.html"><span data-i18n-en>Calendar</span><span data-i18n-hi>पंचांग</span></a>
   <a href="reasoning.html"><span data-i18n-en>Reasoning</span><span data-i18n-hi>कारण</span></a>
-      <a href="muhurat.html"><span data-i18n-en>Muhurat</span><span data-i18n-hi>मुहूर्त</span></a>
+      <a href="muhurat.html"><span data-i18n-en>Plan</span><span data-i18n-hi>योजना</span></a>
   <a href="rite.html"><span data-i18n-en>Shraddha</span><span data-i18n-hi>श्राद्ध</span></a>
   <a href="community.html"><span data-i18n-en>Sangam</span><span data-i18n-hi>संगम</span></a>
 </nav>
 
-<main>
-  <section class="section" style="padding-top:1.75rem;">
-    <div class="wrap">
-      <p class="eyebrow"><span data-i18n-en>Daily-life timing</span><span data-i18n-hi>दैनिक जीवन का समय</span></p>
-      <h1 style="font-size:clamp(1.6rem,3.5vw,2.2rem);color:var(--terracotta);">
-        <span data-i18n-en>Find a better time</span><span data-i18n-hi>बेहतर समय खोजें</span>
-        <span style="display:block;font-size:.55em;color:var(--gold);font-weight:500;margin-top:.25rem;">शुभ मुहूर्त</span>
-      </h1>
-      <p class="belief" style="margin-top:.75rem;">
-        <span data-i18n-en>“Every time is right for you — but some times are better.”</span>
-        <span data-i18n-hi>“हर समय आपके लिए ठीक है — पर कुछ समय और बेहतर होते हैं।”</span>
-      </p>
-      <p class="muted" style="max-width:40rem;">
-        <span data-i18n-en>Pick a life decision, share a few details, and see sample windows with the reasoning from tradition. Real ephemeris calculations come next — for now, explore the flow. We never replace your kul-purohit.</span>
-        <span data-i18n-hi>जीवन का निर्णय चुनें, कुछ विवरण दें, और परंपरा के तर्क के साथ नमूना समय-खिड़कियाँ देखें। वास्तविक गणना आगे आएगी — अभी प्रवाह समझें। हम आपके कुल-पुरोहित का स्थान नहीं लेते।</span>
-      </p>
+<main id="main" class="rm">
+  <section class="section" style="padding-bottom:.5rem;">
+    <div class="wrap" style="max-width:820px;">
+      <p class="eyebrow"><span data-i18n-en>Plan a life moment</span><span data-i18n-hi>जीवन का अवसर</span></p>
+      <h1><span data-i18n-en>Planning something important?</span><span data-i18n-hi>कुछ महत्वपूर्ण योजना बना रहे हैं?</span></h1>
+      <p class="belief" style="margin:.2rem 0 .6rem;"><span data-i18n-en>“Every time is right for you — but some times are better.”</span><span data-i18n-hi>“हर समय आपके लिए ठीक है — पर कुछ समय और बेहतर होते हैं।”</span></p>
+      <p class="muted"><span data-i18n-en>Choose the moment and a month. You’ll get a short plan: practical steps first, what tradition usually looks at, and days in that month worth knowing.</span><span data-i18n-hi>अवसर और महीना चुनें। आपको एक छोटी योजना मिलेगी: पहले व्यावहारिक कदम, परंपरा आमतौर पर क्या देखती है, और उस महीने के जानने योग्य दिन।</span></p>
     </div>
   </section>
-
   <section class="section" style="padding-top:0;">
-    <div class="wrap">
-      <div class="card" style="padding:1.25rem 1.3rem;">
-        <p class="eyebrow"><span data-i18n-en>1 · What are you timing?</span><span data-i18n-hi>१ · किसका समय देखना है?</span></p>
-        <div class="chips" id="event-chips" style="margin-bottom:1.1rem;">
-          <button type="button" class="chip active" data-event="job"><span data-i18n-en>Job / career</span><span data-i18n-hi>नौकरी</span></button>
-          <button type="button" class="chip" data-event="marriage"><span data-i18n-en>Marriage</span><span data-i18n-hi>विवाह</span></button>
-          <button type="button" class="chip" data-event="house"><span data-i18n-en>House purchase</span><span data-i18n-hi>घर खरीदना</span></button>
-          <button type="button" class="chip" data-event="visa"><span data-i18n-en>Visa appointment</span><span data-i18n-hi>वीज़ा</span></button>
-          <button type="button" class="chip" data-event="travel"><span data-i18n-en>Travel</span><span data-i18n-hi>यात्रा</span></button>
-          <button type="button" class="chip" data-event="naming"><span data-i18n-en>Naming</span><span data-i18n-hi>नामकरण</span></button>
-          <button type="button" class="chip" data-event="griha"><span data-i18n-en>Griha Pravesh</span><span data-i18n-hi>गृह प्रवेश</span></button>
+    <div class="wrap" style="max-width:820px;">
+      <div class="card rm-step">
+        <h2><span data-i18n-en>1 · What are you planning?</span><span data-i18n-hi>१ · किसकी योजना है?</span></h2>
+        <div class="seg" id="moment-box" role="radiogroup">
+          <label><input type="radio" name="moment" value="naming" checked/> <span data-i18n-en>Baby’s naming</span><span data-i18n-hi>शिशु का नामकरण</span></label>
+          <label><input type="radio" name="moment" value="griha"/> <span data-i18n-en>New home</span><span data-i18n-hi>गृह प्रवेश</span></label>
+          <label><input type="radio" name="moment" value="job"/> <span data-i18n-en>New job</span><span data-i18n-hi>नई नौकरी</span></label>
+          <label><input type="radio" name="moment" value="marriage"/> <span data-i18n-en>Wedding</span><span data-i18n-hi>विवाह</span></label>
+          <label><input type="radio" name="moment" value="travel"/> <span data-i18n-en>Travel / visa</span><span data-i18n-hi>यात्रा / वीज़ा</span></label>
         </div>
-
-        <p class="eyebrow"><span data-i18n-en>2 · Your details</span><span data-i18n-hi>२ · आपके विवरण</span></p>
-        <form id="muhurat-form" class="form-grid cols-2">
-          <label class="field"><span data-i18n-en>Full name</span><span data-i18n-hi>पूरा नाम</span>
-            <input name="name" type="text" placeholder="Ananya Sharma" required/>
-          </label>
-          <label class="field"><span data-i18n-en>City (for local sunrise)</span><span data-i18n-hi>शहर (स्थानीय सूर्योदय हेतु)</span>
-            <input name="city" type="text" placeholder="Lucknow" required/>
-          </label>
-          <label class="field"><span data-i18n-en>Date of birth</span><span data-i18n-hi>जन्म तिथि</span>
-            <input name="dob" type="date" required/>
-          </label>
-          <label class="field"><span data-i18n-en>Time of birth (if known)</span><span data-i18n-hi>जन्म समय (यदि ज्ञात हो)</span>
-            <input name="tob" type="time"/>
-          </label>
-          <label class="field"><span data-i18n-en>Place of birth</span><span data-i18n-hi>जन्म स्थान</span>
-            <input name="pob" type="text" placeholder="Varanasi"/>
-          </label>
-          <label class="field"><span data-i18n-en>Date range to search</span><span data-i18n-hi>खोज की अवधि</span>
-            <select name="range">
-              <option value="30"><span>Next 30 days · अगले ३० दिन</span></option>
-              <option value="60">Next 60 days · अगले ६० दिन</option>
-              <option value="90">Nov 2026 – Feb 2027</option>
-            </select>
-          </label>
-          <div style="grid-column:1/-1;display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;">
-            <button class="btn btn-primary" type="submit"><span data-i18n-en>Show sample roadmap</span><span data-i18n-hi>नमूना रोडमैप दिखाएँ</span></button>
-            <span class="muted" style="font-size:.8rem;"><span data-i18n-en>Samples only — not a live kundali match yet.</span><span data-i18n-hi>केवल नमूने — अभी जीवंत कुंडली मिलान नहीं।</span></span>
-          </div>
-        </form>
+        <label class="field" style="margin-top:1rem;max-width:20rem;"><span data-i18n-en>Which month?</span><span data-i18n-hi>कौन-सा महीना?</span>
+          <select id="month"></select>
+        </label>
       </div>
-
-      <div id="results-panel" style="margin-top:1.75rem;">
-        <div style="display:flex;flex-wrap:wrap;gap:.75rem;align-items:end;justify-content:space-between;margin-bottom:.9rem;">
-          <div>
-            <p class="eyebrow" style="margin:0;"><span data-i18n-en>3 · Roadmap</span><span data-i18n-hi>३ · रोडमैप</span></p>
-            <h2 id="results-title" style="color:var(--ink);font-size:1.25rem;margin:0;">Sample results</h2>
-          </div>
-          <a class="btn btn-wa btn-sm" href="https://wa.me/917239062622?text=Namaste%2C%20I%20tried%20the%20DharmaSetu%20muhurat%20tool%20and%20would%20like%20to%20talk%20to%20an%20acharya." target="_blank" rel="noopener">
-            <span data-i18n-en>Talk to an acharya on WhatsApp</span><span data-i18n-hi>व्हाट्सऐप पर आचार्य से बात करें</span>
-          </a>
-        </div>
-        <div class="alert-soft">
-          <span data-i18n-en>These dates are <strong>samples for UI review</strong> (Nov 2026 onward). Reasoning lines reflect how the tradition talks about tithi/nakshatra — not proven science. Always confirm with your family’s kul-purohit.</span>
-          <span data-i18n-hi>ये तिथियाँ <strong>UI समीक्षा हेतु नमूने</strong> हैं (नवम्बर २०२६ से)। तर्क-पंक्तियाँ परंपरा की भाषा दर्शाती हैं — सिद्ध विज्ञान नहीं। सदैव अपने कुल-पुरोहित से पुष्टि करें।</span>
-        </div>
-        <div id="results"></div>
-      </div>
+      <div class="card rm-step" id="plan" aria-live="polite"></div>
+      <p class="note"><span data-i18n-en>We don’t calculate personal muhurats on this site, and no timing is scientifically proven. For an exact time, your kul-purohit is the right person — or ask our team and we’ll help you find one.</span><span data-i18n-hi>इस साइट पर हम व्यक्तिगत मुहूर्त की गणना नहीं करते, और कोई समय वैज्ञानिक रूप से सिद्ध नहीं है। सटीक समय के लिए आपके कुल-पुरोहित उचित हैं — या हमारी टीम से पूछें, हम खोजने में मदद करेंगे।</span></p>
     </div>
   </section>
 </main>
+
 
 <footer class="site-footer">
   <div class="wrap inner">
     <div>
       <strong>DharmaSetu</strong> · <span data-i18n-en>Celebrating lives &amp; serving souls</span><span data-i18n-hi>जीवन का उत्सव, आत्माओं की सेवा</span><br/>
-      <span data-i18n-en>We never replace your family’s kul-purohit. Prototype v2 · 3 Nov 2026</span>
-      <span data-i18n-hi>हम आपके कुल-पुरोहित का स्थान नहीं लेते। प्रोटोटाइप v2 · 3 नवम्बर 2026</span>
+      <span data-i18n-en>We never replace your family’s kul-purohit. Preview · Nov 2026</span>
+      <span data-i18n-hi>हम आपके कुल-पुरोहित का स्थान नहीं लेते। पूर्वावलोकन · नवम्बर 2026</span>
     </div>
     <div>
       <a href="https://wa.me/917239062622" target="_blank" rel="noopener">WhatsApp +91 72390 62622</a>
@@ -146,110 +97,8 @@
   </div>
 </footer>
 <script src="i18n.js"></script>
-<script src="cal.js"></script>
-
-<script>
-(function(){
-  var selected = "job";
-  var labels = {
-    job: {en:"New job / career move", hi:"नई नौकरी / करियर"},
-    marriage: {en:"Marriage (विवाह)", hi:"विवाह"},
-    house: {en:"House purchase", hi:"घर खरीदना"},
-    visa: {en:"Visa appointment", hi:"वीज़ा अपॉइंटमेंट"},
-    travel: {en:"Travel / yātrā", hi:"यात्रा"},
-    naming: {en:"Naming (नामकरण)", hi:"नामकरण"},
-    griha: {en:"Griha Pravesh (गृह प्रवेश)", hi:"गृह प्रवेश"}
-  };
-  var samples = {
-    job: [
-      {title:"Better window for interviews & joining", start:"2026-11-12T10:00:00", end:"2026-11-12T12:30:00", tithi:"Kartika Shukla Saptami", nak:"Rohini", yoga:"Siddha", why_en:"Rohini is traditionally linked with growth and steady beginnings in the texts — often preferred when starting work that should last.", why_hi:"रोहिणी नक्षत्र पारंपरिक रूप से वृद्धि और स्थिर आरंभ से जुड़ा माना जाता है — लंबे समय तक चलने वाले काम के आरंभ में अक्सर चुना जाता है।"},
-      {title:"Second window — afternoon consults", start:"2026-11-19T14:00:00", end:"2026-11-19T16:00:00", tithi:"Kartika Shukla Chaturdashi", nak:"Pushya", yoga:"Shubha", why_en:"Pushya is called the ‘nourisher’ in classical lists — families often pick it for steps meant to support livelihood.", why_hi:"पुष्य को शास्त्रीय सूचियों में ‘पोषक’ कहा गया है — आजीविका से जुड़े कदमों के लिए परिवार अक्सर इसे चुनते हैं।"},
-      {title:"Month-end review window", start:"2026-12-03T09:30:00", end:"2026-12-03T11:30:00", tithi:"Margashirsha Shukla Tritiya", nak:"Uttara Phalguni", yoga:"Vyaghata avoided morning", why_en:"Uttara Phalguni is associated in tradition with contracts and lasting bonds — useful framing for offer letters and joining dates.", why_hi:"उत्तरा फाल्गुनी परंपरा में अनुबंध और स्थायी संबंधों से जुड़ी मानी जाती है — ऑफर लेटर और जॉइनिंग तिथि के लिए उपयुक्त संदर्भ।"}
-    ],
-    marriage: [
-      {title:"Morning vivaha window (sample)", start:"2026-11-26T07:15:00", end:"2026-11-26T10:45:00", tithi:"Kartika Shukla Ekadashi", nak:"Anuradha", yoga:"Sobhana", why_en:"Anuradha is linked with friendship and alliance in the nakshatra lore — often cited for weddings that seek harmony between families.", why_hi:"अनुराधा नक्षत्र मैत्री और संबंध से जुड़ा माना जाता है — पारिवारिक सामंजस्य चाहने वाले विवाहों में अक्सर इसका उल्लेख होता है।"},
-      {title:"Weekend window (sample)", start:"2026-12-11T08:00:00", end:"2026-12-11T11:00:00", tithi:"Margashirsha Shukla Dashami", nak:"Rohini", yoga:"Siddhi", why_en:"A fixed (sthira) lagna period in the morning is traditionally preferred for ceremonies meant to endure.", why_hi:"सुबह का स्थिर लग्न उन संस्कारों के लिए परंपरा में पसंद किया जाता है जो दीर्घकाल तक रहें।"}
-    ],
-    house: [
-      {title:"Property papers / booking window", start:"2026-11-14T09:00:00", end:"2026-11-14T11:00:00", tithi:"Kartika Shukla Navami", nak:"Hasta", yoga:"Shubha", why_en:"Hasta is associated with skilled, careful acts in the texts — often chosen when signing or settling something tangible.", why_hi:"हस्त नक्षत्र शास्त्रों में कुशल, सावधानीपूर्ण कर्मों से जुड़ा है — कुछ ठोस तय या हस्ताक्षर करते समय अक्सर चुना जाता है।"},
-      {title:"Griha-related follow-up", start:"2026-12-05T10:00:00", end:"2026-12-05T12:00:00", tithi:"Margashirsha Shukla Panchami", nak:"Pushya", yoga:"Dhriti", why_en:"Pushya + a calm morning is a classic pairing for home-related beginnings in many regional calendars.", why_hi:"पुष्य और शांत सुबह — कई क्षेत्रीय पंचांगों में घर से जुड़े आरंभ के लिए क्लासिक जोड़ी मानी जाती है।"}
-    ],
-    visa: [
-      {title:"Appointment booking window", start:"2026-11-18T11:00:00", end:"2026-11-18T12:30:00", tithi:"Kartika Shukla Trayodashi", nak:"Swati", yoga:"Variyan", why_en:"Swati is described as independent and movement-friendly in classical notes — often picked for travel papers and journeys.", why_hi:"स्वाति को शास्त्रीय टिप्पणियों में स्वतंत्र और गति-अनुकूल कहा गया है — यात्रा-पत्रों और सफ़र के लिए अक्सर चुना जाता है।"},
-      {title:"Interview / biometrics window", start:"2026-12-08T09:30:00", end:"2026-12-08T11:00:00", tithi:"Margashirsha Shukla Ashtami", nak:"Ashwini", yoga:"Siddha", why_en:"Ashwini is the swift healer twin — tradition treats it as favourable for beginnings that need quick, clean motion.", why_hi:"अश्विनी तेज़ और आरंभ से जुड़ा नक्षत्र माना जाता है — शीघ्र, स्वच्छ गति वाले आरंभ के लिए अनुकूल माना जाता है।"}
-    ],
-    travel: [
-      {title:"Departure morning", start:"2026-11-21T06:45:00", end:"2026-11-21T08:30:00", tithi:"Kartika Krishna Pratipada", nak:"Ashwini", yoga:"Shubha", why_en:"Early Ashwini hours are traditionally used for setting out — the texts speak of auspicious motion at day’s start.", why_hi:"प्रातः अश्विनी में प्रस्थान की परंपरा पुरानी है — ग्रंथ दिन के आरंभ में शुभ गति की बात करते हैं।"}
-    ],
-    naming: [
-      {title:"Namkaran morning window", start:"2026-11-28T09:00:00", end:"2026-11-28T11:00:00", tithi:"Kartika Shukla Poornima", nak:"Mriga", yoga:"Siddha", why_en:"Naming is tied to nakshatra-pada sound in the grihya sutras — this sample aligns a calm morning with a soft syllable tradition.", why_hi:"नामकरण गृह्य सूत्रों में नक्षत्र-पद ध्वनि से जुड़ा है — यह नमूना शांत सुबह को कोमल अक्षर परंपरा से मिलाता है।"}
-    ],
-    griha: [
-      {title:"Griha Pravesh morning", start:"2026-12-04T07:30:00", end:"2026-12-04T10:30:00", tithi:"Margashirsha Shukla Chaturthi", nak:"Pushya", yoga:"Guru-Pushya style pairing (sample)", why_en:"A stable morning with Pushya is widely cited for entering a new home — the reasoning in the texts is steadiness of the dwelling.", why_hi:"पुष्य युक्त स्थिर सुबह नए घर में प्रवेश के लिए व्यापक रूप से उल्लिखित है — ग्रंथों में तर्क निवास की स्थिरता का है।"}
-    ]
-  };
-  // alias griha key
-  samples.griha = samples.griha;
-
-  function fmtDate(iso){
-    var d = new Date(iso);
-    return d.toLocaleString(document.documentElement.lang==="hi"?"hi-IN":"en-IN",{weekday:"long",year:"numeric",month:"long",day:"numeric",hour:"2-digit",minute:"2-digit"});
-  }
-  function render(){
-    var box = document.getElementById("results");
-    var list = samples[selected] || samples.job;
-    var lang = document.documentElement.lang === "hi" ? "hi" : "en";
-    var lab = labels[selected];
-    document.getElementById("results-title").textContent = lang==="hi"
-      ? ("नमूना परिणाम — " + lab.hi)
-      : ("Sample results — " + lab.en);
-    box.innerHTML = "";
-    list.forEach(function(item, i){
-      var el = document.createElement("article");
-      el.className = "card result-card";
-      var why = lang==="hi" ? item.why_hi : item.why_en;
-      el.innerHTML =
-        '<div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;justify-content:space-between;margin-bottom:.35rem;">'+
-          '<span class="sample-badge">Sample — real calculations coming soon</span>'+
-          '<span class="pill">'+(i===0?(lang==="hi"?"प्राथमिक खिड़की":"Primary window"):(lang==="hi"?"वैकल्पिक":"Alternative"))+'</span>'+
-        '</div>'+
-        '<h3 style="font-size:1.15rem;margin:.35rem 0;">'+item.title+'</h3>'+
-        '<div class="meta-row"><span>🕒 '+fmtDate(item.start)+'</span></div>'+
-        '<div class="angas">'+
-          '<div class="anga"><div class="k">Tithi · तिथि</div><div class="v">'+item.tithi+'</div></div>'+
-          '<div class="anga"><div class="k">Nakshatra · नक्षत्र</div><div class="v">'+item.nak+'</div></div>'+
-          '<div class="anga"><div class="k">Yoga · योग</div><div class="v">'+item.yoga+'</div></div>'+
-          '<div class="anga"><div class="k">Note</div><div class="v">'+(lang==="hi"?"सत्यापन बाकी":"To be verified")+'</div></div>'+
-        '</div>'+
-        '<div class="why-line"><strong>'+(lang==="hi"?"यह समय क्यों · ":"Why this time · ")+'</strong>'+why+'</div>'+
-        '<div class="action-row">'+
-          '<button type="button" class="btn btn-primary btn-sm" data-gcal data-title="'+item.title.replace(/"/g,'&quot;')+'" data-start="'+item.start+'" data-end="'+item.end+'" data-details="DharmaSetu sample muhurat. Confirm with your kul-purohit. Why: '+why.replace(/"/g,'&quot;')+'" data-location="">Add to Google Calendar</button>'+
-          '<button type="button" class="btn btn-ghost btn-sm" data-ics data-title="'+item.title.replace(/"/g,'&quot;')+'" data-start="'+item.start+'" data-end="'+item.end+'" data-details="DharmaSetu sample muhurat. Confirm with your kul-purohit." data-filename="dharmasetu-'+selected+'-'+(i+1)+'">Download .ics</button>'+
-        '</div>';
-      box.appendChild(el);
-    });
-    if (window.DSCal) DSCal.bind(box);
-  }
-  document.querySelectorAll("#event-chips .chip").forEach(function(btn){
-    btn.addEventListener("click", function(){
-      document.querySelectorAll("#event-chips .chip").forEach(function(b){b.classList.remove("active");});
-      btn.classList.add("active");
-      selected = btn.getAttribute("data-event");
-      render();
-    });
-  });
-  document.getElementById("muhurat-form").addEventListener("submit", function(e){
-    e.preventDefault();
-    document.getElementById("results-panel").scrollIntoView({behavior:"smooth",block:"start"});
-    render();
-  });
-  // re-render on language change
-  document.querySelectorAll(".lang-toggle button").forEach(function(b){
-    b.addEventListener("click", function(){ setTimeout(render, 0); });
-  });
-  render();
-})();
-</script>
+<script src="ds-core.js"></script>
+<script src="muhurat.js"></script>
 
 </body>
 </html>
