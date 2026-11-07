@@ -5,12 +5,13 @@ const P = path.join(__dirname, "../../prototype");
 let JSDOM; try { ({ JSDOM } = require("jsdom")); } catch (e) {}
 const data = fs.readFileSync(path.join(P, "calendar-data.json"), "utf8");
 
-async function load(page, { query = "", storage } = {}) {
+async function load(page, { query = "", storage, people } = {}) {
   const html = fs.readFileSync(path.join(P, page), "utf8");
   const dom = new JSDOM(html, { url: "http://localhost/prototype/" + page + query, runScripts: "outside-only", pretendToBeVisual: true });
   const w = dom.window;
   if (storage) for (const [k, v] of Object.entries(storage)) w.localStorage.setItem(k, v);
-  w.fetch = async () => ({ json: async () => JSON.parse(data) });
+  w.fetch = async (u) => ({ json: async () => (String(u).includes("people.json") ? (people || JSON.parse(fs.readFileSync(path.join(P, "data/people.json"), "utf8"))) : JSON.parse(data)) });
+  w.open = () => { w.__opened = true; };
   w.URL.createObjectURL = (b) => { w.__blob = b; return "blob:x"; };
   w.URL.revokeObjectURL = () => {};
   w.HTMLAnchorElement.prototype.click = function () { w.__downloaded = this.download; };
@@ -86,4 +87,56 @@ test("plan page: no DOB/name, real reference days, team (not acharya) CTA", { sk
   assert.ok(/team/i.test(d.getElementById("plan").textContent));
   assert.ok(!/acharya/i.test(d.getElementById("plan").textContent));
   assert.ok(d.querySelector('#plan a[href="namakaran.html"]'));
+});
+
+const fillStep = (w, d) => d.getElementById("next").click();
+test("sangam composer: validates per step, defaults private, previews safely, never sends or stores", { skip: !JSDOM }, async () => {
+  const w = await load("community.html"); const d = w.document;
+  const before = w.localStorage.length;
+  d.getElementById("next").click();
+  assert.match(d.getElementById("form-errors").textContent, /Choose what/);
+  d.querySelector("input[name=type][value=ritual]").checked = true; d.getElementById("next").click();
+  assert.strictEqual(d.querySelector('fieldset[data-step="2"]').hidden, false);
+  const f = d.getElementById("compose").elements;
+  f.text.value = "too short"; d.getElementById("next").click();
+  assert.match(d.getElementById("err-text").textContent, /20 characters/);
+  assert.strictEqual(f.text.getAttribute("aria-invalid"), "true");
+  f.text.value = "<img src=x onerror=alert(1)> We tie a red thread on the wrist before travel in our family.";
+  f.source.value = "javascript:alert(1)"; d.getElementById("next").click();
+  assert.match(d.getElementById("err-source").textContent, /https/);
+  f.source.value = ""; d.getElementById("next").click();
+  assert.strictEqual(f.publishOk.checked, false); assert.strictEqual(f.resourceInterest.checked, false);
+  assert.strictEqual(d.querySelector("input[name=attribution]:checked").value, "anonymous");
+  d.getElementById("next").click();
+  assert.match(d.getElementById("err-ownConsent").textContent, /permission/);
+  f.ownConsent.checked = true; d.getElementById("next").click();
+  const pre = d.getElementById("preview");
+  assert.ok(pre.textContent.includes("<img src=x")); assert.strictEqual(pre.querySelectorAll("img").length, 0);
+  assert.match(pre.textContent, /for the team only/);
+  const wa = d.getElementById("wa-draft");
+  assert.strictEqual(wa.hidden, false); assert.ok(wa.href.startsWith("https://wa.me/917239062622?text="));
+  assert.ok(!w.__opened, "WhatsApp must not open automatically");
+  assert.match(d.getElementById("compose").textContent, /Nothing has been sent/);
+  assert.ok(!/(sent|received|submitted) successfully|thank you for submitting/i.test(d.body.textContent));
+  d.getElementById("dl-txt").click(); assert.strictEqual(w.__downloaded, "dharmasetu-sangam-draft.txt");
+  assert.match(d.getElementById("draft-status").textContent, /Not submitted/);
+  assert.strictEqual(w.localStorage.length, before);
+  assert.strictEqual(d.querySelectorAll("input[type=email],input[type=tel],input[type=file],input[type=date]").length, 0);
+});
+test("sangam: empty records → no guide cards/quotes, invitation shown, no placeholder faces", { skip: !JSDOM }, async () => {
+  const w = await load("community.html"); const d = w.document;
+  assert.strictEqual(d.getElementById("guides-list").hidden, true);
+  assert.strictEqual(d.getElementById("voices").hidden, true);
+  assert.strictEqual(d.getElementById("guides-invite").hidden, false);
+  assert.ok(!/👤|★|consent pending/.test(d.body.textContent));
+});
+test("sangam: approved SYNTHETIC records render as text only", { skip: !JSDOM }, async () => {
+  const people = { acharyas: [{ id: "syn", name: "SYNTHETIC <b>Guide</b>", bio_en: "<script>alert(1)</script>", photo: "assets/people/syn.svg", consent: { profile_public: true, photo: true }, verification: { date: "2026-11-01", method: "in-person", checked: ["references"] }, editorial: { approved: true, approved_on: "2026-11-02" } }],
+    testimonials: [{ quote_en: "<img src=x onerror=alert(1)>", source_type: "tradition-experience", consent: { quote_public: true, credit: "anonymous" }, editorial: { approved: true, approved_on: "2026-11-02" } }] };
+  const w = await load("community.html", { people }); const d = w.document;
+  assert.strictEqual(d.getElementById("guides-list").hidden, false);
+  assert.strictEqual(d.querySelectorAll("#guides-list script, #guides-list b, #guides-list img, #voices img").length, 0);
+  assert.match(d.getElementById("guides-list").textContent, /Checked by our team on 2026-11-01 \(in-person\): references/);
+  assert.strictEqual(d.getElementById("voices").hidden, false);
+  assert.match(d.getElementById("voices").textContent, /about a family tradition/);
 });

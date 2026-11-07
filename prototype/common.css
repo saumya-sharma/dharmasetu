@@ -388,3 +388,5 @@ details.more summary { cursor: pointer; color: var(--terracotta); font-weight: 6
 .status { min-height: 1.4em; font-weight: 600; color: var(--green); margin: .6rem 0 0; }
 .status.err { color: #8a1c1c; }
 .saved-box { background: #fff; border: 1px solid var(--green-soft); border-left: 4px solid var(--green); }
+.note.err { color: #8a1c1c; font-weight: 600; } .note.err:empty, #form-errors:empty { display: none; }
+blockquote { margin: 0 0 .5rem; font-size: 1.05rem; }
