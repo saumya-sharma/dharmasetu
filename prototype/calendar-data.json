@@ -256,7 +256,8 @@
         ],
         "not_audited": "Amavasya, Sankranti, birth-auspicious and ancestral-only rows; ‘verify:false’ alone does not mean independently verified."
       }
-    ]
+    ],
+    "audit_semantics": "audit.status 'source-checked' = date compared against the named source on the given day. 'reference' = computed, not yet compared. 'verify:true' is a separate technical flag for known-bad/ambiguous rows (held back always)."
   },
   "events": [
     {
@@ -281,7 +282,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "11c9bda8c6d35afe",
@@ -307,7 +314,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches amavasya@pradosh",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2026",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "c845425ac6efc2ee",
@@ -332,7 +345,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "43c4dbc3e89ff102",
@@ -357,7 +373,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2026-11-17T04:34:07.762313+05:30"
+      "moment": "2026-11-17T04:34:07.762313+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "252e1ecd88f84577",
@@ -384,7 +403,13 @@
       "reasoning_id": "ekadashi-fasting",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches kartika-shukla-ekadashi (sunset/dashami-viddha aware)",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "91a3ea1bdf455b9f",
@@ -408,7 +433,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "06bd999348376698",
@@ -432,7 +463,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "6f01db0b5477a31a",
@@ -457,7 +494,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "b6e7464f3c428fcb",
@@ -482,7 +522,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2026-12-16T19:12:30.675202+05:30"
+      "moment": "2026-12-16T19:12:30.675202+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "ed433d3069a755fc",
@@ -506,7 +549,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "f9898ea00ae83f49",
@@ -533,7 +582,13 @@
       "verify": false,
       "date_source": "drikpanchang",
       "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026",
-      "sequence": 0
+      "sequence": 0,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2026",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "ea61278f389cc2f4",
@@ -557,7 +612,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "7aed76b6adcf4a6f",
@@ -582,7 +643,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "350fff9e725b595c",
@@ -609,7 +673,13 @@
       "evidence_url": "https://www.drikpanchang.com/sankranti/makar-sankranti-date-time.html",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-01-15T05:58:50.387893+05:30"
+      "moment": "2027-01-15T05:58:50.387893+05:30",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "d3fc74d0947e8b24",
@@ -638,7 +708,13 @@
       "date_source": "drikpanchang",
       "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
       "variant_note_en": "Drik Panchang also lists Gauna (secondary) Pausha Putrada Ekadashi on 19 Jan 2027; some families observe that day.",
-      "variant_note_hi": "दृक पंचांग 19 जनवरी 2027 को गौण पौष पुत्रदा एकादशी भी दर्शाता है; कुछ परिवार उस दिन मानते हैं।"
+      "variant_note_hi": "दृक पंचांग 19 जनवरी 2027 को गौण पौष पुत्रदा एकादशी भी दर्शाता है; कुछ परिवार उस दिन मानते हैं।",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "78dc692ffa60a80b",
@@ -662,7 +738,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "18624e6b155a41bb",
@@ -686,7 +768,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "35ae7e09792a15e8",
@@ -711,7 +799,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "233033099b355ad7",
@@ -738,7 +829,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches sunrise-tithi Magha Shukla 5",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "bccc771ac4ab995c",
@@ -763,7 +860,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-02-13T19:03:03.526599+05:30"
+      "moment": "2027-02-13T19:03:03.526599+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "f05fa8269a44074f",
@@ -787,7 +887,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "0bbeb598225d8b86",
@@ -814,7 +920,13 @@
       "verify": false,
       "date_source": "drikpanchang",
       "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
-      "sequence": 0
+      "sequence": 0,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "df089488a7460daf",
@@ -840,7 +952,13 @@
       "reasoning_id": "ekadashi-fasting",
       "verify": false,
       "date_source": "drikpanchang",
-      "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027"
+      "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "d4bc3131946f24fc",
@@ -866,7 +984,13 @@
       "reasoning_id": "ekadashi-fasting",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches krishna-chaturdashi@nishita",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "9d587eb3f8631882",
@@ -891,7 +1015,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "1d6c581be00d709f",
@@ -916,7 +1043,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-03-15T16:03:23.219592+05:30"
+      "moment": "2027-03-15T16:03:23.219592+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "9c09b02a92b93776",
@@ -940,7 +1070,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "e9fa2a8a3b2dc77f",
@@ -966,7 +1102,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches purnima@pradosh",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "67df2754d1162d5f",
@@ -992,7 +1134,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "next day after Holika Dahan (purnima@pradosh)",
-      "date_source": "computed"
+      "date_source": "computed",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "e54611c12ec5dd22",
@@ -1016,7 +1164,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "c249cc0ff2779baa",
@@ -1040,7 +1194,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "fb066a731ece57ea",
@@ -1065,7 +1225,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "70aaf984b3e63a38",
@@ -1092,7 +1255,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches sunrise-tithi Chaitra Shukla 9",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "8c5d3aba556ca578",
@@ -1117,7 +1286,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-04-15T00:42:52.895064+05:30"
+      "moment": "2027-04-15T00:42:52.895064+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "dd7cc527198fe5b8",
@@ -1141,7 +1313,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "35f1d5fcf2bc4942",
@@ -1165,7 +1343,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "d9e93d7581df6d00",
@@ -1189,7 +1373,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "ee70ac3440ee7ff8",
@@ -1214,7 +1404,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "ad3c63f56c0bf4bd",
@@ -1241,7 +1434,13 @@
       "reasoning_id": "muhurat-cultural",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches sunrise-tithi Vaishakha Shukla 3",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "a6a4137a242831ed",
@@ -1265,7 +1464,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "dd42637a4cb3d3fe",
@@ -1290,7 +1495,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-05-15T21:44:49.480592+05:30"
+      "moment": "2027-05-15T21:44:49.480592+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "656844002944da1c",
@@ -1314,7 +1522,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "d06ee048f5f66911",
@@ -1338,7 +1552,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "6224cbccc47b1b40",
@@ -1363,7 +1583,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "fd07de58b0ab0c51",
@@ -1387,7 +1610,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "d490c0777d3e4cd0",
@@ -1412,7 +1641,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-06-16T04:28:27.508837+05:30"
+      "moment": "2027-06-16T04:28:27.508837+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "2e04258970abcedb",
@@ -1438,7 +1670,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "date_source": "drikpanchang",
-      "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027"
+      "source_url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "347b70cf18c897df",
@@ -1462,7 +1700,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "9856da695b1f1452",
@@ -1487,7 +1731,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "22bb1b65e7b74ff5",
@@ -1511,7 +1758,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "0230d3d211eb9291",
@@ -1536,7 +1789,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-07-17T15:23:59.360034+05:30"
+      "moment": "2027-07-17T15:23:59.360034+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "63343d9636f96172",
@@ -1562,7 +1818,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches sunrise-tithi Ashadha Shukla 15",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "bff0afeae71c1fa1",
@@ -1586,7 +1848,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "0f825eda723f0d73",
@@ -1615,7 +1883,13 @@
       "source_url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
       "sequence": 0,
       "variant_note_en": "Drik Panchang also lists Gauna (secondary) Kamika Ekadashi on 30 Jul 2027.",
-      "variant_note_hi": "दृक पंचांग 30 जुलाई 2027 को गौण कामिका एकादशी भी दर्शाता है।"
+      "variant_note_hi": "दृक पंचांग 30 जुलाई 2027 को गौण कामिका एकादशी भी दर्शाता है।",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "2533c6f8c154b0a2",
@@ -1640,7 +1914,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "9c878fb95fd1ba70",
@@ -1664,7 +1941,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "7d81341d7904b0c0",
@@ -1688,7 +1971,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "6a546906b2f9f603",
@@ -1714,7 +2003,13 @@
       "reasoning_id": "life-moments-tilak",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches sunrise-tithi Shravana Shukla 15",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "d1dc52b6caf6a4b0",
@@ -1739,7 +2034,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-08-17T23:46:11.795668+05:30"
+      "moment": "2027-08-17T23:46:11.795668+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "a60cdb59fb1ca71b",
@@ -1765,7 +2063,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang (computed 2027-08-24 via krishna-ashtami@nishita)",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "6acce7375e83668d",
@@ -1789,7 +2093,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "c72fd6b921b081b5",
@@ -1814,7 +2124,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "3dd2cc576ecda384",
@@ -1841,7 +2154,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches sunrise-tithi Bhadrapada Shukla 4",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "8caf2433c33695b6",
@@ -1865,7 +2184,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "2b29a9ab8e7e1496",
@@ -1889,7 +2214,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "65bdddf8f1d44a71",
@@ -1916,7 +2247,13 @@
       "reasoning_id": "shraddha-remembrance",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches day after Bhadrapada purnima",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "f57ae50ecabdc27e",
@@ -1941,7 +2278,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-09-17T23:36:31.683184+05:30"
+      "moment": "2027-09-17T23:36:31.683184+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "b656740a645a84ee",
@@ -1965,7 +2305,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "ea0c668666d641be",
@@ -1993,7 +2339,13 @@
       "reasoning_id": "shraddha-remembrance",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches amavasya@aparahna",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "890dd53ee1a638fd",
@@ -2018,7 +2370,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "88b8336821752c05",
@@ -2044,7 +2399,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "5a3375375eb72ca9",
@@ -2070,7 +2431,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches shukla-dashami@aparahna",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "e9ebcaaf052b2b72",
@@ -2094,7 +2461,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "676380f29cc4dc9b",
@@ -2118,7 +2491,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "9e74a947dc11f6ef",
@@ -2143,7 +2522,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-10-18T11:26:54.729323+05:30"
+      "moment": "2027-10-18T11:26:54.729323+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "872f97e23d1e649e",
@@ -2167,7 +2549,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "f8cf8fc1f600d50d",
@@ -2192,7 +2580,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "0b19ae66a02f6b0c",
@@ -2218,7 +2609,13 @@
       "reasoning_id": "calendar-lunisolar",
       "verify": false,
       "observance_rule": "source: drikpanchang; matches amavasya@pradosh",
-      "date_source": "drikpanchang"
+      "date_source": "drikpanchang",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi) festival cross-check",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027",
+        "checked": "2026-11-03"
+      }
     },
     {
       "id": "77319bf382c085de",
@@ -2245,31 +2642,17 @@
       "reasoning_id": "ekadashi-fasting",
       "verify": false,
       "observance_rule": "source: drikpanchang (computed 2027-11-09 via kartika-shukla-ekadashi (sunset/dashami-viddha aware))",
-      "date_source": "drikpanchang"
-    },
-    {
-      "id": "a3f52f9b148296ad",
-      "uid": "ekadashi-2027-11-10@dharmasetu",
-      "date": "2027-11-10",
-      "fid": "ekadashi",
-      "title_en": "Ekadashi (Shukla) — Kartika",
-      "title_hi": "एकादशी (शुक्ल) — कार्तिक",
-      "categories": [
-        "ekadashi"
+      "date_source": "drikpanchang",
+      "merged_uids": [
+        "ekadashi-2027-11-10@dharmasetu"
       ],
-      "desc_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
-      "desc_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
-      "why_en": "Why: twice a lunar month, step back from heavy food and hurry — make space for attention.",
-      "why_hi": "कारण: चंद्र मास में दो बार भारी भोजन और भागदौड़ से पीछे हटना — ध्यान के लिए स्थान।",
-      "story_en": "Ekadashi is the 11th tithi of each fortnight — a Vaishnava fasting day for restraint, prayer and digestion-rest.",
-      "story_hi": "एकादशी प्रत्येक पक्ष की ग्यारहवीं तिथि — वैष्णव व्रत का दिन: संयम, प्रार्थना और पाचन-विश्राम।",
-      "story_source": "Padma Purana ekadashi mahatmya; Smriti",
-      "modern_en": "Intermittent fasting shows metabolic and microbiome links in peer-reviewed work; ekadashi as a named practice is cultural.",
-      "modern_hi": "आंतरायिक उपवास के चयापचय/माइक्रोबायोम संबंध सहकर्मी-समीक्षित शोध में; एकादशी नामकरण सांस्कृतिक।",
-      "evidence": "Plausible",
-      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
-      "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "merge_note": "Same observance as the generic Shukla Ekadashi row; merged 2026-11-07 to avoid two reminders.",
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "96fc112539d44153",
@@ -2293,7 +2676,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "8f8ce9ce4efdb2e6",
@@ -2318,7 +2707,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-11-17T11:09:38.862763+05:30"
+      "moment": "2027-11-17T11:09:38.862763+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "7264018900ae12dd",
@@ -2342,7 +2734,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "a8f2ccb27b379e06",
@@ -2367,7 +2765,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "fbb39f6921dc59cd",
@@ -2391,7 +2792,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "1711ad91ed4e102b",
@@ -2415,7 +2822,13 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "calendar-lunisolar",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?lang=en&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "5e6c0112c59ea89c",
@@ -2440,7 +2853,10 @@
       "evidence_url": "https://en.wikipedia.org/wiki/Sankranti",
       "reasoning_id": "sankranti-solar-ingress",
       "verify": false,
-      "moment": "2027-12-17T01:46:24.711444+05:30"
+      "moment": "2027-12-17T01:46:24.711444+05:30",
+      "audit": {
+        "status": "reference"
+      }
     },
     {
       "id": "e3a091a9929edc2e",
@@ -2464,7 +2880,13 @@
       "evidence": "Plausible",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894978/",
       "reasoning_id": "ekadashi-fasting",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "source-checked",
+        "source": "Drik Panchang (New Delhi)",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2027",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "7fad7c5eb1d0f44b",
@@ -2489,7 +2911,10 @@
       "evidence": "Cultural/psychological",
       "evidence_url": "",
       "reasoning_id": "shraddha-remembrance",
-      "verify": false
+      "verify": false,
+      "audit": {
+        "status": "reference"
+      }
     }
   ],
   "days_sample": [

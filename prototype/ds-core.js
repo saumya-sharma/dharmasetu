@@ -26,7 +26,7 @@
   function defaults() {
     return { v: SCHEMA_VERSION, lang: "en", mode: "categories", cats: ["festivals"], picks: [],
       practices: [], tz: detectTimeZone(), city: "", tradition: "",
-      remind: { lead: "day-before", time: "19:00" } };
+      remind: { lead: "day-before", time: "19:00" }, includeRef: false };
   }
   function uniqFiltered(arr, ok, max) {
     var out = [];
@@ -56,7 +56,8 @@
       tz: isValidTimeZone(raw.tz) ? raw.tz : (errors.push("tz"), d.tz),
       city: cleanCity(raw.city),
       tradition: TRADITIONS.indexOf(raw.tradition) !== -1 ? raw.tradition : "",
-      remind: { lead: d.remind.lead, time: d.remind.time }
+      remind: { lead: d.remind.lead, time: d.remind.time },
+      includeRef: raw.includeRef === true
     };
     var r = raw.remind && typeof raw.remind === "object" ? raw.remind : {};
     if (LEADS.indexOf(r.lead) !== -1) p.remind.lead = r.lead; else errors.push("lead");
@@ -78,11 +79,14 @@
   function deletePrefs(storage) { try { storage.removeItem(PREFS_KEY); } catch (e) {} }
 
   /* Events chosen by prefs, sorted, on/after `today` (YYYY-MM-DD). */
-  /* Rows flagged verify:true are held back from exports/reminders until reviewed (shown as reference only). */
+  function isChecked(e) { return !!(e.audit && e.audit.status === "source-checked"); }
+  /* Default: only rows whose date was compared against a named source (audit.status "source-checked").
+     Reference rows need prefs.includeRef (an explicit user opt-in). verify:true (known problem) is never exported. */
   function selectEvents(events, prefs, today, opts) {
-    var includeUnverified = !!(opts && opts.includeUnverified);
+    var includeRef = !!((opts && opts.includeRef) || prefs.includeRef);
     var list = events.filter(function (e) {
-      if (e.verify === true && !includeUnverified) return false;
+      if (e.verify === true) return false;
+      if (!isChecked(e) && !includeRef) return false;
       if (prefs.mode === "events") return prefs.picks.indexOf(e.id) !== -1;
       return e.categories.some(function (c) { return prefs.cats.indexOf(c) !== -1; });
     });
@@ -185,6 +189,6 @@
   }
   return { PREFS_KEY: PREFS_KEY, SCHEMA_VERSION: SCHEMA_VERSION, CATEGORY_IDS: CATEGORY_IDS, PRACTICES: PRACTICES,
     defaults: defaults, validatePrefs: validatePrefs, loadPrefs: loadPrefs, savePrefs: savePrefs, deletePrefs: deletePrefs,
-    isValidTimeZone: isValidTimeZone, detectTimeZone: detectTimeZone, selectEvents: selectEvents, todayISO: todayISO,
+    isValidTimeZone: isValidTimeZone, detectTimeZone: detectTimeZone, selectEvents: selectEvents, isChecked: isChecked, todayISO: todayISO,
     escapeText: escapeText, foldLine: foldLine, nextDay: nextDay, alarmTrigger: alarmTrigger, buildICS: buildICS };
 });

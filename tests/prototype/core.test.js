@@ -145,9 +145,37 @@ test("no user text or crafted data can inject ICS lines", () => {
   assert.ok(u.includes("SUMMARY:X\\nBEGIN:VEVENT\\nUID:evil"));
 });
 
-test("verify:true rows are held back from exports by default", () => {
-  const rows = [Object.assign({}, data.events[0], { verify: true, date: "2027-01-01" })];
-  const p = Object.assign(C.defaults(), { cats: rows[0].categories });
-  assert.strictEqual(C.selectEvents(rows, p, "2026-11-07").length, 0);
-  assert.strictEqual(C.selectEvents(rows, p, "2026-11-07", { includeUnverified: true }).length, 1);
+test("default export = source-checked rows only; reference rows need explicit opt-in; verify:true never", () => {
+  const base = data.events[0];
+  const checked = Object.assign({}, base, { id: "a1", uid: "a1@x", date: "2027-01-01", audit: { status: "source-checked" } });
+  const ref = Object.assign({}, base, { id: "a2", uid: "a2@x", date: "2027-01-02", audit: { status: "reference" } });
+  const bad = Object.assign({}, base, { id: "a3", uid: "a3@x", date: "2027-01-03", verify: true, audit: { status: "source-checked" } });
+  const p = Object.assign(C.defaults(), { cats: base.categories });
+  assert.deepStrictEqual(C.selectEvents([checked, ref, bad], p, "2026-11-07").map(e => e.id), ["a1"]);
+  assert.deepStrictEqual(C.selectEvents([checked, ref, bad], Object.assign({}, p, { includeRef: true }), "2026-11-07").map(e => e.id), ["a1", "a2"]);
+  assert.strictEqual(C.validatePrefs({ v: 1, includeRef: "yes" }).prefs.includeRef, false);
+});
+
+test("every event has an explicit audit status; checked rows name a source and date", () => {
+  for (const e of data.events) {
+    assert.ok(e.audit && ["source-checked", "reference"].includes(e.audit.status), e.uid);
+    if (e.audit.status === "source-checked") assert.ok(e.audit.url && /^\d{4}-\d{2}-\d{2}$/.test(e.audit.checked), e.uid);
+  }
+  assert.strictEqual(data.events.length, 88);
+});
+
+test("no two reminder entries for the same observance/date (Ekadashi merge)", () => {
+  for (const c of C.CATEGORY_IDS) {
+    const dates = data.events.filter(e => e.categories.includes(c) && c === "ekadashi").map(e => e.date);
+    assert.strictEqual(new Set(dates).size, dates.length, c);
+  }
+  const p = Object.assign(C.defaults(), { cats: C.CATEGORY_IDS.slice(), includeRef: true });
+  const sel = C.selectEvents(data.events, p, "2026-11-07");
+  assert.strictEqual(sel.filter(e => e.date === "2027-11-10").length, 1);
+  const dv = data.events.find(e => e.uid === "dev_uthani-2027-11-10@dharmasetu");
+  assert.deepStrictEqual(dv.categories, ["festivals", "ekadashi"]);
+  assert.deepStrictEqual(dv.merged_uids, ["ekadashi-2027-11-10@dharmasetu"]);
+  assert.ok(dv.story_en && dv.reasoning_id);
+  const ek = unfold(fs.readFileSync(path.join(P, "dharmasetu-ekadashi.ics"), "utf8"));
+  assert.ok(!ek.includes("UID:ekadashi-2027-11-10@dharmasetu") && ek.includes("UID:dev_uthani-2027-11-10@dharmasetu"));
 });

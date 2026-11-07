@@ -32,10 +32,23 @@ test("remember journey: choose → preview → download → save → reload → 
   // no phone/name/dob fields, no WhatsApp checkbox
   assert.strictEqual(d.querySelectorAll('input[type=tel],input[name=name],input[name=dob],input[name=phone]').length, 0);
   assert.ok(/not available yet/.test(d.querySelector(".unavail").textContent));
+  assert.strictEqual(d.getElementById("tz"), null, "no time-zone field (it would not affect alerts)");
+  assert.ok(/calendar app’s clock/.test(d.getElementById("step2").textContent));
+  // default preview: only checked dates
+  assert.strictEqual(d.querySelectorAll("#pv-list .tag.ok").length, 5);
+  assert.strictEqual(d.getElementById("include-ref").checked, false);
   d.getElementById("dl-ics").click();
   assert.strictEqual(w.__downloaded, "dharmasetu-my-days.ics");
   const ics = await new Promise(r => { const fr = new w.FileReader(); fr.onload = () => r(fr.result); fr.readAsText(w.__blob); });
   assert.ok(ics.includes("BEGIN:VALARM") && ics.includes("UID:ekadashi-"));
+  // explicit opt-in to reference days (Purnima/Amavasya includes unreviewed Amavasya rows)
+  const pa = d.querySelector("#cat-grid input[value='purnima-amavasya']"); pa.checked = true; fire(w, pa);
+  const before = d.getElementById("pv-count").textContent;
+  assert.match(before, /reference days not yet checked are left out/);
+  const inc = d.getElementById("include-ref"); inc.checked = true; fire(w, inc);
+  assert.match(d.getElementById("pv-count").textContent, /Includes reference days/);
+  inc.checked = false; fire(w, inc);
+  const pa2 = d.querySelector("#cat-grid input[value='purnima-amavasya']"); pa2.checked = false; fire(w, pa2);
   d.getElementById("city").value = '<img src=x onerror=alert(1)>';
   fire(w, d.getElementById("city"));
   d.getElementById("save-prefs").click();

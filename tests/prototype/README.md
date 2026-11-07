@@ -34,7 +34,6 @@ python3 -m http.server 8765   # then open http://localhost:8765/prototype/home.h
 - Personal auto-updating feed URLs: need a server; only public category feeds exist.
 - Dates are New Delhi reference for all locations; no Smarta/Vaishnava variants.
 - Hindi copy needs native review. Amavasya, Sankranti, ancestral-only and birth-rite rows are not yet audited; `verify:false` alone does not mean independently verified.
-- 2027-11-10 has a generic Ekadashi row and a named Dev Uthani row for the same observance (both in the Ekadashi feed); left as-is, to be merged deliberately.
 - Gauna/Vaishnava second-day Ekadashi variants (21 Nov 2026, 19 Jan 2027, 30 Jul 2027, 26 Oct 2027) are not separate events; mentioned in notes where we changed a row.
 - No pricing, booking or payments; acharya presence pending consent.
 
@@ -47,7 +46,12 @@ Sources: drikpanchang.com/vrats/ekadashidates.html?geoname-id=1261481&year=2026 
 - Result: all 29 distinct Ekadashi dates and all 12 Purnima 2027 dates match; every UID unique across data and feeds (tested).
 
 ## Feed update semantics (no guarantees)
-Changed events keep their UID and get a higher `SEQUENCE` + `LAST-MODIFIED`; removed duplicates simply disappear from the feed. Subscribed clients pick this up on their own refresh schedule (Google Calendar can take many hours; some clients may keep a stale copy). Downloaded snapshots never update. No `METHOD:CANCEL` is published (it is not meaningful for a PUBLISH subscription feed).
+Policy: a published UID is never reused for a different observance and never regenerated when its date is corrected. Changed events keep their UID and get a higher `SEQUENCE` + `LAST-MODIFIED`. Duplicates are removed by dropping the extra VEVENT (the surviving row keeps its UID; merged UIDs are listed in `merged_uids`).
+How removals are handled is client-dependent: most subscription clients drop events missing from a refreshed feed, on their own schedule (Google Calendar can take many hours); some may keep a stale copy. We do not currently publish tombstones (`STATUS:CANCELLED`); adding them later is possible but would not guarantee removal either. Downloaded snapshots never update.
+Merge on 7 Nov 2026: `ekadashi-2027-11-10` (generic) merged into `dev_uthani-2027-11-10` (categories festivals + ekadashi, story kept), so Ekadashi subscribers get one entry that day.
 
 ## Alerts and time zones
-Events are all-day floating dates (the New Delhi reference date shown as-is everywhere). The optional VALARM is relative to local midnight of that date, so “19:00 the evening before” fires at 19:00 on the device clock wherever it is. The time zone/city fields do not recalculate dates or alarms; they are display/notes only. Many clients (incl. Google Calendar imports) ignore alarms in imported files, so alert timing is never guaranteed.
+Events are all-day floating dates (the New Delhi reference date shown as-is everywhere). The optional VALARM is relative to local midnight of that date, so “19:00 the evening before” fires at 19:00 on the calendar app's/device clock wherever it is. There is no time-zone field in the UI (it would not affect alerts); the browser zone is used only to work out “today” for the preview. City is a note for later and changes nothing. Many clients (incl. Google Calendar imports) ignore alarms in imported files, so alert timing is never guaranteed.
+
+## Audit status semantics
+Each event has `audit.status`: `source-checked` (date compared against the named source on the given day — Ekadashi and Purnima rows 7 Nov 2026; festivals in the 3 Nov cross-check) or `reference` (computed, not compared). `verify:true` is a separate flag for known-problem rows and is never exported. The Remember flow exports only `source-checked` rows unless the user ticks “Also include reference days not yet checked”; each preview item is tagged accordingly. After the merge: 88 events, 60 source-checked, 28 reference (mostly Amavasya, Sankranti, ancestral).

@@ -89,6 +89,7 @@
           <legend><span data-i18n-en>Tick the days you want</span><span data-i18n-hi>जो दिन चाहिए उन पर टिक करें</span></legend>
           <div class="ev-pick" id="ev-pick"></div>
         </fieldset>
+        <label class="opt" style="margin:.2rem 0 .6rem;"><input type="checkbox" name="includeRef" id="include-ref"/> <span><span data-i18n-en>Also include reference days not yet checked against a source</span><span data-i18n-hi>स्रोत से अभी न जाँचे गए संदर्भ दिन भी शामिल करें</span></span></label>
         <details class="more">
           <summary><span data-i18n-en>How do you mark these days? (optional)</span><span data-i18n-hi>आप ये दिन कैसे मनाते हैं? (वैकल्पिक)</span></summary>
           <p class="note"><span data-i18n-en>Only used to word your calendar note, e.g. “You chose to mark this for: a food choice”. We never tell you what to eat or how to fast.</span><span data-i18n-hi>केवल आपके कैलेंडर नोट के शब्दों के लिए, जैसे “आपने चुना: भोजन-संबंधी अपना चुनाव”। हम कभी नहीं बताते कि क्या खाएँ या व्रत कैसे रखें।</span></p>
@@ -115,6 +116,7 @@
             <select name="time" id="time"></select>
           </label>
         </div>
+        <p class="note"><span data-i18n-en>Alerts follow your calendar app’s clock and time zone. Some apps ignore alerts in imported files — if so, set one there.</span><span data-i18n-hi>अलर्ट आपके कैलेंडर ऐप की घड़ी व समय-क्षेत्र पर चलते हैं। कुछ ऐप आयातित फ़ाइल के अलर्ट अनदेखा करते हैं — तब वहीं अलर्ट सेट करें।</span></p>
         <fieldset style="margin-top:1rem;">
           <legend><span data-i18n-en>Language of calendar notes</span><span data-i18n-hi>कैलेंडर नोट की भाषा</span></legend>
           <div class="seg">
@@ -130,13 +132,10 @@
           </div>
         </fieldset>
         <details class="more">
-          <summary><span data-i18n-en>Time zone, city &amp; family tradition (optional)</span><span data-i18n-hi>समय-क्षेत्र, शहर व पारिवारिक परंपरा (वैकल्पिक)</span></summary>
+          <summary><span data-i18n-en>City &amp; family tradition (optional)</span><span data-i18n-hi>शहर व पारिवारिक परंपरा (वैकल्पिक)</span></summary>
           <div class="rm-row" style="margin-top:.5rem;">
-            <label class="field"><span data-i18n-en>Your time zone</span><span data-i18n-hi>आपका समय-क्षेत्र</span>
-              <input name="tz" id="tz" list="tz-list" autocomplete="off" spellcheck="false"/>
-              <datalist id="tz-list"><option value="Asia/Kolkata"></option><option value="America/New_York"></option><option value="America/Los_Angeles"></option><option value="Europe/London"></option><option value="Asia/Dubai"></option><option value="Asia/Singapore"></option><option value="Australia/Sydney"></option><option value="America/Toronto"></option></datalist>
-            </label>
-            <label class="field"><span data-i18n-en>City (optional)</span><span data-i18n-hi>शहर (वैकल्पिक)</span>
+
+            <label class="field"><span data-i18n-en>City (a note for later — doesn’t change dates)</span><span data-i18n-hi>शहर (बाद के लिए नोट — तिथि नहीं बदलती)</span>
               <input name="city" id="city" maxlength="60" autocomplete="address-level2"/>
             </label>
             <label class="field"><span data-i18n-en>Family tradition (optional)</span><span data-i18n-hi>पारिवारिक परंपरा (वैकल्पिक)</span>
@@ -147,8 +146,7 @@
               </select>
             </label>
           </div>
-          <p class="note" id="tz-note"></p>
-          <p class="note"><span data-i18n-en>All dates use the New Delhi reference for every location for now — a city does not change them. Tradition-specific dates (e.g. some Ekadashi) can differ; check with your kul-purohit.</span><span data-i18n-hi>अभी हर स्थान के लिए तिथियाँ नई दिल्ली संदर्भ पर हैं — शहर बदलने से तिथि नहीं बदलती। परंपरा के अनुसार कुछ तिथियाँ (जैसे कुछ एकादशी) भिन्न हो सकती हैं; अपने कुल-पुरोहित से पूछें।</span></p>
+                    <p class="note"><span data-i18n-en>All dates use the New Delhi reference for every location for now — a city does not change them. Tradition-specific dates (e.g. some Ekadashi) can differ; check with your kul-purohit.</span><span data-i18n-hi>अभी हर स्थान के लिए तिथियाँ नई दिल्ली संदर्भ पर हैं — शहर बदलने से तिथि नहीं बदलती। परंपरा के अनुसार कुछ तिथियाँ (जैसे कुछ एकादशी) भिन्न हो सकती हैं; अपने कुल-पुरोहित से पूछें।</span></p>
         </details>
       </div>
 

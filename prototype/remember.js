@@ -29,7 +29,7 @@
   function renderCats() {
     var g = document.getElementById("cat-grid"), up = upcoming(); g.textContent = "";
     C.CATEGORY_IDS.forEach(function (id) {
-      var info = CAT_INFO[id], n = up.filter(function (e) { return e.categories.indexOf(id) !== -1; }).length;
+      var info = CAT_INFO[id], n = up.filter(function (e) { return e.categories.indexOf(id) !== -1 && e.verify !== true && (state.includeRef || C.isChecked(e)); }).length;
       var lab = el("label", "opt"), cb = el("input"); cb.type = "checkbox"; cb.name = "cat"; cb.value = id;
       cb.checked = state.cats.indexOf(id) !== -1;
       var txt = el("span"); txt.appendChild(document.createTextNode(t(info[0], info[1]) + " "));
@@ -40,7 +40,7 @@
   }
   function renderPicks() {
     var box = document.getElementById("ev-pick"), month = ""; box.textContent = "";
-    var up = upcoming();
+    var up = upcoming().filter(function (e) { return e.verify !== true && (state.includeRef || C.isChecked(e)); });
     if (!up.length) { box.appendChild(el("p", "note", t("No upcoming days left in this calendar range.", "इस पंचांग अवधि में आगे कोई दिन नहीं।"))); return; }
     up.forEach(function (e) {
       var m = new Date(e.date + "T12:00:00Z").toLocaleDateString(lang() === "hi" ? "hi-IN" : "en-IN", { month: "long", year: "numeric", timeZone: "UTC" });
@@ -61,15 +61,16 @@
     } else {
       count.textContent = t(list.length + " upcoming days. Your next ones:", "आगे " + list.length + " दिन। अगले कुछ:");
     }
-    var held = C.selectEvents(events, state, nowISO(), { includeUnverified: true }).length - list.length;
-    if (held > 0) count.textContent += " " + t("(" + held + " awaiting date review, not included.)", "(" + held + " तिथि-समीक्षा में, शामिल नहीं।)");
+    var held = C.selectEvents(events, state, nowISO(), { includeRef: true }).length - list.length;
+    if (held > 0) count.textContent += " " + t("(" + held + " reference days not yet checked are left out.)", "(" + held + " अजाँचे संदर्भ दिन शामिल नहीं।)");
+    if (state.includeRef) count.textContent += " " + t("Includes reference days not yet checked.", "अजाँचे संदर्भ दिन शामिल हैं।");
     document.getElementById("dl-ics").disabled = !list.length;
     list.slice(0, 5).forEach(function (e) {
       var hi = lang() === "hi", li = el("li");
       var top = el("div"); top.appendChild(el("span", "pv-date", fmtDate(e.date))); li.appendChild(top);
       var title = el("div", "pv-title", hi ? e.title_hi : e.title_en);
-      if (e.date_source === "drikpanchang") title.appendChild(el("span", "tag ok", t("Checked vs Drik Panchang", "दृक पंचांग से मिलान")));
-      if (e.verify) title.appendChild(el("span", "tag", t("Date needs confirmation", "तिथि की पुष्टि बाकी")));
+      if (C.isChecked(e)) title.appendChild(el("span", "tag ok", t("Date checked: Drik Panchang", "तिथि जाँची: दृक पंचांग")));
+      else title.appendChild(el("span", "tag", t("Reference — not yet checked", "संदर्भ — अभी जाँचा नहीं")));
       li.appendChild(title);
       li.appendChild(el("p", "note", hi ? e.why_hi : e.why_en));
       if (e.variant_note_en) li.appendChild(el("p", "note", hi ? e.variant_note_hi : e.variant_note_en));
@@ -92,31 +93,25 @@
       });
     }
   }
-  function tzNote() {
-    document.getElementById("tz-note").textContent = C.isValidTimeZone(document.getElementById("tz").value)
-      ? t("Alerts fire at the chosen time on your device’s clock.", "अलर्ट आपके डिवाइस की घड़ी के अनुसार चुने समय पर आएँगे।")
-      : t("That time zone isn’t recognised — try a name like Asia/Kolkata.", "यह समय-क्षेत्र पहचाना नहीं गया — जैसे Asia/Kolkata लिखें।");
-  }
   function writeForm() {
     form.querySelectorAll("input[name=mode]").forEach(function (r) { r.checked = r.value === state.mode; });
     form.querySelectorAll("input[name=lang]").forEach(function (r) { r.checked = r.value === state.lang; });
     form.querySelectorAll("input[name=practice]").forEach(function (c) { c.checked = state.practices.indexOf(c.value) !== -1; });
     document.getElementById("lead").value = state.remind.lead;
     document.getElementById("time").value = state.remind.time;
-    document.getElementById("tz").value = state.tz;
+    document.getElementById("include-ref").checked = state.includeRef;
     document.getElementById("city").value = state.city;
     document.getElementById("tradition").value = state.tradition;
-    syncMode(); renderCats(); renderPicks(); tzNote(); renderPreview();
+    syncMode(); renderCats(); renderPicks(); renderPreview();
   }
   function readForm() {
     var g = function (sel) { return Array.prototype.map.call(form.querySelectorAll(sel), function (x) { return x.value; }); };
-    var tz = document.getElementById("tz").value.trim();
     state = C.validatePrefs({
       v: C.SCHEMA_VERSION, lang: (form.querySelector("input[name=lang]:checked") || {}).value,
       mode: (form.querySelector("input[name=mode]:checked") || {}).value,
       cats: g("input[name=cat]:checked"), picks: g("input[name=pick]:checked").concat(state.picks.filter(function (id) { return !form.querySelector('input[name=pick][value="' + id + '"]'); })),
       practices: g("input[name=practice]:checked"),
-      tz: C.isValidTimeZone(tz) ? tz : state.tz, city: document.getElementById("city").value,
+      tz: state.tz, includeRef: document.getElementById("include-ref").checked, city: document.getElementById("city").value,
       tradition: document.getElementById("tradition").value,
       remind: { lead: document.getElementById("lead").value, time: document.getElementById("time").value }
     }).prefs;
@@ -137,11 +132,10 @@
   form.addEventListener("change", function (e) {
     var wasLang = state.lang; readForm();
     if (e.target.name === "lang" && state.lang !== wasLang && window.DSLang) { window.DSLang.set(state.lang); return; }
-    syncMode(); if (e.target.name === "mode") { renderCats(); renderPicks(); }
+    syncMode(); if (e.target.name === "mode" || e.target.name === "includeRef") { renderCats(); renderPicks(); }
     renderPreview();
     if (saved) status(t("Changed — press “Save on this device” to keep it.", "बदला — रखने के लिए “इस डिवाइस पर सहेजें” दबाएँ।"));
   });
-  document.getElementById("tz").addEventListener("input", tzNote);
   document.addEventListener("ds:lang", function (e) {
     if (!events.length) return;
     state.lang = e.detail.lang; writeForm();
